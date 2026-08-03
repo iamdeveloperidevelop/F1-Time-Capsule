@@ -1,10 +1,10 @@
 schema_version: 1
-active_season: null
+active_season: 1981
 active_round: null
-current_stage: "uninitialized"
+current_stage: "season-prelude"
 knowledge_cutoff: null
 last_completed_document: null
-next_allowed_action: "initialize-season"
+next_allowed_action: "generate-season-prelude"
 allowed_stages:
   - "uninitialized"
   - "season-prelude"
