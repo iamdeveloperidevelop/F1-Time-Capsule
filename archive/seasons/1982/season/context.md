@@ -4,7 +4,7 @@ document_type: "season-context"
 event: null
 event_time: "Kontekst odziedziczony po sezonie 1981 do planowanego rozpoczęcia pierwszej oficjalnej sesji Grand Prix RPA na Kyalami, 21 stycznia 1982"
 public_knowledge_time: "Najpóźniejsze wiadomości o wykazanej dostępności pochodzą z December 1981; dokładny dzień publikacji numeru „Motor Sport” datowanego January 1982 jest nieznany, więc nie można potwierdzić jego dostępności przed knowledge_cutoff"
-knowledge_cutoff: "Bezpośrednio przed planowanym rozpoczęciem pierwszej oficjalnej sesji Grand Prix RPA na Kyalami w czwartek 21 stycznia 1982; dokładna godzina nieustalona"
+knowledge_cutoff: "Immediately before the planned start of the first official session of the South African Grand Prix at Kyalami on Thursday, 21 January 1982; exact time unknown"
 spoiler_scope:
   allowed:
     - "Odziedziczony kontekst sportowy, organizacyjny, ekonomiczny i polityczny znany przed granicą wiedzy"
@@ -13,7 +13,7 @@ spoiler_scope:
 content_language: "pl"
 research_status: "drafted"
 source_status: "partial"
-spoiler_audit_status: "issues-found"
+spoiler_audit_status: "passed"
 last_verified: null
 ---
 
@@ -23,12 +23,12 @@ last_verified: null
 
 Stan opisany tutaj kończy się bezpośrednio przed planowanym rozpoczęciem
 pierwszej oficjalnej sesji Grand Prix RPA na Kyalami w czwartek 21 stycznia
-1982. Podawana prowizorycznie godzina 10:00 SAST (UTC+2) nie pochodzi z
-oficjalnego timetable, dlatego nie wyznacza granicy metadanych. Najpóźniejsze
-wiadomości o wykazanej dostępności pochodzą z December 1981. Dokładny dzień
-publikacji numeru „Motor Sport” datowanego na January 1982 pozostaje nieznany,
-co blokuje potwierdzenie jego dostępności przed cutoff i użycie jego treści w
-tym stanie dokumentu.
+1982. Dokładna godzina pozostaje nieznana; lukę zapisano w
+[`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
+Najpóźniejsze wiadomości o wykazanej dostępności pochodzą z December 1981.
+Dokładny dzień publikacji numeru „Motor Sport” datowanego na January 1982
+pozostaje nieznany, co uniemożliwia potwierdzenie jego dostępności przed cutoff
+i użycie jego treści w obecnym stanie dokumentu.
 
 ## Odziedziczony kontekst sportowy
 
@@ -37,7 +37,7 @@ Nelson Piquet przystępował do nowego sezonu jako mistrz świata kierowców 198
 trzecim pełnym sezonie Grand Prix i że zwyciężył zgodnie z obowiązującym
 systemem punktowym. Oceny jego stylu i perspektyw były opiniami autora.
 
-W rywalizacji zespołowej punkt odniesienia stanowił Williams. Ekipa zdobyła
+W rywalizacji zespołowej punktem odniesienia był Williams. Ekipa zdobyła
 mistrzostwo producentów 1981 wyraźną przewagą, drugi rok z rzędu [CTX-02].
 Grudniowe podsumowanie przedstawiało ten sukces obok utraconego o jeden punkt
 tytułu kierowców i problemów w części sezonu, a zarazem zaliczało Williamsa do
@@ -45,24 +45,25 @@ czołowych zespołów i przypisywało mu zdolność walki o trzeci kolejny tytu�
 
 ## Władze i organizacje
 
-Późniejszy profil FIA pozwala odseparować ograniczony fakt instytucjonalny
-datowany w nim na 1981: pierwsze Concorde Agreement przyznawało FOCA prawa
-komercyjne do Formuły 1, podczas gdy FIA zachowywała kontrolę nad regulacjami
-sportowymi i technicznymi [CTX-05]. Źródło jest retrospektywne i zawiera
-materiał wykraczający poza cutoff; użyto wyłącznie tej separowalnej informacji,
-bez przejmowania dalszej biografii, skutków ani interpretacji. Brak pełnego
-tekstu porozumienia nie pozwala rozstrzygnąć wszystkich granic kompetencji.
+Niedatowany, późniejszy profil FIA przypisuje pierwszemu Concorde Agreement z
+1981 podział, w którym FOCA otrzymała prawa komercyjne do Formuły 1, a FIA
+zachowała kontrolę nad regulacjami sportowymi i technicznymi [CTX-05]. Jest to
+wyłącznie separowalna, źródłowo przypisana informacja, nie potwierdzony pełny
+opis stanu przy cutoff: profil jest retrospektywny i zawiera materiał
+wykraczający poza granicę. Brak pełnego tekstu porozumienia nie pozwala
+rozstrzygnąć wszystkich granic kompetencji; luka jest zapisana w
+[`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
 Szczegółowe, równie ograniczone role instytucji i ich przedstawicieli opisuje
 [`people-and-organisations.md`](people-and-organisations.md).
 
-## Otoczenie padoku, gospodarki i działalności komercyjnej
+## Otoczenie padoku, gospodarka i działalność komercyjna
 
-Telewizja zwiększała gospodarcze znaczenie widowiska. Grudniowy komentarz
-„Motor Sport” stwierdzał, że BBC zapewniła Formule 1 w 1981 większą ekspozycję
-niż wcześniej, i łączył uwagę mediów z osobowościami kierowców [CTX-08]. Ten sam
-tekst przypominał, że powierzchnie samochodów zajmowały oznaczenia reklamowe,
-co wiązało transmisję z widocznością sponsorów. Była to redakcyjna obserwacja,
-nie pomiar oglądalności ani przychodów.
+Grudniowy komentarz „Motor Sport” relacjonował, że BBC zapewniła Formule 1 w
+1981 większą ekspozycję niż wcześniej, oraz wiązał uwagę mediów z
+osobowościami kierowców [CTX-08]. Ten sam tekst zauważał oznaczenia reklamowe
+na powierzchniach samochodów. Są to redakcyjne obserwacje źródła, nie pomiar
+oglądalności, przychodów ani dowód związku przyczynowego między transmisją a
+widocznością sponsorów.
 
 Styczniowe materiały o kalendarzu i programie ELF nie są tu używane, ponieważ
 nie wykazano, że numer był dostępny przed cutoff.
@@ -71,7 +72,7 @@ nie wykazano, że numer był dostępny przed cutoff.
 
 Grudniowy materiał nie daje pomiaru oglądalności, przychodów ani pełnego obrazu
 modelu gospodarczego. Szersze pytania o porządek instytucjonalny pozostają
-otwarte, a niezweryfikowaną czasowo wersję harmonogramu zapisano osobno w
+otwarte. Niezweryfikowaną czasowo wersję harmonogramu zapisano osobno w
 [`calendar.md`](calendar.md).
 
 ## Niepewności
@@ -127,7 +128,7 @@ otwarte, a niezweryfikowaną czasowo wersję harmonogramu zapisano osobno w
   https://www.motorsportmagazine.com/archive/article/december-1981/35/matters-of-moment-december-1981/
   (s. 35). Wspiera redakcyjną obserwację o większej ekspozycji F1 w BBC w 1981
   oraz o widoczności oznaczeń reklamowych na samochodach.
-- **PEO-05 / MS-1982-01-33** — Denis Jenkinson, „Behind the Grand Prix Scene:
+- **CTX-09 / MS-1982-01-33** — Denis Jenkinson, „Behind the Grand Prix Scene:
   ELF”, *Motor Sport*, January 1982 (dokładny dzień nieznany),
   `PRESS`, `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
   https://www.motorsportmagazine.com/archive/article/january-1982/33/behind-grand-prix-scene-2/

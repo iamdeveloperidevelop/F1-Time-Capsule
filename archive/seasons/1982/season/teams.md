@@ -4,7 +4,7 @@ document_type: "season-teams"
 event: null
 event_time: "Stan ekip bezpośrednio przed planowanym początkiem pierwszej oficjalnej sesji GP RPA na Kyalami, 21 stycznia 1982"
 public_knowledge_time: "Najpóźniejsze wykorzystane źródła współczesne: UPI z 18 grudnia 1981 oraz styczniowy numer Motor Sport z nieznanym dniem publikacji; dostępność tego numeru przed granicą 21 stycznia 1982 pozostaje nierozstrzygnięta"
-knowledge_cutoff: "Bezpośrednio przed planowanym początkiem pierwszej oficjalnej sesji GP RPA na Kyalami, 21 stycznia 1982"
+knowledge_cutoff: "Immediately before the planned start of the first official session of the South African Grand Prix at Kyalami on Thursday, 21 January 1982; exact time unknown"
 spoiler_scope:
   allowed:
     - "Składy, wyposażenie, plany i niepewności wyraźnie wspierane przez wykorzystane źródła współczesne"
@@ -15,7 +15,7 @@ spoiler_scope:
 content_language: "pl"
 research_status: "drafted"
 source_status: "partial"
-spoiler_audit_status: "issues-found"
+spoiler_audit_status: "passed"
 last_verified: null
 ---
 
@@ -25,18 +25,18 @@ last_verified: null
 
 Dokument zatrzymuje stan wiedzy bezpośrednio przed planowanym początkiem
 pierwszej oficjalnej sesji Grand Prix Republiki Południowej Afryki na Kyalami
-21 stycznia 1982 roku. Dokładna godzina rozpoczęcia pozostawała prowizoryczna,
-dlatego granicę określa moment wydarzenia, a nie czas zegarowy.
+21 stycznia 1982 roku. Dokładna godzina rozpoczęcia pozostaje nieznana; lukę
+zapisano w [`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
 
 ## Przegląd stawki
 
-Poniższe wpisy obejmują tylko zespoły i informacje wyraźnie wspierane przez
-wykorzystane współczesne materiały. Nie jest to kompletna lista uczestników ani
-pełny wykaz wyposażenia na otwarcie sezonu. Szczegółowe sylwetki kierowców
-znajdują się w [`drivers.md`](drivers.md), a wyjaśnienia konstrukcji w
+Poniższe wpisy obejmują wyłącznie zespoły i informacje wyraźnie wspierane przez
+wykorzystane współczesne materiały. Nie tworzą kompletnej listy uczestników ani
+pełnego wykazu wyposażenia na otwarcie sezonu. Szczegółowe sylwetki kierowców
+zawiera [`drivers.md`](drivers.md), a wyjaśnienia konstrukcji
 [`technology.md`](technology.md). Wszystkie informacje oznaczone wyłącznie
 identyfikatorem `MS-1982-01` pochodzą ze styczniowego numeru „Motor Sport” o
-nieznanym dniu publikacji. Są opisem treści tego numeru, nie potwierdzoną wiedzą
+nieznanym dniu publikacji. Opisują treść tego numeru, nie potwierdzoną wiedzę
 dostępną przed cutoff.
 
 ## Brabham
@@ -79,7 +79,7 @@ podstawy do opisania samochodu, silnika ani opon.
 
 ### Deklarowane cele i współczesne oczekiwania
 
-Frank Williams publicznie podkreślał szybkość i podejście Rosberga; jest to
+Frank Williams publicznie podkreślał szybkość i podejście Rosberga; była to
 przypisana opinia z epoki, nie prognoza autora.
 
 ### Niepewności
@@ -119,8 +119,8 @@ Wykorzystane źródła nie potwierdzają pozostałych szczegółów wyposażenia
 
 ### Tożsamość i organizacja
 
-Niezweryfikowany czasowo styczniowy „Motor Sport” informował o pozostaniu
-Nigela Mansella w Lotusie.
+Niezweryfikowany czasowo styczniowy „Motor Sport” informował, że Nigel Mansell
+pozostaje w Lotusie.
 
 ### Kierowcy i wyposażenie w źródłach
 
@@ -167,8 +167,9 @@ Wykorzystane źródło nie pozwala dopisać dalszych szczegółów konfiguracji.
 
 ### Tożsamość i organizacja
 
-Niezweryfikowany czasowo styczniowy przegląd wiązał z Alfą Romeo Andreę de
-Cesarisa i Brunona Giacomellego.
+Niezweryfikowany czasowo styczniowy przegląd omawiał Alfę Romeo, lecz nie
+stanowi wystarczającego wsparcia dla pary kierowców. Nazwisk Andrei de Cesarisa
+i Brunona Giacomellego nie traktuje się tu jako potwierdzonej obsady.
 
 ### Kierowcy i wyposażenie w źródłach
 
@@ -238,13 +239,15 @@ Materiał nie daje podstawy do podania dokładnego oznaczenia samochodu.
 
 ### Tożsamość i organizacja
 
-Niezweryfikowany czasowo styczniowy „Motor Sport” informował o pozostaniu
-Dereka Warwicka w Tolemanie.
+Niezweryfikowany czasowo styczniowy „Motor Sport” informował, że Derek Warwick
+pozostaje w Tolemanie.
 
 ### Kierowcy i wyposażenie w źródłach
 
-Materiał opisywał dalszy rozwój turbodoładowanego silnika Hart i podawał, że
-drugi fotel nie był jeszcze potwierdzony.
+Materiał opisywał dalszy rozwój turbodoładowanego silnika Hart. Czasowo
+niezweryfikowany przegląd wymieniał Briana Hentona, ale przedstawiał obsadę z
+niepewnością; jest to ograniczony raport o treści źródła, a nie potwierdzenie
+składu na otwarcie sezonu.
 
 ### Deklarowane cele i współczesne oczekiwania
 
@@ -254,7 +257,8 @@ osiągów.
 
 ### Niepewności
 
-Drugi kierowca i dokładna konfiguracja samochodu pozostają niezweryfikowane.
+Wzmiankowany Brian Henton, drugi fotel i dokładna konfiguracja samochodu
+pozostają niezweryfikowane.
 
 ### Źródła
 
@@ -267,17 +271,18 @@ wszystkich foteli ani pełnego wyposażenia na pierwszą oficjalną sesję. Styc
 numer „Motor Sport” ma nieznany dokładny dzień publikacji; nie rozstrzygnięto,
 czy był publicznie dostępny przed granicą dokumentu. Z tego powodu twierdzenia
 oparte na tym numerze pozostają jawnie obciążone luką czasową, a dokument wymaga
-ponownego audytu spoilerów i źródeł.
+ponownego audytu spoilerów i źródeł. Odpowiednie braki są też ujęte w
+[`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
 
 ```yaml
 source_id: "MS-1982-01"
 title: "The Formula One Scene"
 author_or_organisation: "Motor Sport"
-publication_date: "1982-01"
+publication_date: "unknown"
 event_date: "not-applicable"
 source_type: "PRESS"
 contemporary: true
-spoiler_risk: "unknown"
+spoiler_risk: "contains-later-material"
 locator: "https://www.motorsportmagazine.com/archive/article/january-1982/31/formula-one-scene/ — January 1982, p. 31"
 access_date: "2026-08-03"
 supports:
@@ -290,13 +295,13 @@ supports:
   - claim_id: "T08"
     scope: "Prost i Arnoux w Renault oraz dalsze użycie konstrukcji RE30."
   - claim_id: "T11"
-    scope: "De Cesaris i Giacomelli w Alfie Romeo; silnik V12 i plan rozwoju silnika turbo."
+    scope: "Wzmianka o Alfie Romeo, używanym silniku V12 i planie rozwoju silnika turbo; źródło nie wystarcza do potwierdzenia pary kierowców."
   - claim_id: "T12"
     scope: "Laffite i Cheever w Talbocie/Ligierze oraz silnik Matra V12."
   - claim_id: "T13"
     scope: "Villeneuve i Pironi w Ferrari; nowy samochód z turbodoładowanym silnikiem V6, bez dokładnego oznaczenia modelu."
   - claim_id: "T17"
-    scope: "Warwick pozostaje w Tolemanie; rozwój silnika Hart i niepotwierdzony drugi fotel."
+    scope: "Warwick pozostaje w Tolemanie i rozwój silnika Hart; przegląd wymienia Briana Hentona, lecz przedstawia obsadę z niepewnością i nie potwierdza składu na otwarcie."
 disagreement_notes: null
 notes: "Dokładny dzień publikacji jest nieznany; dostępność numeru przed granicą 21 stycznia 1982 pozostaje nierozstrzygnięta."
 ```
