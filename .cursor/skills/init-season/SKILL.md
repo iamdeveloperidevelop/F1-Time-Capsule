@@ -141,8 +141,7 @@ Do not:
 - insert regulations, technical facts, results, standings, or summaries;
 - assume an announced or final calendar;
 - generate source entries;
-- create race directories or any race structure;
-- commit or push changes.
+- create race directories or any race structure.
 
 This workflow initializes structure only.
 
@@ -161,8 +160,7 @@ Before reporting completion, verify all of the following:
 - no historical fact or non-season date was introduced;
 - no pre-existing file was overwritten;
 - `archive-state.yaml` is valid and changed only as the canonical workflow
-  permits;
-- no commit or push was made.
+  permits.
 
 If validation fails, report the failure accurately; do not claim successful
 initialization.

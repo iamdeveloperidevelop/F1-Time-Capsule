@@ -15,7 +15,6 @@ future facts, hindsight, foreshadowing, and later-informed emphasis are spoilers
 - Do not create historical content during Phase 0. Only a user instruction that
   explicitly begins Phase 1 or explicitly authorises historical content changes
   the phase; an isolated content-like request does not change it implicitly.
-- Do not commit or push unless the user explicitly instructs you to do so.
 
 An explicit Phase 0 scaffolding task may create placeholder-only directories,
 templates, repository state, and workflow documentation. It does not authorise
