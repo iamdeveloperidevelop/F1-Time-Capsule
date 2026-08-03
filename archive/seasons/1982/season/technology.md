@@ -103,12 +103,11 @@ dostępna przed cutoff ani jako zapowiedź tego, co rzeczywiście wystartuje lub
 okaże się skuteczne.
 
 - **Ferrari.** Czasowo niezweryfikowana styczniowa zapowiedź opisywała nową
-  konstrukcję podwozia i
-  aerodynamikę wykorzystującą rdzeń Nomex oraz włókno węglowe, przy
-  kontynuowaniu turbodoładowanego V6 (`TECH-1982-008`). Nie podano tu nazwy
-  modelu. Dostępna wersja styczniowego źródła nie potwierdza dostatecznie
-  szczegółu o aluminium, dlatego część roboczego opisu
-  „aluminium/Nomex/włókno węglowe” nie ma tu statusu audytowanego.
+  konstrukcję podwozia z rdzeniem Nomex i włóknem węglowym oraz
+  turbodoładowany V6. Aerodynamikę łączyła z wpływem Harveya Postlethwaite’a,
+  nie przypisując tym materiałom konkretnej funkcji aerodynamicznej
+  (`TECH-1982-008`). Nie podano tu nazwy modelu. Dostępna wersja styczniowego
+  źródła nie potwierdza dostatecznie szczegółu o aluminium.
 - **Renault.** Ten sam styczniowy materiał wymieniał zespół wśród użytkowników
   silnika turbodoładowanego (`TECH-1982-009`), bez prawa do dopisywania
   późniejszych osiągów.
