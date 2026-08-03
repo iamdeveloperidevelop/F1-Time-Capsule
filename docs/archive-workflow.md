@@ -4,6 +4,10 @@ This document defines how the archive advances. It does not authorize historical
 content. Every historical task still needs an explicit target, content contract,
 and exact knowledge cutoff.
 
+The manually invoked interfaces for these transitions are listed in
+[`commands.md`](commands.md). Each command stops at its declared boundary and
+never runs the next stage automatically.
+
 ## Two kinds of state
 
 Document front matter is authoritative for that document's temporal boundary.
