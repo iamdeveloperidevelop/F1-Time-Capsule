@@ -37,8 +37,10 @@ Read `docs/temporal-scope.md` and the document's contract in
 
 ## Expected output
 
-Audit result (`pass`, `pass-with-corrections`, or `fail`), issue list by
-category, affected wording, reason, safe remediation, and unresolved questions.
+Audit result matching metadata (`issues-found`, `corrected`, or `passed`), issue
+list by category, affected wording, reason, safe remediation, and unresolved
+questions. Use `corrected` after authorised changes until a clean re-audit
+promotes the document to `passed`.
 
 ## Self-check
 
