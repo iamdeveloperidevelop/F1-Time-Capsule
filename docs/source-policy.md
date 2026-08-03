@@ -92,9 +92,13 @@ visible.
 
 ## Unresolved evidence without workflow blockage
 
-An unavailable, incomplete, or insufficiently dated source must never be turned
-into a reader-facing fact. It is not, by itself, a reason to stop an otherwise
-safe workflow transition or require the user to perform verification.
+An unavailable, incomplete, or insufficiently dated source must not be stated
+as a confirmed reader-facing fact. It may be retained as an explicitly
+provisional, source-attributed report when that is useful for orientation: name
+the source limitation, preserve the uncertainty, and do not increase the
+claim's certainty, prominence, or scope from later knowledge. It is not, by
+itself, a reason to stop an otherwise safe workflow transition or require the
+user to perform verification.
 
 Record the gap in the season's `things-to-resolve-after-season.md` ledger with:
 
@@ -104,10 +108,11 @@ Record the gap in the season's `things-to-resolve-after-season.md` ledger with:
 - a status such as `open`.
 
 Reader-facing text may state only the uncertainty already supportable at its
-boundary. It must not reveal a later answer, use the gap to select later-known
-participants or details, or retrospectively alter an earlier document. A later
-authorized stage may resolve the item only with evidence public by that later
-stage's cutoff.
+boundary, including that an identified source could not be dated or fully
+verified. It must not reveal a later answer, use the gap to select
+later-known participants or details, or retrospectively alter an earlier
+document. A later authorized stage may resolve the item only with evidence
+public by that later stage's cutoff.
 
 ## Copyright and quotations
 

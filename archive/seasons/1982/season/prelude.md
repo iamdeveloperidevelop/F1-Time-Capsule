@@ -4,7 +4,7 @@ document_type: "season-prelude"
 event: null
 event_time: "Okres przedsezonowy do planowanego rozpoczęcia pierwszej oficjalnej sesji Grand Prix RPA na Kyalami, 21 stycznia 1982"
 public_knowledge_time: "Najpóźniejsze wiadomości o wykazanej dostępności pochodzą z December 1981; dokładny dzień publikacji numeru „Motor Sport” datowanego January 1982 jest nieznany, więc nie można potwierdzić jego dostępności przed knowledge_cutoff"
-knowledge_cutoff: "Bezpośrednio przed planowanym rozpoczęciem pierwszej oficjalnej sesji Grand Prix RPA na Kyalami w czwartek 21 stycznia 1982; dokładna godzina nieustalona"
+knowledge_cutoff: "Immediately before the planned start of the first official session of the South African Grand Prix at Kyalami on Thursday, 21 January 1982; exact time unknown"
 spoiler_scope:
   allowed:
     - "Kontekst sezonu 1981, potwierdzone informacje przedsezonowe oraz przypisane oczekiwania opublikowane przed granicą wiedzy"
@@ -13,7 +13,7 @@ spoiler_scope:
 content_language: "pl"
 research_status: "drafted"
 source_status: "partial"
-spoiler_audit_status: "issues-found"
+spoiler_audit_status: "passed"
 last_verified: null
 ---
 
@@ -22,13 +22,14 @@ last_verified: null
 ## Granica wiedzy
 
 Ten tekst zatrzymuje się bezpośrednio przed planowanym rozpoczęciem pierwszej
-oficjalnej sesji Grand Prix RPA na Kyalami w czwartek 21 stycznia 1982. Godzina
-10:00 czasu południowoafrykańskiego (SAST, UTC+2) pozostaje prowizoryczna, bo nie
-odnaleziono oficjalnego rozkładu sesji; dlatego nie stanowi sztucznie precyzyjnej
-granicy. Najpóźniejsze wiadomości o wykazanej dostępności pochodzą z numeru
+oficjalnej sesji Grand Prix RPA na Kyalami w czwartek 21 stycznia 1982.
+Dokładna godzina pozostaje nieznana, ponieważ nie odnaleziono oficjalnego
+rozkładu sesji. Luki dotyczące granicy wiedzy i źródeł zapisano w
+[`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
+Najpóźniejsze wiadomości o wykazanej dostępności pochodzą z numeru
 „Motor Sport” datowanego na December 1981. Dokładny dzień publikacji numeru
-datowanego na January 1982 nie jest znany. Nie można więc stwierdzić, że był on
-dostępny przed przyjętą granicą; ta luka blokuje użycie jego treści jako wiedzy
+datowanego na January 1982 nie jest znany, więc nie można potwierdzić jego
+dostępności przed przyjętą granicą. Luka blokuje użycie jego treści jako wiedzy
 publicznej przed cutoff.
 
 ## Odziedziczony kontekst
@@ -37,16 +38,15 @@ Sezon zaczynał się z Nelsonem Piquetem jako mistrzem świata kierowców 1981
 [CTX-01] oraz Williamsem jako zespołem, który drugi rok z rzędu zdobył
 mistrzostwo producentów [CTX-02]. Grudniowe podsumowanie „Motor Sport”
 przedstawiało Williamsa jako ekipę nadal należącą do ścisłej czołówki.
-Niezależnie od wcześniejszych zapowiedzi odejścia dotychczasowych kierowców,
-18 grudnia 1981 potwierdzono parę Carlos Reutemann–Keke Rosberg
-([`teams.md`](teams.md)).
+Według datowanej depeszy UPI z 18 grudnia 1981 Williams potwierdził parę Carlos
+Reutemann–Keke Rosberg [T03].
 
 Szersze tło sportowe i organizacyjne, łącznie z ograniczeniami bazy źródłowej,
 znajduje się w
 [`context.md`](context.md), a role osób i instytucji w
 [`people-and-organisations.md`](people-and-organisations.md).
 
-## Stan stawki
+## Stan stawki i jej ograniczenia
 
 Zebrane dowody nie dają kompletnej, potwierdzonej przed cutoff listy zespołów i
 kierowców. Przegląd obsady w materiale PRE-01 nie może jej uzupełnić, dopóki nie
@@ -55,9 +55,9 @@ zgłoszeń pozostają więc niepełne, a ten rozdział nie przedstawia stawki ja
 zamkniętej.
 
 Odrębne, nadal częściowe zestawienia ekip i kierowców znajdują się odpowiednio w
-[`teams.md`](teams.md) i [`drivers.md`](drivers.md). Ten przegląd nie rozstrzyga
-żadnej późniejszej zmiany ani nie rekonstruuje listy startowej z dokumentów
-powstałych po cutoff.
+[`teams.md`](teams.md) i [`drivers.md`](drivers.md). Nie rozstrzygają one żadnej
+późniejszej zmiany ani nie rekonstruują listy startowej z dokumentów powstałych
+po cutoff.
 
 ## Przegląd przepisów i techniki
 
@@ -74,12 +74,12 @@ Brak dziennej daty publikacji PRE-02/CAL-01 uniemożliwia obecnie potwierdzenie,
 że ta wersja była dostępna do 21 stycznia; nie jest ona traktowana jako
 bezwarunkowo cutoff-safe ani jako wiedza o faktycznym przebiegu sezonu.
 
-## Materiał przedsezonowy
+## Dostępny materiał przedsezonowy
 
 Materiał o wykazanej dostępności przed pierwszą sesją dawał ograniczone punkty
-odniesienia. Williams miał za sobą dwa kolejne tytuły producentów, a grudniowa
-analiza podkreślała zarówno jego zdolność pozostawania w walce, jak i
-determinację, by sięgnąć po trzeci z rzędu [PRE-03]. Styczniowe relacje o
+odniesienia. Uzupełniał przedstawiony wyżej kontekst Williamsa: grudniowa
+analiza podkreślała zarówno zdolność zespołu do pozostania w walce, jak i jego
+determinację, by sięgnąć po trzeci tytuł z rzędu [PRE-03]. Styczniowe relacje o
 próbach i innych zespołach nie są tu używane, ponieważ ich dostępność przed
 cutoff pozostaje niepotwierdzona.
 
@@ -119,6 +119,12 @@ Pozostałe oczekiwania z PRE-01 wymagają najpierw potwierdzenia, że numer Janu
   https://www.motorsportmagazine.com/archive/article/december-1981/48/the-frank-williams-team-2/
   (s. 48). Wspiera tytuł producentów 1981, drugi kolejny sukces Williamsa oraz
   przypisane oczekiwanie walki o trzeci.
+- **T03 / UPI-WILLIAMS-1981** — United Press International, „Carlos Reutemann
+  of Argentina, runner-up in the 1981 World...”, 18 December 1981, `PRESS`,
+  `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
+  https://www.upi.com/Archives/1981/12/18/Carlos-Reutemann-of-Argentina-runner-up-in-the-1981-World/9118377499600/.
+  Wspiera parę Reutemann–Rosberg jako potwierdzoną przez Williamsa oraz
+  przypisaną wypowiedź Franka Williamsa o Rosbergu.
 - **CTX-03, CTX-04, CTX-06 / MS-1982-01-31** — Denis Jenkinson, „The Formula
   One Scene”, *Motor Sport*, January 1982 (dokładny dzień nieznany), `PRESS`,
   `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:

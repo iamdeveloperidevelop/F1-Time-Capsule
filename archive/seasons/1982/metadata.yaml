@@ -22,4 +22,4 @@ known_rounds_at_cutoff:
   - "14"
   - "15"
   - "16"
-notes: "Calendar temporal verification gap: CAL-01 is dated January 1982, but its exact publication day is unknown, so availability by 21 January cannot be audited; CAL-02 records an official state dated 22 October 1981 but has a weak OCR locator. Cutoff time uncertainty: the exact first-session time is unknown, so provisional 10:00 SAST is not an unconditional cutoff. Round 09 has an unresolved announced-date conflict: 12/13 June 1982."
+notes: "Calendar temporal verification gap: CAL-01 is dated January 1982, but its exact publication day is unknown, so availability by 21 January cannot be audited; CAL-02 records an official state dated 22 October 1981 but has a weak OCR locator. Cutoff time uncertainty: the exact first-session time is unknown. Round 09 has an unresolved announced-date conflict: 12/13 June 1982."

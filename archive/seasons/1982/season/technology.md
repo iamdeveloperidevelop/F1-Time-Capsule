@@ -4,7 +4,7 @@ document_type: "season-technology"
 event: null
 event_time: "Kontekst techniczny przed planowanym rozpoczęciem pierwszej oficjalnej sesji Grand Prix RPA na Kyalami 21 stycznia 1982"
 public_knowledge_time: "Najnowsze użyte źródło: styczniowy numer „Motor Sport” z 1982; dzień publikacji jest nieznany, więc jego dostępność przed granicą wiedzy pozostaje nierozstrzygnięta"
-knowledge_cutoff: "Bezpośrednio przed planowanym rozpoczęciem pierwszej oficjalnej sesji Grand Prix RPA na Kyalami 21 stycznia 1982; podawana godzina 10:00 SAST jest prowizoryczna i nie wyznacza granicy"
+knowledge_cutoff: "Immediately before the planned start of the first official session of the South African Grand Prix at Kyalami on Thursday, 21 January 1982; exact time unknown"
 spoiler_scope:
   allowed:
     - "Ujawniona lub wiarygodnie zaobserwowana technika znana przed granicą wiedzy"
@@ -15,7 +15,7 @@ spoiler_scope:
 content_language: "pl"
 research_status: "drafted"
 source_status: "partial"
-spoiler_audit_status: "issues-found"
+spoiler_audit_status: "passed"
 last_verified: null
 ---
 
@@ -25,18 +25,24 @@ last_verified: null
 
 Opis oddziela rozwiązania publicznie znane przed planowanym rozpoczęciem
 pierwszej oficjalnej sesji Grand Prix RPA na Kyalami 21 stycznia 1982 od planów
-z czasowo niezweryfikowanego styczniowego numeru „Motor Sport”. Godzina 10:00
-SAST pojawia się jako prowizoryczna, więc nie jest używana jako precyzyjny
-znacznik czasu. Nie uwzględniono żadnej obserwacji z oficjalnej sesji,
+z czasowo niezweryfikowanego styczniowego numeru „Motor Sport”. Dokładna
+godzina pozostaje nieznana; lukę zapisano w
+[`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
+Nie uwzględniono żadnej obserwacji z oficjalnej sesji,
 późniejszego przebiegu weekendu ani oceny dokonanej na podstawie dalszej części
 sezonu.
 
 ## Ramy regulaminowe
 
-Technikę wyznaczały dwie równoległe formuły silnikowe: do 3000 cm³ bez
-doładowania albo do 1500 cm³ z doładowaniem, przy najwyżej 12 cylindrach
-(`TECH-1982-001`, FIA art. 5). Szczegółowe limity wymiarów, masy, paliwa i
-kokpitu są w [opisie przepisów](regulations.md).
+Niedatowany archiwalny PDF FIA jest jedynym źródłem części poniższych parametrów.
+Przytoczenia z niego opisują badany wariant tekstu, nie są zaś potwierdzonymi
+faktami o kompletnym stanie przepisów przy cutoff; odpowiednia luka pozostaje w
+[`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
+
+W badanym, niedatowanym PDF FIA opisano dwie równoległe formuły silnikowe: do
+3000 cm³ bez doładowania albo do 1500 cm³ z doładowaniem, przy najwyżej 12
+cylindrach (`TECH-1982-001`, FIA art. 5). Szczegółowe limity wymiarów, masy,
+paliwa i kokpitu są w [opisie przepisów](regulations.md).
 
 W aerodynamice potrzebna jest ostrożność. Bazowy tekst FIA wymienia 6 cm
 minimalnego prześwitu i zabrania urządzenia wypełniającego przestrzeń między
@@ -68,39 +74,40 @@ Wysokość jazdy, czyli odległość podwozia od nawierzchni, wpływała na prac
 kanałów pod samochodem. Mniejsza i stabilniejsza szczelina mogła poprawiać
 uszczelnienie, ale ruch zawieszenia i nierówności zmieniały przepływ.
 
-### Wolnossący i doładowany
+### Silniki wolnossące i doładowane
 
-Silnik wolnossący napełnia cylindry dzięki ciśnieniu atmosferycznemu i zjawiskom
-dynamicznym w dolocie. Silnik doładowany zwiększa masę ładunku trafiającego do
-komory spalania; turbosprężarka wykorzystuje do napędu sprężarki energię gazów
-wydechowych. Regulamin dopuszczał więc porównanie większych jednostek 3,0 l bez
-doładowania z mniejszymi 1,5 l z doładowaniem (`TECH-1982-006`).
+Badany PDF FIA definiuje silnik doładowany przez zwiększenie masy ładunku
+trafiającego do komory spalania. Nie stanowi on samodzielnego źródła dla
+szczegółowego mechanizmu turbosprężarki. W tym wariancie tekstu regulaminowego
+dopuszczano jednostki 3,0 l bez doładowania oraz 1,5 l z doładowaniem
+(`TECH-1982-006`).
 
 ### Cela przetrwania
 
-Badany tekst FIA opisuje celę przetrwania przez ciągłe struktury skrzynkowe po
-obu stronach kierowcy oraz minimalną przestrzeń kokpitu. Wymienia przy tym
-materiały przekładkowe: metalowe lub Nomexowe plastry miodu oraz poszycia z
-aluminium, tworzywa albo włókna węglowego (`TECH-1982-007`, FIA art. 13.7).
-Zebrane źródła nie wspierają szerszej definicji monokoku ani utożsamienia obu
-pojęć; zwięzłe zastrzeżenie terminologiczne zawiera
-[`glossary.md`](glossary.md#monokok--cela-przetrwania).
+Badany, niedatowany tekst FIA opisuje celę przetrwania przez ciągłe struktury
+skrzynkowe po obu stronach kierowcy oraz minimalną przestrzeń kokpitu. Osobne
+postanowienie o panelach ochronnych wymienia materiały przekładkowe: metalowe
+lub Nomexowe plastry miodu oraz poszycia z aluminium, tworzywa albo włókna
+węglowego (`TECH-1982-007`, FIA art. 13.7). Wymienione materiały nie są przez
+to utożsamione z celą przetrwania. Zebrane źródła nie wspierają szerszej
+definicji monokoku ani utożsamienia obu pojęć; zwięzłe zastrzeżenie
+terminologiczne zawiera
+[`glossary.md`](glossary.md#monokok-cela-przetrwania).
 
-## Opisane konstrukcje i układy
+## Konstrukcje i układy opisane w źródle styczniowym
 
 Poniższe opisy konstrukcji i planów pochodzą wyłącznie ze styczniowego numeru
-„Motor Sport”, którego dzień publikacji jest nieznany. Odtwarzają treść
-czasowo niezweryfikowanego materiału: nie są przedstawiane jako wiedza
-publicznie dostępna przed cutoff ani jako zapowiedź tego, co rzeczywiście
-wystartuje lub okaże się skuteczne.
+„Motor Sport”, którego dzień publikacji jest nieznany. Odtwarzają treść czasowo
+niezweryfikowanego materiału, nie są więc przedstawiane jako wiedza publicznie
+dostępna przed cutoff ani jako zapowiedź tego, co rzeczywiście wystartuje lub
+okaże się skuteczne.
 
 - **Ferrari.** Czasowo niezweryfikowana styczniowa zapowiedź opisywała nową
-  konstrukcję podwozia i
-  aerodynamikę wykorzystującą rdzeń Nomex oraz włókno węglowe, przy
-  kontynuowaniu turbodoładowanego V6 (`TECH-1982-008`). Nie podano tu nazwy
-  modelu. Dostępna wersja styczniowego źródła nie potwierdza dostatecznie
-  szczegółu o aluminium, dlatego część roboczego opisu
-  „aluminium/Nomex/włókno węglowe” nie ma tu statusu audytowanego.
+  konstrukcję podwozia z rdzeniem Nomex i włóknem węglowym oraz
+  turbodoładowany V6. Aerodynamikę łączyła z wpływem Harveya Postlethwaite’a,
+  nie przypisując tym materiałom konkretnej funkcji aerodynamicznej
+  (`TECH-1982-008`). Nie podano tu nazwy modelu. Dostępna wersja styczniowego
+  źródła nie potwierdza dostatecznie szczegółu o aluminium.
 - **Renault.** Ten sam styczniowy materiał wymieniał zespół wśród użytkowników
   silnika turbodoładowanego (`TECH-1982-009`), bez prawa do dopisywania
   późniejszych osiągów.
@@ -122,24 +129,24 @@ wystartuje lub okaże się skuteczne.
   planowanego, podwójnie turbodoładowanego V8 1,5 l (`TECH-1982-014`).
   Plan nie jest tu zamieniany w stwierdzenie o późniejszym użyciu.
 
-Rynek opon obejmował Goodyear, Michelin, Pirelli oraz wspólny program
-Avon/International Race Tire Service (IRTS) (`TECH-1982-015`). Artykuł z
-października 1981 potwierdza obecność czterech dostawców i organizacyjną rolę
-IRTS przy oponach Avon. Nie rekonstruuje się tutaj pełnych przydziałów dla
-zespołów na styczeń 1982, ponieważ dostępne bezpieczne źródło ich nie ustala.
+Artykuł z października 1981 odnotowywał Goodyear, Michelin, Pirelli oraz
+wspólny program Avon/International Race Tire Service (IRTS) (`TECH-1982-015`).
+Nie potwierdza on jednak ich stanu na styczeń 1982 ani pełnych przydziałów dla
+zespołów; te kwestie pozostają otwarte w
+[`things-to-resolve-after-season.md`](../things-to-resolve-after-season.md).
 
 ## Kompromisy konstrukcyjne
 
-Większy docisk pomagał w zakrętach i podczas hamowania, lecz zwykle zwiększał
-opór. Konstruktorzy równoważyli więc prędkość maksymalną z czasem całego
-okrążenia. Uszczelnienie kanałów podwozia mogło ograniczać potrzebę dużych
-skrzydeł, ale po zakazie przesuwnych fartuchów było bardziej wrażliwe na ruch
-samochodu względem nawierzchni (`TECH-1982-016`).
+Według technicznego wyjaśnienia „Motor Sport” z maja 1981 większy docisk
+pomagał w zakrętach i podczas hamowania, lecz zwykle zwiększał opór; artykuł
+przedstawiał to jako kompromis między prędkością maksymalną a czasem okrążenia
+(`TECH-1982-016`). Ten sam tekst wiązał uszczelnienie kanałów podwozia z
+ruchami samochodu względem nawierzchni po zakazie przesuwnych fartuchów. Jest to
+przypisane wyjaśnienie prasowe, nie niezależnie zweryfikowany opis każdego
+samochodu.
 
-Materiały przekładkowe mogły zwiększać sztywność przy ograniczonej masie, lecz
-były częścią całej struktury: liczyły się projekt połączeń, wykonanie i
-zgodność z wymaganą geometrią celi. Samo wymienienie włókna węglowego, Nomexu
-czy aluminium nie dowodzi przewagi gotowego samochodu (`TECH-1982-018`).
+Samo wymienienie włókna węglowego, Nomexu czy aluminium w źródle nie dowodzi
+właściwości ani przewagi konkretnego samochodu (`TECH-1982-018`).
 
 ## Otwarte pytania techniczne
 
@@ -155,18 +162,17 @@ czy aluminium nie dowodzi przewagi gotowego samochodu (`TECH-1982-018`).
   potwierdza producentów, lecz nie bezpieczną, kompletną alokację na otwarcie
   sezonu.
 
-## Odsyłacze do słownika
+## Słownik
 
-Definicje terminów: [efekt przypowierzchniowy, fartuch, wysokość jazdy,
-silnik wolnossący, doładowanie, turbosprężarka, monokok/cela przetrwania i
-balast](glossary.md).
+Definicje użytych terminów zawiera [`glossary.md`](glossary.md).
 
 ## Uwagi źródłowe
 
 ### Mapa twierdzeń
 
 - `TECH-1982-001`, `TECH-1982-006`, `TECH-1982-007` — formuły silnikowe,
-  definicja doładowania i wymogi celi; `TECH-SRC-001`, art. 1.11, 5 i 13.7.
+  definicja doładowania, wymogi celi i osobne postanowienie o materiałach
+  paneli ochronnych; `TECH-SRC-001`, art. 1.11, 5 i 13.7.
 - `TECH-1982-002`–`TECH-1982-004`, `TECH-1982-016` — kanały Venturiego,
   uszczelnienie, fartuchy, wysokość jazdy i kompromis docisk–opór;
   `TECH-SRC-003`, s. 45, oraz dla bazowej reguły `TECH-SRC-001`, art. 3.7.

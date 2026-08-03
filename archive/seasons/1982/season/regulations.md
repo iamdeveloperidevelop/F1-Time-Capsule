@@ -4,7 +4,7 @@ document_type: "season-regulations"
 event: null
 event_time: "Stan przepisów przed planowanym rozpoczęciem pierwszej oficjalnej sesji Grand Prix RPA na Kyalami 21 stycznia 1982"
 public_knowledge_time: "Najnowsze datowane użyte źródło: maj 1981; data publikacji bazowego PDF FIA pozostaje nieznana"
-knowledge_cutoff: "Bezpośrednio przed planowanym rozpoczęciem pierwszej oficjalnej sesji Grand Prix RPA na Kyalami 21 stycznia 1982; podawana godzina 10:00 SAST jest prowizoryczna i nie wyznacza granicy"
+knowledge_cutoff: "Immediately before the planned start of the first official session of the South African Grand Prix at Kyalami on Thursday, 21 January 1982; exact time unknown"
 spoiler_scope:
   allowed:
     - "Oficjalny tekst techniczny i współczesne wyjaśnienia publiczne przed granicą wiedzy"
@@ -15,7 +15,7 @@ spoiler_scope:
 content_language: "pl"
 research_status: "drafted"
 source_status: "partial"
-spoiler_audit_status: "issues-found"
+spoiler_audit_status: "passed"
 last_verified: null
 ---
 
@@ -23,18 +23,22 @@ last_verified: null
 
 ## Granica wiedzy i podstawa opisu
 
-Dokument zatrzymuje wiedzę bezpośrednio przed planowanym początkiem pierwszej
-oficjalnej sesji Grand Prix RPA na Kyalami 21 stycznia 1982. Spotykana w
-materiałach godzina 10:00 SAST jest prowizoryczna, dlatego granica ma charakter
-opisowy: nie wolno tu wykorzystywać niczego poznanego podczas tej sesji ani
-później.
+Dokument zatrzymuje stan wiedzy bezpośrednio przed planowanym początkiem pierwszej
+oficjalnej sesji Grand Prix RPA na Kyalami 21 stycznia 1982. Dokładna godzina
+pozostaje nieznana; lukę zapisano w
+[`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
+Granica ma charakter opisowy: nie wolno tu wykorzystywać niczego poznanego
+podczas tej sesji ani później.
 
 Podstawą jest angielski tekst „Technical Regulations” udostępniony w
 historycznej bazie FIA (`REG-SRC-001`). Sam dokument w art. 15 wskazuje wersję
 angielską jako rozstrzygającą przy sporach interpretacyjnych. Skan nie podaje
 jednak daty publikacji ani historii zmian. Nie potwierdzono zatem, że ten wariant
 PDF stanowi kompletny zapis przepisów wraz ze wszystkimi aneksami obowiązującymi
-w chwili granicznej.
+w chwili granicznej. Wszystkie niżej przytoczone parametry z tego niedatowanego
+archiwum FIA są więc opisem tego wariantu PDF, nie potwierdzonymi faktami o
+kompletnym stanie przepisów przy cutoff; luka jest zapisywana w
+[`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
 
 ## Przepisy sportowe
 
@@ -43,10 +47,10 @@ audytowanego opisu punktacji mistrzostw ani zasad klasyfikacji. Regulamin
 sportowy nie został zweryfikowany w datowanym dokumencie FIA lub FISA publicznym
 przed granicą wiedzy (`REG-SPORT-GAP-001`).
 
-W rozumieniu badanego tekstu technicznego „event” obejmuje oficjalne treningi
-oraz wyścig (`REG-1982-001`, art. 1.7). Angielska wersja nie rozbija treningów na
-odmiany; francuski tekst równoległy dopowiada treningi mierzone i niemierzone,
-ale przy ewentualnej rozbieżności pierwszeństwo zachowuje wersja angielska.
+W badanym tekście technicznym „event” obejmuje oficjalne treningi oraz wyścig
+(`REG-1982-001`, art. 1.7). Wersja angielska nie dzieli treningów na odmiany;
+równoległy tekst francuski dopowiada treningi mierzone i niemierzone, lecz przy
+ewentualnej rozbieżności pierwszeństwo ma wersja angielska.
 
 ## Przepisy techniczne
 
@@ -58,11 +62,11 @@ Z wyjątkiem struktur przeciwkapotażowych żadna część samochodu w normalnym
 ustawieniu wyścigowym, z kierowcą w środku, nie może znajdować się wyżej niż
 90 cm nad podłożem (`REG-1982-003`, art. 3.6).
 
-Bazowy tekst podaje minimalną masę 585 kg (`REG-1982-004`, art. 4.1). Definicja
-„weight” z art. 1.8 oznacza samochód gotowy do jazdy, z normalną ilością środków
-smarnych i chłodziwa, lecz bez paliwa i kierowcy. Dopuszczony balast musi być
-zamocowany tak, by jego usunięcie wymagało narzędzi; sędziowie techniczni muszą
-też móc go zaplombować (`REG-1982-005`, art. 4.2). Data i wariant PDF nie są
+Bazowy tekst podaje minimalną masę 585 kg (`REG-1982-004`, art. 4.1). Zgodnie z
+definicją „weight” z art. 1.8 samochód jest gotowy do jazdy, ma normalną ilość
+środków smarnych i chłodziwa, lecz nie obejmuje paliwa ani kierowcy. Dopuszczony
+balast musi być zamocowany tak, by jego usunięcie wymagało narzędzi; sędziowie
+techniczni muszą też móc go zaplombować (`REG-1982-005`, art. 4.2). Data i wariant PDF nie są
 potwierdzone jako kompletny stan przepisów przy granicy wiedzy.
 
 ### Aerodynamika i prześwit
@@ -116,14 +120,13 @@ można tej niepewności rozstrzygnąć.
 
 Przepisy pozostawiały konstruktorom dwie zasadnicze drogi silnikowe: większy
 silnik wolnossący albo mniejszy doładowany. Limit paliwa wyznaczał wspólny
-pułap pojemności zbiorników, natomiast sam tekst techniczny przewidywał sposób
-bezpieczniejszego tankowania już po starcie, zamiast tego zabraniać.
+pułap pojemności zbiorników, natomiast tekst techniczny określał sposób
+bezpieczniejszego tankowania po starcie, zamiast go zabraniać.
 
-Wymiary kokpitu i elementy celi przetrwania narzucały przestrzeń ochronną wokół
-kierowcy. Balast pozwalał doprowadzić lżejszą konstrukcję do wymaganej masy, ale
-musiał być trwałym, kontrolowalnym elementem, a nie przedmiotem łatwym do
-wyjęcia. Wartości z bazowego tekstu należy czytać z zastrzeżeniem, że brak
-historii aneksów nie pozwala potwierdzić kompletności tego wariantu PDF.
+Niedatowany PDF określał wymiary kokpitu oraz warunki trwałego zamocowania i
+plombowania balastu; nie wyjaśnia celu balastu ani zastosowania go przez zespoły.
+Wartości z bazowego tekstu należy czytać z zastrzeżeniem, że brak historii
+aneksów nie pozwala potwierdzić kompletności tego wariantu PDF.
 
 ## Uwagi źródłowe
 

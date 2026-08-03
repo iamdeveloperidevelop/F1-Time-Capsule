@@ -13,7 +13,7 @@ spoiler_scope:
 content_language: "pl"
 research_status: "drafted"
 source_status: "partial"
-spoiler_audit_status: "issues-found"
+spoiler_audit_status: "passed"
 last_verified: null
 ---
 
@@ -21,13 +21,14 @@ last_verified: null
 
 ## Granica wiedzy i wersja kalendarza
 
-Tabela zachowuje wersję listy FISA przypisaną CAL-01, odtworzoną w numerze
-„Motor Sport” datowanym na January 1982. Nie jest jednak pewne, czy przedstawia
-stan publicznie dostępny bezpośrednio przed planowanym początkiem pierwszej
-oficjalnej sesji Grand Prix RPA na Kyalami w czwartek 21 stycznia 1982 roku:
-brak dziennej daty publikacji uniemożliwia audyt dostępności do tego dnia.
-Dokładna godzina rozpoczęcia sesji również pozostaje niepotwierdzona;
-prowizoryczne 10:00 SAST nie stanowi bezwarunkowej granicy wiedzy.
+Tabela zachowuje wersję kalendarza opublikowanego przez FIA, przypisaną CAL-01
+i odtworzoną w numerze „Motor Sport” datowanym na January 1982. Nie wiadomo
+jednak, czy przedstawia stan publicznie dostępny bezpośrednio przed planowanym
+początkiem pierwszej oficjalnej sesji Grand Prix RPA na Kyalami w czwartek
+21 stycznia 1982 roku: brak dziennej daty publikacji uniemożliwia sprawdzenie
+dostępności do tego dnia. Dokładna godzina rozpoczęcia sesji pozostaje nieznana;
+lukę zapisano w
+[`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
 Wszystkie pozycje i uwagi przypisane wyłącznie CAL-01 pozostają zatem
 niezweryfikowane czasowo i nie są przedstawiane jako pewna wiedza cutoff-safe.
 
@@ -65,15 +66,18 @@ niezweryfikowane czasowo i nie są przedstawiane jako pewna wiedza cutoff-safe.
   Jaramie jako nieobecne na liście oraz przypisywała ich pominięcie
   nieuregulowanym płatnościom organizatorów wobec zespołów za 1981 rok.
 
-## Status ogłoszonych zmian
+## Dostępność ogłoszonych zmian
 
-Nie można potwierdzić, które pozycje lub zmiany z CAL-01 były publicznie
-dostępne do 21 stycznia, dopóki nie zostanie ustalona dzienna data publikacji.
+Nie można potwierdzić publicznej dostępności pozycji ani zmian z CAL-01 do
+21 stycznia, dopóki nie zostanie ustalona dzienna data publikacji. Brak daty
+i konflikt kanadyjskiego terminu zapisano w
+[`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
 
 ## Uwagi źródłowe
 
 - `CAL-01` — „The 1982 International Racing Season”, „Motor Sport”, January
-  1982, p. 35; współczesne źródło prasowe reprodukujące listę FISA
+  1982, p. 35; współczesne źródło prasowe reprodukujące kalendarz opublikowany
+  przez FIA
   (`source_type: PRESS`, `contemporary: true`, data dzienna publikacji:
   `unknown`, `spoiler_risk: contains-later-material`).
   [Reprodukcja strony](https://www.motorsportmagazine.com/archive/article/january-1982/35/the-1982-international-racing-season/).

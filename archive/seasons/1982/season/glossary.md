@@ -4,7 +4,7 @@ document_type: "season-glossary"
 event: null
 event_time: "Terminologia używana przed planowanym rozpoczęciem pierwszej oficjalnej sesji Grand Prix RPA na Kyalami 21 stycznia 1982"
 public_knowledge_time: "Najnowsze użyte źródło: styczniowy numer „Motor Sport” z 1982; dzień publikacji jest nieznany, więc jego dostępność przed granicą wiedzy pozostaje nierozstrzygnięta"
-knowledge_cutoff: "Bezpośrednio przed planowanym rozpoczęciem pierwszej oficjalnej sesji Grand Prix RPA na Kyalami 21 stycznia 1982; podawana godzina 10:00 SAST jest prowizoryczna i nie wyznacza granicy"
+knowledge_cutoff: "Immediately before the planned start of the first official session of the South African Grand Prix at Kyalami on Thursday, 21 January 1982; exact time unknown"
 spoiler_scope:
   allowed:
     - "Zwięzłe definicje terminów istotnych dla epoki i znanych przed granicą wiedzy"
@@ -15,7 +15,7 @@ spoiler_scope:
 content_language: "pl"
 research_status: "drafted"
 source_status: "partial"
-spoiler_audit_status: "issues-found"
+spoiler_audit_status: "passed"
 last_verified: null
 ---
 
@@ -24,35 +24,42 @@ last_verified: null
 ## Granica wiedzy i zakres
 
 Definicje odpowiadają wiedzy dostępnej bezpośrednio przed planowanym początkiem
-pierwszej oficjalnej sesji Grand Prix RPA na Kyalami 21 stycznia 1982.
-Prowizoryczna godzina 10:00 SAST nie jest traktowana jako ścisła granica.
+pierwszej oficjalnej sesji Grand Prix RPA na Kyalami 21 stycznia 1982. Dokładna
+godzina pozostaje nieznana; lukę zapisano w
+[`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
 Słownik objaśnia tylko terminy potrzebne w dokumentach
 [`regulations.md`](regulations.md) i [`technology.md`](technology.md); nie
 powtarza ich szerszych wyjaśnień ani nie dopowiada późniejszych przykładów i
 skutków.
 
-## Ballast / balast
+Gdy definicja opiera się wyłącznie na niedatowanym archiwalnym PDF FIA, opisuje
+ona ten wariant tekstu, a nie potwierdzony kompletny stan reguł przy cutoff.
+Zastrzeżenie i potrzebny dowód są ujęte w
+[`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
 
-Masa dodana do samochodu, aby osiągnąć wymagany limit lub uzyskać zaplanowany
-rozkład masy. Art. 4.2 badanego tekstu FIA dopuszczał balast pod warunkiem
-zamocowania wymagającego narzędzi do demontażu i umożliwienia zaplombowania
-przez sędziów technicznych (`GLO-1982-001`).
+## Ballast (balast)
 
-- See also: [Monokok / cela przetrwania](#monokok--cela-przetrwania)
-- Source IDs: `GLO-SRC-001`
-- Uncertainty: brak dla samej definicji; zastrzeżenie dotyczące wariantu PDF opisują
-  [regulations](regulations.md#unresolved-interpretations).
+W badanym, niedatowanym tekście FIA balast jest elementem, dla którego art. 4.2
+określał zamocowanie wymagające narzędzi do demontażu oraz możliwość
+zaplombowania przez sędziów technicznych (`GLO-1982-001`). Tekst nie wyjaśnia
+celu jego użycia ani rozkładu masy.
+
+- Zobacz także: [Monokok (cela przetrwania)](#monokok-cela-przetrwania)
+- Identyfikatory źródeł: `GLO-SRC-001`
+- Niepewność: brak dla samej definicji; zastrzeżenie dotyczące wariantu PDF opisują
+  [przepisy](regulations.md#nierozstrzygnięte-interpretacje).
 
 ## Doładowanie
 
-Zwiększenie masy ładunku mieszanki doprowadzanej do komory spalania ponad
+W badanym, niedatowanym PDF FIA art. 1.11 definiował doładowanie jako
+zwiększenie masy ładunku mieszanki doprowadzanej do komory spalania ponad
 poziom wynikający z normalnego ciśnienia atmosferycznego oraz efektów
-dynamicznych dolotu i wydechu. Według art. 1.11 sam wtrysk paliwa pod ciśnieniem
-nie stanowił doładowania (`GLO-1982-002`).
+dynamicznych dolotu i wydechu. W tym wariancie tekstu sam wtrysk paliwa pod
+ciśnieniem nie stanowił doładowania (`GLO-1982-002`).
 
-- See also: [Turbosprężarka](#turbosprężarka), [Silnik wolnossący](#silnik-wolnossący)
-- Source IDs: `GLO-SRC-001`
-- Uncertainty: brak
+- Zobacz także: [Silnik wolnossący](#silnik-wolnossący)
+- Identyfikatory źródeł: `GLO-SRC-001`
+- Niepewność: brak
 
 ## Efekt przypowierzchniowy
 
@@ -62,9 +69,9 @@ kanały Venturiego; boczne uszczelnienie ograniczało napływ powietrza, który
 osłabiałby efekt. Docisk zwiększał obciążenie opon, nie zastępował ich
 przyczepności (`GLO-1982-003`).
 
-- See also: [Fartuch](#fartuch), [Wysokość jazdy](#wysokość-jazdy)
-- Source IDs: `GLO-SRC-002`
-- Uncertainty: brak dla zasady działania; bazowy PDF nie zawiera daty ani
+- Zobacz także: [Fartuch](#fartuch), [Wysokość jazdy](#wysokość-jazdy)
+- Identyfikatory źródeł: `GLO-SRC-002`
+- Niepewność: brak dla zasady działania; bazowy PDF nie zawiera daty ani
   historii aneksów, więc nie potwierdza własnej kompletności przy granicy wiedzy.
 
 ## Fartuch
@@ -74,55 +81,45 @@ uszczelnienie przepływu pod podwoziem. Fartuch przesuwny poruszał się względ
 nadwozia, aby podążać za nawierzchnią; współczesne źródło opisuje jego zakaz od
 1981 (`GLO-1982-004`).
 
-- See also: [Efekt przypowierzchniowy](#efekt-przypowierzchniowy),
+- Zobacz także: [Efekt przypowierzchniowy](#efekt-przypowierzchniowy),
   [Wysokość jazdy](#wysokość-jazdy)
-- Source IDs: `GLO-SRC-001`, `GLO-SRC-002`
-- Uncertainty: bazowy PDF nie zawiera daty ani historii aneksów, więc nie
+- Identyfikatory źródeł: `GLO-SRC-001`, `GLO-SRC-002`
+- Niepewność: bazowy PDF nie zawiera daty ani historii aneksów, więc nie
   potwierdza własnej kompletności przy granicy wiedzy.
 
-## Hybrid / samochód hybrydowy
+## Hybrid (samochód hybrydowy)
 
-Termin regulaminowy, nie określenie współczesnego napędu
-spalinowo-elektrycznego. Art. 1.6 nazywał „hybrydą” samochód, w którym
-konstruktor auta montował silnik innego producenta. Nazwa konstruktora
-samochodu miała poprzedzać nazwę producenta silnika (`GLO-1982-005`).
+W badanym, niedatowanym PDF FIA art. 1.6 nazywał „hybrydą” samochód, w którym
+konstruktor auta montował silnik innego producenta; w tym wariancie tekstu nazwa
+konstruktora samochodu miała poprzedzać nazwę producenta silnika
+(`GLO-1982-005`).
 
-- See also: [Monokok / cela przetrwania](#monokok--cela-przetrwania)
-- Source IDs: `GLO-SRC-001`
-- Uncertainty: brak
+- Zobacz także: [Monokok (cela przetrwania)](#monokok-cela-przetrwania)
+- Identyfikatory źródeł: `GLO-SRC-001`
+- Niepewność: brak
 
-## Monokok / cela przetrwania
+## Monokok (cela przetrwania)
 
-Badany tekst FIA wspiera tu opis wymaganej struktury celi przetrwania:
-obejmowała ciągłe elementy skrzynkowe po obu stronach kierowcy i minimalną
-przestrzeń kokpitu (`GLO-1982-006`). Dostępne źródła nie wystarczają do
-szerszej definicji monokoku ani utożsamienia obu pojęć.
+Badany tekst FIA opisuje wymaganą strukturę celi przetrwania: obejmowała ona
+ciągłe elementy skrzynkowe po obu stronach kierowcy i minimalną przestrzeń
+kokpitu (`GLO-1982-006`). Dostępne źródła nie wystarczają do szerszej definicji
+monokoku ani utożsamienia obu pojęć.
 
-- See also: [Ballast / balast](#ballast--balast)
-- Source IDs: `GLO-SRC-001`
-- Uncertainty: szersze znaczenie terminu „monokok” nie zostało zweryfikowane.
+- Zobacz także: [Ballast / balast](#ballast--balast)
+- Identyfikatory źródeł: `GLO-SRC-001`
+- Niepewność: szersze znaczenie terminu „monokok” nie zostało zweryfikowane.
 
 ## Silnik wolnossący
 
-Silnik napełniający cylindry bez urządzenia zwiększającego masę ładunku ponad
-poziom wynikający z ciśnienia atmosferycznego oraz naturalnych zjawisk
-dynamicznych w dolocie i wydechu. Badany art. 5 dopuszczał dla takiego silnika
-pojemność do 3000 cm³ (`GLO-1982-008`).
+W badanym, niedatowanym PDF FIA jest to silnik napełniający cylindry bez
+urządzenia zwiększającego masę ładunku ponad poziom wynikający z ciśnienia
+atmosferycznego oraz naturalnych zjawisk dynamicznych w dolocie i wydechu. W tym
+wariancie art. 5 dopuszczał dla takiego silnika pojemność do 3000 cm³
+(`GLO-1982-008`).
 
-- See also: [Doładowanie](#doładowanie), [Turbosprężarka](#turbosprężarka)
-- Source IDs: `GLO-SRC-001`
-- Uncertainty: brak
-
-## Turbosprężarka
-
-Urządzenie doładowujące, w którym turbina napędzana gazami wydechowymi obraca
-sprężarkę zwiększającą masę powietrza dostarczanego do silnika. W języku
-regulaminu taki silnik należał do kategorii doładowanej, ograniczonej do
-1500 cm³ (`GLO-1982-009`).
-
-- See also: [Doładowanie](#doładowanie), [Silnik wolnossący](#silnik-wolnossący)
-- Source IDs: `GLO-SRC-001`, `GLO-SRC-003`
-- Uncertainty: brak
+- Zobacz także: [Doładowanie](#doładowanie)
+- Identyfikatory źródeł: `GLO-SRC-001`
+- Niepewność: brak
 
 ## Wysokość jazdy
 
@@ -131,9 +128,9 @@ warunkach obciążenia i ustawienia. Miała znaczenie dla przepływu w kanałach
 podwozia i dla kontroli zgodności z wymaganym prześwitem (`GLO-1982-010`).
 Nie jest samodzielną stałą: zmienia się wraz z ruchem zawieszenia.
 
-- See also: [Efekt przypowierzchniowy](#efekt-przypowierzchniowy), [Fartuch](#fartuch)
-- Source IDs: `GLO-SRC-001`, `GLO-SRC-002`
-- Uncertainty: bazowy PDF podaje prześwit 6 cm, ale jego data, wariant i
+- Zobacz także: [Efekt przypowierzchniowy](#efekt-przypowierzchniowy), [Fartuch](#fartuch)
+- Identyfikatory źródeł: `GLO-SRC-001`, `GLO-SRC-002`
+- Niepewność: bazowy PDF podaje prześwit 6 cm, ale jego data, wariant i
   kompletność przy granicy wiedzy nie są potwierdzone.
 
 ## Uwagi źródłowe

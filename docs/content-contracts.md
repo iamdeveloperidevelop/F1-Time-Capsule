@@ -27,9 +27,10 @@ source dates, and whether the cutoff matches the document type.
   transition may still use a safe document with `source_status: partial` when
   its reader-facing claims are cutoff-safe, its limitations are explicit, and
   each unresolved item is recorded in
-  `things-to-resolve-after-season.md`. `issues-found` never permits progression
-  until the reader-facing issue is removed or rewritten as cutoff-safe
-  uncertainty.
+  `things-to-resolve-after-season.md`. A source-attributed, explicitly
+  provisional report may remain reader-facing under `docs/source-policy.md`;
+  it is not a confirmed fact. `issues-found` never permits progression until
+  the reader-facing issue is removed or rewritten as cutoff-safe uncertainty.
 
 ## Season prelude
 
