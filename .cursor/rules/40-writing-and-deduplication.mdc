@@ -1,0 +1,22 @@
+---
+description: Maintain Polish prose quality and one primary home per fact
+globs:
+  - "archive/**/*.md"
+alwaysApply: false
+---
+
+# Writing and deduplication
+
+Follow `docs/methodology.md`.
+
+- Write future historical content in natural Polish unless requested otherwise.
+- Preserve names and diacritics; explain technical concepts for non-engineers.
+- Be precise, engaging without artificial drama, and explicit about uncertainty.
+- Do not add facts while editing.
+- Give each detailed fact one primary home. Elsewhere, use a concise contextual
+  summary and link.
+- Before completion, audit repetition across related documents and verify both
+  sequential and selective reading remain usable.
+
+Use `historical-content-editor` after factual and spoiler audits. The
+`archive/**/*.md` scope is an intended future scope, not permission to create it.
