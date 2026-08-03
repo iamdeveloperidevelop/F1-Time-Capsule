@@ -1,0 +1,18 @@
+schema_version: 1
+season: "1982"
+round: "13"
+event: "Austrian Grand Prix"
+event_slug: "austrian-grand-prix"
+race_directory: "archive/seasons/1982/races/13-austrian-grand-prix"
+cutoffs:
+  pre_weekend: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+  pre_race: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
+  post_race: "[END OF THE INCLUDED IMMEDIATE OFFICIAL POST-RACE PROCESS]"
+immediate_official_post_race_process: "[PRECISE INCLUDED PROCEDURES AND END BOUNDARY]"
+document_order:
+  - "pre-weekend.md"
+  - "pre-race.md"
+  - "post-race.md"
+  - "standings-after.md"
+source_ledger: "sources.md"
+notes: "scheduled at preseason cutoff"
