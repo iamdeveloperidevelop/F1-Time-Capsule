@@ -45,6 +45,7 @@ The required destination scaffold is:
 archive/seasons/[SEASON]/
 ├── README.md
 ├── metadata.yaml
+├── things-to-resolve-after-season.md
 └── season/
     ├── prelude.md
     ├── context.md
@@ -63,6 +64,7 @@ Use this canonical template-to-destination map:
 | --- | --- |
 | `README.template.md` | `README.md` |
 | `metadata.template.yaml` | `metadata.yaml` |
+| `things-to-resolve-after-season.template.md` | `things-to-resolve-after-season.md` |
 | `prelude.template.md` | `season/prelude.md` |
 | `context.template.md` | `season/context.md` |
 | `regulations.template.md` | `season/regulations.md` |

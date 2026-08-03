@@ -23,6 +23,9 @@ Generate the season prelude for [SEASON].
 Use the season-prelude contract and set the exact cutoff to [KNOWLEDGE CUTOFF].
 Research only information publicly knowable by that boundary.
 Run source verification and a spoiler audit; preserve unresolved conflicts.
+Do not require the user to find missing historical evidence. Omit unsupported
+claims or state only supportable uncertainty, then add each concrete gap to
+things-to-resolve-after-season.md.
 Do not use any in-season knowledge.
 ```
 
@@ -42,7 +45,9 @@ Generate pre-weekend.md for [SEASON], round [ROUND], [GRAND PRIX].
 The cutoff is immediately before the first official session: [KNOWLEDGE CUTOFF].
 Use standings-after.md from the previous completed event as the standings source.
 Research only information knowable by the cutoff, verify sources, and run a
-spoiler audit. Exclude all session information from this weekend.
+spoiler audit. Exclude all session information from this weekend. Record missing
+archival evidence in things-to-resolve-after-season.md; do not block the
+transition solely because source status is partial.
 ```
 
 ## Generate a pre-race brief after qualifying
@@ -52,7 +57,9 @@ Generate concise pre-race.md for [SEASON], round [ROUND], [GRAND PRIX].
 The cutoff is immediately before the scheduled race start: [KNOWLEDGE CUTOFF].
 Include only completed pre-race sessions, the grid, and decisions or conditions
 publicly known by the cutoff. Link season references instead of repeating them.
-Run source verification and a spoiler audit. Do not research or reveal the race.
+Run source verification and a spoiler audit. Record unresolved evidence in
+things-to-resolve-after-season.md rather than asking the user to verify it. Do
+not research or reveal the race.
 ```
 
 ## Generate a post-race report

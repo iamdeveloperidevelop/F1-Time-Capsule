@@ -90,6 +90,25 @@ Absence of evidence is not proof that an event did not occur. Keep confidence
 proportional to the evidence and make translations or reconstructed dates
 visible.
 
+## Unresolved evidence without workflow blockage
+
+An unavailable, incomplete, or insufficiently dated source must never be turned
+into a reader-facing fact. It is not, by itself, a reason to stop an otherwise
+safe workflow transition or require the user to perform verification.
+
+Record the gap in the season's `things-to-resolve-after-season.md` ledger with:
+
+- the affected document and claim or question;
+- the boundary at which it remained unresolved;
+- the exact evidence needed to resolve it; and
+- a status such as `open`.
+
+Reader-facing text may state only the uncertainty already supportable at its
+boundary. It must not reveal a later answer, use the gap to select later-known
+participants or details, or retrospectively alter an earlier document. A later
+authorized stage may resolve the item only with evidence public by that later
+stage's cutoff.
+
 ## Copyright and quotations
 
 Paraphrase factual material. Do not reproduce long copyrighted passages. Use a

@@ -32,6 +32,7 @@ Read only:
   `docs/archive-workflow.md`;
 - `archive-state.yaml`;
 - `archive/seasons/[SEASON]/metadata.yaml`, if present;
+- `archive/seasons/[SEASON]/things-to-resolve-after-season.md`, if present;
 - all season-document front matter;
 - race metadata and race-document front matter;
 - source-ledger conflict and uncertainty indexes needed to report status.
@@ -60,7 +61,7 @@ Report concisely:
 7. current active round and stage;
 8. last completed document and next allowed action;
 9. unresolved source, cutoff, calendar, or classification issues recorded in
-   canonical files;
+   canonical files, including the after-season ledger;
 10. files whose metadata conflicts with `archive-state.yaml`.
 
 Use only canonical status values found in the repository. Distinguish missing,
