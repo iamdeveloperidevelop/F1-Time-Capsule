@@ -181,12 +181,12 @@ balast](glossary.md).
 
 `TECH-SRC-001` — FIA, „Formula One Technical Regulations 1982”, data publikacji
 nieznana, oficjalny tekst w archiwum FIA, typ `ARCHIVE`, współczesny dokument,
-ryzyko spoilera `none`; [PDF](https://historicdb.fia.com/sites/default/files/regulations/1728482072/formula_one_techical_regulations_1982.pdf),
+ryzyko spoilera `contains-later-material`; [PDF](https://historicdb.fia.com/sites/default/files/regulations/1728482072/formula_one_techical_regulations_1982.pdf),
 art. 1.11, 3.7, 5 i 13.7; dostęp 2026-08-03. Ograniczenie: brak daty wydania i
 rejestru aneksów, więc źródło nie dowodzi własnej kompletności.
 
 `TECH-SRC-002` — D.S.J., „The Formula One Scene”, „Motor Sport”, styczeń 1982,
-typ `PRESS`, współczesne, ryzyko spoilera `none`;
+typ `PRESS`, współczesne, ryzyko spoilera `contains-later-material`;
 [s. 31](https://www.motorsportmagazine.com/archive/article/january-1982/31/formula-one-scene/),
 dostęp 2026-08-03. Wspiera stan i plany Ferrari, Renault, Brabham–BMW,
 Toleman–Hart, McLarena–Porsche, Talbota/Ligiera–Matry i Alfy Romeo. Terminy
@@ -197,14 +197,14 @@ nieznany, dlatego nie rozstrzygnięto, czy materiał był publicznie dostępny p
 granicą wiedzy.
 
 `TECH-SRC-003` — D.S.J., „Formula One Trend of Design”, „Motor Sport”, maj
-1981, typ `PRESS`, współczesne, ryzyko spoilera `none`;
+1981, typ `PRESS`, współczesne, ryzyko spoilera `contains-later-material`;
 [s. 45](https://www.motorsportmagazine.com/archive/article/may-1981/45/formula-one-trend-design/),
 dostęp 2026-08-03. Wspiera mechanizm efektu przypowierzchniowego, kanały
 Venturiego, uszczelnienie, kontekst zakazu przesuwnych fartuchów, znaczenie
 wysokości oraz kompromis docisku i oporu.
 
 `TECH-SRC-004` — „Avon Racing Tyres”, „Motor Sport”, październik 1981, autor
-niepodany na stronie, typ `PRESS`, współczesne, ryzyko spoilera `none`;
+niepodany na stronie, typ `PRESS`, współczesne, ryzyko spoilera `contains-later-material`;
 [s. 40](https://www.motorsportmagazine.com/archive/article/october-1981/40/around-and-about-october-1981/),
 dostęp 2026-08-03. Potwierdza czterech producentów obecnych w F1 oraz wspólny
 program Avon/IRTS, ale nie kompletny przydział na styczeń 1982.

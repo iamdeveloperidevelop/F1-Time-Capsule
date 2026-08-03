@@ -140,17 +140,17 @@ Nie jest samodzielną stałą: zmienia się wraz z ruchem zawieszenia.
 
 - `GLO-SRC-001` — FIA, „Formula One Technical Regulations 1982”, data
   publikacji nieznana, oficjalny tekst w archiwum FIA, typ `ARCHIVE`,
-  współczesny dokument, ryzyko spoilera `none`;
+  współczesny dokument, ryzyko spoilera `contains-later-material`;
   [PDF](https://historicdb.fia.com/sites/default/files/regulations/1728482072/formula_one_techical_regulations_1982.pdf),
   art. 1.6, 1.11, 3.7, 4.2, 5 i 13.7; dostęp 2026-08-03. Brak daty wydania i
   rejestru aneksów; źródło nie dowodzi własnej kompletności.
 - `GLO-SRC-002` — D.S.J., „Formula One Trend of Design”, „Motor Sport”, maj
-  1981, typ `PRESS`, współczesne, ryzyko spoilera `none`;
+  1981, typ `PRESS`, współczesne, ryzyko spoilera `contains-later-material`;
   [s. 45](https://www.motorsportmagazine.com/archive/article/may-1981/45/formula-one-trend-design/),
   dostęp 2026-08-03. Wspiera definicje efektu przypowierzchniowego, fartucha i
   wysokości jazdy oraz kontekst zakazu fartuchów przesuwnych.
 - `GLO-SRC-003` — D.S.J., „The Formula One Scene”, „Motor Sport”, styczeń
-  1982, typ `PRESS`, współczesne, ryzyko spoilera `none`;
+  1982, typ `PRESS`, współczesne, ryzyko spoilera `contains-later-material`;
   [s. 31](https://www.motorsportmagazine.com/archive/article/january-1982/31/formula-one-scene/),
   dostęp 2026-08-03. Wspiera okresowe użycie terminów dotyczących materiałów
   konstrukcyjnych i turbodoładowanych silników. Dzień publikacji numeru jest

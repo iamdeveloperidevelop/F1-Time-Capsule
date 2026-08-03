@@ -98,30 +98,30 @@ Pozostałe oczekiwania z PRE-01 wymagają najpierw potwierdzenia, że numer Janu
 
 - **PRE-01 / MS-1982-01-31** — Denis Jenkinson, „The Formula One Scene”,
   *Motor Sport*, January 1982 (dokładny dzień publikacji `unknown`), `PRESS`,
-  `contemporary: true`, `spoiler_risk: none`; pełny locator:
+  `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
   https://www.motorsportmagazine.com/archive/article/january-1982/31/formula-one-scene/
   (s. 31). Zawiera przegląd obsad i oczekiwań, ale brak daty dziennej blokuje
   uznanie jego treści za publicznie dostępną przed cutoff.
 - **PRE-02 / MS-1982-01-35** — „The 1982 International Racing Season”,
   *Motor Sport*, January 1982 (dokładny dzień publikacji `unknown`), `PRESS`,
-  `contemporary: true`, `spoiler_risk: none`; pełny locator:
+  `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
   https://www.motorsportmagazine.com/archive/article/january-1982/35/the-1982-international-racing-season/
   (s. 35). Zawiera wersję kalendarza przypisaną CAL-01, ale brak daty dziennej
   blokuje audyt jej dostępności do 21 stycznia; nie dowodzi też dokładnej
   godziny pierwszej sesji.
 - **CTX-01 / MS-1981-12-76** — A.H., „Nelson Piquet”, *Motor Sport*, December
-  1981, `PRESS`, `contemporary: true`, `spoiler_risk: none`; pełny locator:
+  1981, `PRESS`, `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
   https://www.motorsportmagazine.com/archive/article/december-1981/76/nelson-piquet/
   (s. 76). Wspiera status Piqueta jako mistrza świata kierowców 1981.
 - **CTX-02, PRE-03 / MS-1981-12-48** — Denis Jenkinson, „The Frank Williams
   Team”, *Motor Sport*, December 1981, `PRESS`, `contemporary: true`,
-  `spoiler_risk: none`; pełny locator:
+  `spoiler_risk: contains-later-material`; pełny locator:
   https://www.motorsportmagazine.com/archive/article/december-1981/48/the-frank-williams-team-2/
   (s. 48). Wspiera tytuł producentów 1981, drugi kolejny sukces Williamsa oraz
   przypisane oczekiwanie walki o trzeci.
 - **CTX-03, CTX-04, CTX-06 / MS-1982-01-31** — Denis Jenkinson, „The Formula
   One Scene”, *Motor Sport*, January 1982 (dokładny dzień nieznany), `PRESS`,
-  `contemporary: true`, `spoiler_risk: none`; pełny locator:
+  `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
   https://www.motorsportmagazine.com/archive/article/january-1982/31/formula-one-scene/
   (s. 31). Zawiera prasowy opis konfliktu, Concorde Agreement i zastrzeżeń wobec
   interpretowania reguł, lecz brak daty dziennej blokuje użycie tych treści
@@ -133,7 +133,7 @@ Pozostałe oczekiwania z PRE-01 wymagają najpierw potwierdzenia, że numer Janu
   tylko separowalny podział praw komercyjnych i kontroli regulacyjnej.
 - **CTX-06 / MS-1982-01-35** — „The 1982 International Racing Season”, *Motor
   Sport*, January 1982 (dokładny dzień nieznany), `PRESS`,
-  `contemporary: true`, `spoiler_risk: none`; pełny locator:
+  `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
   https://www.motorsportmagazine.com/archive/article/january-1982/35/the-1982-international-racing-season/
   (s. 35). Zawiera stwierdzenie o formalnym pokoju FISA–FOCA, lecz jego
   dostępność do 21 stycznia nie została wykazana. Omówienie luki źródłowej

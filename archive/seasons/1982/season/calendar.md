@@ -75,7 +75,7 @@ dostępne do 21 stycznia, dopóki nie zostanie ustalona dzienna data publikacji.
 - `CAL-01` — „The 1982 International Racing Season”, „Motor Sport”, January
   1982, p. 35; współczesne źródło prasowe reprodukujące listę FISA
   (`source_type: PRESS`, `contemporary: true`, data dzienna publikacji:
-  `unknown`, `spoiler_risk: none`).
+  `unknown`, `spoiler_risk: contains-later-material`).
   [Reprodukcja strony](https://www.motorsportmagazine.com/archive/article/january-1982/35/the-1982-international-racing-season/).
   Wspiera pozycje 01–16, status rundy w Detroit, rezerwowy status Grand Prix
   Australii, uwagę o pominięciu Zandvoort i Jaramy oraz konflikt daty Grand
@@ -83,7 +83,7 @@ dostępne do 21 stycznia, dopóki nie zostanie ustalona dzienna data publikacji.
   luką: nie da się wykazać dostępności tej reprodukcji do 21 stycznia.
 - `CAL-02` — FIA, „Calendrier Sportif International / International Sporting
   Calendar 1982”, stan danych 22 October 1981 (`source_type: BULLETIN`,
-  `contemporary: true`, `spoiler_risk: none`).
+  `contemporary: true`, `spoiler_risk: contains-later-material`).
   [Skan oficjalnego kalendarza](https://docslib.org/doc/10731069/calendrier-sportif-international-sporting-calendar-1982).
   Ten oficjalny stan z 22 października wspiera wcześniejszą wersję kalendarza,
   lecz locator oparty na dostępnej warstwie OCR jest słaby. CAL-02 nie dowodzi

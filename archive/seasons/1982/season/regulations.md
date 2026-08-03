@@ -149,13 +149,13 @@ historii aneksów nie pozwala potwierdzić kompletności tego wariantu PDF.
 
 `REG-SRC-001` — FIA, „Formula One Technical Regulations 1982”, data publikacji
 nieznana, oficjalny tekst w archiwum FIA, typ `ARCHIVE`, współczesny dokument,
-ryzyko spoilera `none`; [PDF](https://historicdb.fia.com/sites/default/files/regulations/1728482072/formula_one_techical_regulations_1982.pdf),
+ryzyko spoilera `contains-later-material`; [PDF](https://historicdb.fia.com/sites/default/files/regulations/1728482072/formula_one_techical_regulations_1982.pdf),
 art. 1.7, 1.11, 3.1, 3.6, 3.7, 4.1–4.2, 5, 6.1, 6.14, 11.2,
 13.7(f)(6), 15; dostęp 2026-08-03. Ograniczenie: skan nie podaje daty wydania
 ani rejestru zmian; nie dowodzi własnej kompletności względem aneksów.
 
 `REG-SRC-002` — D.S.J., „Formula One Trend of Design”, „Motor Sport”, maj 1981,
-typ `PRESS`, współczesne, ryzyko spoilera `none`;
+typ `PRESS`, współczesne, ryzyko spoilera `contains-later-material`;
 [s. 45](https://www.motorsportmagazine.com/archive/article/may-1981/45/formula-one-trend-design/),
 dostęp 2026-08-03. Wspiera wyłącznie przedgraniczny kontekst efektu przypowierzchniowego,
 przesuwnych fartuchów, ich zakazu oraz regulacji prześwitu; nie rozstrzyga

@@ -91,19 +91,19 @@ otwarte, a niezweryfikowaną czasowo wersję harmonogramu zapisano osobno w
 ## Uwagi źródłowe
 
 - **CTX-01 / MS-1981-12-76** — A.H., „Nelson Piquet”, *Motor Sport*, December
-  1981, `PRESS`, `contemporary: true`, `spoiler_risk: none`; pełny locator:
+  1981, `PRESS`, `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
   https://www.motorsportmagazine.com/archive/article/december-1981/76/nelson-piquet/
   (s. 76). Wspiera wyłącznie status Piqueta jako mistrza świata kierowców 1981
   oraz współczesny kontekst tego tytułu.
 - **CTX-02 / MS-1981-12-48** — Denis Jenkinson, „The Frank Williams Team”,
   *Motor Sport*, December 1981, `PRESS`, `contemporary: true`,
-  `spoiler_risk: none`; pełny locator:
+  `spoiler_risk: contains-later-material`; pełny locator:
   https://www.motorsportmagazine.com/archive/article/december-1981/48/the-frank-williams-team-2/
   (s. 48). Wspiera mistrzostwo producentów Williamsa w 1981, drugi kolejny
   tytuł oraz przypisane pismu oczekiwanie walki o trzeci.
 - **CTX-03, CTX-04, CTX-06 / MS-1982-01-31** — Denis Jenkinson, „The Formula
   One Scene”, *Motor Sport*, January 1982 (dokładny dzień nieznany),
-  `PRESS`, `contemporary: true`, `spoiler_risk: none`; pełny locator:
+  `PRESS`, `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
   https://www.motorsportmagazine.com/archive/article/january-1982/31/formula-one-scene/
   (s. 31). Zawiera prasowy opis konfliktu, Concorde Agreement i interpretowania
   reguł, lecz brak daty dziennej blokuje użycie tych treści jako wiedzy
@@ -116,20 +116,20 @@ otwarte, a niezweryfikowaną czasowo wersję harmonogramu zapisano osobno w
   regulacjami sportowymi i technicznymi w pierwszym Concorde Agreement.
 - **CTX-06, CTX-07 / MS-1982-01-35** — „The 1982 International Racing Season”,
   *Motor Sport*, January 1982 (dokładny dzień nieznany), `PRESS`,
-  `contemporary: true`, `spoiler_risk: none`; pełny locator:
+  `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
   https://www.motorsportmagazine.com/archive/article/january-1982/35/the-1982-international-racing-season/
   (s. 35). Zawiera stwierdzenie o formalnym pokoju oraz doniesienie łączące
   nieobecność Zandvoort i Jaramy z niezapłaconymi rachunkami za 1981, ale brak
   daty dziennej blokuje użycie tych treści przed cutoff.
 - **CTX-08 / MS-1981-12-35** — „Matters of moment, December 1981”, *Motor
   Sport*, December 1981, `PRESS`, `contemporary: true`,
-  `spoiler_risk: none`; pełny locator:
+  `spoiler_risk: contains-later-material`; pełny locator:
   https://www.motorsportmagazine.com/archive/article/december-1981/35/matters-of-moment-december-1981/
   (s. 35). Wspiera redakcyjną obserwację o większej ekspozycji F1 w BBC w 1981
   oraz o widoczności oznaczeń reklamowych na samochodach.
 - **PEO-05 / MS-1982-01-33** — Denis Jenkinson, „Behind the Grand Prix Scene:
   ELF”, *Motor Sport*, January 1982 (dokładny dzień nieznany),
-  `PRESS`, `contemporary: true`, `spoiler_risk: none`; pełny locator:
+  `PRESS`, `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
   https://www.motorsportmagazine.com/archive/article/january-1982/33/behind-grand-prix-scene-2/
   (s. 33). Zawiera opis modelu wsparcia ELF i jego relacji z Renault, lecz brak
   daty dziennej blokuje użycie tych treści przed cutoff.

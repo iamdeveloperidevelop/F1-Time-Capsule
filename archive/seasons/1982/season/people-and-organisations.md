@@ -146,30 +146,30 @@ domysłem.
   komercyjnych i kontroli regulacyjnej. Dalsza biografia nie jest użyta.
 - **PEO-03 / MS-1982-01-31** — Denis Jenkinson, „The Formula One Scene”,
   *Motor Sport*, January 1982 (dokładny dzień nieznany), `PRESS`,
-  `contemporary: true`, `spoiler_risk: none`; pełny locator:
+  `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
   https://www.motorsportmagazine.com/archive/article/january-1982/31/formula-one-scene/
   (s. 31). Zawiera opis pozycji Ecclestone’a i relacji FISA–FOCA, lecz brak daty
   dziennej blokuje użycie tych treści przed cutoff.
 - **PEO-03 / MS-1981-12-76** — A.H., „Nelson Piquet”, *Motor Sport*, December
-  1981, `PRESS`, `contemporary: true`, `spoiler_risk: none`; pełny locator:
+  1981, `PRESS`, `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
   https://www.motorsportmagazine.com/archive/article/december-1981/76/nelson-piquet/
   (s. 76, akapit o przejściu Piqueta do Brabhama). Dodatkowo wspiera
   identyfikację Ecclestone’a jako właściciela zespołu Brabham.
 - **PEO-04 / MS-1981-01-34** — Denis Jenkinson, „Spectators: Are they
   necessary?”, *Motor Sport*, January 1981, `PRESS`, `contemporary: true`,
-  `spoiler_risk: none`; pełny locator:
+  `spoiler_risk: contains-later-material`; pełny locator:
   https://www.motorsportmagazine.com/archive/article/january-1981/34/spectators/
   (s. 34). Wspiera określenie Mosleya jako prawnego zaplecza Ecclestone’a i
   FOCA oraz przypisaną mu opinię o gospodarczej skali telewizji.
 - **PEO-05 / MS-1982-01-33** — Denis Jenkinson, „Behind the Grand Prix Scene:
   ELF”, *Motor Sport*, January 1982 (dokładny dzień nieznany), `PRESS`,
-  `contemporary: true`, `spoiler_risk: none`; pełny locator:
+  `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
   https://www.motorsportmagazine.com/archive/article/january-1982/33/behind-grand-prix-scene-2/
   (s. 33). Zawiera opis funkcji François Guitera i modelu wsparcia ELF, lecz
   brak daty dziennej blokuje użycie tych treści przed cutoff.
 - **PEO-06 / MS-1982-01-35** — „The 1982 International Racing Season”, *Motor
   Sport*, January 1982 (dokładny dzień nieznany), `PRESS`,
-  `contemporary: true`, `spoiler_risk: none`; pełny locator:
+  `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
   https://www.motorsportmagazine.com/archive/article/january-1982/35/the-1982-international-racing-season/
   (s. 35). Zawiera opis FISA i deklarację formalnego pokoju FISA–FOCA, lecz brak
   daty dziennej blokuje użycie tych treści przed cutoff.

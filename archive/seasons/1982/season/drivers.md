@@ -851,7 +851,7 @@ publication_date: "1981-11-12"
 event_date: "1981-11-12"
 source_type: "PRESS"
 contemporary: true
-spoiler_risk: "none"
+spoiler_risk: "contains-later-material"
 locator: "https://www.upi.com/Archives/1981/11/12/Austrian-driver-Niki-Lauda-a-two-time-Grand-Prix-champion/2164374389200/"
 access_date: "2026-08-03"
 supports:
@@ -871,7 +871,7 @@ publication_date: "1981-12-18"
 event_date: "1981-12-18"
 source_type: "PRESS"
 contemporary: true
-spoiler_risk: "none"
+spoiler_risk: "contains-later-material"
 locator: "https://www.upi.com/Archives/1981/12/18/Carlos-Reutemann-of-Argentina-runner-up-in-the-1981-World/9118377499600/"
 access_date: "2026-08-03"
 supports:
