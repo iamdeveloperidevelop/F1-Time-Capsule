@@ -41,7 +41,9 @@ Before browsing, researching, or modifying files:
    previous standings snapshot where applicable, and every needed canonical
    race/shared template.
 3. Require `pre-race.md` to be completed or reviewed under canonical statuses,
-   with source and spoiler audits sufficient for progression.
+   with no unresolved reader-facing spoiler-audit issue. A partial source audit
+   is sufficient when the cutoff-safe limitations are recorded in
+   `things-to-resolve-after-season.md`.
 4. Verify state permits `/post-race` for this exact season and round. If not,
    stop and name the expected previous action. If state conflicts with verified
    metadata, report the conflict and do not advance.
@@ -67,6 +69,11 @@ driver replacements, later calendar changes, end-of-season conclusions, later
 accidents or conflicts, and retrospective statements such as “this proved
 decisive for the championship.” Label classifications and points provisional
 whenever that is their status at the cutoff.
+
+Do not require the user to provide missing archival evidence. Omit unsupported
+claims or label only supportable uncertainty, then record the concrete evidence
+gap in `things-to-resolve-after-season.md`. A later authorized boundary may
+resolve it, but must not backfill the earlier document.
 
 Use the `researcher` or `historical-f1-research` workflow for cutoff-safe
 evidence, the `source-auditor` or `source-verification` workflow for claim
@@ -115,6 +122,8 @@ Run:
 - metadata, contradiction, and Polish-language checks.
 
 Advance statuses only when actual results allow it.
+Partial source status does not block progression when all reader-facing claims
+remain cutoff-safe and the season ledger records the outstanding evidence.
 
 ## State transition
 

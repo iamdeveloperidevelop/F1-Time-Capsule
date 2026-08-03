@@ -22,8 +22,14 @@ source dates, and whether the cutoff matches the document type.
   Use `event: null` only when the document is genuinely season-wide.
 - **Duplication:** link to a fact's primary home and include only the context
   this document needs.
-- **Audit:** the document cannot advance to verified status until
-  `spoiler_audit_status: passed` and `source_status: audited`.
+- **Audit:** the document cannot advance to `verified` status until
+  `spoiler_audit_status: passed` and `source_status: audited`. A later workflow
+  transition may still use a safe document with `source_status: partial` when
+  its reader-facing claims are cutoff-safe, its limitations are explicit, and
+  each unresolved item is recorded in
+  `things-to-resolve-after-season.md`. `issues-found` never permits progression
+  until the reader-facing issue is removed or rewritten as cutoff-safe
+  uncertainty.
 
 ## Season prelude
 

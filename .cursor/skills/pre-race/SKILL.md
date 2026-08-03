@@ -39,7 +39,9 @@ Before browsing, researching, or modifying files:
    `pre-weekend.md` and `sources.md`, related canonical season references, and
    the canonical `templates/race/pre-race.template.md`.
 3. Require `pre-weekend.md` to be completed or reviewed under canonical
-   statuses, with source and spoiler audit results sufficient for progression.
+   statuses, with no unresolved reader-facing spoiler-audit issue. A partial
+   source audit is sufficient when the document's cutoff-safe limitations are
+   recorded in `things-to-resolve-after-season.md`.
 4. Verify that state permits `/pre-race` for this exact season and round. If it
    does not, stop and name the expected previous action. If state conflicts
    with verified metadata, report the conflict rather than widening scope.
@@ -72,6 +74,10 @@ Exclude race-start incidents, formation-lap developments occurring after the
 declared cutoff, race results, retirements, post-race penalties, later appeals,
 future significance, and any viewing cue shaped by knowledge of the result.
 
+Do not require the user to provide missing archival evidence. Omit an
+unsupported claim or record only the supportable uncertainty, then add the
+specific evidence gap to `things-to-resolve-after-season.md`.
+
 Use the existing researcher, source-auditor, spoiler-auditor, and editor roles
 or their corresponding helper skills. Keep the verified claim set fixed during
 language editing.
@@ -102,14 +108,17 @@ CO MUSZĘ WIEDZIEĆ PRZED STARTEM
 and no more than 12 short points.
 
 Run metadata, source, spoiler, contradiction, Polish-language, and repetition
-audits. Advance statuses only when the actual results support them.
+audits. Advance statuses only when the actual results support them. Partial
+source status is compatible with progression when reader-facing claims are
+cutoff-safe and the season ledger records what remains unresolved.
 
 After successful completion, update `archive-state.yaml` in place using only
 its canonical schema:
 
 - active season and round identify this event;
 - `current_stage` is `pre-race`;
-- `knowledge_cutoff` is this document's verified pre-start cutoff;
+- `knowledge_cutoff` is this document's verified pre-start cutoff or narrowest
+  supported descriptive boundary;
 - `last_completed_document` is this `pre-race.md`;
 - `next_allowed_action` is `/post-race [SEASON] [ROUND]`.
 

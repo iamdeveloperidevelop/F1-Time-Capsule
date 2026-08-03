@@ -95,6 +95,7 @@ Populate the complete canonical season package:
 archive/seasons/[SEASON]/
 ├── README.md
 ├── metadata.yaml
+├── things-to-resolve-after-season.md
 └── season/
     ├── prelude.md
     ├── context.md
@@ -168,9 +169,15 @@ For every changed season document:
 6. re-run source and spoiler checks after substantive edits.
 
 Advance canonical document statuses only when their actual audit results allow
-it. Do not invent status values or duplicate source entries.
+it. Do not invent status values or duplicate source entries. A document may
+remain `source_status: partial` without blocking preparation or the next
+explicitly requested stage when every reader-facing claim is cutoff-safe and
+the unresolved evidence is recorded in `things-to-resolve-after-season.md`.
+`spoiler_audit_status: issues-found` still requires remediation: remove the
+unsafe claim or rewrite it as supported uncertainty before progression.
 
-After the entire season package passes its required audits, update
+After the entire season package has no unresolved reader-facing spoiler issue,
+update
 `archive-state.yaml` in place using only its current schema and allowed enum
 values. The semantic result is:
 
@@ -181,6 +188,12 @@ values. The semantic result is:
 - `last_completed_document`: the final canonical season document completing
   the package;
 - `next_allowed_action`: `/pre-weekend [SEASON] [FIRST_ROUND]`.
+
+Do not require the user to locate missing historical evidence. When an exact
+time, calendar detail, entry, rule, or other claim cannot be verified, use the
+narrowest supported uncertainty in the relevant document, omit unsupported
+facts, and record a concrete follow-up item in
+`things-to-resolve-after-season.md`.
 
 Do not add a season-package field if the schema has none. Document metadata
 statuses carry completion and review state. If the canonical schema cannot
@@ -198,9 +211,10 @@ Before completion verify:
 
 - every season document exists, uses its canonical contract, and has the same
   compatible preseason boundary;
-- every changed claim is cutoff-safe and exactly supported;
+- every reader-facing claim is cutoff-safe and exactly supported, or omitted;
 - source, spoiler, metadata, contradiction, language, and repetition checks
-  passed or unresolved issues are explicitly reported;
+  passed, or unresolved source questions are explicitly recorded in
+  `things-to-resolve-after-season.md`;
 - race folders match only the calendar known at the cutoff and canonical
   templates, with no populated race-stage content;
 - no existing verified or manually written content was overwritten;

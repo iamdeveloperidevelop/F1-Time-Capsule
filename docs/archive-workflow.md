@@ -18,12 +18,17 @@ stands. It is not evidence and must never be used to resolve a historical claim.
 Before any transition:
 
 1. read the target document metadata and selected contract;
-2. verify the proposed cutoff from cutoff-safe sources;
+2. verify the proposed cutoff from cutoff-safe sources, or record the narrowest
+   supported descriptive boundary and its uncertainty;
 3. confirm that the transition was explicitly requested;
 4. preserve all earlier-boundary documents unchanged.
 
 If `archive-state.yaml` conflicts with verified document metadata, stop
 progression, correct the workflow pointer, and do not widen any document.
+An unresolved source, calendar, or historical-detail question does not itself
+block progression: omit the unsupported reader-facing claim, state only
+cutoff-safe uncertainty where useful, and add the gap to the season's
+`things-to-resolve-after-season.md` ledger. Do not ask the user to verify it.
 
 ## Allowed stages
 
@@ -60,6 +65,11 @@ A stage name is not proof that its documents passed review. Check
 10. Move state from `uninitialized` to `season-prelude`; do not skip directly to
     a race stage.
 
+If a source, schedule detail, entry, or regulation cannot be verified, record
+it in `things-to-resolve-after-season.md`. A season package may progress with
+`source_status: partial` when all reader-facing statements are safe at their
+declared boundary and no spoiler-audit issue remains.
+
 Structure-only initialization does not establish a verified historical cutoff,
 even if placeholders describe where that cutoff will later be recorded.
 
@@ -72,6 +82,10 @@ even if placeholders describe where that cutoff will later be recorded.
 5. Verify its claims and source entries.
 6. Run the spoiler audit.
 7. Set state to `pre-weekend` only for the requested `[ROUND]`.
+
+Unresolved facts are recorded in the season ledger, not treated as a request for
+the user to supply evidence. Omit them from the brief or label only the
+cutoff-safe uncertainty they create.
 
 ## Before watching the race
 

@@ -4,6 +4,11 @@ These project-level Cursor Agent Skills are manually invoked. Each command
 validates its arguments and preserves the archive's current knowledge boundary.
 No command automatically advances into the next spoiler stage.
 
+An unresolved archival question is recorded in the season's
+`things-to-resolve-after-season.md` ledger. It does not require user
+verification or block an otherwise cutoff-safe, explicitly requested transition;
+unsupported claims remain out of reader-facing prose.
+
 ## `/init-season [YYYY]`
 
 Creates empty season scaffolding from canonical templates and updates the

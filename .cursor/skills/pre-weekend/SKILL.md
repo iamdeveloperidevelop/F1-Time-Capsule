@@ -37,9 +37,13 @@ Before browsing, researching, or modifying files:
    `docs/archive-workflow.md`.
 2. Read `archive-state.yaml`, season metadata, `season/calendar.md`, every race
    folder candidate for the normalized round, and the canonical race templates.
-3. Verify that the season exists, its complete preseason package has a valid
-   cutoff, the selected event belongs to the historically valid calendar at the
-   current boundary, and state permits this exact next transition.
+3. Verify that the season exists, its preseason package has a declared
+   cutoff (or the narrowest supported descriptive boundary), the selected event
+   is supported by the calendar evidence available at the current boundary, and
+   state permits this exact next transition. A `source_status: partial` season
+   package is sufficient when its reader-facing content has no unresolved
+   spoiler-audit issue and its gaps are recorded in
+   `things-to-resolve-after-season.md`.
 4. For rounds after 01, inspect the previous completed race's canonical
    `standings-after.md`, its metadata status, and unresolved classification
    issues. Do not reconstruct prior standings from later sources.
@@ -79,6 +83,11 @@ Only information publicly knowable by that cutoff is allowed, including:
 Exclude all information from the first official session onward, including
 practice, qualifying, grid, race, later rulings, and later-event knowledge.
 
+Do not require the user to find missing archival evidence. If an exact time,
+entry, forecast, circuit detail, or other fact cannot be verified, use only the
+narrowest supportable uncertainty or omit it, then add a concrete open item to
+the season's `things-to-resolve-after-season.md` ledger.
+
 Use the `researcher` or `historical-f1-research` workflow for evidence
 collection, the `source-auditor` or `source-verification` workflow for exact
 claim support, the `spoiler-auditor` or `spoiler-scope-audit` workflow in
@@ -101,14 +110,18 @@ do not generate `pre-race.md`, `post-race.md`, or standings.
 Run metadata, source, spoiler, contradiction, Polish-language, and repetition
 audits. Link to canonical season references and the previous standings snapshot
 instead of copying full biographies, histories, technical explanations, or
-tables. Advance statuses only when the actual audits permit it.
+tables. Advance statuses only when the actual audits permit it. A partial source
+audit does not block this state transition if all reader-facing claims are
+cutoff-safe and the ledger records the missing evidence; a spoiler-audit issue
+does block it until remediated.
 
 After successful completion, update `archive-state.yaml` in place using only
 its current schema:
 
 - active season and round identify this event;
 - `current_stage` is `pre-weekend`;
-- `knowledge_cutoff` is this document's verified cutoff;
+- `knowledge_cutoff` is this document's verified cutoff or narrowest supported
+  descriptive boundary;
 - `last_completed_document` is this `pre-weekend.md`;
 - `next_allowed_action` is `/pre-race [SEASON] [ROUND]`.
 
