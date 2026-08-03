@@ -6,7 +6,7 @@ event_slug: "south-african-grand-prix"
 race_directory: "archive/seasons/1982/races/01-south-african-grand-prix"
 cutoffs:
   pre_weekend: "Immediately before the planned start of the first official session of the South African Grand Prix at Kyalami on Thursday, 21 January 1982; exact time unknown"
-  pre_race: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
+  pre_race: "Immediately before the scheduled start at Kyalami; a later archive associates the event with Saturday, 23 January 1982, and the exact clock time is unverified"
   post_race: "[END OF THE INCLUDED IMMEDIATE OFFICIAL POST-RACE PROCESS]"
 immediate_official_post_race_process: "[PRECISE INCLUDED PROCEDURES AND END BOUNDARY]"
 document_order:
@@ -15,4 +15,4 @@ document_order:
   - "post-race.md"
   - "standings-after.md"
 source_ledger: "sources.md"
-notes: "Dla zgodności pakiet sezonu tymczasowo wiąże granicę z 21 stycznia 1982, lecz zachowane źródła nie ustalają niezależnie daty ani godziny; rozbieżność daty i formatu pozostaje otwarta jako 1982-R01-CUT-02."
+notes: "Dla zgodności pakiet sezonu tymczasowo wiąże granicę pre-weekend z 21 stycznia 1982, lecz zachowane źródła nie ustalają niezależnie daty ani godziny; rozbieżność daty i formatu pozostaje otwarta jako 1982-R01-CUT-02. Granicę pre-race późniejsze archiwum łączy z 23 stycznia, ale nie jest to datowany harmonogram; godzina 14:00 lokalnie występuje wyłącznie jako niezweryfikowany późniejszy raport bazodanowy."
