@@ -57,8 +57,21 @@ archive/seasons/[SEASON]/
     └── glossary.md
 ```
 
-Each destination file must have a canonical source counterpart under
-`templates/season/`; preserve the canonical relative mapping defined there.
+Use this canonical template-to-destination map:
+
+| Template | Destination under `archive/seasons/[SEASON]/` |
+| --- | --- |
+| `README.template.md` | `README.md` |
+| `metadata.template.yaml` | `metadata.yaml` |
+| `prelude.template.md` | `season/prelude.md` |
+| `context.template.md` | `season/context.md` |
+| `regulations.template.md` | `season/regulations.md` |
+| `technology.template.md` | `season/technology.md` |
+| `teams.template.md` | `season/teams.md` |
+| `drivers.template.md` | `season/drivers.md` |
+| `people-and-organisations.template.md` | `season/people-and-organisations.md` |
+| `calendar.template.md` | `season/calendar.md` |
+| `glossary.template.md` | `season/glossary.md` |
 
 ## Preflight protection
 

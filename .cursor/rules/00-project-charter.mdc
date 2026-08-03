@@ -7,7 +7,8 @@ alwaysApply: true
 
 - This repository is a spoiler-safe historical Formula 1 archive in Phase 0.
 - Do not create historical content or broad content structures without an
-  explicit later-phase task.
+  explicit task. Placeholder-only scaffolding does not authorise historical
+  research or content.
 - Repository instructions, paths, and metadata use English and UTF-8. Future
   historical content defaults to Polish unless explicitly requested otherwise.
 - Never invent a historical fact, quotation, citation, or resolution of

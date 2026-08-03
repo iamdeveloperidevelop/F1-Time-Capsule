@@ -1,0 +1,16 @@
+season: "[SEASON]"
+document_type: "[DOCUMENT TYPE FROM docs/content-contracts.md]"
+event: "[GRAND PRIX OR null]"
+event_time: "[DATE, INTERVAL, OR HISTORICAL MOMENT DESCRIBED]"
+public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
+knowledge_cutoff: "[ISO DATE AND TIME WITH ZONE OR PRECISE HISTORICAL BOUNDARY]"
+spoiler_scope:
+  allowed:
+    - "[PERMITTED CATEGORY]"
+  forbidden:
+    - "[FORBIDDEN CATEGORY]"
+content_language: "pl"
+research_status: "planned"
+source_status: "unstarted"
+spoiler_audit_status: "not-run"
+last_verified: null

@@ -17,6 +17,9 @@ alwaysApply: true
   types merely because they may be useful later.
 - End historical content work with metadata, spoiler, source, contradiction,
   and redundancy checks.
+- Follow `docs/archive-workflow.md` for sequential cutoff transitions and use
+  `archive-state.yaml` only as a workflow pointer. The target document metadata
+  and verified sources remain authoritative for historical knowledge.
 
 Project-level subagents in `.cursor/agents/` are focused roles, not independent
 policy authorities. Canonical policy remains in `docs/`.

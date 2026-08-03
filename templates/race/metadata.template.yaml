@@ -1,0 +1,18 @@
+schema_version: 1
+season: "[SEASON]"
+round: "[ROUND]"
+event: "[GRAND PRIX]"
+event_slug: "[grand-prix-slug]"
+race_directory: "archive/seasons/[SEASON]/races/[ROUND]-[grand-prix-slug]"
+cutoffs:
+  pre_weekend: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+  pre_race: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
+  post_race: "[END OF THE INCLUDED IMMEDIATE OFFICIAL POST-RACE PROCESS]"
+immediate_official_post_race_process: "[PRECISE INCLUDED PROCEDURES AND END BOUNDARY]"
+document_order:
+  - "pre-weekend.md"
+  - "pre-race.md"
+  - "post-race.md"
+  - "standings-after.md"
+source_ledger: "sources.md"
+notes: "[BOUNDARY OR STRUCTURAL NOTES ONLY OR null]"

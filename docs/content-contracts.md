@@ -229,14 +229,15 @@ source dates, and whether the cutoff matches the document type.
 - **Forbidden knowledge:** next-event information, later appeals or rulings,
   later diagnoses, future consequences, and season hindsight.
 - **Expected sections:** boundary; race narrative; decisive factors knowable by
-  cutoff; classification; retirements; official action; standings; reactions;
-  unresolved issues; sources.
+  cutoff; classification; retirements; official action; brief standings
+  context linked to the snapshot; reactions; unresolved issues; sources.
 - **Sources:** official timing, classification and decisions; contemporary
   reports, broadcasts, and attributed participant reactions.
-- **Length:** approximately 1,800–3,500 words plus canonical result and standings
-  sections.
-- **Duplication boundary:** does not replay the full prelude; references prior
-  context and owns the event's immediate outcome.
+- **Length:** approximately 1,800–3,500 words plus the canonical race
+  classification.
+- **Duplication boundary:** does not replay the full prelude; owns the event's
+  narrative and classification, but does not duplicate the full championship
+  tables from `standings-after.md`.
 - **Metadata and audit:** post-race-report type; state the exact procedural
   cutoff; label unresolved matters and exclude their later resolution.
 
@@ -253,9 +254,29 @@ source dates, and whether the cutoff matches the document type.
   recalculated where useful.
 - **Length:** tables plus approximately 150–500 explanatory words.
 - **Duplication boundary:** canonical snapshot linked by reports; do not maintain
-  competing copies for the same boundary.
+  competing copies for the same boundary. It is the primary home for driver and
+  constructor standings tables and points gained at the event.
 - **Metadata and audit:** standings-snapshot type; event identifies the boundary;
   verify arithmetic, tie-breaking, eligibility, and status as of the cutoff.
+
+## Race source ledger
+
+- **Purpose:** keep one claim-linked source record for all documents in a race
+  folder.
+- **Allowed knowledge:** source metadata, support scope, and uncertainty needed
+  by race documents at or before the ledger's declared cutoff.
+- **Forbidden knowledge:** later source content in claims or narrative. A later
+  source may be recorded only with its spoiler risk and strict isolation.
+- **Expected sections:** boundary; repeated canonical source entries; conflict
+  and uncertainty index.
+- **Sources:** each entry follows `docs/source-policy.md` and
+  `templates/shared/source-entry.template.yaml`.
+- **Length:** no prose target; store only metadata and notes needed for
+  traceability.
+- **Duplication boundary:** `sources.md` is the sole race-folder ledger;
+  documents cite source and claim identifiers rather than copying source lists.
+- **Metadata and audit:** race-source-ledger type; advance its cutoff only when
+  it begins supporting a later race document and recheck spoiler risk.
 
 ## Season retrospective
 

@@ -5,7 +5,8 @@ description: Use when verifying that historical claims are exactly supported by 
 
 # Source verification
 
-Read `docs/source-policy.md` and `docs/temporal-scope.md`.
+Read `docs/source-policy.md` and `docs/temporal-scope.md`. Use
+`templates/shared/source-entry.template.yaml` for source records.
 
 ## Inputs
 

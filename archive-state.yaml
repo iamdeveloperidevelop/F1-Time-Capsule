@@ -1,0 +1,15 @@
+schema_version: 1
+active_season: null
+active_round: null
+current_stage: "uninitialized"
+knowledge_cutoff: null
+last_completed_document: null
+next_allowed_action: "initialize-season"
+allowed_stages:
+  - "uninitialized"
+  - "season-prelude"
+  - "pre-weekend"
+  - "pre-race"
+  - "post-race"
+  - "season-complete"
+authority_note: "Workflow aid only; document metadata and verified sources define historical knowledge."

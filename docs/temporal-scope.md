@@ -67,10 +67,15 @@ spoiler_audit_status: "[not-run | issues-found | corrected | passed]"
 last_verified: "[YYYY-MM-DD OR null]"
 ```
 
+Archive Markdown stores this schema as YAML front matter. The reusable copy is
+`templates/shared/document-metadata.template.yaml`; it mirrors this contract and
+must not define competing keys or status values.
+
 `event_time` records when described events occurred.
 `public_knowledge_time` records when the newest used information became
 knowable. `knowledge_cutoff` is the hard ceiling on permitted knowledge. These
 values must not be treated as interchangeable with a source's publication date.
+`public_knowledge_time` must not exceed `knowledge_cutoff`.
 For a document spanning multiple events, use an interval and record more precise
 dates with individual claims or sources.
 
@@ -79,6 +84,19 @@ dates with individual claims or sources.
 it. `content_language` records the actual output language; `pl` is the default,
 not a forced value when another language is explicitly requested. Status values
 describe workflow state, not evidentiary confidence.
+
+Initial template status is `research_status: planned`,
+`source_status: unstarted`, and `spoiler_audit_status: not-run`. Do not introduce
+synonyms such as `not-started` or `not-verified`.
+
+The race filenames map to existing contract types as follows:
+
+- `pre-weekend.md` uses `document_type: race-prelude`;
+- `pre-race.md` uses `document_type: pre-start-weekend-brief`;
+- `post-race.md` uses `document_type: post-race-report`;
+- `standings-after.md` uses `document_type: standings-snapshot`;
+- `sources.md` is a supporting `race-source-ledger`, bounded by the latest
+  document cutoff it supports and using the canonical source-entry schema.
 
 ## Absolute spoiler policy
 

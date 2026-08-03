@@ -17,4 +17,22 @@ future facts, hindsight, foreshadowing, and later-informed emphasis are spoilers
   the phase; an isolated content-like request does not change it implicitly.
 - Do not commit or push unless the user explicitly instructs you to do so.
 
+An explicit Phase 0 scaffolding task may create placeholder-only directories,
+templates, repository state, and workflow documentation. It does not authorise
+historical research, populated season or race directories, or factual content.
+
+Use `templates/` for future documents, `docs/archive-workflow.md` for sequential
+state transitions, and `docs/agent-task-recipes.md` for task contracts. The
+machine-readable `archive-state.yaml` is a workflow aid, never historical
+evidence or a substitute for document metadata.
+
+When instructions conflict, apply this authority order:
+
+1. explicit current user instruction;
+2. the target document's declared knowledge cutoff;
+3. canonical spoiler and source policy;
+4. the selected content contract;
+5. the relevant template;
+6. style preference.
+
 Detailed policy lives in `docs/`; do not duplicate it in local instructions.
