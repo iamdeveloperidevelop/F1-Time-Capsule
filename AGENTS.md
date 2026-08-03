@@ -25,6 +25,9 @@ state transitions, and `docs/agent-task-recipes.md` for task contracts. The
 machine-readable `archive-state.yaml` is a workflow aid, never historical
 evidence or a substitute for document metadata.
 
+Use the manually invoked archive commands listed in
+`docs/commands.md`; normal season work begins with `/prepare-season [YYYY]`.
+
 When instructions conflict, apply this authority order:
 
 1. explicit current user instruction;

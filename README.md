@@ -27,8 +27,9 @@ document's permitted knowledge.
 ## Current status: Phase 0 scaffolding
 
 This repository contains governance, research methodology, future content
-contracts, reusable templates, and placeholder-only archive scaffolding. No
-season directory, race directory, or historical content has been generated.
+contracts, reusable templates, and placeholder-only archive scaffolding. A
+season scaffold may be initialized, but no historical content is authorized by
+scaffolding alone.
 
 The canonical policies are:
 
@@ -46,7 +47,9 @@ The canonical policies are:
   repository-state transitions;
 - [`docs/agent-task-recipes.md`](docs/agent-task-recipes.md) — reusable
   natural-language task contracts.
+- [`docs/commands.md`](docs/commands.md) — manually invoked archive workflow
+  commands.
 
 See [`AGENTS.md`](AGENTS.md) for the shortest AI-agent entry point. A user must
 explicitly begin Phase 1 or authorise historical content. Generic templates and
-the empty `archive/seasons/` root do not themselves change the project phase.
+placeholder season scaffolds do not themselves change the project phase.
