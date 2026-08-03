@@ -98,9 +98,10 @@ McLaren tworzył parę John Watson–Niki Lauda.
 
 ### Kierowcy i wyposażenie w źródłach
 
-Plan na początek obejmował McLarena MP4/1B z silnikiem Cosworth DFV. Silnik
-Porsche był zapowiadany jako projekt na przyszłość, a nie wyposażenie na
-otwarcie sezonu.
+Datowane źródło UPI potwierdzało powrót Laudy do McLarena i zapowiedziany projekt
+Porsche na przyszłość. Szczegóły wyposażenia na otwarcie pozostają
+niezweryfikowane w tym dokumencie i należą do pozycji `1982-ENT-01` w
+[`things-to-resolve-after-season.md`](../things-to-resolve-after-season.md).
 
 ### Deklarowane cele i współczesne oczekiwania
 

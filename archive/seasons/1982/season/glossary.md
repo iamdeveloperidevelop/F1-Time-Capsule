@@ -89,11 +89,10 @@ nadwozia, aby podążać za nawierzchnią; współczesne źródło opisuje jego 
 
 ## Hybrid (samochód hybrydowy)
 
-W badanym, niedatowanym PDF FIA był to termin regulaminowy, nie określenie
-współczesnego napędu spalinowo-elektrycznego. Art. 1.6 nazywał „hybrydą”
-samochód, w którym konstruktor auta montował silnik innego producenta; w tym
-wariancie tekstu nazwa konstruktora samochodu miała poprzedzać nazwę producenta
-silnika (`GLO-1982-005`).
+W badanym, niedatowanym PDF FIA art. 1.6 nazywał „hybrydą” samochód, w którym
+konstruktor auta montował silnik innego producenta; w tym wariancie tekstu nazwa
+konstruktora samochodu miała poprzedzać nazwę producenta silnika
+(`GLO-1982-005`).
 
 - Zobacz także: [Monokok (cela przetrwania)](#monokok-cela-przetrwania)
 - Identyfikatory źródeł: `GLO-SRC-001`
