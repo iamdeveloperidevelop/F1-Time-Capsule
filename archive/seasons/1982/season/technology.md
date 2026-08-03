@@ -130,11 +130,11 @@ okaże się skuteczne.
   planowanego, podwójnie turbodoładowanego V8 1,5 l (`TECH-1982-014`).
   Plan nie jest tu zamieniany w stwierdzenie o późniejszym użyciu.
 
-Rynek opon obejmował Goodyear, Michelin, Pirelli oraz wspólny program
-Avon/International Race Tire Service (IRTS) (`TECH-1982-015`). Artykuł z
-października 1981 potwierdza obecność czterech dostawców i organizacyjną rolę
-IRTS przy oponach Avon. Nie rekonstruuje się tutaj pełnych przydziałów dla
-zespołów na styczeń 1982, ponieważ dostępne bezpieczne źródło ich nie ustala.
+Artykuł z października 1981 odnotowywał Goodyear, Michelin, Pirelli oraz
+wspólny program Avon/International Race Tire Service (IRTS) (`TECH-1982-015`).
+Nie potwierdza on jednak ich stanu na styczeń 1982 ani pełnych przydziałów dla
+zespołów; te kwestie pozostają otwarte w
+[`things-to-resolve-after-season.md`](../things-to-resolve-after-season.md).
 
 ## Kompromisy konstrukcyjne
 
@@ -146,11 +146,8 @@ ruchami samochodu względem nawierzchni po zakazie przesuwnych fartuchów. Jest 
 przypisane wyjaśnienie prasowe, nie niezależnie zweryfikowany opis każdego
 samochodu.
 
-Stwierdzenie, że materiały przekładkowe mogą zwiększać sztywność przy
-ograniczonej masie, jest ogólnym wyjaśnieniem inżynierskim, a nie twierdzeniem
-potwierdzonym przez zebrane źródła o konkretnej konstrukcji. Samo wymienienie
-włókna węglowego, Nomexu czy aluminium nie dowodzi właściwości ani przewagi
-gotowego samochodu (`TECH-1982-018`).
+Samo wymienienie włókna węglowego, Nomexu czy aluminium w źródle nie dowodzi
+właściwości ani przewagi konkretnego samochodu (`TECH-1982-018`).
 
 ## Otwarte pytania techniczne
 

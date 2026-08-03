@@ -57,7 +57,7 @@ poziom wynikający z normalnego ciśnienia atmosferycznego oraz efektów
 dynamicznych dolotu i wydechu. W tym wariancie tekstu sam wtrysk paliwa pod
 ciśnieniem nie stanowił doładowania (`GLO-1982-002`).
 
-- Zobacz także: [Turbosprężarka](#turbosprężarka), [Silnik wolnossący](#silnik-wolnossący)
+- Zobacz także: [Silnik wolnossący](#silnik-wolnossący)
 - Identyfikatory źródeł: `GLO-SRC-001`
 - Niepewność: brak
 
@@ -117,19 +117,8 @@ atmosferycznego oraz naturalnych zjawisk dynamicznych w dolocie i wydechu. W tym
 wariancie art. 5 dopuszczał dla takiego silnika pojemność do 3000 cm³
 (`GLO-1982-008`).
 
-- Zobacz także: [Doładowanie](#doładowanie), [Turbosprężarka](#turbosprężarka)
+- Zobacz także: [Doładowanie](#doładowanie)
 - Identyfikatory źródeł: `GLO-SRC-001`
-- Niepewność: brak
-
-## Turbosprężarka
-
-Badany, niedatowany tekst FIA klasyfikował silnik wykorzystujący taki układ jako
-doładowany i ograniczał tę kategorię do 1500 cm³ (`GLO-1982-009`). Zebrane
-źródła nie stanowią tu osobnego potwierdzenia szczegółowego mechanizmu turbiny
-i sprężarki.
-
-- Zobacz także: [Doładowanie](#doładowanie), [Silnik wolnossący](#silnik-wolnossący)
-- Identyfikatory źródeł: `GLO-SRC-001`, `GLO-SRC-003`
 - Niepewność: brak
 
 ## Wysokość jazdy
