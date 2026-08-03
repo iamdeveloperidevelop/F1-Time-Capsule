@@ -22,8 +22,8 @@ source dates, and whether the cutoff matches the document type.
   Use `event: null` only when the document is genuinely season-wide.
 - **Duplication:** link to a fact's primary home and include only the context
   this document needs.
-- **Audit:** the document cannot advance to verified status until spoiler-scope
-  and source-verification audits pass.
+- **Audit:** the document cannot advance to verified status until
+  `spoiler_audit_status: passed` and `source_status: audited`.
 
 ## Season prelude
 
@@ -266,8 +266,8 @@ source dates, and whether the cutoff matches the document type.
   injuries, modern reputation, and historical hindsight unless a separately
   labelled future task explicitly widens scope.
 - **Expected sections:** boundary; season arc; sporting and technical themes;
-  teams and drivers; governance; final standings; unresolved season-end issues;
-  contemporary assessments; sources.
+  teams and drivers; governance; standings as of cutoff; unresolved season-end
+  issues; contemporary assessments; sources.
 - **Sources:** full season official record, contemporary season-end coverage,
   and earlier archive documents; later sources only under the strict isolation
   rule.
@@ -277,24 +277,10 @@ source dates, and whether the cutoff matches the document type.
 - **Metadata and audit:** season-retrospective type; cutoff at season conclusion;
   audit every legacy claim and exclude post-season resolutions beyond it.
 
-## Generic structural example
+## Generic body example
 
 ```text
----
-season: "[SEASON]"
-document_type: "[DOCUMENT TYPE]"
-event: "[GRAND PRIX OR null]"
-event_time: "[EVENT TIME]"
-public_knowledge_time: "[LATEST USED PUBLIC INFORMATION]"
-knowledge_cutoff: "[KNOWLEDGE CUTOFF]"
-spoiler_scope:
-  allowed: ["[ALLOWED CATEGORY]"]
-  forbidden: ["[FORBIDDEN CATEGORY]"]
-content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-last_verified: null
----
+[CANONICAL METADATA FROM docs/temporal-scope.md]
 
 # [TITLE]
 

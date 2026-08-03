@@ -18,7 +18,8 @@ Read `docs/source-policy.md` and `docs/temporal-scope.md`.
 
 1. Extract every material factual claim, quotation, number, and attributed
    expectation.
-2. Match each item to its cited source and exact locator.
+2. Match each item to its cited source and the most exact practical locator;
+   record limitations when the source does not permit one.
 3. Verify source identity, publication date, event date, and contemporaneity.
 4. Check that support entails the claim's exact wording and certainty.
 5. Rate source suitability using the canonical hierarchy.
@@ -44,7 +45,7 @@ source-status recommendation.
 ## Self-check
 
 - [ ] Every major claim and quotation was inventoried.
-- [ ] Exact locators and dates were checked where available.
+- [ ] Locators and dates were checked to the precision available.
 - [ ] Each citation supports the wording and certainty used.
 - [ ] Contemporary and later sources are distinguished.
 - [ ] Disagreement and inaccessible evidence are explicit.

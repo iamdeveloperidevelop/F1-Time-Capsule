@@ -30,17 +30,21 @@ Standings snapshots are tied to precise event cutoffs.
 
 ## State and review
 
-Metadata records `research_status`, `source_status`, and `last_verified`.
-Workflow state should not be encoded by duplicating a document into “generated”
-and “reviewed” folders: copies drift and weaken the canonical-home rule. A
-single canonical document plus version control and explicit review metadata is
-the current preference. If later publication tooling needs immutable generated
-artifacts, its output location must remain separate from authored source.
+Metadata records `research_status`, `source_status`, `spoiler_audit_status`, and
+`last_verified`. Workflow state should not be encoded by duplicating a document
+into “generated” and “reviewed” folders: copies drift and weaken the
+canonical-home rule. A single canonical document plus version control and
+explicit review metadata is the current preference. If later publication
+tooling needs immutable generated artifacts, its output location must remain
+separate from authored source.
 
-Research records may contain links or excerpts whose surrounding material
-spoils later events. Reader-facing content must never inherit those permissions.
-Access controls or tooling may eventually help, but the declared cutoff and
-human-readable evidence map remain authoritative.
+Research records may identify links, or store the minimum necessary excerpts,
+whose surrounding material spoils later events. Such material must be marked
+`contains_later_spoilers: true` and quarantined from the permitted evidence set;
+its existence is recordkeeping, not permission to use its later knowledge.
+Reader-facing content must never inherit those permissions. Access controls or
+tooling may eventually help, but the declared cutoff and human-readable
+evidence map remain authoritative.
 
 ## Navigation goals
 

@@ -11,7 +11,7 @@ in `docs/content-contracts.md`.
 ## Inputs
 
 - Document type and event, if any
-- Event time, public-knowledge boundary, and hard knowledge cutoff
+- Event time, latest-used public-knowledge time, and hard knowledge cutoff
 - Questions or claims to investigate
 - Existing source records and known constraints
 
@@ -20,7 +20,8 @@ in `docs/content-contracts.md`.
 1. Validate the metadata boundary before searching.
 2. Break the task into claims, uncertainties, and expected source types.
 3. Search the source hierarchy, favouring contemporary primary material.
-4. Record dates, source type, exact locator, spoiler risk, and supported claim.
+4. Record dates, source type, the most exact practical locator, any locator
+   limitation, spoiler risk, and supported claim.
 5. Separate confirmed facts, contemporary expectations, interpretations, and
    disagreements.
 6. Compare conflicting evidence without forcing a resolution.
@@ -43,7 +44,7 @@ spoiler-risk notes, unsupported gaps, and a drafting-ready evidence summary.
 
 - [ ] Every retained fact was knowable by the cutoff.
 - [ ] Publication, event, and public-knowledge dates are distinguished.
-- [ ] Important claims have exact support.
+- [ ] Important claims have exact support and the best practical locator.
 - [ ] Expectations and interpretations are labelled.
 - [ ] Conflicts and gaps remain visible.
 - [ ] Later-source contamination has been checked.

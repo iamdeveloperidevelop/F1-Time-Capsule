@@ -12,7 +12,9 @@ future facts, hindsight, foreshadowing, and later-informed emphasis are spoilers
 - Preserve credible conflicts and uncertainty instead of guessing or silently
   reconciling them.
 - Do not create broad repository or content structures without an explicit task.
-- Do not create historical content during Phase 0.
+- Do not create historical content during Phase 0. Only a user instruction that
+  explicitly begins Phase 1 or explicitly authorises historical content changes
+  the phase; an isolated content-like request does not change it implicitly.
 - Do not commit or push unless the user explicitly instructs you to do so.
 
 Detailed policy lives in `docs/`; do not duplicate it in local instructions.

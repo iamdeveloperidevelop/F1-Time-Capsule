@@ -11,8 +11,9 @@ alwaysApply: false
 Follow `docs/source-policy.md`.
 
 - Prefer official and contemporary evidence appropriate to the claim.
-- Map every important claim to an exact source location and distinguish
-  publication date, event date, and public-knowledge time.
+- Map every important claim to the most exact source location practical,
+  distinguish publication date, event date, and public-knowledge time, and
+  document why a precise locator is unavailable.
 - Attribute expectations; label cautious interpretation; preserve unresolved
   disagreement.
 - Never guess, silently combine incompatible accounts, or use a citation for

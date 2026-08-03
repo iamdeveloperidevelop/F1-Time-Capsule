@@ -36,8 +36,8 @@ publisher: "[PUBLISHER OR CREATOR]"
 publication_date: "[DATE OR unknown]"
 event_date: "[DATE, INTERVAL, OR not-applicable]"
 source_type: "[BULLETIN | RESULT | PRESS | ANNOUNCEMENT | BROADCAST | ARCHIVE | DATABASE | SECONDARY]"
-contemporary: true
-contains_later_spoilers: false
+contemporary: "[true | false]"
+contains_later_spoilers: "[true | false]"
 locator: "[URL, ARCHIVE REFERENCE, ISSUE/PAGE, OR TIMECODE]"
 supports:
   - claim_id: "[CLAIM ID]"
@@ -49,6 +49,10 @@ Unknown dates must remain `unknown`, not inferred. `publication_date`,
 `event_date`, and the content document's `knowledge_cutoff` are distinct.
 Record page, section, or timecode where practical. A citation supports only the
 claim expressed in `scope`, not every nearby statement.
+
+Set `contemporary` according to the source, not the desired evidence profile.
+Set `contains_later_spoilers: true` whenever any surrounding source material
+crosses the document cutoff, even if the cited fact is safely separable.
 
 ## Claim categories
 

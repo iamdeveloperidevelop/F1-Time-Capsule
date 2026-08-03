@@ -39,9 +39,12 @@ It may not use the next weekend or any later development.
 
 ### Season retrospective
 
-The boundary is the conclusion of the season. It may use knowledge through that
-point. Later historical hindsight is forbidden unless a future task explicitly
-requests it and the document labels it as a separate scope.
+The task must select an exact season-end boundary at or after the final scheduled
+event's immediate official procedures—for example, publication of the
+classification valid at that moment. It may use knowledge through that timestamp.
+Standings remain “as of cutoff” if unresolved matters exist. Later historical
+hindsight is forbidden unless a future task explicitly requests it and the
+document labels it as a separate scope.
 
 ## Required metadata contract
 
@@ -57,9 +60,10 @@ knowledge_cutoff: "[LATEST PERMITTED KNOWLEDGE MOMENT, WITH TIME ZONE IF KNOWN]"
 spoiler_scope:
   allowed: ["[PERMITTED CATEGORY]"]
   forbidden: ["[FORBIDDEN CATEGORY]"]
-content_language: "pl"
+content_language: "[BCP 47 LANGUAGE TAG; pl BY DEFAULT]"
 research_status: "[planned | researching | drafted | verified]"
 source_status: "[unstarted | partial | claim-mapped | audited]"
+spoiler_audit_status: "[not-run | issues-found | corrected | passed]"
 last_verified: "[YYYY-MM-DD OR null]"
 ```
 
@@ -72,7 +76,9 @@ dates with individual claims or sources.
 
 `spoiler_scope` must name allowed and forbidden categories, not merely say
 “spoiler-free.” A document may tighten its contract but may not silently widen
-it. Status values describe workflow state, not evidentiary confidence.
+it. `content_language` records the actual output language; `pl` is the default,
+not a forced value when another language is explicitly requested. Status values
+describe workflow state, not evidentiary confidence.
 
 ## Absolute spoiler policy
 
@@ -104,7 +110,8 @@ validated by later events. Remove dramatic foreshadowing even when it is vague.
 A later-published source may support a clearly separable fact about an earlier
 moment only if:
 
-1. the fact itself was knowable by the cutoff;
+1. contemporary evidence or explicit dated provenance within the later source
+   establishes that the fact was publicly knowable by the cutoff;
 2. its support can be isolated from later interpretation;
 3. no later outcome changes the wording, emphasis, or certainty; and
 4. the source record warns that the source contains material beyond the cutoff.

@@ -43,5 +43,6 @@ The canonical policies are:
 - [`docs/future-architecture.md`](docs/future-architecture.md) — a provisional
   content layout for a later phase.
 
-See [`AGENTS.md`](AGENTS.md) for the shortest AI-agent entry point. Phase 1
-must be explicitly requested; the proposed content tree is not yet instantiated.
+See [`AGENTS.md`](AGENTS.md) for the shortest AI-agent entry point. A user must
+explicitly begin Phase 1 or authorise historical content; the proposed content
+tree is not yet instantiated.
