@@ -1,0 +1,22 @@
+---
+description: Repository purpose, language, and instruction precedence
+alwaysApply: true
+---
+
+# Project charter
+
+- This repository is a spoiler-safe historical Formula 1 archive in Phase 0.
+- Do not create historical content or broad content structures without an
+  explicit later-phase task.
+- Repository instructions, paths, and metadata use English and UTF-8. Future
+  historical content defaults to Polish unless explicitly requested otherwise.
+- Never invent a historical fact, quotation, citation, or resolution of
+  conflicting evidence.
+
+Priority: follow the explicit task for deliverables; for all historical content,
+the cutoff and evidence requirements remain mandatory. `AGENTS.md` is the entry
+point, `docs/` is canonical detailed policy, and these rules are concise
+operational guidance. Resolve any accidental summary mismatch in favour of the
+canonical document and report a real contradiction.
+
+Read `README.md` and `AGENTS.md` before structural work.

@@ -1,0 +1,22 @@
+---
+description: Select focused agent workflows and protect repository scope
+alwaysApply: true
+---
+
+# Agent workflow
+
+- Read `AGENTS.md`, then only the rules and canonical documents relevant to the
+  task.
+- Use a focused skill for substantial research, source checking, spoiler audit,
+  editing, or historical state transition.
+- Separate evidence collection, drafting, adversarial spoiler review, source
+  audit, and language editing when practical.
+- A subagent receives the cutoff, contract, inputs, and expected output
+  explicitly; it may not infer a broader mandate.
+- Do not add tooling, hooks, MCP configuration, broad directories, or content
+  types merely because they may be useful later.
+- End historical content work with metadata, spoiler, source, contradiction,
+  and redundancy checks.
+
+Project-level subagents in `.cursor/agents/` are focused roles, not independent
+policy authorities. Canonical policy remains in `docs/`.

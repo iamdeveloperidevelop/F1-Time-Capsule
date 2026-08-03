@@ -1,0 +1,25 @@
+---
+description: Require traceable, cutoff-safe historical evidence
+globs:
+  - "archive/**/*.md"
+  - "research/**/*.md"
+alwaysApply: false
+---
+
+# Research and sources
+
+Follow `docs/source-policy.md`.
+
+- Prefer official and contemporary evidence appropriate to the claim.
+- Map every important claim to an exact source location and distinguish
+  publication date, event date, and public-knowledge time.
+- Attribute expectations; label cautious interpretation; preserve unresolved
+  disagreement.
+- Never guess, silently combine incompatible accounts, or use a citation for
+  more than it supports.
+- Isolate cutoff-safe facts from later sources and flag spoiler-bearing sources.
+- Quote briefly only when exact wording adds historical value.
+
+Use the `historical-f1-research` and `source-verification` skills for substantial
+work. The globs anticipate the provisional architecture; apply this rule
+wherever historical research or claims are handled.
