@@ -7,7 +7,9 @@ description: Use in a later phase when advancing the archive from one historical
 
 Definition only for Phase 0; do not execute this skill until a later task
 explicitly authorises historical content. Read `docs/temporal-scope.md`,
-`docs/source-policy.md`, and the target contracts in `docs/content-contracts.md`.
+`docs/source-policy.md`, `docs/archive-workflow.md`, and the target contracts in
+`docs/content-contracts.md`. Start target files from `templates/season/` or
+`templates/race/`; do not infer a transition from `archive-state.yaml`.
 
 ## Inputs
 

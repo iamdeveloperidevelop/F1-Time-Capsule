@@ -49,7 +49,8 @@ Each fact has one primary home:
 - event documents linking to or briefly summarising those references;
 - concise glossary definitions;
 - post-race reports advancing the story instead of restating the full prelude;
-- one canonical standings section per relevant report or snapshot.
+- full driver and constructor standings tables only in the event's
+  `standings-after.md`; reports give brief context and link to that snapshot.
 
 A document may repeat a key fact needed for comprehension, but must summarise
 rather than reproduce the original explanation. Before completion, search

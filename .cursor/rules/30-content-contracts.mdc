@@ -8,7 +8,8 @@ alwaysApply: false
 # Content contracts
 
 Read `docs/content-contracts.md` before creating or changing reader-facing
-historical content.
+historical content. Start from the matching file in `templates/season/` or
+`templates/race/`; shared schemas live in `templates/shared/`.
 
 - Choose exactly one document type and its associated knowledge boundary.
 - Include every required field from `docs/temporal-scope.md`.
@@ -18,5 +19,5 @@ historical content.
 - Never mutate an earlier-boundary document to include a later state; create the
   separately contracted document only when explicitly tasked.
 
-The `archive/**/*.md` scope is provisional and does not authorize creating that
-directory.
+The `archive/**/*.md` scope does not authorise historical content. Creating a
+real season or race directory still requires an explicit task.

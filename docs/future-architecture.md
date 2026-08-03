@@ -1,69 +1,112 @@
-# Provisional future architecture
+# Archive architecture
 
-This is a design proposal, not an existing content tree. Creating any part of it
-requires an explicit later-phase task. Names and boundaries remain reversible.
+The repository now contains only the generic roots and reusable templates. A
+real season directory is created only by an explicit initialization task.
+Scaffolding does not authorize historical research or content, and this layout
+remains a default that may be revised from evidence gained in later phases.
+
+## Current scaffold
 
 ```text
 archive/
-  [SEASON]/
-    references/
-      [SEASON-LEVEL DOCUMENTS]
-    events/
-      [ORDER]-[EVENT-SLUG]/
-        [RACE PRELUDE]
-        [PRE-START WEEKEND BRIEF]
-        [POST-RACE REPORT]
-        [STANDINGS SNAPSHOT]
-    retrospective/
-      [SEASON RETROSPECTIVE]
-research/
-  [SEASON]/
-    source-records/
-    claim-maps/
+  seasons/
+    README.md
+
+templates/
+  season/
+  race/
+  shared/
 ```
 
-The proposed `archive/` root separates reader-facing content from evidence in
-`research/`. One season owns shared reference material, ordered event folders,
-and its retrospective. Each event keeps distinct documents for distinct
-knowledge boundaries rather than mutating one article as the weekend advances.
-Standings snapshots are tied to precise event cutoffs.
+## Intended season structure
+
+```text
+archive/
+  seasons/
+    [SEASON]/
+      README.md
+      metadata.yaml
+
+      season/
+        prelude.md
+        context.md
+        regulations.md
+        technology.md
+        teams.md
+        drivers.md
+        people-and-organisations.md
+        calendar.md
+        glossary.md
+
+      races/
+        01-[grand-prix-slug]/
+          metadata.yaml
+          pre-weekend.md
+          pre-race.md
+          post-race.md
+          standings-after.md
+          sources.md
+
+        02-[grand-prix-slug]/
+          ...
+```
+
+The short filenames are storage names, not new content contracts.
+`pre-weekend.md` implements the race-prelude contract, `pre-race.md` implements
+the pre-start-weekend-brief contract, `post-race.md` implements the
+post-race-report contract, and `standings-after.md` implements the
+standings-snapshot contract. `sources.md` is the canonical event source ledger.
+
+One season owns shared reference material and ordered race folders. Each race
+keeps separate files for separate knowledge boundaries; a later file never
+widens or replaces an earlier one. `standings-after.md` is the only full
+standings table for its event cutoff.
+
+## Templates and authority
+
+`templates/season/` and `templates/race/` define document shape.
+`templates/shared/` provides the canonical reusable metadata, source-entry,
+standings, uncertainty, and spoiler-audit shapes. Templates summarize their
+contract but do not reproduce complete policy.
+
+When instructions conflict, the order in `AGENTS.md` applies. In particular,
+the knowledge cutoff and canonical policy always override a template.
 
 ## State and review
 
-Metadata records `research_status`, `source_status`, `spoiler_audit_status`, and
-`last_verified`. Workflow state should not be encoded by duplicating a document
-into “generated” and “reviewed” folders: copies drift and weaken the
-canonical-home rule. A single canonical document plus version control and
-explicit review metadata is the current preference. If later publication
-tooling needs immutable generated artifacts, its output location must remain
-separate from authored source.
+`archive-state.yaml` points to the active workflow stage. It does not establish
+historical truth, prove a cutoff, or replace per-document metadata and sources.
+If state conflicts with a document, use the document's verified metadata for
+its boundary and correct state before progressing.
 
-Research records may identify links, or store the minimum necessary excerpts,
-whose surrounding material spoils later events. Such material must be marked
-`contains_later_spoilers: true` and quarantined from the permitted evidence set;
-its existence is recordkeeping, not permission to use its later knowledge.
-Reader-facing content must never inherit those permissions. Access controls or
-tooling may eventually help, but the declared cutoff and human-readable
-evidence map remain authoritative.
+Metadata records `research_status`, `source_status`, `spoiler_audit_status`, and
+`last_verified`. Do not encode review state by copying a document into
+“generated” and “reviewed” folders. A single document, its metadata, and version
+control prevent drift.
+
+A source whose surrounding material crosses the cutoff uses
+`spoiler_risk: contains-later-material` and is quarantined from the permitted
+evidence set. Its existence is recordkeeping, not permission to import later
+knowledge.
 
 ## Navigation goals
 
-- Season indexes will support sequential reading in historical order.
-- Reference indexes will support selective reading by team, driver, technology,
-  organisation, term, or event.
-- Event documents will link backward to established context and forward only
-  when a reader explicitly chooses to advance.
-- Stable identifiers will connect claims, sources, snapshots, and documents
+- Season indexes support sequential reading in historical order.
+- Season references support selective reading by subject.
+- Race documents link backward to established context and forward only after a
+  reader explicitly chooses to advance.
+- Stable identifiers connect claims, source entries, snapshots, and documents
   without repeating full text.
 
 ## Open decisions
 
-- Exact filenames, index format, and source-record serialization.
-- Whether team, driver, and technology references remain season-local or gain
-  spoiler-aware cross-season indexes.
-- How links warn readers before crossing a knowledge boundary.
+- Whether a season retrospective becomes a standard file after real usage.
+- Whether research evidence needs a separate repository root in addition to
+  race-local source ledgers.
+- Whether season-local references later gain spoiler-aware cross-season indexes.
+- How reader-facing links warn before crossing a knowledge boundary.
 - How corrections preserve the state of knowledge at a historical cutoff.
-- Whether publication builds need generated artifacts and how review status is
-  represented beyond metadata.
+- Whether publication builds ever require generated artifacts.
 
-These decisions should be made from real Phase 1 usage, not fixed prematurely.
+These decisions remain deferred until an explicit later task has evidence to
+resolve them.

@@ -19,4 +19,6 @@ Follow `docs/methodology.md`.
   sequential and selective reading remain usable.
 
 Use `historical-content-editor` after factual and spoiler audits. The
-`archive/**/*.md` scope is an intended future scope, not permission to create it.
+`archive/**/*.md` scope is not permission to populate a real season. Use the
+canonical structures in `templates/` only after an explicit initialization or
+content task.

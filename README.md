@@ -24,11 +24,11 @@ dramatic foreshadowing, and emphasis that only makes sense because of later
 history. Later sources may support separable earlier facts, but may not expand a
 document's permitted knowledge.
 
-## Current status: Phase 0
+## Current status: Phase 0 scaffolding
 
-This repository currently contains governance, research methodology, future
-content contracts, and reusable Cursor agent guidance only. No season, race, or
-other historical content has been generated.
+This repository contains governance, research methodology, future content
+contracts, reusable templates, and placeholder-only archive scaffolding. No
+season directory, race directory, or historical content has been generated.
 
 The canonical policies are:
 
@@ -40,9 +40,13 @@ The canonical policies are:
   and deduplication;
 - [`docs/content-contracts.md`](docs/content-contracts.md) — contracts for
   future document types;
-- [`docs/future-architecture.md`](docs/future-architecture.md) — a provisional
-  content layout for a later phase.
+- [`docs/future-architecture.md`](docs/future-architecture.md) — the scaffold
+  and intended season layout;
+- [`docs/archive-workflow.md`](docs/archive-workflow.md) — sequential cutoff and
+  repository-state transitions;
+- [`docs/agent-task-recipes.md`](docs/agent-task-recipes.md) — reusable
+  natural-language task contracts.
 
 See [`AGENTS.md`](AGENTS.md) for the shortest AI-agent entry point. A user must
-explicitly begin Phase 1 or authorise historical content; the proposed content
-tree is not yet instantiated.
+explicitly begin Phase 1 or authorise historical content. Generic templates and
+the empty `archive/seasons/` root do not themselves change the project phase.

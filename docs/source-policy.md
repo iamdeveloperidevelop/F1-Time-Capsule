@@ -30,19 +30,21 @@ narrative.
 Where the source permits it, record:
 
 ```yaml
-source_id: "[STABLE ID]"
-title: "[TITLE]"
-publisher: "[PUBLISHER OR CREATOR]"
+source_id: "[SOURCE ID]"
+title: "[SOURCE TITLE]"
+author_or_organisation: "[AUTHOR, PUBLISHER, CREATOR, OR ORGANISATION]"
 publication_date: "[DATE OR unknown]"
 event_date: "[DATE, INTERVAL, OR not-applicable]"
 source_type: "[BULLETIN | RESULT | PRESS | ANNOUNCEMENT | BROADCAST | ARCHIVE | DATABASE | SECONDARY]"
 contemporary: "[true | false]"
-contains_later_spoilers: "[true | false]"
-locator: "[URL, ARCHIVE REFERENCE, ISSUE/PAGE, OR TIMECODE]"
+spoiler_risk: "[none | contains-later-material | unknown]"
+locator: "[URL, ARCHIVAL REFERENCE, ISSUE/PAGE, OR TIMECODE]"
+access_date: "[YYYY-MM-DD OR not-applicable]"
 supports:
   - claim_id: "[CLAIM ID]"
     scope: "[EXACTLY WHAT THIS SOURCE SUPPORTS]"
-notes: "[LIMITATIONS, ACCESS DATE, TRANSLATION, OR null]"
+disagreement_notes: "[CONFLICTS OR UNCERTAINTY, OR null]"
+notes: "[LIMITATIONS, TRANSLATION, OR null]"
 ```
 
 Unknown dates must remain `unknown`, not inferred. `publication_date`,
@@ -51,8 +53,13 @@ Record page, section, or timecode where practical. A citation supports only the
 claim expressed in `scope`, not every nearby statement.
 
 Set `contemporary` according to the source, not the desired evidence profile.
-Set `contains_later_spoilers: true` whenever any surrounding source material
-crosses the document cutoff, even if the cited fact is safely separable.
+Set `spoiler_risk: contains-later-material` whenever any surrounding source
+material crosses the document cutoff, even if the cited fact is safely
+separable. Use `unknown` until the surrounding material has been checked.
+
+`templates/shared/source-entry.template.yaml` is the reusable copy of this
+schema. Race ledgers in `sources.md` use repeated entries in this exact shape;
+they must not invent a second citation format.
 
 ## Claim categories
 

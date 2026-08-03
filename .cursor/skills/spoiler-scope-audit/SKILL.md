@@ -6,7 +6,8 @@ description: Use when adversarially checking a historical draft for direct spoil
 # Spoiler scope audit
 
 Read `docs/temporal-scope.md` and the document's contract in
-`docs/content-contracts.md`.
+`docs/content-contracts.md`. Record the audit using
+`templates/shared/spoiler-audit.template.md`.
 
 ## Inputs
 
