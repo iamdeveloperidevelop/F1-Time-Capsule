@@ -51,7 +51,7 @@ jazdy, liczba zakrętów lub liczba okrążeń.
 
 Tekst nie uwzględnia informacji o konkretnych zgłoszeniach technicznych. Przed
 weekendem pozostają cztery szersze pytania opisane w
-[`technology.md`](../../../season/technology.md): czy badany wariant regulaminu,
+[`technology.md`](../../season/technology.md): czy badany wariant regulaminu,
 pozbawiony daty i historii aneksów, jest kompletny; czy testowany Brabham–BMW
 może wystartować; kiedy zapowiedziane projekty Porsche, Matry i Alfy Romeo
 przejdą do gotowego rozwiązania; oraz jak programy opon zostaną rozdzielone
@@ -94,5 +94,5 @@ dlatego tekst nie przedstawia oczekiwań meteorologicznych.
 
 Szczegóły i zakres zapisów zawiera [rejestr źródeł](sources.md), a otwarte
 pytania — [rejestr
-kwestii](../../../things-to-resolve-after-season.md#otwarte-pozycje). Status
+kwestii](../../things-to-resolve-after-season.md#otwarte-pozycje). Status
 audytu spoilerów: `passed`. Status źródeł: `partial`.
