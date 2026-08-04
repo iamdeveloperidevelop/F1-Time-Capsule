@@ -118,7 +118,9 @@ Place details in their canonical primary homes and link rather than duplicate.
 
 Keep reader-facing historical prose in Polish. Do not use any race or season
 outcome to select, evaluate, or emphasize preseason information. Preserve
-uncertainty and source disagreements.
+uncertainty and source disagreements. Apply the reader-facing presentation in
+`docs/methodology.md`: use sparse notes, keep raw IDs and audit mechanics out of
+narrative, and end each historical document with `Uwagi do źródeł`.
 
 ## Calendar and race scaffolds
 
@@ -212,6 +214,8 @@ Before completion verify:
 - every season document exists, uses its canonical contract, and has the same
   compatible preseason boundary;
 - every reader-facing claim is cutoff-safe and exactly supported, or omitted;
+- note markers are sparse and IDs, ledger links, limitations, and statuses are
+  confined to notes or `Uwagi do źródeł`;
 - source, spoiler, metadata, contradiction, language, and repetition checks
   passed, or unresolved source questions are explicitly recorded in
   `things-to-resolve-after-season.md`;

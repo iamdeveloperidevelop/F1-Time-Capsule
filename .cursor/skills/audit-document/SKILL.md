@@ -62,7 +62,10 @@ Report:
 10. repetition against related canonical documents and misplaced primary-home
     detail;
 11. Polish language, clarity, structure, terminology, and accessibility issues;
-12. prioritized recommended corrections that preserve the current cutoff.
+12. inline raw IDs, audit mechanics, repeated verification caveats, or excessive
+    note markers contrary to the reader-facing presentation in
+    `docs/methodology.md`;
+13. prioritized recommended corrections that preserve the current cutoff.
 
 Keep the report itself spoiler-safe: identify later-knowledge leakage without
 unnecessarily revealing the future fact. Distinguish confirmed defects from

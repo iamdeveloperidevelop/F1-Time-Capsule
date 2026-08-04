@@ -23,7 +23,10 @@ than replaces, factual and spoiler review.
 4. Explain technical terms at first meaningful use for a non-engineer.
 5. Remove clickbait, empty phrasing, artificial drama, and repeated summaries.
 6. Replace duplicated detail with concise context and links to its primary home.
-7. Re-audit changed wording for accidental hindsight or spoilers.
+7. Apply the reader-facing uncertainty presentation in `docs/methodology.md`:
+   keep IDs and audit mechanics out of narrative, and use sparse notes without
+   weakening attribution, uncertainty, or material competing versions.
+8. Re-audit changed wording for accidental hindsight or spoilers.
 
 ## Prohibited behaviour
 
@@ -44,6 +47,7 @@ research rather than silently edited.
 - [ ] No new factual claim was introduced.
 - [ ] Polish is natural, precise, and readable.
 - [ ] Attribution and uncertainty are unchanged.
+- [ ] IDs, audit mechanics, and repeated caveats are outside the narrative.
 - [ ] Technical explanations remain accurate and proportionate.
 - [ ] Repetition has a justified primary home.
 - [ ] Changed prose passes a spoiler-scope check.
