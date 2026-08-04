@@ -1,0 +1,16 @@
+season: "1982"
+document_type: "pre-start-weekend-brief"
+event: "Italian Grand Prix"
+event_time: "[OFFICIAL PRE-RACE SESSIONS AND PRE-START MOMENT]"
+public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
+knowledge_cutoff: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
+spoiler_scope:
+  allowed:
+    - "[COMPLETED PRE-RACE SESSIONS AND CONFIRMED PRE-START INFORMATION]"
+  forbidden:
+    - "[THE RACE START, RACE EVENTS, RESULTS, AND ALL LATER KNOWLEDGE]"
+content_language: "pl"
+research_status: "planned"
+source_status: "unstarted"
+spoiler_audit_status: "not-run"
+last_verified: null

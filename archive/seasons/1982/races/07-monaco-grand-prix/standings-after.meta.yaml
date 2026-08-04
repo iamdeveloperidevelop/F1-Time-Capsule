@@ -1,0 +1,16 @@
+season: "1982"
+document_type: "standings-snapshot"
+event: "Monaco Grand Prix"
+event_time: "[POST-RACE CLASSIFICATION BOUNDARY]"
+public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
+knowledge_cutoff: "[SAME POST-RACE CUTOFF AS THE SUPPORTED SNAPSHOT]"
+spoiler_scope:
+  allowed:
+    - "[CLASSIFICATIONS, POINTS, AND DECISIONS OFFICIAL BY THE CUTOFF]"
+  forbidden:
+    - "[LATER CORRECTIONS, APPEALS, RULINGS, AND FUTURE ROUNDS]"
+content_language: "pl"
+research_status: "planned"
+source_status: "unstarted"
+spoiler_audit_status: "not-run"
+last_verified: null

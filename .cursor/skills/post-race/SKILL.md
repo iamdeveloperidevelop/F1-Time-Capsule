@@ -70,8 +70,13 @@ accidents or conflicts, and retrospective statements such as “this proved
 decisive for the championship.” Label classifications and points provisional
 whenever that is their status at the cutoff.
 
+Write a readable race report: selective narrative, decisive phases, and
+attributed contemporary reaction. Prefer continuous Polish prose over template
+scaffolding left in place. Link standings-after.md instead of duplicating full
+tables in the report body beyond a concise results table.
+
 Do not require the user to provide missing archival evidence. Omit unsupported
-claims or label only supportable uncertainty, then record the concrete evidence
+claims, or keep supportable wording with a short footnote, then record the concrete evidence
 gap in `things-to-resolve-after-season.md`. A later authorized boundary may
 resolve it, but must not backfill the earlier document.
 

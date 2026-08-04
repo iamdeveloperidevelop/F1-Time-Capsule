@@ -116,9 +116,13 @@ engines, tyres, relevant people and organisations, the announced calendar,
 circuit orientation, glossary terms, and attributed contemporary expectations.
 Place details in their canonical primary homes and link rather than duplicate.
 
-Keep reader-facing historical prose in Polish. Do not use any race or season
-outcome to select, evaluate, or emphasize preseason information. Preserve
-uncertainty and source disagreements.
+Keep reader-facing historical prose in Polish and readable. Do not use any race
+or season outcome to select, evaluate, or emphasize preseason information. Use
+content-based availability for day-undated contemporary preseason sources; do
+not collapse the field or expectations to defending champions because a monthly
+magazine lacks a day-of-month. Preserve uncertainty and source disagreements in
+footnotes and source apparatus, not as constant interruptions in the main text
+(`docs/methodology.md`).
 
 ## Calendar and race scaffolds
 
@@ -141,11 +145,20 @@ Instantiate only these files from `templates/race/`:
 ```text
 metadata.yaml
 pre-weekend.md
+pre-weekend.meta.yaml
 pre-race.md
+pre-race.meta.yaml
 post-race.md
+post-race.meta.yaml
 standings-after.md
+standings-after.meta.yaml
 sources.md
+sources.meta.yaml
 ```
+
+Strip HTML comments that only point at sibling metadata templates so archive
+Markdown starts at the document title. Instantiate each content `.md` together
+with its sibling `.meta.yaml`.
 
 Apply only template-authorized substitutions for season, round, event, slug,
 paths, language, and then-known calendar status. Leave all race-stage content,

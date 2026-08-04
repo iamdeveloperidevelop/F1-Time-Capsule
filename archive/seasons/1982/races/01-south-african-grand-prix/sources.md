@@ -1,22 +1,3 @@
----
-season: "1982"
-document_type: "race-source-ledger"
-event: "South African Grand Prix"
-event_time: "Ukończone sesje przed wyścigiem i chwila bezpośrednio przed startem"
-public_knowledge_time: "Bezpośrednio przed planowanym startem; późniejsze archiwum łączy wydarzenie z 23 stycznia, lecz dokładna godzina pozostaje niezweryfikowana"
-knowledge_cutoff: "Immediately before the scheduled start at Kyalami; a later archive associates the event with Saturday, 23 January 1982, and the exact clock time is unverified"
-spoiler_scope:
-  allowed:
-    - "Metadane źródeł i wsparcie twierdzeń mieszczące się w obsługiwanej granicy wiedzy"
-  forbidden:
-    - "Treść źródeł po granicy wiedzy, poza skwantyfikowaną metadanym informacją o ryzyku spoilera"
-content_language: "pl"
-research_status: "drafted"
-source_status: "partial"
-spoiler_audit_status: "passed"
-last_verified: null
----
-
 # South African Grand Prix — source ledger
 
 To kanoniczny rejestr źródeł folderu rundy. Dokumenty treści cytują
@@ -103,6 +84,46 @@ notes: "Wypowiedź Franka Williamsa jest współczesnym oczekiwaniem, nie progno
 ```
 
 ```yaml
+source_id: "MS-1982-01-31"
+title: "The Formula One Scene"
+author_or_organisation: "Denis Jenkinson, Motor Sport"
+publication_date: "unknown"
+event_date: "not-applicable"
+source_type: "PRESS"
+contemporary: true
+spoiler_risk: "contains-later-material"
+locator: "https://www.motorsportmagazine.com/archive/article/january-1982/31/formula-one-scene/ — January 1982, p. 31"
+access_date: "2026-08-04"
+supports:
+  - claim_id: "R01-ENT-03"
+    scope: "Przedsezonowy przegląd obsad: Brabham, Ferrari, Renault, McLaren, Talbot/Ligier, Lotus, Toleman, Theodore oraz opis tylnej stawki jako wciąż układającej się."
+  - claim_id: "R01-EXP-03"
+    scope: "Przypisane oczekiwania wobec Renault, Ferrari, Talbot/Ligier, Brabhama, McLarena i Theodore; komentarz o braku otwartego rozłamu FISA–FOCA na starcie 1982."
+  - claim_id: "R01-TECH-01"
+    scope: "Przedsezonowy opis programów turbo i DFV przed otwarciem sezonu."
+disagreement_notes: null
+notes: "publication_date dnia unknown; content-based availability — przedsezonowy przegląd bez wyników sesji na Kyalami."
+```
+
+```yaml
+source_id: "MS-1982-01-35"
+title: "The 1982 International Racing Season"
+author_or_organisation: "Motor Sport"
+publication_date: "unknown"
+event_date: "not-applicable"
+source_type: "PRESS"
+contemporary: true
+spoiler_risk: "contains-later-material"
+locator: "https://www.motorsportmagazine.com/archive/article/january-1982/35/the-1982-international-racing-season/ — January 1982, p. 35"
+access_date: "2026-08-04"
+supports:
+  - claim_id: "R01-EVT-02"
+    scope: "Reprodukcja kalendarza FIA z Kyalami jako otwarciem oraz stwierdzenie o formalnym pokoju FISA–FOCA."
+disagreement_notes: null
+notes: "publication_date dnia unknown; content-based availability."
+```
+
+```yaml
 source_id: "F1-1982-R01-Q"
 title: "Formula 1 qualifying archive: South Africa 1982"
 author_or_organisation: "Formula 1"
@@ -184,8 +205,14 @@ supports:
     scope: "Podczas rozgrzewki: elektryczne przerywanie pracy Mansella, prace przy hamulcach Warwicka, kontrola jednostki turbo Arnoux i zmniejszone doładowanie Pironiego."
   - claim_id: "R01-PR-TYR-01"
     scope: "Kwalifikacje ograniczono do dwóch kompletów opon na kierowcę."
-disagreement_notes: "Relacja ukazała się po granicy dokumentu; jej rozdzielne informacje przedstartowe pozostają prowizoryjnymi raportami, a nie niezależnie potwierdzonymi faktami."
-notes: "Współczesna prasa wydana po granicy i zawierająca późniejszy materiał; wykorzystano wyłącznie wyraźnie odseparowane informacje o sesjach i stanie przed startem."
+  - claim_id: "R01-PR-STRIKE-01"
+    scope: "Strajk kierowców, brak czwartku, Mass poza strajkiem, napięcia w Brabhamie, przeprosiny przed startem."
+  - claim_id: "R01-RESULT-01"
+    scope: "Klasyfikacja: Prost, Reutemann, Arnoux, Lauda, Rosberg, Watson; czas Prosta; najszybsze okrążenie Prosta."
+  - claim_id: "R01-RACE-01"
+    scope: "Narracja wyścigu: start Renault, odpadnięcia, postój Prosta, finisz i oceny Jenkinsona."
+disagreement_notes: "Relacja ukazała się po imprezie; oznaczenia modeli w OCR bywają wadliwe. Informacje przedstartowe użyte w pre-race; wynik w post-race."
+notes: "Współczesna prasa po cutoff pre-race; dla pre-race wyłącznie odseparowane informacje przedstartowe; dla post-race wynik i przebieg."
 ```
 
 ## Conflict and uncertainty index

@@ -1,55 +1,62 @@
----
-season: "1982"
-document_type: "pre-start-weekend-brief"
-event: "South African Grand Prix"
-event_time: "Ukończone sesje przed wyścigiem i chwila bezpośrednio przed startem"
-public_knowledge_time: "Bezpośrednio przed planowanym startem; późniejsze archiwum łączy wydarzenie z 23 stycznia, lecz dokładna godzina pozostaje niezweryfikowana"
-knowledge_cutoff: "Immediately before the scheduled start at Kyalami; a later archive associates the event with Saturday, 23 January 1982, and the exact clock time is unverified"
-spoiler_scope:
-  allowed:
-    - "Ukończone sesje przedstartowe, prowizoryczna rekonstrukcja pól startowych i informacje dostępne przed startem"
-  forbidden:
-    - "Start wyścigu, wydarzenia wyścigowe, wyniki, najszybsze okrążenie, wycofania, późniejsze kary i sankcje oraz późniejsza część sezonu"
-content_language: "pl"
-research_status: "drafted"
-source_status: "partial"
-spoiler_audit_status: "passed"
-last_verified: null
----
-
 # Grand Prix RPA — przed startem
 
-## Granica wiedzy
+## Weekend w skrócie
 
-Tekst kończy się bezpośrednio przed planowanym startem na Kyalami. Późniejsze
-archiwum Formula 1 łączy wydarzenie z sobotą 23 stycznia 1982, ale nie jest to
-datowany, przedstartowy harmonogram. Dokładna godzina nie jest potwierdzona:
-baza Chicane podaje jedynie późniejszy, niezweryfikowany raport o 14:00 czasu
-lokalnego (`R01-PR-CUT-01`); nie przeliczamy go na UTC.
+Sezon miał ruszyć w czwartek, lecz oficjalnej jazdy nie było: kierowcy
+strajkowali, a organizatorzy zwracali bilety widzom, którzy przyszli tego
+dnia.*¹ Poważna praca zaczęła się w piątek, z opóźnieniem względem
+normalnego rytmu. Wyścig wiążą z sobotą 23 stycznia 1982; dokładna lokalna
+godzina startu nie jest w zachowanych źródłach potwierdzona.*²
 
-Kontekst przyjazdu i informacje sprzed weekendu znajdują się we
-[wprowadzeniu do weekendu](pre-weekend.md), a szersze odniesienia — w
-[materiałach sezonu](../../season/).
+Kontekst przed weekendem: [`pre-weekend.md`](pre-weekend.md).
 
-## Format weekendu i sesje
+## Sesje przedstartowe
 
-Według późniejszej relacji „Motor Sport” w czwartek nie odbyła się oficjalna jazda.
-Po zakłóceniach w piątek o 11:00 odbył się 90-minutowy test, a po 14:00
-godzina kwalifikacji ustaliła pole startowe. W połowie tej sesji zaczął padać
-deszcz, a tor nie wysechł już przed jej końcem (`R01-PR-SES-01`).
+W piątek rano, gdy trwały jeszcze rozmowy z przedstawicielami FISA, na torze
+pojawił się samotny March Jochena Massa — jako jeden z nielicznych nie
+przyłączył się do strajku. Teo Fabi też był w padoku poza jednością peletonu.
+Gdy uzgodniono wznowienie, Mass został zjechany z toru i wszystko znów
+ucichło.*¹
 
-Według przejrzanej relacji „Motor Sport” w sobotę odbyła się 30-minutowa
-rozgrzewka; relacja nie podaje jej czasów ani klasyfikacji
-(`R01-PR-WU-01`; [`1982-R01-PR-WU-01`](../../things-to-resolve-after-season.md#1982-r01-pr-wu-01)).
+O 11:00 ruszył dziewięćdziesięciominutowy test. Mechanicy i szefowie ekip
+przyjmowali wracających kierowców chłodno. Przed boksem Brabhama stały trzy
+BT50 z turbodoładowanymi BMW; Ecclestone wyraźnie faworyzował Patrese i przez
+część poranka nie wypuszczał Piqueta, tłumacząc to nocą spędzoną na prowizorycznych
+łóżkach podczas strajku. Piquet przeszedł badania lekarskie i ostatecznie
+dopuszczono go do jazdy. Morris Nunn wycofał Ensigna Roberto Guerrero,
+argumentując stanem kierowcy po strajku — i rozwiązując przy okazji problem
+nadmiaru samochodów względem limitu trzydziestu aut w kwalifikacjach.*¹
 
-## Kwalifikacje i pole startowe
+Patrick Tambay poprosił Arrows o rozwiązanie współpracy po napięciach wokół
+strajku; Brian Henton przejął numer 29. Nieoficjalne próby z początku tygodnia
+oraz piątkowy test wskazywały na wyraźną przewagę samochodów turbo: Renault,
+Ferrari i Brabham–BMW miały być poza zasięgiem wolnossących Cosworthów na
+prostej za pitami.*³ Prost w testach wpadł w bandy po spadku ciśnienia w oponie;
+uszkodzenia były niewielkie, lecz sesję na chwilę przerwano.
 
-Według późniejszego archiwum Formula 1 Arnoux figuruje na pierwszej pozycji z
-czasem 1:06.351 (`R01-PR-Q-01`). Poniższa tabela jest prowizoryczną
-rekonstrukcją z późniejszej, nieoficjalnej bazy Racing Sports Cars
-(`R01-PR-GRID-01`), a nie oficjalną klasyfikacją.
+Kwalifikacyjna godzina ruszyła dopiero po 14:00 — i miała ustalić całe pole
+jednym strzałem, bo czwartkowy dzień przepadł. Obowiązywał limit dwóch
+kompletów opon na kierowcę. Deszcz zaczął padać w połowie godziny i tor już
+nie wysechł.*⁴ Kto nie zdążył wcześnie, tracił szansę. Lauda i Watson mieli
+wypadki przy hamowaniu na końcu długiej prostej; Watson jechał zapasowym
+McLarenem. Prost, po uszkodzeniu z testów, nie poprawił się już w deszczu.
 
-| Pozycja w rekonstrukcji | Kierowca | Zespół | Czas kwalifikacyjny (archiwalny) |
+W sobotę, przy pełnej trybunie i ciepłym, pochmurnym niebie, odbyła się
+trzydziestominutowa rozgrzewka.*⁵ Alboreto wybrał zapasowego Tyrrella.
+Mansellowi Lotus gasł na usterce elektrycznej. Warwickowi wymieniano hamulce
+z auta Fabiego i sprawdzano turbo; podobnie zaglądano do jednostki Arnoux.
+Pironi jechał ze znacznie zmniejszonym doładowaniem, Villeneuve — z wyższym.
+
+## Pole startowe
+
+Pole otwiera René Arnoux (1:06.351) przed Nelsonem Piquetem i Gillesem
+Villeneuve’em.*⁶ Za nimi Patrese, Prost i Pironi — cała czołówka to auta
+turbo. Najszybszym Cosworthem jest Rosberg, potem Reutemann. Solidnie wyglądają
+m.in. Alboreto w Tyrrellu i Salazar w ATS na Avonach. Na starcie 26 samochodów
+(nowy limit zamiast 24). Poza polem m.in. Baldi, Henton, Paletti i Fabi;
+Guerrero został wycofany przed kwalifikacjami.*⁷
+
+| Pozycja | Kierowca | Zespół | Czas |
 | ---: | --- | --- | --- |
 | 1 | Arnoux | Renault | 1:06.351 |
 | 2 | Piquet | Brabham | 1:06.625 |
@@ -78,46 +85,47 @@ rekonstrukcją z późniejszej, nieoficjalnej bazy Racing Sports Cars
 | 25 | Serra | Fittipaldi | 1:13.467 |
 | 26 | Jarier | Osella | 1:13.834 |
 
-Źródło „Motor Sport” opisuje stawkę jako 26 samochodów i prowizorycznie podaje,
-że Baldi, Henton, Paletti i Fabi nie uzyskali miejsc na polu startowym
-(`R01-PR-ENT-01`). Ta sama relacja podaje, że Ensign wycofał Guerrero przed
-kwalifikacjami, a Henton przejął Arrowsa nr 29 po zwolnieniu Tambaya
-(`R01-PR-ENT-02`).
+## Warunki przed startem
 
-## Kary, warunki i przygotowanie
+Przed startem jest ciepło i pochmurno, z okresowym słońcem.*⁵ Lauda poprzedniego
+wieczoru przepraszał widzów w telewizji za strajk; przed wyścigiem Pironi mówił
+przez nagłośnienie o limicie jazdy i zapowiedział, że pierwsza szóstka odda
+kaski na publiczną loterię.*⁸
 
-W przejrzanym materiale nie zidentyfikowano przedstartowego oficjalnego
-biuletynu kar lub zmian pola startowego. To luka dowodowa, a nie potwierdzenie
-braku takich zmian
-([`1982-R01-PR-PEN-01`](../../things-to-resolve-after-season.md#1982-r01-pr-pen-01)).
+## Na co patrzeć — bez zgadywania wyniku
 
-Późniejsza relacja „Motor Sport” opisuje chwilę przed startem jako ciepłą,
-pochmurną i z okresowym słońcem (`R01-PR-COND-01`). Nie pozwala to wnioskować
-o dokładnym stanie nawierzchni ani prognozie.
+Współczesna relacja podkreślała, że turbo na Kyalami wyglądały na klasę samą
+dla siebie, a wolnossące Cosworthy walczyły o miano najszybszego „nie-turbo”.
+Na czele pola stoją dwa Renault, dwa Brabhamy–BMW i dwa Ferrari; za nimi
+Williams i McLaren jako najmocniejsi z Cosworthami. Lauda wraca po przerwie z
+środka stawki; Rosberg — z dobrego miejsca wśród wolnossących. To obserwacje z
+sesji, nie ranking faworytów wyścigu.*³
 
-Według tej samej relacji podczas rozgrzewki zwracały uwagę: elektryczne
-przerywanie pracy Mansella, prace przy hamulcach Warwicka, kontrola jednostki
-turbo Arnoux oraz zmniejszone doładowanie Pironiego (`R01-PR-SET-01`).
+## Przed zgaszeniem świateł
 
-## Opony i uwagi źródłowe
+- 77 okrążeń; 26 samochodów na starcie.
+- Pole: Arnoux, Piquet, Villeneuve — czołówka turbo.
+- Czwartku nie było; kwalifikacje w jeden deszczowy piątkowy slot.
+- Limit: dwa komplety opon kwalifikacyjnych.
+- Atmosfera po strajku: przeprosiny kierowców, pełna trybuna w sobotę.
+- Przed startem ciepło i pochmurno.
 
-Późniejsza relacja „Motor Sport” podaje limit dwóch kompletów opon
-kwalifikacyjnych na kierowcę (`R01-PR-TYR-01`). Potwierdzenie zarówno tego
-limitu, jak i wszelkiego przedstartowego kontekstu opon lub strategii pozostaje luką dowodową
-([`1982-R01-PR-TYR-01`](../../things-to-resolve-after-season.md#1982-r01-pr-tyr-01)).
+## Przypisy
 
-Źródła i ograniczenia zapisano w [rejestrze źródeł](sources.md). Audyt
-spoilerów nie obejmuje informacji po rozpoczęciu wyścigu; status: passed.
-Status źródeł: częściowy.
+1. Przebieg strajku i piątku za relacją D.S.J. w „Motor Sport”, March 1982
+   (`MS-MAR1982-R01`); numer po wyścigu, lecz opisuje sesje przed startem.
+2. Data za późniejszym archiwum Formula 1; godzina startu niezweryfikowana
+   (`CHICANE-1982-R01` podaje 14:00 tylko jako prowizoryczny raport).
+3. Ocena przewagi turbo i nieoficjalnych prób — ta sama relacja „Motor Sport”.
+4. Limit opon i deszcz w kwalifikacjach — „Motor Sport”.
+5. Rozgrzewka i warunki sobotnie — „Motor Sport”; bez klasyfikacji czasów
+   rozgrzewki.
+6. Czas Arnoux: archiwum Formula 1; tabela: prowizoryczna rekonstrukcja Racing
+   Sports Cars, nie oficjalny dokument FIA/FISA.
+7. Zmiany obsady i auta poza polem — „Motor Sport”.
+8. Gest PR przed startem — „Motor Sport”; bez wnioskowania o skuteczności.
 
-## CO MUSZĘ WIEDZIEĆ PRZED STARTEM
+## Uwagi źródłowe
 
-- Późniejsze archiwum łączy wydarzenie z 23 stycznia; dokładna godzina pozostaje niezweryfikowana (`R01-PR-CUT-01`).
-- Prowizoryczne pole otwiera Arnoux przed Piquetem i Villeneuve’em (`R01-PR-GRID-01`).
-- W kwalifikacjach deszcz zaczął padać w połowie sesji (`R01-PR-SES-01`).
-- Przejrzana relacja „Motor Sport” potwierdza 30-minutową sobotnią rozgrzewkę,
-  lecz nie podaje jej czasów ani klasyfikacji
-  (`R01-PR-WU-01`; [`1982-R01-PR-WU-01`](../../things-to-resolve-after-season.md#1982-r01-pr-wu-01)).
-- Pole i zmiany obsady wymagają jeszcze [oficjalnego potwierdzenia](../../things-to-resolve-after-season.md#1982-r01-pr-grid-01).
-- Przed startem jest ciepło i pochmurno, z okresowym słońcem — według późniejszej relacji (`R01-PR-COND-01`).
-- W przejrzanym materiale nie zidentyfikowano oficjalnego biuletynu kar ani zmian pola ([`1982-R01-PR-PEN-01`](../../things-to-resolve-after-season.md#1982-r01-pr-pen-01)).
+Źródła i ograniczenia: [`sources.md`](sources.md). Status: częściowy.
+`spoiler_audit_status` po tej redakcji: do ponownego audytu.

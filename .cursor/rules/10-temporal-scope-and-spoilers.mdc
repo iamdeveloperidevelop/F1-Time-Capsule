@@ -2,7 +2,9 @@
 description: Enforce historical knowledge cutoffs and prevent spoiler leakage
 globs:
   - "archive/**/*.md"
+  - "archive/**/*.meta.yaml"
   - "research/**/*.md"
+  - "research/**/*.meta.yaml"
 alwaysApply: false
 ---
 
@@ -13,15 +15,19 @@ Before researching or editing historical material:
 1. Read `docs/temporal-scope.md`.
 2. Select the contract in `docs/content-contracts.md`.
 3. Declare event time, public-knowledge time, `knowledge_cutoff`, and categorical
-   `spoiler_scope`.
+   `spoiler_scope` in the document's sibling `.meta.yaml`.
 4. Use no knowledge beyond that boundary in claims, analysis, or reader-facing
    prose.
 
-Treat direct future facts, hindsight, foreshadowing, outcome-shaped emphasis,
-and retrospective certainty as spoilers. A later source does not widen scope.
-A research record may identify and quarantine a spoiler-bearing source under
-`docs/source-policy.md`; that recordkeeping does not make later knowledge usable.
-Remove vague dramatic signals as well as explicit outcomes.
+Treat direct future outcomes, accidents, hindsight, foreshadowing,
+outcome-shaped emphasis, and retrospective certainty as spoilers. Do not treat
+an unknown magazine day-of-month as an automatic quarantine when the cited
+passage is clearly pre-cutoff; follow content-based availability and spoiler
+calibration in `docs/source-policy.md` and `docs/temporal-scope.md`. A later
+source does not widen scope. A research record may identify and quarantine a
+spoiler-bearing source under `docs/source-policy.md`; that recordkeeping does
+not make later knowledge usable. Remove vague dramatic outcome signals as well
+as explicit results.
 
 This rule is intended for the provisional future `archive/` and `research/`
 roots; apply it manually to any historical draft stored elsewhere.

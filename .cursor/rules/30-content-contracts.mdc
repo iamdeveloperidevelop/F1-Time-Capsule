@@ -2,6 +2,7 @@
 description: Apply the correct contract to each future archive document
 globs:
   - "archive/**/*.md"
+  - "archive/**/*.meta.yaml"
 alwaysApply: false
 ---
 
@@ -12,7 +13,8 @@ historical content. Start from the matching file in `templates/season/` or
 `templates/race/`; shared schemas live in `templates/shared/`.
 
 - Choose exactly one document type and its associated knowledge boundary.
-- Include every required field from `docs/temporal-scope.md`.
+- Declare every required field from `docs/temporal-scope.md` in the document's
+  sibling `.meta.yaml` (Markdown has no YAML front matter).
 - Keep allowed and forbidden knowledge, sections, source expectations, length,
   primary-home boundaries, and audits consistent with that contract.
 - Do not advance workflow status until source and spoiler audits pass.

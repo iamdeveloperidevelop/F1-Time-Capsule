@@ -1,0 +1,16 @@
+season: "1982"
+document_type: "race-prelude"
+event: "Swiss Grand Prix"
+event_time: "[PRE-WEEKEND CONTEXT INTERVAL]"
+public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
+knowledge_cutoff: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+spoiler_scope:
+  allowed:
+    - "[PREVIOUS STANDINGS AND DEVELOPMENTS PUBLIC BEFORE THE WEEKEND]"
+  forbidden:
+    - "[ALL INFORMATION FROM THE FIRST OFFICIAL SESSION ONWARD]"
+content_language: "pl"
+research_status: "planned"
+source_status: "unstarted"
+spoiler_audit_status: "not-run"
+last_verified: null

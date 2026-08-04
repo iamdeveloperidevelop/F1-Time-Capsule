@@ -1,0 +1,16 @@
+season: "1982"
+document_type: "season-technology"
+event: null
+event_time: "Okres przedsezonowy do planowanego rozpoczęcia pierwszej oficjalnej sesji Grand Prix RPA na Kyalami, 21 stycznia 1982"
+public_knowledge_time: "Najnowsze użyte źródło: styczniowy Motor Sport 1982 (publication_date dnia unknown; content-based availability)"
+knowledge_cutoff: "Immediately before the planned start of the first official session of the South African Grand Prix at Kyalami on Thursday, 21 January 1982; exact time unknown"
+spoiler_scope:
+  allowed:
+    - "Technika i zapowiedzi konstrukcyjne znane przed granicą wiedzy"
+  forbidden:
+    - "Późniejsze wyniki testów i zmiany in-season"
+content_language: "pl"
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "not-run"
+last_verified: null

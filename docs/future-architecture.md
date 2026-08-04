@@ -64,7 +64,9 @@ standings table for its event cutoff.
 
 ## Templates and authority
 
-`templates/season/` and `templates/race/` define document shape.
+`templates/season/` and `templates/race/` define document shape. Each content
+template has a sibling `*.template.meta.yaml` for the per-document metadata
+contract; archive Markdown does not embed YAML front matter.
 `templates/shared/` provides the canonical reusable metadata, source-entry,
 standings, uncertainty, and spoiler-audit shapes. Templates summarize their
 contract but do not reproduce complete policy.

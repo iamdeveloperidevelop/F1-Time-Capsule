@@ -1,0 +1,16 @@
+season: "1982"
+document_type: "race-prelude"
+event: "South African Grand Prix"
+event_time: "Okres przedweekendowy do granicy wiedzy bezpośrednio przed planowanym rozpoczęciem pierwszej oficjalnej sesji Grand Prix RPA na Kyalami"
+public_knowledge_time: "Najpóźniejsze wykorzystane źródła: UPI z 18 grudnia 1981 oraz styczniowy Motor Sport (publication_date dnia unknown; content-based availability jako przedsezonowy przegląd)"
+knowledge_cutoff: "Immediately before the planned start of the first official session of the South African Grand Prix at Kyalami on Thursday, 21 January 1982; exact time unknown"
+spoiler_scope:
+  allowed:
+    - "Kontekst, ogłoszenia i przypisane oczekiwania publicznie dostępne przed granicą wiedzy"
+  forbidden:
+    - "Wszelkie informacje od pierwszej oficjalnej sesji Grand Prix RPA na Kyalami"
+content_language: "pl"
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "not-run"
+last_verified: null

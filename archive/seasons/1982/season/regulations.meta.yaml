@@ -1,0 +1,18 @@
+season: "1982"
+document_type: "season-regulations"
+event: null
+event_time: "Stan przepisów przed planowanym rozpoczęciem pierwszej oficjalnej sesji Grand Prix RPA na Kyalami 21 stycznia 1982"
+public_knowledge_time: "Najnowsze datowane użyte źródło: maj 1981; data publikacji bazowego PDF FIA pozostaje nieznana"
+knowledge_cutoff: "Immediately before the planned start of the first official session of the South African Grand Prix at Kyalami on Thursday, 21 January 1982; exact time unknown"
+spoiler_scope:
+  allowed:
+    - "Oficjalny tekst techniczny i współczesne wyjaśnienia publiczne przed granicą wiedzy"
+    - "Jawnie oznaczone niepewności i konflikty istniejące przy tej granicy"
+  forbidden:
+    - "Późniejsze interpretacje, egzekwowanie, protesty, orzeczenia i skutki"
+    - "Wyniki lub przebieg sesji i wyścigu na Kyalami oraz dalsza część sezonu"
+content_language: "pl"
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: null

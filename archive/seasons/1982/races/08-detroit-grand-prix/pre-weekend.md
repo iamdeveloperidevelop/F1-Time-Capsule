@@ -1,27 +1,4 @@
----
-season: "1982"
-document_type: "race-prelude"
-event: "Detroit Grand Prix"
-event_time: "[PRE-WEEKEND CONTEXT INTERVAL]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
-spoiler_scope:
-  allowed:
-    - "[PREVIOUS STANDINGS AND DEVELOPMENTS PUBLIC BEFORE THE WEEKEND]"
-  forbidden:
-    - "[ALL INFORMATION FROM THE FIRST OFFICIAL SESSION ONWARD]"
-content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
----
-
 # Detroit Grand Prix — before the weekend
-
-## Knowledge boundary
-
-[EXACT CUTOFF, TIME ZONE IF KNOWN, AND WEEKEND FORMAT]
 
 ## Current championship position
 
@@ -55,10 +32,10 @@ last_verified: null
 
 [CONCISE ORIENTATION AND QUESTIONS]
 
-## Spoiler audit
+## Przypisy
 
-[RESULT OR LINK TO A COMPLETED AUDIT USING THE SHARED TEMPLATE]
+[NUMBERED CAVEATS MARKED FROM THE TEXT WITH *¹, *², …]
 
-## Source status
+## Uwagi źródłowe
 
-[CLAIM IDS, SOURCE IDS IN sources.md, GAPS, AND STATUS]
+[BRIEF POINTER TO sources.md; CLAIM/SOURCE MAP BELONGS HERE OR IN THE LEDGER]

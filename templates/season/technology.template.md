@@ -1,27 +1,6 @@
----
-season: "[SEASON]"
-document_type: "season-technology"
-event: null
-event_time: "[TECHNICAL CONTEXT INTERVAL]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[SEASON BOUNDARY]"
-spoiler_scope:
-  allowed:
-    - "[DISCLOSED OR CREDIBLY OBSERVED TECHNOLOGY KNOWN BY THE CUTOFF]"
-  forbidden:
-    - "[LATER PERFORMANCE, RELIABILITY, DEVELOPMENT, RULINGS, AND LABELS]"
-content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
----
+<!-- Document metadata lives in the sibling technology.template.meta.yaml (schema: templates/shared/document-metadata.template.yaml). -->
 
 # [SEASON] — technology
-
-## Knowledge boundary
-
-[EXACT BOUNDARY]
 
 ## Regulatory setting
 

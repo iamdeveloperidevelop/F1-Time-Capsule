@@ -1,22 +1,3 @@
----
-season: "1982"
-document_type: "race-source-ledger"
-event: "Austrian Grand Prix"
-event_time: "[EVENT INTERVAL COVERED BY THIS LEDGER]"
-public_knowledge_time: "[WHEN THE LATEST RETAINED SOURCE INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[LATEST DOCUMENT CUTOFF THIS LEDGER CURRENTLY SUPPORTS]"
-spoiler_scope:
-  allowed:
-    - "[SOURCE METADATA AND CLAIM SUPPORT WITHIN THE SUPPORTED CUTOFF]"
-  forbidden:
-    - "[LATER SOURCE CONTENT EXCEPT QUARANTINED RISK METADATA]"
-content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
----
-
 # Austrian Grand Prix — source ledger
 
 This is the canonical source ledger for the race folder. Content documents cite
@@ -44,8 +25,7 @@ notes: "[LIMITATIONS, TRANSLATION, OR null]"
 ```
 
 Repeat only the source-entry block from
-`templates/shared/source-entry.template.yaml`. Unknown dates remain `unknown`;
-do not infer them.
+`templates/shared/source-entry.template.yaml`. Leave exact calendar dates `unknown` rather than inventing them; apply content-based availability from `docs/source-policy.md` when judging whether day-undated contemporary material may support cutoff-safe claims.
 
 ## Conflict and uncertainty index
 

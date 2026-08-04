@@ -22,6 +22,9 @@ Read `docs/source-policy.md` and `docs/temporal-scope.md`. Use
 2. Match each item to its cited source and the most exact practical locator;
    record limitations when the source does not permit one.
 3. Verify source identity, publication date, event date, and contemporaneity.
+   Accept content-based availability judgments for day-undated contemporary
+   material when the cited passage is clearly pre-cutoff; do not fail a claim
+   solely for a missing magazine day-of-month.
 4. Check that support entails the claim's exact wording and certainty.
 5. Rate source suitability using the canonical hierarchy.
 6. Identify unsupported claims, weak dependencies, spoiler-bearing sources, and
@@ -34,7 +37,9 @@ Read `docs/source-policy.md` and `docs/temporal-scope.md`. Use
 - Treating a nearby citation as support without checking it
 - Upgrading an inference or expectation into fact
 - Using an inaccessible or fabricated citation as verified
-- Guessing missing dates or silently resolving disagreement
+- Inventing exact calendar dates, or silently resolving disagreement
+- Rejecting clearly pre-cutoff contemporary previews only because
+  `publication_date` is `unknown`
 - Importing later facts discovered during verification
 
 ## Expected output

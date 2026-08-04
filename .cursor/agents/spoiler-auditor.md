@@ -10,6 +10,8 @@ Require the draft, metadata, selected contract, and cutoff. Read
 `docs/temporal-scope.md`, then follow
 `.cursor/skills/spoiler-scope-audit/SKILL.md` in report-only mode.
 
-Check direct spoilers, hindsight, foreshadowing, retrospective certainty,
-outcome-shaped emphasis, and contaminated viewing cues. Return precise findings
-and cutoff-safe remediation without unnecessarily revealing the future fact.
+Check direct outcome/accident spoilers, hindsight, foreshadowing, retrospective
+certainty, outcome-shaped emphasis, and contaminated viewing cues. Apply spoiler
+calibration: publication-day trivia and minor pre-cutoff forecast differences
+are not spoilers. Return precise findings and cutoff-safe remediation without
+unnecessarily revealing the future fact.

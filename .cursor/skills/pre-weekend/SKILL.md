@@ -83,9 +83,15 @@ Only information publicly knowable by that cutoff is allowed, including:
 Exclude all information from the first official session onward, including
 practice, qualifying, grid, race, later rulings, and later-event knowledge.
 
+Write a readable race prelude, not a skeletal bulletin. Cover the contemporary
+field and attributed expectations in proportion to preseason evidence; do not
+narrow the weekend to the few drivers with hard-dated wire announcements if a
+broader preseason survey exists (content-based availability). Omit hollow
+sections that only cross-link season references without adding weekend context.
+
 Do not require the user to find missing archival evidence. If an exact time,
 entry, forecast, circuit detail, or other fact cannot be verified, use only the
-narrowest supportable uncertainty or omit it, then add a concrete open item to
+narrowest supportable wording with a footnote, or omit it, then add a concrete open item to
 the season's `things-to-resolve-after-season.md` ledger.
 
 Use the `researcher` or `historical-f1-research` workflow for evidence

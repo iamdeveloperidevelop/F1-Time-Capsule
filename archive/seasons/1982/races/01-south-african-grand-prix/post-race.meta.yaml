@@ -1,0 +1,16 @@
+season: "1982"
+document_type: "post-race-report"
+event: "South African Grand Prix"
+event_time: "Wyścig Grand Prix RPA na Kyalami 23 stycznia 1982 oraz natychmiastowa klasyfikacja po fladze w szachownicę"
+public_knowledge_time: "Wynik i przebieg znane z relacji Motor Sport March 1982 (D.S.J.); publication_date numeru po imprezie"
+knowledge_cutoff: "Immediately after the South African Grand Prix classification as reported in contemporary Motor Sport coverage of the Kyalami race; before the next championship round"
+spoiler_scope:
+  allowed:
+    - "Przebieg wyścigu, klasyfikacja, punkty i natychmiastowe reakcje prasowe"
+  forbidden:
+    - "Kolejna runda, późniejsze apelacje, zmiany spoza natychmiastowego cutoff oraz hindsight sezonu"
+content_language: "pl"
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "not-run"
+last_verified: null

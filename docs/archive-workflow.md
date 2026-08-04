@@ -10,7 +10,8 @@ never runs the next stage automatically.
 
 ## Two kinds of state
 
-Document front matter is authoritative for that document's temporal boundary.
+Document metadata (the sibling `.meta.yaml`) is authoritative for that
+document's temporal boundary.
 Sources establish what was publicly knowable by that boundary.
 `archive-state.yaml` only tells an agent where the repository workflow currently
 stands. It is not evidence and must never be used to resolve a historical claim.

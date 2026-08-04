@@ -74,9 +74,15 @@ Exclude race-start incidents, formation-lap developments occurring after the
 declared cutoff, race results, retirements, post-race penalties, later appeals,
 future significance, and any viewing cue shaped by knowledge of the result.
 
+Write a readable pre-start brief: narrate the weekend so far, the grid story,
+and attributed session observations. Do not reduce the field to a handful of
+names unless the evidence truly stops there. Omit hollow sections.
+
 Do not require the user to provide missing archival evidence. Omit an
-unsupported claim or record only the supportable uncertainty, then add the
-specific evidence gap to `things-to-resolve-after-season.md`.
+unsupported claim, or keep only supportable wording with a short footnote,
+then add the specific evidence gap to `things-to-resolve-after-season.md`.
+Reader-facing prose must stay readable: no claim/source IDs or research-log
+hedging in the main text (`docs/methodology.md`).
 
 Use the existing researcher, source-auditor, spoiler-auditor, and editor roles
 or their corresponding helper skills. Keep the verified claim set fixed during

@@ -2,7 +2,12 @@
 
 This repository governs a future spoiler-safe, race-by-race Formula 1 archive.
 For historical work, the declared knowledge cutoff is a correctness boundary:
-future facts, hindsight, foreshadowing, and later-informed emphasis are spoilers.
+future outcomes, accidents, hindsight, foreshadowing, and later-informed
+emphasis are spoilers. Exact publication-day trivia for clearly pre-cutoff
+contemporary material is not; see content-based availability in
+`docs/source-policy.md` and spoiler calibration in `docs/temporal-scope.md`.
+Reader-facing prose must remain readable—put dating caveats in footnotes, not
+in every sentence.
 
 - Read the relevant `.cursor/rules/` files and canonical documents they cite.
 - Use an applicable `.cursor/skills/` workflow before substantial research,
@@ -10,7 +15,8 @@ future facts, hindsight, foreshadowing, and later-informed emphasis are spoilers
 - Future historical content defaults to Polish unless the task says otherwise.
 - Verify historical claims; never invent facts, quotations, or citations.
 - Preserve credible conflicts and uncertainty instead of guessing or silently
-  reconciling them.
+  reconciling them; keep those caveats in footnotes and source apparatus, not
+  as constant interruptions in reader-facing prose.
 - Do not create broad repository or content structures without an explicit task.
 - Do not create historical content during Phase 0. Only a user instruction that
   explicitly begins Phase 1 or explicitly authorises historical content changes

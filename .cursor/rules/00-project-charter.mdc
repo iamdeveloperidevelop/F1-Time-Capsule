@@ -12,7 +12,8 @@ alwaysApply: true
 - Repository instructions, paths, and metadata use English and UTF-8. Future
   historical content defaults to Polish unless explicitly requested otherwise.
 - Never invent a historical fact, quotation, citation, or resolution of
-  conflicting evidence.
+  conflicting evidence. Keep conflicts and uncertainty in footnotes and source
+  apparatus rather than as constant interruptions in reader-facing prose.
 
 Priority: follow the explicit task for deliverables; for all historical content,
 the cutoff and evidence requirements remain mandatory. `AGENTS.md` is the entry

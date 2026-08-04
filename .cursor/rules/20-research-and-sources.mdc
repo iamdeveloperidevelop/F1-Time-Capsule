@@ -14,10 +14,13 @@ Follow `docs/source-policy.md`.
 - Map every important claim to the most exact source location practical,
   distinguish publication date, event date, and public-knowledge time, and
   document why a precise locator is unavailable.
+- Do not invent exact calendar dates; leave `publication_date: unknown` when
+  needed. Use content-based availability to decide whether clearly pre-cutoff
+  contemporary material may still support readable, attributed prose.
 - Attribute expectations; label cautious interpretation; preserve unresolved
   disagreement.
-- Never guess, silently combine incompatible accounts, or use a citation for
-  more than it supports.
+- Never guess facts, silently combine incompatible accounts, or use a citation
+  for more than it supports.
 - Isolate cutoff-safe facts from later sources and flag spoiler-bearing sources.
 - Quote briefly only when exact wording adds historical value.
 

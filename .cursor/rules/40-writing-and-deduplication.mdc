@@ -11,7 +11,13 @@ Follow `docs/methodology.md`.
 
 - Write future historical content in natural Polish unless requested otherwise.
 - Preserve names and diacritics; explain technical concepts for non-engineers.
-- Be precise, engaging without artificial drama, and explicit about uncertainty.
+- Be precise and engaging without artificial drama. Main text must read cleanly;
+  put uncertainty, source limits, claim/source IDs, and ledger links in
+  `## Przypisy` / `## Uwagi źródłowe`, marked with short footnote markers.
+  Do not open with a knowledge-boundary section or close with a spoiler-audit
+  section; those live in the sibling `.meta.yaml` (`knowledge_cutoff`,
+  `spoiler_scope`, `spoiler_audit_status`).
+- Do not narrate research process or absence of evidence in every paragraph.
 - Do not add facts while editing.
 - Give each detailed fact one primary home. Elsewhere, use a concise contextual
   summary and link.

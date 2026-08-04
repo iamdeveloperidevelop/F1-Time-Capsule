@@ -1,147 +1,89 @@
----
-season: "1982"
-document_type: "season-prelude"
-event: null
-event_time: "Okres przedsezonowy do planowanego rozpoczęcia pierwszej oficjalnej sesji Grand Prix RPA na Kyalami, 21 stycznia 1982"
-public_knowledge_time: "Najpóźniejsze wiadomości o wykazanej dostępności pochodzą z December 1981; dokładny dzień publikacji numeru „Motor Sport” datowanego January 1982 jest nieznany, więc nie można potwierdzić jego dostępności przed knowledge_cutoff"
-knowledge_cutoff: "Immediately before the planned start of the first official session of the South African Grand Prix at Kyalami on Thursday, 21 January 1982; exact time unknown"
-spoiler_scope:
-  allowed:
-    - "Kontekst sezonu 1981, potwierdzone informacje przedsezonowe oraz przypisane oczekiwania opublikowane przed granicą wiedzy"
-  forbidden:
-    - "Wszystkie sesje, wyniki, wydarzenia i zmiany sezonu 1982 oraz późniejsza wiedza i oceny retrospektywne"
-content_language: "pl"
-research_status: "drafted"
-source_status: "partial"
-spoiler_audit_status: "passed"
-last_verified: null
----
-
 # 1982 — wprowadzenie do sezonu
-
-## Granica wiedzy
-
-Ten tekst zatrzymuje się bezpośrednio przed planowanym rozpoczęciem pierwszej
-oficjalnej sesji Grand Prix RPA na Kyalami w czwartek 21 stycznia 1982.
-Dokładna godzina pozostaje nieznana, ponieważ nie odnaleziono oficjalnego
-rozkładu sesji. Luki dotyczące granicy wiedzy i źródeł zapisano w
-[`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
-Najpóźniejsze wiadomości o wykazanej dostępności pochodzą z numeru
-„Motor Sport” datowanego na December 1981. Dokładny dzień publikacji numeru
-datowanego na January 1982 nie jest znany, więc nie można potwierdzić jego
-dostępności przed przyjętą granicą. Luka blokuje użycie jego treści jako wiedzy
-publicznej przed cutoff.
 
 ## Odziedziczony kontekst
 
-Sezon zaczynał się z Nelsonem Piquetem jako mistrzem świata kierowców 1981
-[CTX-01] oraz Williamsem jako zespołem, który drugi rok z rzędu zdobył
-mistrzostwo producentów [CTX-02]. Grudniowe podsumowanie „Motor Sport”
-przedstawiało Williamsa jako ekipę nadal należącą do ścisłej czołówki.
-Według datowanej depeszy UPI z 18 grudnia 1981 Williams potwierdził parę Carlos
-Reutemann–Keke Rosberg [T03].
+Sezon zaczynał się z Nelsonem Piquetem jako mistrzem świata kierowców 1981 oraz Williamsem jako zespołem, który drugi rok z rzędu zdobył mistrzostwo producentów.*¹ Grudniowe podsumowanie „Motor Sport” zaliczało Williamsa nadal do ścisłej czołówki; 18 grudnia 1981 ekipa potwierdziła parę Carlos Reutemann–Keke Rosberg.*²
 
-Szersze tło sportowe i organizacyjne, łącznie z ograniczeniami bazy źródłowej,
-znajduje się w
-[`context.md`](context.md), a role osób i instytucji w
-[`people-and-organisations.md`](people-and-organisations.md).
+Styczniowy przegląd Denisa Jenkinsona oceniał miniony sezon jako pełen sporów o władzę i interpretację przepisów, a zarazem podkreślał, że kierowcy utrzymali sportowy dramat. Na wejściu w 1982 pismo odnotowywało brak otwartego rozłamu co do tego, kto prowadzi Formułę 1, i liczyło na spokojniejszy start.*³ Szersze tło organizacyjne: [`context.md`](context.md); role osób i instytucji: [`people-and-organisations.md`](people-and-organisations.md).
 
-## Stan stawki i jej ograniczenia
+## Stawka
 
-Zebrane dowody nie dają kompletnej, potwierdzonej przed cutoff listy zespołów i
-kierowców. Przegląd obsady w materiale PRE-01 nie może jej uzupełnić, dopóki nie
-zostanie ustalony dzienny termin publikacji styczniowego numeru. Dowody listy
-zgłoszeń pozostają więc niepełne, a ten rozdział nie przedstawia stawki jako
-zamkniętej.
+W materiałach przedsezonowych widać już kilka utrwalonych ekip i kilka foteli w ruchu.*⁴
 
-Odrębne, nadal częściowe zestawienia ekip i kierowców znajdują się odpowiednio w
-[`teams.md`](teams.md) i [`drivers.md`](drivers.md). Nie rozstrzygają one żadnej
-późniejszej zmiany ani nie rekonstruują listy startowej z dokumentów powstałych
-po cutoff.
+Williams wchodził jako obrońca tytułu producentów z Reutemannem i Rosbergiem. Brabham zostawiał Piqueta jako lidera i brał Riccarda Patrese. Ferrari zatrzymywało Gilles’a Villeneuve’a i Didiera Pironiego; Renault — Alaina Prosta i René Arnoux. W McLarenie John Watson miał dostać u boku Nikiego Laudę, wracającego po przerwie. Talbot/Ligier stawiał na Jacques’a Laffite’a z Eddiem Cheeverem; w Lotusie Nigel Mansell zostawał, a drugi fotel w styczniowym przeglądzie nadal był otwarty. Toleman zatrzymywał Dereka Warwicka, a przyszłość Briana Hentona opisywano niepewnie.
 
-## Przegląd przepisów i techniki
+Szczegóły obsad i dorobku: [`teams.md`](teams.md), [`drivers.md`](drivers.md).
 
-Styczniowy materiał PRE-01 zawierał opis programów technicznych, lecz nie ma
-ustalonego dnia publikacji. Do czasu zamknięcia tej luki nie służy tutaj jako
-dowód wiedzy dostępnej przed cutoff. Szczegóły zasad należą do
-[`regulations.md`](regulations.md), a konstrukcji i kompromisów technicznych do
-[`technology.md`](technology.md).
+## Przepisy i technika
 
-## Zarys kalendarza
+Na tor wracały dwa równoległe światy napędu: wolnossące trzy litry i doładowane półtora litra, przy sporach o prześwit i uszczelnienie podwozia po zakazie ruchomych fartuchów.*⁵ Ferrari zapowiadało nowy samochód z turbodoładowanym V6; Renault wchodziło z konstrukcją RE30; Brabham testował BT50 z rzędowym BMW; McLaren na start zostawał przy Cosworth DFV, a umowę z Porsche na turbo przedstawiano jako projekt na dalszą przyszłość. Opisy: [`regulations.md`](regulations.md), [`technology.md`](technology.md).
 
-Przypisaną CAL-01 wersję harmonogramu zapisuje [`calendar.md`](calendar.md).
-Brak dziennej daty publikacji PRE-02/CAL-01 uniemożliwia obecnie potwierdzenie,
-że ta wersja była dostępna do 21 stycznia; nie jest ona traktowana jako
-bezwarunkowo cutoff-safe ani jako wiedza o faktycznym przebiegu sezonu.
+## Kalendarz
 
-## Dostępny materiał przedsezonowy
+Pierwszą rundą mistrzostw miał być powrót Grand Prix RPA na Kyalami. Styczniowa reprodukcja kalendarza FIA w „Motor Sport” dawała szesnaście numerowanych terminów, z Detroit jako propozycją uliczną i sporem o datę Kanady wewnątrz tego samego materiału.*⁶ Pełna tabela: [`calendar.md`](calendar.md).
 
-Materiał o wykazanej dostępności przed pierwszą sesją dawał ograniczone punkty
-odniesienia. Uzupełniał przedstawiony wyżej kontekst Williamsa: grudniowa
-analiza podkreślała zarówno zdolność zespołu do pozostania w walce, jak i jego
-determinację, by sięgnąć po trzeci tytuł z rzędu [PRE-03]. Styczniowe relacje o
-próbach i innych zespołach nie są tu używane, ponieważ ich dostępność przed
-cutoff pozostaje niepotwierdzona.
+## Przed sezonem
 
-## Współczesne pytania i oczekiwania
+Jenkinson pisał przegląd w połowie grudnia 1981; numer datowany January 1982 zbierał ten obraz przed otwarciem sezonu.*⁷ South African Grand Prix było z powrotem w kalendarzu mistrzostw. Williams dopinał obsadę i negocjacje wokół przyszłości zespołu; Patrick Head pracował nad eksperymentalnym sześciokołowym projektem. Ferrari i Renault uchodziły za dawno ustalone. McLaren ogłaszał powrót Laudy i umowę silnikową z Porsche. Brabham łączył mistrza Piqueta z Patrese i próbami BMW turbo. Lotus wychodził z bardzo niespokojnego 1981; Toleman po grudniowych testach w Paul Ricard mówił o większych nadziejach. W tylnej części stawki styczniowy tekst opisywał jeszcze „kocioł” nazw — Tyrrell, ATS, Ensign, March, Fittipaldi, Arrows, Osella i wielu kierowców — który miał się częściowo ułożyć do końca grudnia.
 
-W grudniowym materiale „Motor Sport” formułował jedno bezpiecznie datowane
-oczekiwanie:
+## Współczesne oczekiwania
 
-- „Motor Sport” oceniał, że Williams miał środki, by walczyć o trzeci kolejny
-  tytuł producentów [PRE-03].
+„Motor Sport” oceniał, że Williams ma środki, by walczyć o trzeci kolejny tytuł producentów.*⁸ Ten sam styczniowy przegląd widział Renault w mocnej pozycji po końcówce 1981, Ferrari na drodze turbo z nowym podwoziem, a Talbot/Ligier — z Laffite’em w centrum — jako siłę, z którą trzeba się liczyć. Brabhamowi przypisywano naturalnego zwycięzcę w Piquecie i możliwe wejście BT50–BMW do wyścigów. McLarenowi — spokojny postęp po połączeniu z Project Four oraz prestiż umowy z Porsche, przy DFV na początek. O Theodore z Patrickiem Tambayem pismo pisało z nadzieją na solidne punkty, bez stawiania ich przeciwko wielkim fabrycznym ekipom. Lauda publicznie tonował oczekiwania wobec Kyalami; Frank Williams chwalił szybkość i podejście Rosberga.*⁹
 
-Pozostałe oczekiwania z PRE-01 wymagają najpierw potwierdzenia, że numer January
-1982 był publicznie dostępny przed granicą wiedzy.
+## Przypisy
+
+1. CTX-01 (Piquet), CTX-02 (Williams — mistrzostwo producentów 1981).
+2. CTX-02; T03 — depesza UPI, 18 grudnia 1981 (późniejsza i pewniejsza co do pary Reutemann–Rosberg niż niedomknięty obraz obsady Williamsa w PRE-01, pisanym w połowie grudnia).
+3. PRE-01 — Denis Jenkinson, „The Formula One Scene”, *Motor Sport*, January 1982.
+4. Przegląd obsady: PRE-01 oraz potwierdzenia UPI dla Williamsa i McLarena. To nie oficjalna, kompletna lista zgłoszeń na pierwszą sesję; luki foteli i tylnej stawki: [`rejestr kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
+5. Ramy silnikowe i aerodynamiczne: [`regulations.md`](regulations.md), [`technology.md`](technology.md); programy zespołów głównie z PRE-01.
+6. CAL-01 / PRE-02. Konflikt daty Kanady i status Detroit należą do tego źródła, nie do późniejszego przebiegu sezonu.
+7. PRE-01; autor zaznacza czas pisania („mid-December”). Dokładny dzień publikacji numeru pozostaje `unknown`; treść to przedsezonowy przegląd bez wyników Kyalami — użyta na zasadzie content-based availability (`docs/source-policy.md`).
+8. PRE-03 / CTX-02 — grudniowy profil Williamsa; uzupełnienie pól oczekiwań: PRE-01.
+9. UPI-LAUDA-1981; UPI-WILLIAMS-1981. Oczekiwania przypisane źródłom z epoki, nie ocenie autora archiwum.
 
 ## Uwagi źródłowe
 
+- Granica wiedzy (metadane YAML): tuż przed pierwszą oficjalną sesją na Kyalami, 21 stycznia 1982; dokładna godzina nieznana. Styczniowy „Motor Sport” ma `publication_date: unknown`, lecz treść jest przedsezonowa i użyta jako współczesny raport. Otwarte luki inne niż dzień publikacji: [`rejestr kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
+
 - **PRE-01 / MS-1982-01-31** — Denis Jenkinson, „The Formula One Scene”,
-  *Motor Sport*, January 1982 (dokładny dzień publikacji `unknown`), `PRESS`,
-  `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
+  *Motor Sport*, January 1982 (`publication_date: unknown`), `PRESS`,
+  `contemporary: true`, `spoiler_risk: contains-later-material`; locator:
   https://www.motorsportmagazine.com/archive/article/january-1982/31/formula-one-scene/
-  (s. 31). Zawiera przegląd obsad i oczekiwań, ale brak daty dziennej blokuje
-  uznanie jego treści za publicznie dostępną przed cutoff.
+  (s. 31). Wspiera przegląd obsad i oczekiwań, komentarz o sporach 1981 oraz
+  brak otwartego rozłamu na starcie 1982. Content-based availability: tekst
+  pisany w połowie grudnia, bez wyników pierwszej rundy.
 - **PRE-02 / MS-1982-01-35** — „The 1982 International Racing Season”,
-  *Motor Sport*, January 1982 (dokładny dzień publikacji `unknown`), `PRESS`,
-  `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
+  *Motor Sport*, January 1982 (`publication_date: unknown`), `PRESS`,
+  `contemporary: true`, `spoiler_risk: contains-later-material`; locator:
   https://www.motorsportmagazine.com/archive/article/january-1982/35/the-1982-international-racing-season/
-  (s. 35). Zawiera wersję kalendarza przypisaną CAL-01, ale brak daty dziennej
-  blokuje audyt jej dostępności do 21 stycznia; nie dowodzi też dokładnej
-  godziny pierwszej sesji.
+  (s. 35). Wspiera reprodukcję kalendarza CAL-01.
 - **CTX-01 / MS-1981-12-76** — A.H., „Nelson Piquet”, *Motor Sport*, December
-  1981, `PRESS`, `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
+  1981, `PRESS`, `contemporary: true`, `spoiler_risk: contains-later-material`;
+  locator:
   https://www.motorsportmagazine.com/archive/article/december-1981/76/nelson-piquet/
-  (s. 76). Wspiera status Piqueta jako mistrza świata kierowców 1981.
+  (s. 76). Wspiera status Piqueta jako mistrza świata 1981.
 - **CTX-02, PRE-03 / MS-1981-12-48** — Denis Jenkinson, „The Frank Williams
   Team”, *Motor Sport*, December 1981, `PRESS`, `contemporary: true`,
-  `spoiler_risk: contains-later-material`; pełny locator:
+  `spoiler_risk: contains-later-material`; locator:
   https://www.motorsportmagazine.com/archive/article/december-1981/48/the-frank-williams-team-2/
-  (s. 48). Wspiera tytuł producentów 1981, drugi kolejny sukces Williamsa oraz
-  przypisane oczekiwanie walki o trzeci.
-- **T03 / UPI-WILLIAMS-1981** — United Press International, „Carlos Reutemann
-  of Argentina, runner-up in the 1981 World...”, 18 December 1981, `PRESS`,
-  `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
+  (s. 48). Wspiera tytuł producentów 1981 i oczekiwanie walki o trzeci.
+- **T03 / UPI-WILLIAMS-1981** — United Press International, 18 December 1981,
+  `PRESS`, `contemporary: true`, `spoiler_risk: contains-later-material`;
+  locator:
   https://www.upi.com/Archives/1981/12/18/Carlos-Reutemann-of-Argentina-runner-up-in-the-1981-World/9118377499600/.
-  Wspiera parę Reutemann–Rosberg jako potwierdzoną przez Williamsa oraz
-  przypisaną wypowiedź Franka Williamsa o Rosbergu.
-- **CTX-03, CTX-04, CTX-06 / MS-1982-01-31** — Denis Jenkinson, „The Formula
-  One Scene”, *Motor Sport*, January 1982 (dokładny dzień nieznany), `PRESS`,
-  `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
-  https://www.motorsportmagazine.com/archive/article/january-1982/31/formula-one-scene/
-  (s. 31). Zawiera prasowy opis konfliktu, Concorde Agreement i zastrzeżeń wobec
-  interpretowania reguł, lecz brak daty dziennej blokuje użycie tych treści
-  przed cutoff.
-- **CTX-05 / FIA-BALESTRE** — FIA, „Jean-Marie Balestre”, data publikacji
-  `unknown`, `ARCHIVE`, `contemporary: false`,
-  `spoiler_risk: contains-later-material`; pełny locator:
+  Wspiera parę Reutemann–Rosberg oraz wypowiedź Franka Williamsa o Rosbergu.
+- **UPI-LAUDA-1981** — United Press International, 12 November 1981, `PRESS`,
+  `contemporary: true`, `spoiler_risk: contains-later-material`; locator:
+  https://www.upi.com/Archives/1981/11/12/Austrian-driver-Niki-Lauda-a-two-time-Grand-Prix-champion/2164374389200/.
+  Wspiera powrót Laudy do McLarena i jego ostrożną wypowiedź o Kyalami.
+- **CTX-03, CTX-04, CTX-06 / MS-1982-01-31** — ten sam PRE-01; prasowy opis
+  konfliktu, Concorde Agreement i interpretacji reguł. Omówienie w
+  [`context.md`](context.md).
+- **CTX-05 / FIA-BALESTRE** — FIA, „Jean-Marie Balestre”, `publication_date:
+  unknown`, `ARCHIVE`, `contemporary: false`,
+  `spoiler_risk: contains-later-material`; locator:
   https://www.fia.com/profile/jean-marie-balestre (akapit o 1981). Wspiera
   tylko separowalny podział praw komercyjnych i kontroli regulacyjnej.
-- **CTX-06 / MS-1982-01-35** — „The 1982 International Racing Season”, *Motor
-  Sport*, January 1982 (dokładny dzień nieznany), `PRESS`,
-  `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
-  https://www.motorsportmagazine.com/archive/article/january-1982/35/the-1982-international-racing-season/
-  (s. 35). Zawiera stwierdzenie o formalnym pokoju FISA–FOCA, lecz jego
-  dostępność do 21 stycznia nie została wykazana. Omówienie luki źródłowej
-  znajduje się w
-  [`context.md`](context.md).
+- **CTX-06 / MS-1982-01-35** — PRE-02; stwierdzenie o formalnym pokoju
+  FISA–FOCA. Content-based availability jak wyżej.

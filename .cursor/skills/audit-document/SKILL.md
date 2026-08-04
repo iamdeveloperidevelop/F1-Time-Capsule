@@ -30,7 +30,8 @@ Example: /audit-document archive/seasons/1981/season/technology.md
 Read `AGENTS.md`, the relevant `.cursor/rules/`,
 `docs/temporal-scope.md`, `docs/source-policy.md`,
 `docs/content-contracts.md`, `docs/methodology.md`, and the target document.
-Identify its canonical contract from front matter and inspect only the related
+Identify its canonical contract from the sibling `.meta.yaml` (same basename as
+the Markdown file) and inspect only the related
 metadata, source ledgers, standings snapshots, and primary-home documents needed
 for the audit.
 

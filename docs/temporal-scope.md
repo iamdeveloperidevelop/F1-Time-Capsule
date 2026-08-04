@@ -67,9 +67,14 @@ spoiler_audit_status: "[not-run | issues-found | corrected | passed]"
 last_verified: "[YYYY-MM-DD OR null]"
 ```
 
-Archive Markdown stores this schema as YAML front matter. The reusable copy is
+Archive Markdown does **not** embed this schema as YAML front matter. Each
+reader-facing `.md` file has a sibling `.meta.yaml` with the same basename
+(for example `people-and-organisations.md` ↔ `people-and-organisations.meta.yaml`).
+The Markdown file starts at its title so it can be read without a machine
+prefix. The reusable schema copy is
 `templates/shared/document-metadata.template.yaml`; it mirrors this contract and
-must not define competing keys or status values.
+must not define competing keys or status values. When a task names a content
+document, agents must also read its sibling `.meta.yaml` for cutoff and status.
 
 `event_time` records when described events occurred.
 `public_knowledge_time` records when the newest used information became
@@ -102,10 +107,12 @@ The race filenames map to existing contract types as follows:
 
 Never reveal information beyond `knowledge_cutoff`, directly or indirectly.
 
-Direct spoilers include future winners, poles, standings, champions, accidents,
-deaths, injuries, retirements, penalties, disqualifications, protests,
-replacements, calendar changes, technical rulings, team conflicts, and driver
-conflicts.
+### What counts as a spoiler
+
+Direct spoilers are outcome and status leaks: future winners, poles, standings,
+champions, accidents, deaths, injuries, retirements, penalties,
+disqualifications, protests, replacements, calendar changes, technical rulings,
+and team or driver conflicts that were not yet public.
 
 Indirect spoilers include phrases such as “as would later become clear,” “this
 would prove decisive,” “the future champion,” “his final season,” “the last
@@ -121,15 +128,37 @@ questioned cooling and reliability while the team expected better straight-line
 performance.
 
 Predictions must remain attributed contemporary expectations, never facts
-validated by later events. Remove dramatic foreshadowing even when it is vague.
+validated by later events. Remove dramatic foreshadowing that signals a later
+outcome, even when the wording is vague.
+
+### Calibration: do not over-police dating trivia
+
+Spoiler safety protects the reader's experience of the weekend and season, not
+archival pedantry. Treat the following as **not** automatic spoilers and **not**
+reasons to empty otherwise useful prose:
+
+- an unknown exact publication day for a clearly pre-cutoff preview, entry list
+  survey, or contemporary expectation piece (see content-based availability in
+  `docs/source-policy.md`);
+- minor differences between successive pre-cutoff forecasts or paddock notes
+  that the reader will see resolved in later allowed documents (for example
+  weather outlook revisions), when none of them disclose a forbidden outcome;
+- incomplete clock-time precision for a session when the calendar day and
+  sequence are known and no later result is implied.
+
+Prefer a readable, attributed contemporary account with a short footnote over a
+skeleton document that mentions only the one source with a fully known
+day-of-month. Do not let source-dating caution collapse the field to defending
+champions or eventual winners.
 
 ## Using later sources
 
 A later-published source may support a clearly separable fact about an earlier
 moment only if:
 
-1. contemporary evidence or explicit dated provenance within the later source
-   establishes that the fact was publicly knowable by the cutoff;
+1. contemporary evidence, explicit dated provenance within the later source, or
+   a documented content-based availability judgment establishes that the fact
+   was publicly knowable by the cutoff;
 2. its support can be isolated from later interpretation;
 3. no later outcome changes the wording, emphasis, or certainty; and
 4. the source record warns that the source contains material beyond the cutoff.

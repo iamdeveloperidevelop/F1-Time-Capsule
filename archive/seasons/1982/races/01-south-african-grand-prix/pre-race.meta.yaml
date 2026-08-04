@@ -1,0 +1,16 @@
+season: "1982"
+document_type: "pre-start-weekend-brief"
+event: "South African Grand Prix"
+event_time: "Ukończone sesje przed wyścigiem i chwila bezpośrednio przed startem na Kyalami, 23 stycznia 1982"
+public_knowledge_time: "Informacje o sesjach i polu dostępne przed startem; główna relacja Motor Sport March 1982 opisuje je retrospektywnie względem numeru, lecz treść dotyczy stanu przed startem"
+knowledge_cutoff: "Immediately before the scheduled start at Kyalami; a later archive associates the event with Saturday, 23 January 1982, and the exact clock time is unverified"
+spoiler_scope:
+  allowed:
+    - "Ukończone sesje przedstartowe, pole, warunki i informacje dostępne przed startem"
+  forbidden:
+    - "Start wyścigu, wydarzenia wyścigowe, wyniki, wycofania po starcie oraz późniejsza część sezonu"
+content_language: "pl"
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "not-run"
+last_verified: null

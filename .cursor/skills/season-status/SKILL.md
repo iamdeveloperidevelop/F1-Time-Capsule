@@ -33,8 +33,8 @@ Read only:
 - `archive-state.yaml`;
 - `archive/seasons/[SEASON]/metadata.yaml`, if present;
 - `archive/seasons/[SEASON]/things-to-resolve-after-season.md`, if present;
-- all season-document front matter;
-- race metadata and race-document front matter;
+- all season-document sibling `.meta.yaml` files;
+- race `metadata.yaml` and race-document sibling `.meta.yaml` files;
 - source-ledger conflict and uncertainty indexes needed to report status.
 
 Do not follow external links or inspect web sources. Do not quote or summarize

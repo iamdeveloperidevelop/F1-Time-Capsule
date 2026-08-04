@@ -1,27 +1,6 @@
----
-season: "[SEASON]"
-document_type: "race-prelude"
-event: "[GRAND PRIX]"
-event_time: "[PRE-WEEKEND CONTEXT INTERVAL]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
-spoiler_scope:
-  allowed:
-    - "[PREVIOUS STANDINGS AND DEVELOPMENTS PUBLIC BEFORE THE WEEKEND]"
-  forbidden:
-    - "[ALL INFORMATION FROM THE FIRST OFFICIAL SESSION ONWARD]"
-content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
----
+<!-- Document metadata lives in the sibling pre-weekend.template.meta.yaml (schema: templates/shared/document-metadata.template.yaml). -->
 
 # [GRAND PRIX] — before the weekend
-
-## Knowledge boundary
-
-[EXACT CUTOFF, TIME ZONE IF KNOWN, AND WEEKEND FORMAT]
 
 ## Current championship position
 
@@ -41,7 +20,9 @@ last_verified: null
 
 ## Technical questions
 
-[KNOWN UPDATES AND OPEN QUESTIONS; LINK technology.md]
+[ONLY weekend-relevant technical storylines with substance; otherwise omit or
+fold into a short paragraph. Do not keep an empty section that only links
+technology.md. Link season/technology.md for detail.]
 
 ## Political and sporting context
 
@@ -49,16 +30,16 @@ last_verified: null
 
 ## Contemporary expectations
 
-[ATTRIBUTED EXPECTATIONS]
+[ATTRIBUTED EXPECTATIONS IN NATURAL PROSE]
 
 ## What to know before the weekend
 
-[CONCISE ORIENTATION AND QUESTIONS]
+[CONCISE ORIENTATION; NO CLAIM/SOURCE IDS]
 
-## Spoiler audit
+## Przypisy
 
-[RESULT OR LINK TO A COMPLETED AUDIT USING THE SHARED TEMPLATE]
+[NUMBERED CAVEATS MARKED FROM THE TEXT WITH *¹, *², …]
 
-## Source status
+## Uwagi źródłowe
 
-[CLAIM IDS, SOURCE IDS IN sources.md, GAPS, AND STATUS]
+[BRIEF POINTER TO sources.md; CLAIM/SOURCE MAP BELONGS HERE OR IN THE LEDGER]

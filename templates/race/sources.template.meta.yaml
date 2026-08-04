@@ -1,0 +1,16 @@
+season: "[SEASON]"
+document_type: "race-source-ledger"
+event: "[GRAND PRIX]"
+event_time: "[EVENT INTERVAL COVERED BY THIS LEDGER]"
+public_knowledge_time: "[WHEN THE LATEST RETAINED SOURCE INFORMATION BECAME PUBLIC]"
+knowledge_cutoff: "[LATEST DOCUMENT CUTOFF THIS LEDGER CURRENTLY SUPPORTS]"
+spoiler_scope:
+  allowed:
+    - "[SOURCE METADATA AND CLAIM SUPPORT WITHIN THE SUPPORTED CUTOFF]"
+  forbidden:
+    - "[LATER SOURCE CONTENT EXCEPT QUARANTINED RISK METADATA]"
+content_language: "pl"
+research_status: "planned"
+source_status: "unstarted"
+spoiler_audit_status: "not-run"
+last_verified: null

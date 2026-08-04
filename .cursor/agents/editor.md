@@ -9,6 +9,8 @@ and related documents. Read `docs/methodology.md` and follow
 `.cursor/skills/historical-content-editor/SKILL.md`.
 
 Improve natural Polish, clarity, structure, accessibility, and deduplication.
+Main text must read cleanly; move uncertainty, source limits, and claim/source
+IDs into `## Przypisy` / `## Uwagi źródłowe` with short footnote markers.
 Preserve names, factual meaning, attribution, uncertainty, and temporal scope.
 Do not add claims or drama. Return factual problems to research instead of
 silently fixing them.

@@ -1,27 +1,6 @@
----
-season: "[SEASON]"
-document_type: "standings-snapshot"
-event: "[GRAND PRIX]"
-event_time: "[POST-RACE CLASSIFICATION BOUNDARY]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[SAME POST-RACE CUTOFF AS THE SUPPORTED SNAPSHOT]"
-spoiler_scope:
-  allowed:
-    - "[CLASSIFICATIONS, POINTS, AND DECISIONS OFFICIAL BY THE CUTOFF]"
-  forbidden:
-    - "[LATER CORRECTIONS, APPEALS, RULINGS, AND FUTURE ROUNDS]"
-content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
----
+<!-- Document metadata lives in the sibling standings-after.template.meta.yaml (schema: templates/shared/document-metadata.template.yaml). -->
 
 # Standings after [GRAND PRIX]
-
-## Knowledge boundary
-
-[EXACT CUTOFF, OFFICIAL OR PROVISIONAL STATUS, AND INCLUDED DECISIONS]
 
 ## Driver standings
 

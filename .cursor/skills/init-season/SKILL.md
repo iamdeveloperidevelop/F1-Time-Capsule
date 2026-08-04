@@ -48,14 +48,23 @@ archive/seasons/[SEASON]/
 ├── things-to-resolve-after-season.md
 └── season/
     ├── prelude.md
+    ├── prelude.meta.yaml
     ├── context.md
+    ├── context.meta.yaml
     ├── regulations.md
+    ├── regulations.meta.yaml
     ├── technology.md
+    ├── technology.meta.yaml
     ├── teams.md
+    ├── teams.meta.yaml
     ├── drivers.md
+    ├── drivers.meta.yaml
     ├── people-and-organisations.md
+    ├── people-and-organisations.meta.yaml
     ├── calendar.md
-    └── glossary.md
+    ├── calendar.meta.yaml
+    ├── glossary.md
+    └── glossary.meta.yaml
 ```
 
 Use this canonical template-to-destination map:
@@ -66,14 +75,27 @@ Use this canonical template-to-destination map:
 | `metadata.template.yaml` | `metadata.yaml` |
 | `things-to-resolve-after-season.template.md` | `things-to-resolve-after-season.md` |
 | `prelude.template.md` | `season/prelude.md` |
+| `prelude.template.meta.yaml` | `season/prelude.meta.yaml` |
 | `context.template.md` | `season/context.md` |
+| `context.template.meta.yaml` | `season/context.meta.yaml` |
 | `regulations.template.md` | `season/regulations.md` |
+| `regulations.template.meta.yaml` | `season/regulations.meta.yaml` |
 | `technology.template.md` | `season/technology.md` |
+| `technology.template.meta.yaml` | `season/technology.meta.yaml` |
 | `teams.template.md` | `season/teams.md` |
+| `teams.template.meta.yaml` | `season/teams.meta.yaml` |
 | `drivers.template.md` | `season/drivers.md` |
+| `drivers.template.meta.yaml` | `season/drivers.meta.yaml` |
 | `people-and-organisations.template.md` | `season/people-and-organisations.md` |
+| `people-and-organisations.template.meta.yaml` | `season/people-and-organisations.meta.yaml` |
 | `calendar.template.md` | `season/calendar.md` |
+| `calendar.template.meta.yaml` | `season/calendar.meta.yaml` |
 | `glossary.template.md` | `season/glossary.md` |
+| `glossary.template.meta.yaml` | `season/glossary.meta.yaml` |
+
+When copying Markdown templates, strip any HTML comment that only points at the
+sibling metadata template; archive Markdown starts at the document title.
+Instantiate each content `.md` together with its sibling `.meta.yaml`.
 
 ## Preflight protection
 

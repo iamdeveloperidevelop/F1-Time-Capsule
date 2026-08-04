@@ -1,27 +1,6 @@
----
-season: "[SEASON]"
-document_type: "pre-start-weekend-brief"
-event: "[GRAND PRIX]"
-event_time: "[OFFICIAL PRE-RACE SESSIONS AND PRE-START MOMENT]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
-spoiler_scope:
-  allowed:
-    - "[COMPLETED PRE-RACE SESSIONS AND CONFIRMED PRE-START INFORMATION]"
-  forbidden:
-    - "[THE RACE START, RACE EVENTS, RESULTS, AND ALL LATER KNOWLEDGE]"
-content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
----
+<!-- Document metadata lives in the sibling pre-race.template.meta.yaml (schema: templates/shared/document-metadata.template.yaml). -->
 
 # [GRAND PRIX] — before the race
-
-## Knowledge boundary
-
-[EXACT PRE-START CUTOFF, TIME ZONE IF KNOWN, AND HISTORICAL WEEKEND FORMAT]
 
 ## Weekend in brief
 
@@ -63,12 +42,12 @@ last_verified: null
 
 ## Before the lights go out
 
-[NO MORE THAN 12 CONCISE POINTS]
+[NO MORE THAN 12 CONCISE POINTS; NO CLAIM/SOURCE IDS]
 
-## Spoiler audit
+## Przypisy
 
-[RESULT OR LINK TO A COMPLETED AUDIT USING THE SHARED TEMPLATE]
+[NUMBERED CAVEATS MARKED FROM THE TEXT WITH *¹, *², …]
 
-## Source status
+## Uwagi źródłowe
 
-[CLAIM IDS, SOURCE IDS IN sources.md, GAPS, AND STATUS]
+[BRIEF POINTER TO sources.md; CLAIM/SOURCE MAP BELONGS HERE OR IN THE LEDGER]

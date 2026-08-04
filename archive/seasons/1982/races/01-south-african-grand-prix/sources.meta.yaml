@@ -1,0 +1,16 @@
+season: "1982"
+document_type: "race-source-ledger"
+event: "South African Grand Prix"
+event_time: "Ukończone sesje przed wyścigiem i chwila bezpośrednio przed startem"
+public_knowledge_time: "Bezpośrednio przed planowanym startem; późniejsze archiwum łączy wydarzenie z 23 stycznia, lecz dokładna godzina pozostaje niezweryfikowana"
+knowledge_cutoff: "Immediately before the scheduled start at Kyalami; a later archive associates the event with Saturday, 23 January 1982, and the exact clock time is unverified"
+spoiler_scope:
+  allowed:
+    - "Metadane źródeł i wsparcie twierdzeń mieszczące się w obsługiwanej granicy wiedzy"
+  forbidden:
+    - "Treść źródeł po granicy wiedzy, poza skwantyfikowaną metadanym informacją o ryzyku spoilera"
+content_language: "pl"
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: null

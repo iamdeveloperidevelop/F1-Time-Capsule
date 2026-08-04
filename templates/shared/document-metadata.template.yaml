@@ -1,3 +1,7 @@
+# Canonical per-document metadata schema.
+# Stored beside each reader-facing Markdown file as `<basename>.meta.yaml`
+# (not as YAML front matter inside the .md). See docs/temporal-scope.md.
+
 season: "[SEASON]"
 document_type: "[DOCUMENT TYPE FROM docs/content-contracts.md]"
 event: "[GRAND PRIX OR null]"

@@ -17,20 +17,29 @@ source dates, and whether the cutoff matches the document type.
 - **Forbidden knowledge:** all later facts and interpretations, even if a source
   used for an earlier claim contains them.
 - **Sources:** every major factual claim is mapped to suitable evidence; major
-  expectations are attributed; disagreements remain visible.
+  expectations are attributed; disagreements remain visible in footnotes or
+  source apparatus, not as repeated hedging in the main text.
 - **Metadata:** all fields from the canonical metadata contract are required.
   Use `event: null` only when the document is genuinely season-wide.
 - **Duplication:** link to a fact's primary home and include only the context
   this document needs.
+- **Reader prose:** main sections read as continuous Polish narrative or clean
+  reference entries. Do not open with a reader-facing knowledge-boundary
+  section; the cutoff and spoiler scope stay in the sibling `.meta.yaml`. Do not
+  end with a spoiler-audit section; record `spoiler_audit_status` in that
+  metadata file (and a separate audit file only when a fuller record is needed).
+  Claim IDs, source IDs, ledger links, and research caveats belong in
+  `## Przypisy` and `## Uwagi źródłowe` (or `sources.md`), marked from the text
+  with short footnote markers when needed.
 - **Audit:** the document cannot advance to `verified` status until
   `spoiler_audit_status: passed` and `source_status: audited`. A later workflow
   transition may still use a safe document with `source_status: partial` when
-  its reader-facing claims are cutoff-safe, its limitations are explicit, and
-  each unresolved item is recorded in
-  `things-to-resolve-after-season.md`. A source-attributed, explicitly
-  provisional report may remain reader-facing under `docs/source-policy.md`;
-  it is not a confirmed fact. `issues-found` never permits progression until
-  the reader-facing issue is removed or rewritten as cutoff-safe uncertainty.
+  its reader-facing claims are cutoff-safe, its limitations are recorded in
+  footnotes or source notes, and each unresolved item is recorded in
+  `things-to-resolve-after-season.md`. A source-attributed provisional report
+  may remain reader-facing under `docs/source-policy.md`; it is not a confirmed
+  fact. `issues-found` never permits progression until the reader-facing issue
+  is removed or rewritten as cutoff-safe wording with an appropriate footnote.
 
 ## Season prelude
 
@@ -41,9 +50,9 @@ source dates, and whether the cutoff matches the document type.
   attributed contemporary expectations available before the opening session.
 - **Forbidden knowledge:** any in-season session, result, development, change,
   or hindsight.
-- **Expected sections:** boundary note; inherited context; confirmed field;
-  regulations and technology overview; calendar outline; preseason evidence;
-  contemporary questions; source notes.
+- **Expected sections:** inherited context; confirmed field; regulations and
+  technology overview; calendar outline; preseason evidence; contemporary
+  questions; footnotes; source notes.
 - **Sources:** broad contemporary coverage plus official entries, regulations,
   announcements, and calendar material.
 - **Length:** approximately 1,800–3,500 Polish words.
@@ -59,8 +68,8 @@ source dates, and whether the cutoff matches the document type.
 - **Allowed knowledge:** context established by its cutoff, normally the season
   prelude boundary unless a version explicitly states another earlier cutoff.
 - **Forbidden knowledge:** in-season consequences and retrospective judgments.
-- **Expected sections:** boundary; previous context; governance; paddock and
-  commercial setting; live questions; uncertainties; sources.
+- **Expected sections:** previous context; governance; paddock and commercial
+  setting; live questions; footnotes for uncertainties; sources.
 - **Sources:** contemporary reporting and official organisational records, with
   later synthesis used only for separable earlier facts.
 - **Length:** approximately 1,200–2,500 words.
@@ -94,8 +103,8 @@ source dates, and whether the cutoff matches the document type.
   contemporary analysis available by the cutoff.
 - **Forbidden knowledge:** later performance, reliability, development paths,
   rulings, and retrospective labels.
-- **Expected sections:** boundary; regulatory setting; concepts; known designs;
-  trade-offs; open questions; glossary links; sources.
+- **Expected sections:** regulatory setting; concepts; known designs; trade-offs;
+  open questions; glossary links; sources.
 - **Sources:** regulations, team or manufacturer material, contemporary
   technical press, and clearly labelled observations.
 - **Length:** approximately 1,800–4,000 words.
@@ -160,8 +169,8 @@ source dates, and whether the cutoff matches the document type.
 - **Allowed knowledge:** dates, venues, status, and changes already public.
 - **Forbidden knowledge:** later postponements, cancellations, replacements,
   results, and schedule hindsight.
-- **Expected sections:** boundary; canonical schedule; status notes; announced
-  changes already effective; source notes.
+- **Expected sections:** canonical schedule; status notes; announced changes
+  already effective; source notes.
 - **Sources:** governing-body calendars, official bulletins, promoters, and
   corroborating contemporary reports.
 - **Length:** approximately 300–900 words plus one canonical schedule table.
@@ -196,9 +205,9 @@ source dates, and whether the cutoff matches the document type.
   storylines, and questions available before the first official session.
 - **Forbidden knowledge:** any practice, qualifying, grid, race, or later
   weekend information.
-- **Expected sections:** boundary; arrival state; standings links; entries;
-  circuit context; technical and political storylines; weather expectations;
-  questions; sources.
+- **Expected sections:** arrival state; standings links; entries; circuit
+  context; technical and political storylines; weather expectations; questions;
+  footnotes; source notes.
 - **Sources:** official event documents and standings, contemporary previews,
   announcements, and dated forecasts.
 - **Length:** approximately 1,200–2,400 words.
@@ -216,8 +225,8 @@ source dates, and whether the cutoff matches the document type.
   paddock developments, and cutoff-safe viewing cues.
 - **Forbidden knowledge:** the start, race events, result, post-race action, and
   implications learned afterward.
-- **Expected sections:** boundary and weekend format; practice; qualifying;
-  grid; penalties and changes; conditions; what to watch; sources.
+- **Expected sections:** weekend format; practice; qualifying; grid; penalties
+  and changes; conditions; what to watch; footnotes; source notes.
 - **Sources:** official timing, classifications, decisions, bulletins, weather
   records, and contemporary reporting or broadcasts.
 - **Length:** approximately 1,000–2,000 words.
@@ -235,9 +244,9 @@ source dates, and whether the cutoff matches the document type.
   public, and contemporary reactions.
 - **Forbidden knowledge:** next-event information, later appeals or rulings,
   later diagnoses, future consequences, and season hindsight.
-- **Expected sections:** boundary; race narrative; decisive factors knowable by
-  cutoff; classification; retirements; official action; brief standings
-  context linked to the snapshot; reactions; unresolved issues; sources.
+- **Expected sections:** race narrative; decisive factors knowable by cutoff;
+  classification; retirements; official action; brief standings context linked
+  to the snapshot; reactions; unresolved issues; footnotes; source notes.
 - **Sources:** official timing, classification and decisions; contemporary
   reports, broadcasts, and attributed participant reactions.
 - **Length:** approximately 1,800–3,500 words plus the canonical race
@@ -255,8 +264,8 @@ source dates, and whether the cutoff matches the document type.
   including only decisions already official then.
 - **Forbidden knowledge:** later corrections, appeals, disqualifications,
   dropped-score effects not yet applicable, and future rounds.
-- **Expected sections:** boundary; driver table; constructor table where
-  applicable; scoring notes; ties; provisional or disputed items; sources.
+- **Expected sections:** driver table; constructor table where applicable;
+  scoring notes; ties; provisional or disputed items; sources.
 - **Sources:** official classifications and regulations, independently
   recalculated where useful.
 - **Length:** tables plus approximately 150–500 explanatory words.
@@ -274,8 +283,8 @@ source dates, and whether the cutoff matches the document type.
   by race documents at or before the ledger's declared cutoff.
 - **Forbidden knowledge:** later source content in claims or narrative. A later
   source may be recorded only with its spoiler risk and strict isolation.
-- **Expected sections:** boundary; repeated canonical source entries; conflict
-  and uncertainty index.
+- **Expected sections:** repeated canonical source entries; conflict and
+  uncertainty index.
 - **Sources:** each entry follows `docs/source-policy.md` and
   `templates/shared/source-entry.template.yaml`.
 - **Length:** no prose target; store only metadata and notes needed for
@@ -293,9 +302,9 @@ source dates, and whether the cutoff matches the document type.
 - **Forbidden knowledge:** later careers, later seasons, later deaths or
   injuries, modern reputation, and historical hindsight unless a separately
   labelled future task explicitly widens scope.
-- **Expected sections:** boundary; season arc; sporting and technical themes;
-  teams and drivers; governance; standings as of cutoff; unresolved season-end
-  issues; contemporary assessments; sources.
+- **Expected sections:** season arc; sporting and technical themes; teams and
+  drivers; governance; standings as of cutoff; unresolved season-end issues;
+  contemporary assessments; sources.
 - **Sources:** full season official record, contemporary season-end coverage,
   and earlier archive documents; later sources only under the strict isolation
   rule.

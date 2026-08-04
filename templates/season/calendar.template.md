@@ -1,27 +1,6 @@
----
-season: "[SEASON]"
-document_type: "season-calendar"
-event: null
-event_time: "[CALENDAR VERSION MOMENT]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[SEASON BOUNDARY]"
-spoiler_scope:
-  allowed:
-    - "[ANNOUNCED DATES, VENUES, STATUS, AND CHANGES PUBLIC BY THE CUTOFF]"
-  forbidden:
-    - "[LATER CHANGES, RESULTS, AND FINAL-SCHEDULE HINDSIGHT]"
-content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
----
+<!-- Document metadata lives in the sibling calendar.template.meta.yaml (schema: templates/shared/document-metadata.template.yaml). -->
 
 # [SEASON] — calendar
-
-## Knowledge boundary and calendar version
-
-[EXACT BOUNDARY AND VERSION SOURCE]
 
 ## Announced schedule
 

@@ -1,27 +1,4 @@
----
-season: "1982"
-document_type: "post-race-report"
-event: "Las Vegas Grand Prix"
-event_time: "[RACE AND INCLUDED IMMEDIATE OFFICIAL PROCESS]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[END OF THE IMMEDIATE OFFICIAL PROCESS DEFINED IN metadata.yaml]"
-spoiler_scope:
-  allowed:
-    - "[RACE AND IMMEDIATE CONSEQUENCES PUBLIC BY THE CUTOFF]"
-  forbidden:
-    - "[NEXT-WEEKEND INFORMATION, LATER RULINGS, AND SEASON HINDSIGHT]"
-content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
----
-
 # Las Vegas Grand Prix — post-race report
-
-## Knowledge boundary
-
-[EXACT CUTOFF AND INCLUDED OFFICIAL PROCESS]
 
 ## Result summary
 
@@ -81,14 +58,10 @@ last_verified: null
 
 [STATE AT THIS CUTOFF ONLY; DO NOT RESEARCH OR PREVIEW THE NEXT EVENT]
 
-## Spoiler audit
+## Przypisy
 
-[RESULT OR LINK]
+[NUMBERED CAVEATS MARKED FROM THE TEXT WITH *¹, *², …]
 
-## Source audit
+## Uwagi źródłowe
 
-[CLAIM COVERAGE, SOURCE IDS IN sources.md, AND STATUS]
-
-## Repetition audit
-
-[PRIMARY HOMES, LINKS ADDED, AND DUPLICATION REMOVED]
+[BRIEF POINTER TO sources.md; CLAIM COVERAGE AND STATUS BELONG HERE OR IN THE LEDGER]

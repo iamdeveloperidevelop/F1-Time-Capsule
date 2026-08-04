@@ -15,7 +15,7 @@ etapu bezpiecznego względem granicy wiedzy.
 | ID | Dokumenty, których dotyczy | Pytanie lub niepewność przy obecnej granicy | Dowód potrzebny do weryfikacji | Status |
 | --- | --- | --- | --- | --- |
 | 1982-CUT-01 | `metadata.yaml`, dokumenty sezonu, metadane rundy 01 | Jaka była dokładna lokalna godzina pierwszej oficjalnej sesji na Kyalami? | Datowany oficjalny harmonogram lub program wydarzenia. | open |
-| 1982-CAL-01 | `season/calendar.md`, szkielety rund | Czy styczniowa reprodukcja kalendarza FISA była publicznie dostępna przed granicą przedsezonową? | Dzienna data publikacji albo dystrybucji, lub współczesny oficjalny kalendarz z precyzyjnym lokalizatorem. | open |
+| 1982-CAL-01 | `season/calendar.md`, szkielety rund | Dzień publikacji styczniowej reprodukcji kalendarza FISA w „Motor Sport” pozostaje `unknown`; treść użyta content-based availability. Czy warto kiedyś ustalić dzień dystrybucji dla aparatu? | Dzienna data publikacji albo dystrybucji (opcjonalnie; nie blokuje już użycia przedsezonowego). | open-nonblocking |
 | 1982-ENT-01 | `season/teams.md`, `season/drivers.md`, `season/technology.md` | Które zgłoszenia, zespoły, kierowcy, samochody i elementy wyposażenia były potwierdzone przed pierwszą sesją? | Datowana oficjalna lista zgłoszeń, program lub komunikat zespołu dostępny przed granicą. | open |
 | 1982-ENT-02 | `season/teams.md` | Jaki samochód i silnik McLarena były potwierdzone na otwarcie sezonu? | Datowana lista zgłoszeń, program lub komunikat McLarena dostępny przed granicą. | open |
 | 1982-REG-01 | `season/regulations.md`, `season/technology.md`, `season/glossary.md` | Które teksty regulaminu technicznego i sportowego oraz aneksy obowiązywały przy granicy? | Datowane regulaminy, biuletyny lub aneksy FISA/FIA. | open |

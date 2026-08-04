@@ -29,8 +29,32 @@ when appropriate.
 
 Write clear, precise, informative prose that is engaging without manufactured
 drama. Be technically accurate, understandable to a non-engineer, respectful of
-historical participants, explicit about uncertainty, and free from hindsight
-and unnecessary repetition.
+historical participants, and free from hindsight and unnecessary repetition.
+The main text should read as continuous narrative or reference prose, not as a
+research log. Do not open reader-facing documents with a “knowledge boundary”
+or similar meta section that restates the sibling `.meta.yaml`;
+`knowledge_cutoff`, `event_time`, `public_knowledge_time`, and `spoiler_scope`
+already live there. Spoiler-audit results belong in
+`spoiler_audit_status` (and, when needed, a separate audit record using
+`templates/shared/spoiler-audit.template.md`), not as a closing reader section.
+
+Keep uncertainty, source limits, claim identifiers, and ledger links out of the
+running text. When a caveat is needed, mark the sentence with a short footnote
+marker (`*¹`, `*²`, …) and explain it once under a closing `## Przypisy`
+section. Put claim/source maps, status lines, and detailed citation records in
+`## Uwagi źródłowe`, `sources.md`, or the season open-items ledger — not inside
+paragraphs the reader is meant to follow.
+
+State the best-supported account cleanly. Prefer one brief footnote over
+repeated hedging such as “nie potwierdza”, “luka dowodowa”, “prowizorycznie”,
+“separowalna informacja”, “brak daty dziennej blokuje użycie”, or “według
+późniejszej relacji” in every sentence. An unknown exact publication day for
+clearly pre-cutoff contemporary material belongs in at most one short footnote
+or source note, not as a reason to strip the field or expectations section down
+to a single team. If nothing usable can be said without inventing certainty,
+omit the point from the main text rather than narrating the absence of
+evidence. Preserve conflicts and open gaps in footnotes and ledgers; never
+resolve them silently.
 
 Avoid clickbait, exaggerated narration, fake quotations, empty phrases,
 repetitive summaries, literary foreshadowing, certainty unsupported by evidence,

@@ -1,27 +1,6 @@
----
-season: "[SEASON]"
-document_type: "season-prelude"
-event: null
-event_time: "[PRESEASON INTERVAL OR HISTORICAL MOMENT DESCRIBED]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
-spoiler_scope:
-  allowed:
-    - "[PREVIOUS CONTEXT AND CONFIRMED PRESEASON INFORMATION]"
-  forbidden:
-    - "[ALL IN-SEASON SESSIONS, RESULTS, DEVELOPMENTS, AND HINDSIGHT]"
-content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
----
+<!-- Document metadata lives in the sibling prelude.template.meta.yaml (schema: templates/shared/document-metadata.template.yaml). -->
 
 # [SEASON] — prelude
-
-## Knowledge boundary
-
-[EXACT BOUNDARY AND INCLUDED PUBLIC-KNOWLEDGE TIME]
 
 ## Inherited context
 
@@ -47,6 +26,10 @@ last_verified: null
 
 [ATTRIBUTED EXPECTATIONS AND OPEN QUESTIONS]
 
-## Source notes
+## Przypisy
+
+[NUMBERED CAVEATS MARKED FROM THE TEXT WITH *¹, *², …]
+
+## Uwagi źródłowe
 
 [CLAIM IDS AND SOURCE IDS]

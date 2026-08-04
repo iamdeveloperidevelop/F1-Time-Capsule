@@ -20,18 +20,22 @@ Read `docs/temporal-scope.md` and the document's contract in
 
 1. Verify that metadata defines a precise cutoff and spoiler categories.
 2. Build a list of facts permitted at that boundary.
-3. Review every claim for direct future information.
+3. Review every claim for direct future outcomes, accidents, and status leaks.
 4. Review wording for hindsight, retrospective certainty, dramatic
    foreshadowing, and outcome-shaped emphasis or omission.
 5. Check predictions remain attributed contemporary expectations.
-6. Check later sources have not influenced framing.
-7. Report each violation with severity and a cutoff-safe remedy; edit only in
-   correction mode.
+6. Check later sources have not influenced framing or who gets coverage.
+7. Apply spoiler calibration from `docs/temporal-scope.md`: do not flag unknown
+   publication day-of-month, minor pre-cutoff forecast revisions, or similar
+   dating trivia as spoilers when no forbidden outcome is disclosed.
+8. Report each real violation with severity and a cutoff-safe remedy; edit only
+   in correction mode.
 
 ## Prohibited behaviour
 
 - Widening the cutoff to save a sentence
-- Assuming vague wording is safe
+- Assuming vague outcome-signalling wording is safe
+- Flagging content-based availability use of preseason magazines as a spoiler
 - Revealing the forbidden fact while proposing replacement prose
 - Introducing new factual claims during correction
 - Treating factual truth as sufficient when the fact was not yet knowable

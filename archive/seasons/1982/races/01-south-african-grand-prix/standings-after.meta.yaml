@@ -1,0 +1,16 @@
+season: "1982"
+document_type: "standings-snapshot"
+event: "South African Grand Prix"
+event_time: "Klasyfikacja punktowa bezpośrednio po Grand Prix RPA 1982"
+public_knowledge_time: "Punkty wyprowadzone z klasyfikacji w Motor Sport March 1982"
+knowledge_cutoff: "Immediately after the South African Grand Prix classification as reported in contemporary Motor Sport coverage of the Kyalami race; before the next championship round"
+spoiler_scope:
+  allowed:
+    - "Punkty i kolejność po rundzie 01"
+  forbidden:
+    - "Późniejsze korekty, apelacje i wyniki kolejnych rund"
+content_language: "pl"
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "not-run"
+last_verified: null

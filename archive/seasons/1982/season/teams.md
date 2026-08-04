@@ -1,279 +1,109 @@
----
-season: "1982"
-document_type: "season-teams"
-event: null
-event_time: "Stan ekip bezpośrednio przed planowanym początkiem pierwszej oficjalnej sesji GP RPA na Kyalami, 21 stycznia 1982"
-public_knowledge_time: "Najpóźniejsze wykorzystane źródła współczesne: UPI z 18 grudnia 1981 oraz styczniowy numer Motor Sport z nieznanym dniem publikacji; dostępność tego numeru przed granicą 21 stycznia 1982 pozostaje nierozstrzygnięta"
-knowledge_cutoff: "Immediately before the planned start of the first official session of the South African Grand Prix at Kyalami on Thursday, 21 January 1982; exact time unknown"
-spoiler_scope:
-  allowed:
-    - "Składy, wyposażenie, plany i niepewności wyraźnie wspierane przez wykorzystane źródła współczesne"
-    - "Przypisane współczesne oczekiwania dostępne przed granicą"
-  forbidden:
-    - "Przebieg sesji i wyścigu w Kyalami oraz wszystkie późniejsze wyniki i zmiany"
-    - "Późniejsze potwierdzenia składów, wyposażenia i ocen opartych na wiedzy po granicy"
-content_language: "pl"
-research_status: "drafted"
-source_status: "partial"
-spoiler_audit_status: "passed"
-last_verified: null
----
-
 # 1982 — zespoły
-
-## Granica wiedzy
-
-Dokument zatrzymuje stan wiedzy bezpośrednio przed planowanym początkiem
-pierwszej oficjalnej sesji Grand Prix Republiki Południowej Afryki na Kyalami
-21 stycznia 1982 roku. Dokładna godzina rozpoczęcia pozostaje nieznana; lukę
-zapisano w [`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
 
 ## Przegląd stawki
 
-Poniższe wpisy obejmują wyłącznie zespoły i informacje wyraźnie wspierane przez
-wykorzystane współczesne materiały. Nie tworzą kompletnej listy uczestników ani
-pełnego wykazu wyposażenia na otwarcie sezonu. Szczegółowe sylwetki kierowców
-zawiera [`drivers.md`](drivers.md), a wyjaśnienia konstrukcji
-[`technology.md`](technology.md). Wszystkie informacje oznaczone wyłącznie
-identyfikatorem `MS-1982-01` pochodzą ze styczniowego numeru „Motor Sport” o
-nieznanym dniu publikacji. Opisują treść tego numeru, nie potwierdzoną wiedzę
-dostępną przed cutoff.
+Poniżej zespoły widoczne w wykorzystanych materiałach przedsezonowych.*¹
+Sylwetki kierowców: [`drivers.md`](drivers.md). Konstrukcje:
+[`technology.md`](technology.md).
 
 ## Brabham
 
-### Tożsamość i organizacja
+Nelson Piquet i Riccardo Patrese.*² Zespół testował Brabhama BT50 z
+turbodoładowanym silnikiem BMW.*³
 
-Niezweryfikowany czasowo styczniowy przegląd łączył z Brabhamem Nelsona Piqueta
-i Riccarda Patresego.
-
-### Kierowcy i wyposażenie w źródłach
-
-Według tego przeglądu zespół testował Brabhama BT50 z turbodoładowanym silnikiem
-BMW. Materiał przedstawiał użycie tej konstrukcji jako możliwość, nie jako
-rozstrzygniętą konfigurację otwarcia sezonu.
-
-### Deklarowane cele i współczesne oczekiwania
-
-Ten sam, niezweryfikowany czasowo materiał odnotowywał postęp prób, ale nie daje
-podstaw do dalej idącej oceny osiągów.
-
-### Niepewności
-
-Nie ustalono, z jakiej konfiguracji zespół miał skorzystać podczas pierwszej
-oficjalnej sesji.
-
-### Źródła
-
-`T01` — `MS-1982-01`.
+Źródła: `T01` — `MS-1982-01`.
 
 ## Williams
 
-### Tożsamość i organizacja
+Carlos Reutemann i Keke Rosberg; parę potwierdzono 18 grudnia 1981 roku.
+Frank Williams publicznie podkreślał szybkość i podejście Rosberga.*⁴
 
-Williams potwierdził Carlosa Reutemanna i Keke Rosberga 18 grudnia 1981 roku.
-
-### Kierowcy i wyposażenie w źródłach
-
-Wykorzystane źródło potwierdza parę kierowców, lecz nie daje wystarczającej
-podstawy do opisania samochodu, silnika ani opon.
-
-### Deklarowane cele i współczesne oczekiwania
-
-Frank Williams publicznie podkreślał szybkość i podejście Rosberga; była to
-przypisana opinia z epoki, nie prognoza autora.
-
-### Niepewności
-
-Wyposażenie na otwarcie sezonu pozostaje w tym dokumencie niezweryfikowane.
-
-### Źródła
-
-`T03` — `UPI-WILLIAMS-1981`.
+Źródła: `T03` — `UPI-WILLIAMS-1981`.
 
 ## McLaren
 
-### Tożsamość i organizacja
+John Watson i Niki Lauda. Lauda wracał do zespołu; zapowiadano też przyszły
+projekt Porsche.*⁵ Lauda mówił, że po przerwie nie oczekuje natychmiastowego
+zwycięstwa w Kyalami.
 
-McLaren tworzył parę John Watson–Niki Lauda.
-
-### Kierowcy i wyposażenie w źródłach
-
-Datowane źródło UPI potwierdzało powrót Laudy do McLarena i zapowiedziany projekt
-Porsche na przyszłość. Szczegóły wyposażenia na otwarcie pozostają
-niezweryfikowane w tym dokumencie i należą do pozycji `1982-ENT-01` w
-[`things-to-resolve-after-season.md`](../things-to-resolve-after-season.md).
-
-### Deklarowane cele i współczesne oczekiwania
-
-Lauda mówił, że po przerwie nie oczekuje natychmiastowego zwycięstwa w Kyalami;
-jest to jego ówczesna ocena.
-
-### Niepewności
-
-Wykorzystane źródła nie potwierdzają pozostałych szczegółów wyposażenia.
-
-### Źródła
-
-`T04` — `MS-1982-01`, `UPI-LAUDA-1981`.
+Źródła: `T04` — `MS-1982-01`, `UPI-LAUDA-1981`.
 
 ## Lotus
 
-### Tożsamość i organizacja
+Nigel Mansell pozostaje w Lotusie.*² Drugi fotel nie był jeszcze potwierdzony.*⁶
 
-Niezweryfikowany czasowo styczniowy „Motor Sport” informował, że Nigel Mansell
-pozostaje w Lotusie.
-
-### Kierowcy i wyposażenie w źródłach
-
-Według tego materiału przed zamknięciem numeru drugi fotel nie był jeszcze
-potwierdzony.
-
-### Deklarowane cele i współczesne oczekiwania
-
-Wykorzystane źródło nie zawiera bezpiecznej, przypisanej deklaracji celu ekipy.
-
-### Niepewności
-
-Drugi kierowca oraz wyposażenie na otwarcie sezonu pozostają niezweryfikowane.
-
-### Źródła
-
-`T06` — `MS-1982-01`.
+Źródła: `T06` — `MS-1982-01`.
 
 ## Renault
 
-### Tożsamość i organizacja
+Alain Prost i René Arnoux; dalsze użycie konstrukcji RE30.*² „Motor Sport”
+oceniał pozycję Renault jako mocną.*⁷
 
-Niezweryfikowany czasowo styczniowy przegląd przypisywał Renault duet Alain
-Prost–René Arnoux.
-
-### Kierowcy i wyposażenie w źródłach
-
-Ten sam materiał wskazywał dalsze użycie konstrukcji RE30.
-
-### Deklarowane cele i współczesne oczekiwania
-
-„Motor Sport” oceniał pozycję Renault jako mocną; pozostaje to niezweryfikowaną
-czasowo oceną prasową z epoki.
-
-### Niepewności
-
-Wykorzystane źródło nie pozwala dopisać dalszych szczegółów konfiguracji.
-
-### Źródła
-
-`T08` — `MS-1982-01`.
+Źródła: `T08` — `MS-1982-01`.
 
 ## Alfa Romeo
 
-### Tożsamość i organizacja
+Używany silnik V12 oraz równoległy plan rozwoju jednostki turbodoładowanej.*²*⁸
 
-Niezweryfikowany czasowo styczniowy przegląd omawiał Alfę Romeo, lecz nie
-stanowi wystarczającego wsparcia dla pary kierowców. Nazwisk Andrei de Cesarisa
-i Brunona Giacomellego nie traktuje się tu jako potwierdzonej obsady.
-
-### Kierowcy i wyposażenie w źródłach
-
-Ten materiał opisywał używany silnik V12 oraz równoległy plan rozwoju silnika
-turbodoładowanego.
-
-### Deklarowane cele i współczesne oczekiwania
-
-Wykorzystane źródło nie zawiera bezpiecznej, przypisanej deklaracji celu ekipy.
-
-### Niepewności
-
-Plan rozwojowy nie przesądzał konfiguracji na pierwszą oficjalną sesję.
-
-### Źródła
-
-`T11` — `MS-1982-01`.
+Źródła: `T11` — `MS-1982-01`.
 
 ## Ligier/Talbot
 
-### Tożsamość i organizacja
+Jacques Laffite i Eddie Cheever; silnik Matra V12.*² „Motor Sport” przypisywał
+Laffite’owi centralną rolę w ekipie.*⁹
 
-Niezweryfikowany czasowo styczniowy przegląd przedstawiał Jacques’a Laffite’a
-i Eddiego Cheevera jako kierowców Talbota/Ligiera.
-
-### Kierowcy i wyposażenie w źródłach
-
-Według tego materiału samochód korzystał z silnika Matra V12.
-
-### Deklarowane cele i współczesne oczekiwania
-
-Niezweryfikowany czasowo „Motor Sport” przypisywał Laffite’owi centralną rolę
-w ekipie; wpis nie przekształca tej opinii w prognozę formy.
-
-### Niepewności
-
-Dokładny model samochodu i pozostałe wyposażenie nie są tu potwierdzone.
-
-### Źródła
-
-`T12` — `MS-1982-01`.
+Źródła: `T12` — `MS-1982-01`.
 
 ## Ferrari
 
-### Tożsamość i organizacja
+Gilles Villeneuve i Didier Pironi.*² Zapowiadano nowy samochód z
+turbodoładowanym silnikiem V6.*¹⁰
 
-Niezweryfikowany czasowo styczniowy przegląd przypisywał Ferrari duet Gilles
-Villeneuve–Didier Pironi.
-
-### Kierowcy i wyposażenie w źródłach
-
-Materiał ten zapowiadał nowy samochód z turbodoładowanym silnikiem V6.
-
-### Deklarowane cele i współczesne oczekiwania
-
-Wykorzystane źródło nie zawiera bezpiecznej, przypisanej deklaracji celu ekipy.
-
-### Niepewności
-
-Materiał nie daje podstawy do podania dokładnego oznaczenia samochodu.
-
-### Źródła
-
-`T13` — `MS-1982-01`.
+Źródła: `T13` — `MS-1982-01`.
 
 ## Toleman
 
-### Tożsamość i organizacja
+Derek Warwick pozostaje w Tolemanie.*² Dalszy rozwój turbodoładowanego silnika
+Hart. Przegląd wymieniał Briana Hentona, lecz przedstawiał obsadę z
+niepewnością.*¹¹ Po grudniowych testach odnotowywał większe nadzieje zespołu.*¹²
 
-Niezweryfikowany czasowo styczniowy „Motor Sport” informował, że Derek Warwick
-pozostaje w Tolemanie.
+Źródła: `T17` — `MS-1982-01`.
 
-### Kierowcy i wyposażenie w źródłach
+## Przypisy
 
-Materiał opisywał dalszy rozwój turbodoładowanego silnika Hart. Czasowo
-niezweryfikowany przegląd wymieniał Briana Hentona, ale przedstawiał obsadę z
-niepewnością; jest to ograniczony raport o treści źródła, a nie potwierdzenie
-składu na otwarcie sezonu.
-
-### Deklarowane cele i współczesne oczekiwania
-
-Przegląd odnotowywał większe nadzieje zespołu po grudniowych testach; była to
-czasowo niezweryfikowana współczesna ocena, nie potwierdzenie przyszłych
-osiągów.
-
-### Niepewności
-
-Wzmiankowany Brian Henton, drugi fotel i dokładna konfiguracja samochodu
-pozostają niezweryfikowane.
-
-### Źródła
-
-`T17` — `MS-1982-01`.
+1. Zakres źródeł jest częściowy; braki oficjalnej listy zgłoszeń: [`rejestr
+   kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
+2. Główne źródło obsady: styczniowy „Motor Sport” (`MS-1982-01`,
+   `publication_date: unknown`). Treść to przedsezonowy przegląd — użyta na
+   zasadzie content-based availability; nie zastępuje oficjalnej listy
+   zgłoszeń.
+3. Nie ustalono konfiguracji na pierwszą oficjalną sesję; postęp prób w
+   materiale nie daje podstaw do oceny osiągów.
+4. Przypisana opinia z epoki, nie prognoza autora. Wyposażenie na otwarcie
+   sezonu pozostaje w tym dokumencie niezweryfikowane.
+5. Szczegóły wyposażenia na otwarcie: `1982-ENT-01` w
+   [`things-to-resolve-after-season.md`](../things-to-resolve-after-season.md).
+   Wypowiedź Laudy to jego ówczesna ocena.
+6. Drugi kierowca oraz wyposażenie na otwarcie sezonu pozostają
+   niezweryfikowane.
+7. Ocena prasowa z epoki, nie prognoza formy.
+8. Plan rozwojowy nie przesądzał konfiguracji na pierwszą oficjalną sesję;
+   źródło nie wystarcza do potwierdzenia pary kierowców.
+9. Opinia prasowa z epoki, nie prognoza formy. Dokładny model samochodu i
+   pozostałe wyposażenie nie są tu potwierdzone.
+10. Materiał nie podaje dokładnego oznaczenia samochodu.
+11. Wzmiankowany Brian Henton, drugi fotel i dokładna konfiguracja samochodu
+    pozostają niezweryfikowane; to raport o treści źródła, nie potwierdzenie
+    składu na otwarcie sezonu.
+12. Współczesna ocena prasowa, nie potwierdzenie przyszłych osiągów.
 
 ## Uwagi źródłowe
 
-Zakres źródeł jest częściowy. Nie pozwala potwierdzić kompletnej stawki,
-wszystkich foteli ani pełnego wyposażenia na pierwszą oficjalną sesję. Styczniowy
-numer „Motor Sport” ma nieznany dokładny dzień publikacji; nie rozstrzygnięto,
-czy był publicznie dostępny przed granicą dokumentu. Z tego powodu twierdzenia
-oparte na tym numerze pozostają jawnie obciążone luką czasową, a dokument wymaga
-ponownego audytu spoilerów i źródeł. Odpowiednie braki są też ujęte w
-[`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
+- Granica wiedzy (metadane YAML): Dokładna godzina rozpoczęcia pozostaje nieznana; lukę zapisano w [`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
+
+
+Status źródeł: częściowy. Styczniowy „Motor Sport” użyty jako współczesny
+przegląd przedsezonowy (content-based availability).
 
 ```yaml
 source_id: "MS-1982-01"
@@ -304,7 +134,7 @@ supports:
   - claim_id: "T17"
     scope: "Warwick pozostaje w Tolemanie i rozwój silnika Hart; przegląd wymienia Briana Hentona, lecz przedstawia obsadę z niepewnością i nie potwierdza składu na otwarcie."
 disagreement_notes: null
-notes: "Dokładny dzień publikacji jest nieznany; dostępność numeru przed granicą 21 stycznia 1982 pozostaje nierozstrzygnięta."
+notes: "publication_date unknown; content-based availability — przedsezonowy przegląd bez wyników Kyalami."
 ```
 
 ```yaml
@@ -345,8 +175,8 @@ notes: null
 
 ### Rejestr konfliktów i luk
 
-- Nie ustalono dokładnego dnia publikacji styczniowego numeru „Motor Sport” ani
-  jego dostępności przed granicą dokumentu.
+- Dzień publikacji styczniowego „Motor Sport” pozostaje `unknown`; treść użyta
+  jako przedsezonowy przegląd (content-based availability).
 - Wykorzystane współczesne źródła nie dają kompletnego wykazu ekip, kierowców i
   wyposażenia na pierwszą oficjalną sesję.
 - Niepotwierdzone pozostają drugi fotel Lotusa, drugi fotel Tolemana oraz
