@@ -423,6 +423,7 @@ body{
 a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:.18em}
 a:hover{color:var(--accent-soft)}
 .site-shell{display:grid;grid-template-columns:var(--rail) minmax(0,1fr);min-height:100vh}
+.nav-toggle,.nav-toggle-label{display:none}
 .rail{
   position:sticky;top:0;align-self:start;height:100vh;padding:1.5rem 1.1rem 2rem;
   border-right:1px solid var(--rule);background:rgba(243,241,235,.82);
@@ -482,7 +483,23 @@ a:hover{color:var(--accent-soft)}
 .badge.locked{background:#ece8ef;color:var(--lock)}
 .section-title{font-family:var(--serif);font-size:1.8rem;margin:2.5rem 0 .4rem}
 .muted{color:var(--ink-soft)}
-@media (max-width:900px){.site-shell{grid-template-columns:1fr}.rail{position:relative;height:auto;border-right:0;border-bottom:1px solid var(--rule)}}
+@media (max-width:900px){
+  .site-shell{grid-template-columns:1fr}
+  .rail{
+    position:sticky;top:0;z-index:5;height:auto;max-height:70vh;padding:1rem 1.1rem;
+    border-right:0;border-bottom:1px solid var(--rule);box-shadow:0 10px 24px rgba(26,35,50,.08)
+  }
+  .brand{display:inline-block;margin-bottom:.1rem}
+  .brand-sub{margin-bottom:.75rem}
+  .nav-toggle-label{
+    display:inline-flex;align-items:center;justify-content:center;float:right;
+    margin-top:.05rem;padding:.45rem .75rem;border:1px solid var(--rule);border-radius:999px;
+    background:rgba(255,255,255,.55);font-weight:700;font-size:.86rem;cursor:pointer
+  }
+  .nav-content{display:none;clear:both;padding-top:.2rem}
+  .nav-toggle:checked ~ .nav-content{display:block}
+  .main{padding-top:1.25rem}
+}
 """
 
 
@@ -497,7 +514,10 @@ def page_shell(
     reading_manifest: dict | None = None,
 ) -> str:
     rail = ['<a class="brand" href="' + with_base("/", base) + '">F1 Time Capsule</a>',
-            '<div class="brand-sub">Archiwum bez spoilerów</div>']
+            '<label class="nav-toggle-label" for="nav-toggle">Menu</label>',
+            '<div class="brand-sub">Archiwum bez spoilerów</div>',
+            '<input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Pokaż lub ukryj nawigację" />',
+            '<div class="nav-content">']
 
     if season:
         rail.append(f'<div class="rail-label">Sezon {escape(season.season)}</div><nav>')
@@ -536,6 +556,8 @@ def page_shell(
             for sid in season_ids
         )
         rail.append(f'<div class="rail-label">Sezony</div><nav>{links}</nav>')
+
+    rail.append("</div>")
 
     css_href = with_base("/assets/styles.css", base)
     js_href = with_base("/assets/reader.js", base)
