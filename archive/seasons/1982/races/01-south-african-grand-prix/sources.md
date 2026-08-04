@@ -2,9 +2,9 @@
 season: "1982"
 document_type: "race-source-ledger"
 event: "South African Grand Prix"
-event_time: "Okres przedweekendowy do granicy wiedzy bezpośrednio przed planowanym rozpoczęciem pierwszej oficjalnej sesji Grand Prix RPA na Kyalami"
-public_knowledge_time: "Najnowsza wykorzystana, potwierdzona publiczna informacja: depesza UPI z 18 grudnia 1981"
-knowledge_cutoff: "Immediately before the planned start of the first official session of the South African Grand Prix at Kyalami on Thursday, 21 January 1982; exact time unknown"
+event_time: "Ukończone sesje przed wyścigiem i chwila bezpośrednio przed startem"
+public_knowledge_time: "Bezpośrednio przed planowanym startem; późniejsze archiwum łączy wydarzenie z 23 stycznia, lecz dokładna godzina pozostaje niezweryfikowana"
+knowledge_cutoff: "Immediately before the scheduled start at Kyalami; a later archive associates the event with Saturday, 23 January 1982, and the exact clock time is unverified"
 spoiler_scope:
   allowed:
     - "Metadane źródeł i wsparcie twierdzeń mieszczące się w obsługiwanej granicy wiedzy"
@@ -102,6 +102,92 @@ disagreement_notes: null
 notes: "Wypowiedź Franka Williamsa jest współczesnym oczekiwaniem, nie prognozą wyniku; otoczenie archiwum zawiera późniejszy materiał."
 ```
 
+```yaml
+source_id: "F1-1982-R01-Q"
+title: "Formula 1 qualifying archive: South Africa 1982"
+author_or_organisation: "Formula 1"
+publication_date: "unknown"
+event_date: "1982-01-23"
+source_type: "RESULT"
+contemporary: false
+spoiler_risk: "contains-later-material"
+locator: "https://www.formula1.com/en/results/1982/races/437/south-africa/qualifying/0"
+access_date: "2026-08-03"
+supports:
+  - claim_id: "R01-PR-CUT-01"
+    scope: "Archiwum kwalifikacji przypisuje wydarzenie do daty 23 stycznia 1982 roku."
+  - claim_id: "R01-PR-Q-01"
+    scope: "Arnoux figuruje na pozycji P1 z czasem 1:06.351."
+disagreement_notes: "Archiwum nie potwierdza dokładnej godziny planowanego startu."
+notes: "Nie współczesne archiwum wyników; wykorzystano wyłącznie datę wydarzenia i wskazany rekord kwalifikacji, izolując je od późniejszego materiału."
+```
+
+```yaml
+source_id: "CHICANE-1982-R01"
+title: "South African GP 1982"
+author_or_organisation: "ChicaneF1"
+publication_date: "unknown"
+event_date: "1982-01-23"
+source_type: "DATABASE"
+contemporary: false
+spoiler_risk: "contains-later-material"
+locator: "https://www.chicanef1.com/racetit.pl?gp=South+African+GP&r=1&year=1982"
+access_date: "2026-08-03"
+supports:
+  - claim_id: "R01-PR-CUT-01"
+    scope: "Baza podaje 14:00 jako lokalną godzinę startu."
+disagreement_notes: "Godzina jest niezweryfikowanym raportem późniejszej bazy i nie stanowi potwierdzonej godziny granicy."
+notes: "Nie współczesna baza zawierająca późniejszy materiał; 14:00 zapisano wyłącznie jako prowizoryjny raport lokalny, bez przeliczania na UTC."
+```
+
+```yaml
+source_id: "RSC-1982-R01-GRID"
+title: "Kyalami 1982 Formula 1 grid"
+author_or_organisation: "Racing Sports Cars"
+publication_date: "unknown"
+event_date: "1982-01-23"
+source_type: "DATABASE"
+contemporary: false
+spoiler_risk: "contains-later-material"
+locator: "https://www.racingsportscars.com/f1/grid/Kyalami-1982-01-23.html"
+access_date: "2026-08-03"
+supports:
+  - claim_id: "R01-PR-GRID-01"
+    scope: "Prowizoryczna 26-wierszowa rekonstrukcja pola: kolejność, kierowcy, zespoły i czasy kwalifikacyjne od Arnoux 1:06.351 do Jarier 1:13.834."
+disagreement_notes: "Brak daty publikacji i nieznany zakres otaczającego materiału; rekord nie jest oficjalną klasyfikacją."
+notes: "Nie współczesna baza; dane pola są użyte wyłącznie jako prowizoryczna rekonstrukcja archiwalna."
+```
+
+```yaml
+source_id: "MS-MAR1982-R01"
+title: "South African Grand Prix"
+author_or_organisation: "D.S.J., Motor Sport"
+publication_date: "1982-03"
+event_date: "1982-01-23"
+source_type: "PRESS"
+contemporary: true
+spoiler_risk: "contains-later-material"
+locator: "https://www.motorsportmagazine.com/archive/article/march-1982/36/south-african-grand-prix-14/ — akapity zaczynające się od: „After the drivers had been duped…”, „At 11 a.m. the scheduled hour-and-a-half of testing…”, „With the delayed start to things…”, „With all the fuss over the drivers strike…”"
+access_date: "2026-08-03"
+supports:
+  - claim_id: "R01-PR-SES-01"
+    scope: "Brak oficjalnej jazdy w czwartek; po zakłóceniach piątkowy 90-minutowy test o 11:00; jedna piątkowa godzina kwalifikacji po 14:00 ustaliła pole; deszcz zaczął padać w połowie sesji, a tor nie wysechł przed końcem kwalifikacji."
+  - claim_id: "R01-PR-ENT-01"
+    scope: "Relacja opisuje pole 26 samochodów oraz podaje, że Baldi, Henton, Paletti i Fabi nie uzyskali miejsc na polu."
+  - claim_id: "R01-PR-ENT-02"
+    scope: "Relacja podaje wycofanie Guerrero przez Ensign przed kwalifikacjami oraz przejęcie Arrowsa nr 29 przez Hentona po zwolnieniu Tambaya."
+  - claim_id: "R01-PR-WU-01"
+    scope: "W sobotę odbyła się 30-minutowa rozgrzewka; źródło nie dostarcza jej klasyfikacji czasów."
+  - claim_id: "R01-PR-COND-01"
+    scope: "Deszcz w piątkowych kwalifikacjach oraz ciepłe, pochmurne warunki z okresowym słońcem bezpośrednio przed startem."
+  - claim_id: "R01-PR-SET-01"
+    scope: "Podczas rozgrzewki: elektryczne przerywanie pracy Mansella, prace przy hamulcach Warwicka, kontrola jednostki turbo Arnoux i zmniejszone doładowanie Pironiego."
+  - claim_id: "R01-PR-TYR-01"
+    scope: "Kwalifikacje ograniczono do dwóch kompletów opon na kierowcę."
+disagreement_notes: "Relacja ukazała się po granicy dokumentu; jej rozdzielne informacje przedstartowe pozostają prowizoryjnymi raportami, a nie niezależnie potwierdzonymi faktami."
+notes: "Współczesna prasa wydana po granicy i zawierająca późniejszy materiał; wykorzystano wyłącznie wyraźnie odseparowane informacje o sesjach i stanie przed startem."
+```
+
 ## Conflict and uncertainty index
 
 | Uncertainty ID | Claim IDs | Source IDs | Status at cutoff | Note |
@@ -112,3 +198,8 @@ notes: "Wypowiedź Franka Williamsa jest współczesnym oczekiwaniem, nie progno
 | `1982-R01-CIR-01` | `R01-CIR-01` | `UPI-KYALAMI-1981-02-06` | open | Długość z opisu z 1981 roku nie ustala parametrów toru na 1982 rok. |
 | `1982-R01-WEA-01` | — | — | open | Nie zachowano datowanej prognozy pogody dostępnej najpóźniej 20 stycznia 1982 roku. |
 | `1982-R01-POL-01` | — | — | open | Nie zachowano datowanego źródła dotyczącego konkretnie wydarzenia dla politycznego kontekstu gospodarza. |
+| `1982-R01-PR-CUT-01` | `R01-PR-CUT-01` | `F1-1982-R01-Q`, `CHICANE-1982-R01` | open | Potrzebny jest datowany oficjalny harmonogram lub biuletyn potwierdzający start i jego lokalną godzinę. |
+| `1982-R01-PR-Q-01` | `R01-PR-Q-01` | `F1-1982-R01-Q` | open | Potrzebny jest oficjalny lub współczesny rekord kwalifikacji albo udokumentowane pochodzenie rekordu potwierdzające P1 i czas Arnoux. |
+| `1982-R01-PR-GRID-01` | `R01-PR-GRID-01`, `R01-PR-ENT-01`, `R01-PR-ENT-02` | `RSC-1982-R01-GRID`, `MS-MAR1982-R01` | open | Potrzebna jest oficjalna lista zgłoszeń, klasyfikacja kwalifikacji lub dokument pola startowego. |
+| `1982-R01-PR-PEN-01` | `R01-PR-PEN-01` | — | open | Potrzebny jest datowany przed startem oficjalny biuletyn kar lub zmian pola. |
+| `1982-R01-PR-TYR-01` | `R01-PR-TYR-01` | `MS-MAR1982-R01` | open | Potrzebny jest datowany przed startem materiał zespołu lub dostawcy opon, oficjalny komunikat albo współczesna relacja potwierdzające limit dwóch kompletów opon kwalifikacyjnych oraz wszelki przedstartowy kontekst opon lub strategii. |
