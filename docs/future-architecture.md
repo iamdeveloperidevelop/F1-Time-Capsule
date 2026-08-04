@@ -74,12 +74,13 @@ contract but do not reproduce complete policy.
 When instructions conflict, the order in `AGENTS.md` applies. In particular,
 the knowledge cutoff and canonical policy always override a template.
 
-## State and review
+## Progress and review
 
-`archive-state.yaml` points to the active workflow stage. It does not establish
-historical truth, prove a cutoff, or replace per-document metadata and sources.
-If state conflicts with a document, use the document's verified metadata for
-its boundary and correct state before progressing.
+There is no global workflow pointer. Season and race progress is the existence
+and metadata of documents under `archive/seasons/[YYYY]/`. That layout does
+not establish historical truth or prove a cutoff; each document's sibling
+`.meta.yaml` and verified sources define its boundary. Parallel agent sessions
+may work on disjoint paths when command prerequisites are already on disk.
 
 Metadata records `research_status`, `source_status`, `spoiler_audit_status`, and
 `last_verified`. Do not encode review state by copying a document into

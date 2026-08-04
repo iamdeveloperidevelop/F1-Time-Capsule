@@ -12,8 +12,8 @@ Nigel Mansell 2, Michele Alboreto 1. W konstruktorach Renault 17, Williams
 Protest Ferrari i Renault przeciwko dwóm pierwszym samochodom w Rio został
 odrzucony przez stewardów imprezy; sprawa poszła dalej ścieżką brazylijskiego
 ASN (i dalej, jak oczekiwano, ku Paryżowi). Przy tej granicy wynik na mecie
-i punkty z Brazylii pozostają prowizoryczne: nie ma publicznego, ostatecznego
-werdyktu ASN / FISA, który by je zmienił.*²
+i punkty z Brazylii pozostają prowizoryczne — jak po decyzji stewardów
+imprezy, przy otwartej ścieżce ASN.*²
 
 ## Rozwój od poprzedniej rundy
 
@@ -26,32 +26,30 @@ pozostał bez drugiego kierowcy; po nerwowych poszukiwaniach Frank Williams
 podpisał Mario Andrettiego na ten jeden wyścig, bo zobowiązania Andrettiego
 w IndyCar uniemożliwiały sezonowy kontrakt.*⁴
 
-W tle zostaje spór o Superlicence, kary trybunału po Kyalami, rozwiązane
+W tle zostają spór o Superlicence, kary trybunału po Kyalami, rozwiązane
 GPDA i Professional Racing Drivers Association oraz anulowana Argentyna —
-bez znalezionych w tym pakiecie nowych, datowanych dziennie rozstrzygnięć
-między Rio a pierwszą sesją w Long Beach.*⁵
-
-Otwarty pozostaje też spór o masę minimalną 580 kg i praktykę uzupełniania
-zbiorników wody (oficjalnie chłodzenie hamulców) przed ważeniem — ten sam
-wątek, który wywołał protest w Rio. Przy granicy przed Long Beach brazylijska
-klasyfikacja stoi nadal na decyzji stewardów imprezy i otwartej ścieżce
-ASN.*²*⁶
+bez nowych, datowanych dziennie rozstrzygnięć między Rio a pierwszą sesją
+w Long Beach.*⁵ Otwarty pozostaje też spór o masę minimalną 580 kg i praktykę
+uzupełniania zbiorników wody (oficjalnie chłodzenie hamulców) przed ważeniem —
+ten sam wątek, który wywołał protest w Rio.*²*⁶
 
 ## Zgłoszenia i obsada
 
 Jedyna poważna zmiana względem Brazylii: Andretti zamiast Reutemanna w
-Williamsie.*⁷ Poza tą deltą nie ma w pakiecie zamkniętej listy FOCA na
-Long Beach; oczekiwana ciągłość peletonu po Rio / Kyalami obejmuje te same
-czołowe pary i ten sam szerszy peleton — Brabham (Piquet, Riccardo Patrese),
-Williams (Rosberg, Andretti), McLaren (Watson, Lauda), Renault (Prost,
-Arnoux), Ferrari (Gilles Villeneuve, Didier Pironi), Talbot/Ligier (Jacques
-Laffite, Eddie Cheever), Lotus (Elio de Angelis, Mansell), Tyrrell (Alboreto,
-Slim Borgudd), Alfa Romeo (Bruno Giacomelli, Andrea de Cesaris), March
-(Jochen Mass, Raul Boesel), Fittipaldi (Chico Serra), Arrows (Brian Henton,
-Mauro Baldi), Ensign (Roberto Guerrero), Theodore (Derek Daly), Osella
-(Jean-Pierre Jarier, Riccardo Paletti), Toleman (Derek Warwick, Teo Fabi),
-ATS (Eliseo Salazar, Manfred Winkelhock) — jako przypisany obraz obsady, nie
-oficjalny entry list.*⁸
+Williamsie.*⁷ Poza tą deltą nie ma zamkniętej listy FOCA na Long Beach;
+oczekiwana ciągłość peletonu po Rio / Kyalami obejmuje te same czołowe pary
+i ten sam szerszy peleton — jako przypisany obraz obsady, nie oficjalny
+entry list.*⁸
+
+Brabham — Piquet i Riccardo Patrese; Williams — Rosberg i Andretti; McLaren —
+Watson i Lauda; Renault — Prost i Arnoux; Ferrari — Gilles Villeneuve i
+Didier Pironi; Talbot/Ligier — Jacques Laffite i Eddie Cheever; Lotus —
+Elio de Angelis i Mansell; Tyrrell — Alboreto i Slim Borgudd; Alfa Romeo —
+Bruno Giacomelli i Andrea de Cesaris; March — Jochen Mass i Raul Boesel;
+Fittipaldi — Chico Serra; Arrows — Brian Henton i Mauro Baldi; Ensign —
+Roberto Guerrero; Theodore — Derek Daly; Osella — Jean-Pierre Jarier i
+Riccardo Paletti; Toleman — Derek Warwick i Teo Fabi; ATS — Eliseo Salazar
+i Manfred Winkelhock.*⁸
 
 Planowany peleton wchodzi w limit Concorde: przy zgłoszeniu około 31
 samochodów pięciu kierowców (Boesel, Paletti, Jarier, Warwick, Fabi)
@@ -83,7 +81,7 @@ wszyscy zaczynali od tej samej bazy.*¹³
 
 ## Technika
 
-Sezonowe napięcie turbo (Renault, Ferrari) kontra wolnossące Cosworthy
+Sezonowe napięcie turbo (Renault, Ferrari) kontra wolnossące Cosworth
 zostaje w tle; Long Beach jako ciasny tor uliczny na poziomie morza był
 w paddocku punktem spekulacji o tym, kto na czym zyska — to oczekiwanie,
 nie wynik.*¹⁴
@@ -121,8 +119,7 @@ układu pozostają otwarte do pierwszej sesji.*¹²*¹⁴
 ## Co warto wiedzieć przed weekendem
 
 - Po prowizorycznej Brazylii: Prost 13, Piquet 9, Rosberg 8, Reutemann 6;
-  protest o masę / wodę nadal w ścieżce ASN, bez ostatecznego werdyktu
-  zmieniającego Rio.
+  protest o masę / wodę nadal w ścieżce ASN.
 - Reutemann poza Formułą 1; Williams z Andrettim na jeden wyścig.
 - Tor uliczny Long Beach z nowym układem (chicane na Shoreline, nowa
   sekcja zamiast starego hairpina) — nieco dłuższy, oczekiwany wolniejszy.
@@ -137,9 +134,8 @@ układu pozostają otwarte do pierwszej sesji.*¹²*¹⁴
    / `ARCHIVE-R03-STAND`. Skala 9–6–4–3–2–1 prowizoryczna
    (`1982-R01-PTS-01`).
 2. Protest i odrzucenie przez stewardów imprezy; ścieżka ASN:
-   `AS-1982-BRA`. Werdykt FISA unieważniający 1–2 z Rio jest późniejszy
-   (po Long Beach) — poza tą granicą (`UPI-1982-04-22-IMOLA` tylko jako
-   dowód kwarantanny, nie jako fakt przedweekendowy).
+   `AS-1982-BRA`. Wszelkie rozstrzygnięcia apelacyjne po tej granicy —
+   poza zakresem dokumentu (chronologia w `sources.md`).
 3. Jeden wolny weekend; przyjazd prosto z Brazylii: `MS-MAY1982-USW`
    (pasaż o przyjeździe; izolowany od relacji sesji).
 4. Emerytura Reutemanna i Andretti na jeden wyścig: `MS-MAY1982-USW`.
@@ -149,7 +145,7 @@ układu pozostają otwarte do pierwszej sesji.*¹²*¹⁴
    `MS-MAR1982-TRANSVAAL`; brak nowych depesz 22 III–1 IV w pakiecie:
    `1982-R04-PW-DEV-01`.
 6. Kontekst wody / 580 kg z Rio: `MS-APR1982-BRA`, `AS-1982-BRA` —
-   spór otwarty, bez foreshadowingu werdyktu apelacyjnego.
+   spór otwarty przy tej granicy.
 7. Jedyna poważna zmiana entry vs Brazylia: `MS-MAY1982-USW`.
 8. Ciągłość peletonu: `MS-MAR1982-NOTES` / stan po R03; nie zamknięty
    oficjalny entry list FOCA (`1982-R04-PW-ENT-01`).
@@ -160,9 +156,9 @@ układu pozostają otwarte do pierwszej sesji.*¹²*¹⁴
     `MS-JAN1982-CAL`.
 11. Charakter toru ulicznego: `MS-MAY1982-USW` (pasaż o charakterze;
     porównanie do Monaco).
-12. Przebudowa 1982 (Pook / LBGPA): `MS-MAY1982-USW`. Pomiary z sesji
-    („10 s wolniej” itd.) — poza zakresem. Dokładna długość w km —
-    wtórna / luka `1982-R04-PW-CIR-01`.
+12. Przebudowa 1982 (Pook / LBGPA): `MS-MAY1982-USW`. Pomiary i porównania
+    tempa z oficjalnych sesji Long Beach — poza zakresem. Dokładna długość
+    w km — wtórna / luka `1982-R04-PW-CIR-01`.
 13. Brak pre-practice na torze; start porannej sesji testowej: `MS-MAY1982-USW`.
     Dokładny zegar z oficjalnego programu — luka `1982-R04-PW-CUT-01`
     (MS May podaje 10:00 lokalnie jako rozpoczęcie sesji).
@@ -182,8 +178,8 @@ układu pozostają otwarte do pierwszej sesji.*¹²*¹⁴
   program — `1982-R04-PW-CUT-01`. Bez treningu, kwalifikacji, pola,
   przebiegu ani wyniku Long Beach 1982.
 - Klasyfikacja Brazylii: prowizoryczna po odrzuceniu protestu przez
-  stewardów; bez wykluczenia Piqueta/Rosberga ani reklasyfikacji z
-  Prostiem jako zwycięzcą.
+  stewardów imprezy; ścieżka ASN otwarta. Rozstrzygnięcia apelacyjne po
+  tej granicy — poza zakresem.
 - `MS-MAY1982-USW` użyty content-based availability wyłącznie dla
   przyjazdu, emerytury Reutemanna, Andrettiego, przebudowy toru i
   planowanej procedury weekendu; cały korpus sesji/kwalifikacji/wyścigu —

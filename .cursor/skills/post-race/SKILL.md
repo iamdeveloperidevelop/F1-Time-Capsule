@@ -9,6 +9,7 @@ disable-model-invocation: true
 Explicit invocation of this workflow is the user's authorization to cross the
 selected race's start boundary. Availability of a result online is never
 authorization. The workflow does not authorize knowledge from the next event.
+Do not read or write any global workflow state file.
 
 ## Invocation
 
@@ -36,17 +37,18 @@ Before browsing, researching, or modifying files:
    `docs/temporal-scope.md`, `docs/source-policy.md`,
    `docs/content-contracts.md`, `docs/methodology.md`, and
    `docs/archive-workflow.md`.
-2. Read `archive-state.yaml`, season and race metadata, the selected race's
-   completed `pre-weekend.md`, `pre-race.md`, existing `sources.md`, the
-   previous standings snapshot where applicable, and every needed canonical
-   race/shared template.
-3. Require `pre-race.md` to be completed or reviewed under canonical statuses,
-   with no unresolved reader-facing spoiler-audit issue. A partial source audit
-   is sufficient when the cutoff-safe limitations are recorded in
-   `things-to-resolve-after-season.md`.
-4. Verify state permits `/post-race` for this exact season and round. If not,
-   stop and name the expected previous action. If state conflicts with verified
-   metadata, report the conflict and do not advance.
+2. Read season and race metadata, the selected race's completed
+   `pre-weekend.md`, `pre-race.md`, existing `sources.md`, the previous
+   standings snapshot where applicable, and every needed canonical race/shared
+   template.
+3. Require `pre-race.md` to exist on disk and be completed or reviewed under
+   canonical statuses, with no unresolved reader-facing spoiler-audit issue. A
+   partial source audit is sufficient when the cutoff-safe limitations are
+   recorded in `things-to-resolve-after-season.md`. If `pre-race.md` is missing
+   or still a placeholder, stop and name `/pre-race [SEASON] [ROUND]` as the
+   expected previous action.
+4. Other seasons or rounds elsewhere are not a conflict. Reject only when this
+   round's on-disk prerequisite or target cutoff is wrong.
 
 Do not overwrite verified, reviewed, complete, or manually populated target
 documents. Resume partial work only when all target cutoffs, classifications,
@@ -130,30 +132,29 @@ Advance statuses only when actual results allow it.
 Partial source status does not block progression when all reader-facing claims
 remain cutoff-safe and the season ledger records the outstanding evidence.
 
-## State transition
+## Completing the transition
 
-After successful completion, update `archive-state.yaml` in place using only
-its canonical schema:
+Leave progress encoded only in these files and their metadata. Do not write any
+global workflow pointer.
 
-- mark this event through `current_stage: post-race`, the active season/round,
-  verified cutoff, and `last_completed_document`;
-- if a next round was already historically known by this cutoff, set
-  `active_round` to it and `next_allowed_action` to
+In the reply, suggest the next sensible command when historically known by this
+cutoff:
+
+- if a next round was already on the announced calendar, suggest
   `/pre-weekend [SEASON] [NEXT_ROUND]`;
 - do not research, scaffold, or generate that next brief unless a calendar
   change newly knowable at this boundary requires only canonical empty
   scaffolding;
-- if no next round was known, use only the state permitted by the current
-  schema and report the blocked or season-end condition.
+- if no next round was known, report the blocked or season-end condition.
 
 Do not infer the user has watched another race. For the final scheduled or
-actually completed round, do not generate a season retrospective or mark
-`season-complete` unless a separate explicit task defines and authorizes that
+actually completed round, do not generate a season retrospective or mark the
+season complete unless a separate explicit task defines and authorizes that
 boundary. Never commit or push historical content automatically.
 
 ## Completion response
 
 Report the event and post-race cutoff, classification status, files created or
 updated, skipped files and reasons, unresolved source/classification issues,
-source/spoiler/repetition/standings audit results, state change, and the next
-permitted command if one is historically known.
+source/spoiler/repetition/standings audit results, and the suggested next
+command if one is historically known.

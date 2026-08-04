@@ -144,7 +144,7 @@ event_date: "1982-04-02/04"
 source_type: "PRESS"
 contemporary: true
 spoiler_risk: "contains-later-material"
-locator: "https://www.motorsportmagazine.com/archive/article/may-1982/46/united-stateswest-grand-prix/ — May 1982, p. 46; użyte wyłącznie pasaże o przyjeździe, emeryturze Reutemanna, Andrettim, przebudowie toru, braku pre-practice i planowanej procedurze (10:00 poranna sesja testowa, prekwalifikacja); cały korpus kwalifikacji/wyścigu w kwarantannie"
+locator: "https://www.motorsportmagazine.com/archive/article/may-1982/46/united-stateswest-grand-prix/ — May 1982, p. 46; pre-weekend: przyjazd, Reutemann/Andretti, przebudowa, 10:00 test, procedura prekwali; pre-race: Qualifying + warm-up/warunki przed startem + dystans 75½; QUARANTINE: narracja Race od zielonego światła, podium, protest Tyrrella o skrzydło"
 access_date: "2026-08-05"
 supports:
   - claim_id: "R04-PW-CAL-02"
@@ -165,8 +165,68 @@ supports:
     scope: "Plan: zgłoszenie ~31; pięciu prekwalifikantów (Boesel, Paletti, Jarier, Warwick, Fabi) z limitu Concorde 30/26 — procedura, nie wynik."
   - claim_id: "R04-PW-EXP-02"
     scope: "Przypisana spekulacja paddocku, że poziom morza i kręty tor mogą utrudnić turbom — oczekiwanie."
-disagreement_notes: "Publication_date dnia unknown. Cały tekst miesza przyjazd z wynikami weekendu — izolować."
-notes: "Content-based availability wyłącznie dla pasażów przed-sesyjnych. Nie używać czasów, gridu, zwycięzcy, skrzydła Ferrari z soboty ani wyniku prekwalifikacji."
+  - claim_id: "R04-PR-CUT-01"
+    scope: "Planowany start ok. 13:05 lokalnie w niedzielę („at 1.05 p.m. on Sunday…”) — prowizoryczny marker z relacji, nie oficjalny program."
+  - claim_id: "R04-PR-SESS-01"
+    scope: "Format: piątek 10:00 test 1½ h + prekwali; piątkowa godzina kwali; sobotni test; sobota 13:00 kwali; niedziela ½ h rozgrzewka."
+  - claim_id: "R04-PR-DIST-01"
+    scope: "Dystans 75½ okrążeń; start i meta w różnych punktach toru."
+  - claim_id: "R04-PR-PQ-01"
+    scope: "Warwick DNPQ — misfire Hart cured too late."
+  - claim_id: "R04-PR-Q-01"
+    scope: "Pole de Cesaris 1:27.316; Lauda 1:27.436; narracja piątek–sobota (Patrese BT49C, Michelin/Prost, Arnoux pożar, Rosberg sprzęgło, Piquet Linden, twin-wing Ferrari, Michelin vs Goodyear)."
+  - claim_id: "R04-PR-DNQ-01"
+    scope: "DNQ: Fabi (≈0,16 s za Salazarem), Paletti, Serra, Baldi."
+  - claim_id: "R04-PR-TYRE-01"
+    scope: "Limit dwóch kompletów opon kwali; przewaga Michelin w sobotę; rozgrzewka McLaren: Lauda twarde / Watson miękkie."
+  - claim_id: "R04-PR-WU-01"
+    scope: "Niedzielna rozgrzewka ½ h; 26 starterów bez poważnych incydentów; bez pełnych czasów."
+  - claim_id: "R04-PR-COND-01"
+    scope: "Sesje pod clear blue skies; niedziela przed startem: cloudless sky, cool breeze, conditions perfect."
+  - claim_id: "R04-PR-POL-01"
+    scope: "Woda/580 kg; podane ważenia Williams/McLaren/Renault/Ferrari; Brabham nie zważony."
+  - claim_id: "R04-PR-AERO-01"
+    scope: "Ferrari twin rear aerofoil zamontowane w sobotę (Pironi, potem Villeneuve)."
+disagreement_notes: "Publication_date dnia unknown. Cały tekst miesza przyjazd, sesje i wyścig — izolować. FW07C w MS vs FW07D w niektórych bazach."
+notes: "Content-based availability. Pre-weekend: tylko pasaże przed-sesyjne. Pre-race: Qualifying + warm-up/pre-start; nie używać Race od green light, podium ani końcowego protestu Tyrrella."
+```
+
+```yaml
+source_id: "RSC-1982-R04-GRID"
+title: "Long Beach 1982 Formula 1 qualifying results"
+author_or_organisation: "Racing Sports Cars"
+publication_date: "unknown"
+event_date: "1982-04-04"
+source_type: "DATABASE"
+contemporary: false
+spoiler_risk: "contains-later-material"
+locator: "https://www.racingsportscars.com/f1/results/qualifying/Long_Beach-1982-04-04.html — pełna tabela Q 1–31 z czasami"
+access_date: "2026-08-05"
+supports:
+  - claim_id: "R04-PR-GRID-01"
+    scope: "26-wierszowe pole z czasami od de Cesaris 1:27.316 do Salazar 1:31.825; DNQ Fabi/Paletti/Serra/Baldi; Warwick bez czasu (DNPQ)."
+disagreement_notes: "Oznaczenia podwozi (FW07D vs MS FW07C); nie oficjalny biuletyn FIA."
+notes: "Nie współczesna baza; wyłącznie tabela kwalifikacji/pola, izolowana od wyniku wyścigu."
+```
+
+```yaml
+source_id: "SILH-1982-USW"
+title: "1982 Grand Prix USA-West — Long Beach archive page"
+author_or_organisation: "silhouet.com motorsport archive"
+publication_date: "unknown"
+event_date: "1982-04-04"
+source_type: "DATABASE"
+contemporary: false
+spoiler_risk: "contains-later-material"
+locator: "https://www.silhouet.com/motorsport/archive/f1/1982/82usaw.html — dystans 258.814 km (3.428 km × 75.5); grid gaps; DNPQ/DNQ"
+access_date: "2026-08-05"
+supports:
+  - claim_id: "R04-PR-DIST-01"
+    scope: "Długość okrążenia 3,428 km; dystans wyścigu 258,814 km przy 75,5 okrążeniach."
+  - claim_id: "R04-PR-GRID-01"
+    scope: "Kolejność pola i straty do pole; DNPQ Warwick; DNQ Fabi–Baldi — koroboracja RSC."
+disagreement_notes: "Strona zawiera wynik wyścigu i DSQ Villeneuve — kwarantanna."
+notes: "Użyte wyłącznie dla dystansu km i koroboracji kolejności pola; nie cytować wyników."
 ```
 
 ```yaml
@@ -198,3 +258,48 @@ notes: "Źródło kwarantanny / negatywnego dowodu chronologii; nie cytować w r
 | UNC-R04-PW-WX-01 | — | — | open | Brak datowanej prognozy sprzed pierwszej sesji. |
 | UNC-R04-PW-JONES-01 | — | — | open | Podejście do Jonesa nie potwierdzone źródłem współczesnym w pakiecie — pominięte w prose. |
 | UNC-R04-PW-ENT-01 | R04-PW-ENT-02 | MS-MAR1982-NOTES, MS-MAY1982-USW | open | Brak oficjalnej listy FOCA sprzed piątku. |
+| UNC-R04-PR-CUT-01 | R04-PR-CUT-01 | MS-MAY1982-USW | open | 13:05 z MS; brak oficjalnego programu. |
+| UNC-R04-PR-GRID-01 | R04-PR-GRID-01 | RSC-1982-R04-GRID, SILH-1982-USW, MS-MAY1982-USW | open | Brak biuletynu FIA; rekonstrukcje + MS dla czołówki. |
+| UNC-R04-PR-WU-01 | R04-PR-WU-01 | MS-MAY1982-USW | open | Rozgrzewka bez pełnych czasów. |
+| UNC-R04-PR-PEN-01 | R04-PR-PEN-01 | — | open | Brak biuletynu kar przed startem w pakiecie. |
+| UNC-R04-PR-MODEL-01 | R04-PR-GRID-01 | MS-MAY1982-USW, RSC-1982-R04-GRID | noted | FW07C (MS) vs FW07D (RSC). |
+| UNC-R04-PR-DIST-01 | R04-PR-DIST-01 | MS-MAY1982-USW, SILH-1982-USW | open | 75½ z MS; km z bazy, nie biuletyn. |
+| UNC-R04-PR-QUAR-RACE | — | MS-MAY1982-USW, SILH-1982-USW | quarantined | Cała narracja Race / wyniki / DSQ skrzydła. |
+
+## Pre-weekend claim map (R04-PW)
+
+| claim_id | Scope | Source IDs |
+| --- | --- | --- |
+| `R04-PW-STD-01` | Prowizoryczne punkty po Rio | `ARCHIVE-R03-STAND` |
+| `R04-PW-POL-01` | Protest / ASN otwarta | `AS-1982-BRA` |
+| `R04-PW-TEC-02` | Woda / 580 kg kontekst | `MS-APR1982-BRA` |
+| `R04-PW-CAL-01` | Kalendarz LB 4 IV | `MS-JAN1982-CAL` |
+| `R04-PW-CAL-02` | Przyjazd prosto z Brazylii | `MS-MAY1982-USW` |
+| `R04-PW-DEV-01` | Emerytura Reutemanna | `MS-MAY1982-USW` |
+| `R04-PW-ENT-01` | Andretti jeden wyścig | `MS-MAY1982-USW` |
+| `R04-PW-ENT-03` | Delta entry Andretti | `MS-MAY1982-USW` |
+| `R04-PW-ENT-04` | Procedura prekwali | `MS-MAY1982-USW` |
+| `R04-PW-CIR-01` | Przebudowa toru | `MS-MAY1982-USW` |
+| `R04-PW-CIR-02` | Charakter uliczny | `MS-MAY1982-USW` |
+| `R04-PW-CUT-01` | Marker 10:00 piątek | `MS-MAY1982-USW` |
+| `R04-PW-QUAR-01` | FISA Brazil po LB | `UPI-1982-04-22-IMOLA` |
+
+## Pre-race claim map (R04-PR)
+
+| claim_id | Scope | Source IDs |
+| --- | --- | --- |
+| `R04-PR-CUT-01` | Start ≈13:05 lokalnie | `MS-MAY1982-USW` |
+| `R04-PR-SESS-01` | Format sesji Fri–Sun | `MS-MAY1982-USW` |
+| `R04-PR-DIST-01` | 75½ okr.; km z bazy | `MS-MAY1982-USW`, `SILH-1982-USW` |
+| `R04-PR-PQ-01` | Warwick DNPQ | `MS-MAY1982-USW` |
+| `R04-PR-Q-01` | Narracja kwali / pole czasy czołówki | `MS-MAY1982-USW` |
+| `R04-PR-GRID-01` | Pełne pole 1–26 z czasami | `RSC-1982-R04-GRID`, `SILH-1982-USW` |
+| `R04-PR-DNQ-01` | Fabi, Paletti, Serra, Baldi | `MS-MAY1982-USW`, `RSC-1982-R04-GRID` |
+| `R04-PR-TYRE-01` | Michelin / split McLaren | `MS-MAY1982-USW` |
+| `R04-PR-WU-01` | Rozgrzewka bez pełnych czasów | `MS-MAY1982-USW` |
+| `R04-PR-COND-01` | Warunki przed startem | `MS-MAY1982-USW` |
+| `R04-PR-POL-01` | Ważenia / woda | `MS-MAY1982-USW` |
+| `R04-PR-AERO-01` | Twin-wing Ferrari | `MS-MAY1982-USW` |
+| `R04-PR-PEN-01` | Brak biuletynu kar | — |
+| `R04-PR-STD-01` | Punkty przed startem = po Rio | `ARCHIVE-R03-STAND` |
+

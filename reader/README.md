@@ -1,7 +1,8 @@
 # F1 Time Capsule — reader
 
-Statyczna czytelnia generowana z `archive/`. Odblokowuje dokumenty do punktu
-z `archive-state.yaml` (granica spoiler-safe).
+Statyczna czytelnia generowana z `archive/`. Odblokowuje dokumenty
+`ready` (treść nie-placeholder). Nie ma globalnego frontieru workflow —
+pozycję czytania trzyma przeglądarka (localStorage).
 
 ## Lokalnie (bez kont)
 

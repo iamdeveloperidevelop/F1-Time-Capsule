@@ -2,7 +2,10 @@
 
 These project-level Cursor Agent Skills are manually invoked. Each command
 validates its arguments and preserves the archive's current knowledge boundary.
-No command automatically advances into the next spoiler stage.
+No command automatically advances into the next spoiler stage. There is no
+global season lock: progress is the documents and metadata under
+`archive/seasons/[YYYY]/`. Parallel sessions may run when they use disjoint
+paths and each command's on-disk prerequisites are met.
 
 An unresolved archival question is recorded in the season's
 `things-to-resolve-after-season.md` ledger. It does not require user
@@ -11,9 +14,8 @@ unsupported claims remain out of reader-facing prose.
 
 ## `/init-season [YYYY]`
 
-Creates empty season scaffolding from canonical templates and updates the
-workflow pointer when permitted. It performs no historical research and creates
-no race folders.
+Creates empty season scaffolding from canonical templates when permitted. It
+performs no historical research and creates no race folders.
 
 ## `/prepare-season [YYYY]`
 
@@ -42,8 +44,9 @@ does not research or generate the next event.
 
 ## `/season-status [YYYY]`
 
-Reads local metadata and workflow state to report season progress, incomplete
-work, unresolved issues, and conflicts. It does not browse or modify files.
+Reads local metadata and files under `archive/seasons/[YYYY]/` to report season
+progress, incomplete work, unresolved issues, and conflicts. It does not browse
+or modify files.
 
 ## `/audit-document [PATH]`
 

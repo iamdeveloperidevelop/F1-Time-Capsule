@@ -18,7 +18,6 @@ import yaml
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 ARCHIVE_ROOT = REPO_ROOT / "archive"
-STATE_PATH = REPO_ROOT / "archive-state.yaml"
 OUT_DIR = Path(__file__).resolve().parent / "dist"
 
 PLACEHOLDER_RE = re.compile(
@@ -97,10 +96,6 @@ def is_ready(text: str) -> bool:
     return True
 
 
-def load_state() -> dict:
-    return yaml.safe_load(STATE_PATH.read_text(encoding="utf-8"))
-
-
 def race_event_name(race_dir: Path, fallback: str) -> str:
     meta = race_dir / "metadata.yaml"
     if not meta.exists():
@@ -109,7 +104,7 @@ def race_event_name(race_dir: Path, fallback: str) -> str:
     return data.get("event") or fallback
 
 
-def build_season(season: str, last_completed: str | None) -> Season:
+def build_season(season: str) -> Season:
     season_root = ARCHIVE_ROOT / "seasons" / season
     season_docs: list[Doc] = []
 
@@ -119,6 +114,7 @@ def build_season(season: str, last_completed: str | None) -> Season:
             continue
         text = path.read_text(encoding="utf-8")
         stem = path.stem
+        ready = is_ready(text)
         season_docs.append(
             Doc(
                 season=season,
@@ -128,7 +124,8 @@ def build_season(season: str, last_completed: str | None) -> Season:
                 rel_path=posix(path.relative_to(REPO_ROOT)),
                 href=f"/seasons/{season}/season/{stem}/",
                 file_path=path,
-                ready=is_ready(text),
+                ready=ready,
+                unlocked=ready,
             )
         )
 
@@ -156,6 +153,7 @@ def build_season(season: str, last_completed: str | None) -> Season:
                 continue
             text = path.read_text(encoding="utf-8")
             stem = path.stem
+            ready = is_ready(text)
             race.docs.append(
                 Doc(
                     season=season,
@@ -165,7 +163,8 @@ def build_season(season: str, last_completed: str | None) -> Season:
                     rel_path=posix(path.relative_to(REPO_ROOT)),
                     href=f"/seasons/{season}/races/{race_dir.name}/{stem}/",
                     file_path=path,
-                    ready=is_ready(text),
+                    ready=ready,
+                    unlocked=ready,
                     round=round_no,
                     event_slug=race_dir.name,
                     event_name=event_name,
@@ -179,26 +178,6 @@ def build_season(season: str, last_completed: str | None) -> Season:
         reading_order.append(prelude)
     for race in races:
         reading_order.extend(race.docs)
-
-    last_idx = next(
-        (i for i, d in enumerate(reading_order) if d.rel_path == last_completed),
-        -1,
-    )
-
-    all_docs = [*season_docs, *[d for r in races for d in r.docs]]
-    for doc in all_docs:
-        if not doc.ready:
-            doc.unlocked = False
-            continue
-        if doc.kind == "season-reference":
-            doc.unlocked = True
-            continue
-        try:
-            idx = reading_order.index(doc)
-        except ValueError:
-            doc.unlocked = False
-            continue
-        doc.unlocked = last_idx >= 0 and idx <= last_idx
 
     return Season(season=season, season_docs=season_docs, races=races, reading_order=reading_order)
 
@@ -544,17 +523,19 @@ def page_shell(
                         f'<a href="{escape(with_base(doc.href, base))}"{cur}>{escape(doc.label)}</a>'
                     )
                     shown = True
-                elif doc.ready:
-                    rail.append(f'<span class="locked">{escape(doc.label)} · zablokowane</span>')
+                else:
+                    rail.append(f'<span class="locked">{escape(doc.label)} · wkrótce</span>')
                     shown = True
             if not shown:
                 rail.append('<span class="locked">jeszcze niepisane</span>')
         rail.append("</nav>")
     else:
-        rail.append(
-            '<div class="rail-label">Start</div><nav>'
-            f'<a href="{escape(with_base("/seasons/1982/", base))}">Sezon 1982</a></nav>'
+        season_ids = list_seasons()
+        links = "".join(
+            f'<a href="{escape(with_base(f"/seasons/{sid}/", base))}">Sezon {escape(sid)}</a>'
+            for sid in season_ids
         )
+        rail.append(f'<div class="rail-label">Sezony</div><nav>{links}</nav>')
 
     css_href = with_base("/assets/styles.css", base)
     js_href = with_base("/assets/reader.js", base)
@@ -630,22 +611,51 @@ def pager_html(prev: Doc | None, nxt: Doc | None, base: str) -> str:
     return f'<nav class="pager" aria-label="Nawigacja sekwencyjna">{left}{right}</nav>'
 
 
-def render_home(state: dict, season: Season, base: str) -> str:
+def preferred_home_season(seasons: list[Season]) -> Season | None:
+    """Pick a season for the home CTA: most unlocked docs, then latest year."""
+    if not seasons:
+        return None
+    return max(
+        seasons,
+        key=lambda s: (
+            sum(1 for d in s.reading_order if d.unlocked),
+            s.season,
+        ),
+    )
+
+
+def render_home(seasons: list[Season], base: str) -> str:
+    season = preferred_home_season(seasons)
+    season_links = "".join(
+        f'<a class="btn secondary" href="{escape(with_base(f"/seasons/{s.season}/", base))}">'
+        f"Sezon {escape(s.season)}</a>"
+        for s in seasons
+    )
+    if season is None:
+        body = f"""
+<section class="hero">
+  <h1>F1 Time Capsule</h1>
+  <p>Czytaj Formułę 1 rundę po rundzie — tylko to, co dało się wiedzieć w danym momencie.</p>
+  <p class="muted">Brak sezonów w archiwum.</p>
+</section>
+"""
+        return page_shell(title="F1 Time Capsule", body=body, base=base)
+
     first = next((d for d in season.reading_order if d.unlocked), None)
     fallback_href = with_base(first.href, base) if first else with_base(f"/seasons/{season.season}/", base)
-    fallback_label = f"Zacznij czytanie · {first.label}" if first else "Spis sezonu"
+    fallback_label = f"Zacznij czytanie · {first.label}" if first else f"Spis sezonu {season.season}"
     body = f"""
 <section class="hero">
   <h1>F1 Time Capsule</h1>
   <p>Czytaj Formułę 1 rundę po rundzie — tylko to, co dało się wiedzieć w danym momencie. Bez wyników z przyszłości, bez retrospektywnego „wiadomo było”.</p>
   <div class="cta-row">
     <a class="btn" data-continue-reading href="{escape(fallback_href)}">{escape(fallback_label)}</a>
-    <a class="btn secondary" href="{escape(with_base(f"/seasons/{season.season}/", base))}">Spis sezonu {escape(season.season)}</a>
+    {season_links}
   </div>
   <div class="state-card">
     <strong>Twój postęp czytania</strong>
     <div data-reading-note>Ładowanie postępu…</div>
-    <div class="muted" style="margin-top:.55rem;font-size:.92rem">Zapisywane lokalnie w tej przeglądarce (localStorage), nie w stanie archiwum.</div>
+    <div class="muted" style="margin-top:.55rem;font-size:.92rem">Zapisywane lokalnie w tej przeglądarce (localStorage). Odblokowanie w czytelniku = dokumenty gotowe (nie-placeholder); pozycję trzyma przeglądarka.</div>
   </div>
 </section>
 """
@@ -689,7 +699,7 @@ def render_season_index(season: Season, base: str) -> str:
             )
         else:
             race_cards.append(
-                f'<div class="card" style="opacity:.65"><div class="meta">Runda {escape(race.round)}</div><h3>{escape(race.event_name)}</h3><p>Poza aktualnym punktem archiwum lub jeszcze niepisane.</p><span class="badge locked">niedostępne</span></div>'
+                f'<div class="card" style="opacity:.65"><div class="meta">Runda {escape(race.round)}</div><h3>{escape(race.event_name)}</h3><p>Dokumenty jeszcze niegotowe (placeholder lub brak treści).</p><span class="badge locked">niedostępne</span></div>'
             )
 
     body = f"""
@@ -718,7 +728,7 @@ def render_doc(season: Season, doc: Doc, *, kicker: str, base: str) -> str:
         body = f"""
 <div class="locked-panel">
   <h1>{escape(doc.title)}</h1>
-  <p>Dokument zablokowany spoiler-safe: szkic szablonowy albo poza aktualnym cutoffem archiwum.</p>
+  <p>Dokument zablokowany: szkic szablonowy lub treść jeszcze niegotowa.</p>
   <p><a href="{escape(with_base(f"/seasons/{season.season}/", base))}">Wróć do spisu sezonu</a></p>
 </div>
 """
@@ -760,18 +770,8 @@ def build(base: str = "/") -> None:
     write(OUT_DIR / "assets" / "styles.css", CSS)
     write(OUT_DIR / "assets" / "reader.js", READER_JS)
 
-    state = load_state()
-    seasons = []
-    for season_id in list_seasons():
-        last = (
-            state.get("last_completed_document")
-            if str(state.get("active_season")) == season_id
-            else None
-        )
-        seasons.append(build_season(season_id, last))
-
-    active = next(s for s in seasons if s.season == str(state.get("active_season")))
-    write(out_path_for_href("/"), render_home(state, active, base))
+    seasons = [build_season(season_id) for season_id in list_seasons()]
+    write(out_path_for_href("/"), render_home(seasons, base))
 
     for season in seasons:
         write(out_path_for_href(f"/seasons/{season.season}/"), render_season_index(season, base))

@@ -5,5 +5,4 @@ This directory intentionally contains no season folders. Initialize a real
 authorizes that initialization. Use `templates/season/`, `templates/race/`, and
 the process in `docs/archive-workflow.md`.
 
-Creating this root does not advance `archive-state.yaml` and does not authorize
-historical research or content.
+Creating this root does not authorize historical research or content.

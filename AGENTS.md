@@ -27,9 +27,12 @@ templates, repository state, and workflow documentation. It does not authorise
 historical research, populated season or race directories, or factual content.
 
 Use `templates/` for future documents, `docs/archive-workflow.md` for sequential
-state transitions, and `docs/agent-task-recipes.md` for task contracts. The
-machine-readable `archive-state.yaml` is a workflow aid, never historical
-evidence or a substitute for document metadata.
+cutoff transitions, and `docs/agent-task-recipes.md` for task contracts.
+Progress is the existence and metadata of documents under
+`archive/seasons/[YYYY]/`—there is no global workflow lock. Parallel agents
+may work on disjoint seasons or rounds when each command's on-disk prerequisites
+are already satisfied. Document metadata and verified sources remain
+authoritative for historical knowledge.
 
 Use the manually invoked archive commands listed in
 `docs/commands.md`; normal season work begins with `/prepare-season [YYYY]`.

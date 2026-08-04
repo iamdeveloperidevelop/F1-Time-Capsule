@@ -77,6 +77,13 @@ etapu bezpiecznego względem granicy wiedzy.
 | 1982-R04-PW-CIR-01 | `races/04-united-states-grand-prix-west/pre-weekend.md` | Oficjalna długość / mapa układu Long Beach 1982 (MS: „slightly longer”). | Program 1982 lub dane FISA. | open |
 | 1982-R04-PW-WX-01 | `races/04-united-states-grand-prix-west/pre-weekend.md` | Datowana prognoza pogody dla Long Beach przed pierwszą sesją. | Lokalna prasa / biuletyn pogodowy ≤ cutoff. | open |
 | 1982-R04-PW-DEV-01 | `races/04-united-states-grand-prix-west/pre-weekend.md`, `sources.md` | Czy między ≈22 III a 1 IV 1982 pojawiły się datowane dziennie nowe komunikaty F1 (apelacje, Hiszpania, PRDA)? | Depesze / biuletyny z tego przedziału. | open |
+| 1982-R04-PR-CUT-01 | `races/04-united-states-grand-prix-west/pre-race.md`, `metadata.yaml`, `sources.md` | Oficjalna lokalna godzina startu GP Stanów Zjednoczonych Zachód 4 kwietnia 1982 (MS wskazuje ≈13:05). | Datowany oficjalny program / harmonogram wydarzenia. | open |
+| 1982-R04-PR-GRID-01 | `races/04-united-states-grand-prix-west/pre-race.md`, `sources.md` | Oficjalna klasyfikacja kwalifikacji / dokument pola (obecnie RSC / SILH / MS). | Biuletyn FIA/FISA lub oficjalny timing. | open |
+| 1982-R04-PR-WU-01 | `races/04-united-states-grand-prix-west/pre-race.md`, `sources.md` | Pełne czasy / oficjalna klasyfikacja niedzielnej rozgrzewki. | Biuletyn timingowy przed startem. | open |
+| 1982-R04-PR-PEN-01 | `races/04-united-states-grand-prix-west/pre-race.md` | Czy przed startem opublikowano biuletyn kar przesuwających pole? | Oficjalny biuletyn ≤ start. | open |
+| 1982-R04-PR-DIST-01 | `races/04-united-states-grand-prix-west/pre-race.md`, `sources.md` | Oficjalna długość okrążenia / dystans km (MS: 75½; km z silhouet). | Program 1982 lub dane FISA. | open |
+| 1982-R04-PR-MODEL-01 | `races/04-united-states-grand-prix-west/pre-race.md`, `sources.md` | Uzgodnienie oznaczeń Williams FW07C (MS) vs FW07D (RSC). | Współczesny entry list / notes on the cars. | open |
+| 1982-R04-PR-AS-01 | `races/04-united-states-grand-prix-west/sources.md` | Autosport Grand Prix Gold US West 1982 niedostępny w sesji (fetch blocked); korpus Roebucka nie użyty w prose. | Pełny tekst / reprint dostępny offline. | open-nonblocking |
 
 ## Zasady późniejszego rozstrzygania
 

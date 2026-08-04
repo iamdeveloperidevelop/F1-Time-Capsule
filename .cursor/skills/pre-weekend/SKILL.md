@@ -7,7 +7,8 @@ disable-model-invocation: true
 # Prepare a race weekend
 
 This manually invoked workflow authorizes historical work only through the
-selected event's pre-weekend cutoff.
+selected event's pre-weekend cutoff. Do not read or write any global workflow
+state file.
 
 ## Invocation
 
@@ -35,21 +36,23 @@ Before browsing, researching, or modifying files:
    `docs/temporal-scope.md`, `docs/source-policy.md`,
    `docs/content-contracts.md`, `docs/methodology.md`, and
    `docs/archive-workflow.md`.
-2. Read `archive-state.yaml`, season metadata, `season/calendar.md`, every race
-   folder candidate for the normalized round, and the canonical race templates.
-3. Verify that the season exists, its preseason package has a declared
-   cutoff (or the narrowest supported descriptive boundary), the selected event
-   is supported by the calendar evidence available at the current boundary, and
-   state permits this exact next transition. A `source_status: partial` season
-   package is sufficient when its reader-facing content has no unresolved
-   spoiler-audit issue and its gaps are recorded in
-   `things-to-resolve-after-season.md`.
-4. For rounds after 01, inspect the previous completed race's canonical
-   `standings-after.md`, its metadata status, and unresolved classification
-   issues. Do not reconstruct prior standings from later sources.
-5. Stop and report a conflict if document metadata and `archive-state.yaml`
-   disagree. Do not proceed out of sequence without an explicit instruction
-   that names the intended exceptional transition and cutoff.
+2. Read season metadata, `season/calendar.md`, every race folder candidate for
+   the normalized round, and the canonical race templates.
+3. Verify that the season exists and its preseason package has a declared
+   cutoff (or the narrowest supported descriptive boundary) in season
+   metadata. A `source_status: partial` season package is sufficient when its
+   reader-facing content has no unresolved spoiler-audit issue and its gaps are
+   recorded in `things-to-resolve-after-season.md`.
+4. For rounds after 01, require the previous completed race's canonical
+   `standings-after.md` on disk. Inspect its metadata status and unresolved
+   classification issues. Do not reconstruct prior standings from later
+   sources. If that snapshot is missing, stop and name
+   `/post-race [SEASON] [PREV_ROUND]` (or the missing prerequisite) as the
+   expected previous action.
+5. Reject only when on-disk prerequisites or the target cutoff are wrong—not
+   because another season or round is in progress elsewhere. Do not proceed out
+   of sequence for this round without an explicit instruction that names the
+   intended exceptional transition and cutoff.
 
 If the race folder is absent because the event became publicly knowable only
 after the preseason cutoff, first verify when the calendar change became
@@ -100,7 +103,7 @@ claim support, the `spoiler-auditor` or `spoiler-scope-audit` workflow in
 adversarial mode, and the `editor` or `historical-content-editor` workflow for
 Polish and deduplication after factual review.
 
-## Output and state
+## Output
 
 Populate only:
 
@@ -117,19 +120,12 @@ Run metadata, source, spoiler, contradiction, Polish-language, and repetition
 audits. Link to canonical season references and the previous standings snapshot
 instead of copying full biographies, histories, technical explanations, or
 tables. Advance statuses only when the actual audits permit it. A partial source
-audit does not block this state transition if all reader-facing claims are
+audit does not block this transition if all reader-facing claims are
 cutoff-safe and the ledger records the missing evidence; a spoiler-audit issue
 does block it until remediated.
 
-After successful completion, update `archive-state.yaml` in place using only
-its current schema:
-
-- active season and round identify this event;
-- `current_stage` is `pre-weekend`;
-- `knowledge_cutoff` is this document's verified cutoff or narrowest supported
-  descriptive boundary;
-- `last_completed_document` is this `pre-weekend.md`;
-- `next_allowed_action` is `/pre-race [SEASON] [ROUND]`.
+Leave progress encoded only in these files and their metadata. Do not write any
+global workflow pointer. Suggest `/pre-race [SEASON] [ROUND]` in the reply.
 
 Do not generate or research the next stage. Never commit or push historical
 content automatically.
@@ -138,4 +134,4 @@ content automatically.
 
 Report the event and cutoff, files created or updated, files skipped and
 reasons, unresolved evidence or calendar issues, source/spoiler/repetition audit
-results, state change, and `/pre-race [SEASON] [ROUND]` as the next command.
+results, and `/pre-race [SEASON] [ROUND]` as the suggested next command.

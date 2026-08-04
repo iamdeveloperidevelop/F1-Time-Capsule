@@ -12,8 +12,8 @@ Do not research or generate historical content yet.
 Create only the directory structure, metadata, and empty document files.
 Leave archive document statuses at planned, unstarted, and not-run.
 Do not create race folders beyond rounds explicitly supplied in this task.
-Update archive-state.yaml to season-prelude without claiming an unverified
-knowledge cutoff, and leave the next action explicit rather than automatic.
+Do not claim an unverified knowledge cutoff. Suggest one explicit next command
+in the reply rather than writing any global workflow state.
 ```
 
 ## Generate a season prelude

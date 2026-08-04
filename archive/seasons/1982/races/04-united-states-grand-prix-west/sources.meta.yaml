@@ -12,5 +12,5 @@ spoiler_scope:
 content_language: "pl"
 research_status: "drafted"
 source_status: "partial"
-spoiler_audit_status: "not-run"
-last_verified: null
+spoiler_audit_status: "passed"
+last_verified: "2026-08-05"

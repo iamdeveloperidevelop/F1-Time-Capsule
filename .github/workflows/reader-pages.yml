@@ -6,7 +6,6 @@ on:
     paths:
       - 'reader/**'
       - 'archive/**'
-      - 'archive-state.yaml'
       - '.github/workflows/reader-pages.yml'
   workflow_dispatch:
 

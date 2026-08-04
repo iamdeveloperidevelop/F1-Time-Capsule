@@ -7,13 +7,13 @@ disable-model-invocation: true
 # Initialize season
 
 This is a manually invoked, structure-only workflow. Do not research, browse for,
-or draft historical content.
+or draft historical content. Do not read or write any global workflow state file.
 
 ## Invocation
 
 Treat the complete text following `/init-season` as the argument payload. After
 trimming surrounding whitespace, require exactly one argument matching
-`^[0-9]{4}$`. Do not infer a season from repository files or state.
+`^[0-9]{4}$`. Do not infer a season from repository files.
 
 If validation fails, make no changes and respond with exactly:
 
@@ -31,10 +31,9 @@ Before modifying any file:
 1. Read `AGENTS.md`, all relevant `.cursor/rules/`,
    `docs/content-contracts.md`, `docs/archive-workflow.md`,
    `docs/temporal-scope.md`, and `docs/source-policy.md`.
-2. Read `archive-state.yaml` and every canonical template needed from
-   `templates/season/`.
-3. Treat the current canonical rules, documents, templates, metadata schema,
-   and archive-state workflow as authoritative over this skill.
+2. Read every canonical template needed from `templates/season/`.
+3. Treat the current canonical rules, documents, templates, and metadata schema
+   as authoritative over this skill.
 4. Confirm that every required canonical input exists. If an input or template
    is missing, stop without modifying files and report the missing canonical
    input. Never synthesize a replacement.
@@ -105,12 +104,9 @@ Before creating or changing anything:
 2. If it exists, do not overwrite, reset, recreate, or repair anything. Report
    that the season is already initialized and list any missing files from the
    expected scaffold. Repair only in response to a separate explicit request.
-3. Inspect `archive-state.yaml` using its exact current schema and workflow.
-   If it records a different active season, stop without modifying files and
-   explain the conflict. Never silently replace another active season.
-4. Determine whether the canonical schema permits the requested state
-   transition. Do not invent fields or enum values.
-5. Record the pre-existing paths so validation can prove that nothing was
+3. Other seasons or in-progress rounds elsewhere are not a conflict. Proceed
+   when this season path is free.
+4. Record the pre-existing paths so validation can prove that nothing was
    overwritten.
 
 ## Initialize the scaffold
@@ -131,29 +127,13 @@ knowledge cutoff. Do not replace any other placeholder merely because a likely
 value seems obvious.
 
 Create no files or directories beyond the expected season scaffold and any
-parent directories required to contain it. Do not create race directories.
+parent directories required to contain it. Do not create race folders.
 
-## Archive state
+## Progress
 
-After the scaffold is successfully instantiated, update `archive-state.yaml`
-only when the canonical schema and workflow permit it. Edit the existing
-document in place, preserving its structure and unrelated fields; never replace
-it with an example or reconstructed state.
-
-Use the exact existing field names and enum values to express:
-
-```yaml
-active_season: [SEASON]
-active_round: null
-current_stage: season-prelude
-knowledge_cutoff: null
-last_completed_document: null
-next_allowed_action: generate-season-prelude
-```
-
-If the canonical schema does not permit this update, leave
-`archive-state.yaml` unchanged and report that fact. A different active season
-is a blocking conflict and must have stopped the workflow during preflight.
+Do not write any global workflow pointer. Progress is the created season
+scaffold under `archive/seasons/[SEASON]/`. In the completion reply, suggest
+`/prepare-season [SEASON]` as the next sensible command when useful.
 
 ## Strict exclusions
 
@@ -165,7 +145,8 @@ Do not:
 - insert regulations, technical facts, results, standings, or summaries;
 - assume an announced or final calendar;
 - generate source entries;
-- create race directories or any race structure.
+- create race directories or any race structure;
+- read or update a global archive-state file.
 
 This workflow initializes structure only.
 
@@ -182,9 +163,7 @@ Before reporting completion, verify all of the following:
 - every required scaffold file exists;
 - no race directory or extra structure was created;
 - no historical fact or non-season date was introduced;
-- no pre-existing file was overwritten;
-- `archive-state.yaml` is valid and changed only as the canonical workflow
-  permits.
+- no pre-existing file was overwritten.
 
 If validation fails, report the failure accurately; do not claim successful
 initialization.
@@ -195,6 +174,6 @@ After successful validation, respond concisely with only:
 
 1. initialized season;
 2. created files;
-3. archive-state change;
-4. validation result;
-5. confirmation that no historical research or race structure was generated.
+3. validation result;
+4. confirmation that no historical research or race structure was generated;
+5. suggested next command: `/prepare-season [SEASON]`.

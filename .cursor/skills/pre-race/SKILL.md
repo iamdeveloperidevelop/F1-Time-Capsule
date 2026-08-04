@@ -7,7 +7,8 @@ disable-model-invocation: true
 # Prepare for the race start
 
 This manually invoked workflow authorizes historical work only through the
-instant immediately before the selected race's scheduled start.
+instant immediately before the selected race's scheduled start. Do not read or
+write any global workflow state file.
 
 ## Invocation
 
@@ -35,16 +36,17 @@ Before browsing, researching, or modifying files:
    `docs/temporal-scope.md`, `docs/source-policy.md`,
    `docs/content-contracts.md`, `docs/methodology.md`, and
    `docs/archive-workflow.md`.
-2. Read `archive-state.yaml`, season and race metadata, the selected race's
-   `pre-weekend.md` and `sources.md`, related canonical season references, and
-   the canonical `templates/race/pre-race.template.md`.
-3. Require `pre-weekend.md` to be completed or reviewed under canonical
-   statuses, with no unresolved reader-facing spoiler-audit issue. A partial
-   source audit is sufficient when the document's cutoff-safe limitations are
-   recorded in `things-to-resolve-after-season.md`.
-4. Verify that state permits `/pre-race` for this exact season and round. If it
-   does not, stop and name the expected previous action. If state conflicts
-   with verified metadata, report the conflict rather than widening scope.
+2. Read season and race metadata, the selected race's `pre-weekend.md` and
+   `sources.md`, related canonical season references, and the canonical
+   `templates/race/pre-race.template.md`.
+3. Require `pre-weekend.md` to exist on disk and be completed or reviewed under
+   canonical statuses, with no unresolved reader-facing spoiler-audit issue. A
+   partial source audit is sufficient when the document's cutoff-safe
+   limitations are recorded in `things-to-resolve-after-season.md`. If
+   `pre-weekend.md` is missing or still a placeholder, stop and name
+   `/pre-weekend [SEASON] [ROUND]` as the expected previous action.
+4. Other seasons or rounds elsewhere are not a conflict. Reject only when this
+   round's on-disk prerequisite or target cutoff is wrong.
 
 Do not overwrite a verified, reviewed, complete, or manually populated
 `pre-race.md`. Resume partial work only when its declared cutoff and evidence
@@ -88,7 +90,7 @@ Use the existing researcher, source-auditor, spoiler-auditor, and editor roles
 or their corresponding helper skills. Keep the verified claim set fixed during
 language editing.
 
-## Output and state
+## Output
 
 Populate only the selected race's:
 
@@ -118,15 +120,8 @@ audits. Advance statuses only when the actual results support them. Partial
 source status is compatible with progression when reader-facing claims are
 cutoff-safe and the season ledger records what remains unresolved.
 
-After successful completion, update `archive-state.yaml` in place using only
-its canonical schema:
-
-- active season and round identify this event;
-- `current_stage` is `pre-race`;
-- `knowledge_cutoff` is this document's verified pre-start cutoff or narrowest
-  supported descriptive boundary;
-- `last_completed_document` is this `pre-race.md`;
-- `next_allowed_action` is `/post-race [SEASON] [ROUND]`.
+Leave progress encoded only in these files and their metadata. Do not write any
+global workflow pointer. Suggest `/post-race [SEASON] [ROUND]` in the reply.
 
 Do not generate or research `post-race.md`. Never commit or push historical
 content automatically.
@@ -134,5 +129,5 @@ content automatically.
 ## Completion response
 
 Report the event and cutoff, files created or updated, files skipped and
-reasons, unresolved issues, source/spoiler/repetition audit results, state
-change, and `/post-race [SEASON] [ROUND]` as the next command.
+reasons, unresolved issues, source/spoiler/repetition audit results, and
+`/post-race [SEASON] [ROUND]` as the suggested next command.

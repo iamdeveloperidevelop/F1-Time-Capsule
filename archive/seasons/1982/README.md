@@ -40,5 +40,6 @@
 - [15 — Italian Grand Prix](races/15-italian-grand-prix/)
 - [16 — Las Vegas Grand Prix](races/16-las-vegas-grand-prix/)
 
-The safe next document is determined by `archive-state.yaml` and each target
-document's metadata. State is navigation guidance, not historical evidence.
+The safe next document is determined by on-disk prerequisites and each target
+document's metadata. Suggest the next command from those files; do not treat
+progress as historical evidence.
