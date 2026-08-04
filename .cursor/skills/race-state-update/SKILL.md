@@ -29,7 +29,10 @@ explicitly authorises historical content. Read `docs/temporal-scope.md`,
    only when they became knowable.
 6. Produce separately contracted event documents or snapshots; never overwrite
    an earlier boundary with later knowledge.
-7. Run source, arithmetic, spoiler, metadata, and redundancy audits.
+7. Apply the reader-facing uncertainty presentation in `docs/methodology.md`;
+   keep transition and verification mechanics in ledgers or notes rather than
+   event narrative.
+8. Run source, arithmetic, spoiler, metadata, and redundancy audits.
 
 ## Prohibited behaviour
 
