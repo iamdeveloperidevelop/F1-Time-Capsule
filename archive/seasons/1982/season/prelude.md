@@ -22,79 +22,57 @@ last_verified: null
 ## Granica wiedzy
 
 Ten tekst zatrzymuje się bezpośrednio przed planowanym rozpoczęciem pierwszej
-oficjalnej sesji Grand Prix RPA na Kyalami w czwartek 21 stycznia 1982.
-Dokładna godzina pozostaje nieznana, ponieważ nie odnaleziono oficjalnego
-rozkładu sesji. Luki dotyczące granicy wiedzy i źródeł zapisano w
-[`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
-Najpóźniejsze wiadomości o wykazanej dostępności pochodzą z numeru
-„Motor Sport” datowanego na December 1981. Dokładny dzień publikacji numeru
-datowanego na January 1982 nie jest znany, więc nie można potwierdzić jego
-dostępności przed przyjętą granicą. Luka blokuje użycie jego treści jako wiedzy
-publicznej przed cutoff.
+oficjalnej sesji Grand Prix RPA na Kyalami w czwartek 21 stycznia 1982.[^1]
 
 ## Odziedziczony kontekst
 
-Sezon zaczynał się z Nelsonem Piquetem jako mistrzem świata kierowców 1981
-[CTX-01] oraz Williamsem jako zespołem, który drugi rok z rzędu zdobył
-mistrzostwo producentów [CTX-02]. Grudniowe podsumowanie „Motor Sport”
+U progu sezonu Nelson Piquet był mistrzem świata kierowców 1981, a Williams
+zespołem, który drugi rok z rzędu zdobył mistrzostwo producentów. Grudniowe
+podsumowanie „Motor Sport”
 przedstawiało Williamsa jako ekipę nadal należącą do ścisłej czołówki.
 Według datowanej depeszy UPI z 18 grudnia 1981 Williams potwierdził parę Carlos
-Reutemann–Keke Rosberg [T03].
+Reutemann–Keke Rosberg.
 
-Szersze tło sportowe i organizacyjne, łącznie z ograniczeniami bazy źródłowej,
-znajduje się w
-[`context.md`](context.md), a role osób i instytucji w
+Szersze tło sportowe i organizacyjne znajduje się w [`context.md`](context.md),
+a role osób i instytucji w
 [`people-and-organisations.md`](people-and-organisations.md).
 
 ## Stan stawki i jej ograniczenia
 
-Zebrane dowody nie dają kompletnej, potwierdzonej przed cutoff listy zespołów i
-kierowców. Przegląd obsady w materiale PRE-01 nie może jej uzupełnić, dopóki nie
-zostanie ustalony dzienny termin publikacji styczniowego numeru. Dowody listy
-zgłoszeń pozostają więc niepełne, a ten rozdział nie przedstawia stawki jako
-zamkniętej.
-
-Odrębne, nadal częściowe zestawienia ekip i kierowców znajdują się odpowiednio w
-[`teams.md`](teams.md) i [`drivers.md`](drivers.md). Nie rozstrzygają one żadnej
-późniejszej zmiany ani nie rekonstruują listy startowej z dokumentów powstałych
-po cutoff.
+Ten rozdział nie przedstawia zamkniętej listy zespołów i kierowców. Częściowe
+zestawienia znajdują się w [`teams.md`](teams.md) i
+[`drivers.md`](drivers.md).
 
 ## Przegląd przepisów i techniki
 
-Styczniowy materiał PRE-01 zawierał opis programów technicznych, lecz nie ma
-ustalonego dnia publikacji. Do czasu zamknięcia tej luki nie służy tutaj jako
-dowód wiedzy dostępnej przed cutoff. Szczegóły zasad należą do
-[`regulations.md`](regulations.md), a konstrukcji i kompromisów technicznych do
-[`technology.md`](technology.md).
+Szczegóły zasad opisano w [`regulations.md`](regulations.md), a konstrukcje i
+kompromisy techniczne w [`technology.md`](technology.md).
 
 ## Zarys kalendarza
 
-Przypisaną CAL-01 wersję harmonogramu zapisuje [`calendar.md`](calendar.md).
-Brak dziennej daty publikacji PRE-02/CAL-01 uniemożliwia obecnie potwierdzenie,
-że ta wersja była dostępna do 21 stycznia; nie jest ona traktowana jako
-bezwarunkowo cutoff-safe ani jako wiedza o faktycznym przebiegu sezonu.
+Wersję harmonogramu z numeru „Motor Sport” datowanego na styczeń 1982 zapisano
+w [`calendar.md`](calendar.md).[^2]
 
 ## Dostępny materiał przedsezonowy
 
-Materiał o wykazanej dostępności przed pierwszą sesją dawał ograniczone punkty
-odniesienia. Uzupełniał przedstawiony wyżej kontekst Williamsa: grudniowa
-analiza podkreślała zarówno zdolność zespołu do pozostania w walce, jak i jego
-determinację, by sięgnąć po trzeci tytuł z rzędu [PRE-03]. Styczniowe relacje o
-próbach i innych zespołach nie są tu używane, ponieważ ich dostępność przed
-cutoff pozostaje niepotwierdzona.
+Grudniowa analiza „Motor Sport” podkreślała zdolność Williamsa do pozostania w
+walce oraz determinację zespołu, by sięgnąć po trzeci tytuł z rzędu. Pismo
+oceniało, że ekipa miała środki potrzebne do walki o ten sukces.
 
-## Współczesne pytania i oczekiwania
+## Uwagi do źródeł
 
-W grudniowym materiale „Motor Sport” formułował jedno bezpiecznie datowane
-oczekiwanie:
+[^1]: Dokładna godzina rozpoczęcia pierwszej oficjalnej sesji nie jest znana.
+    Najpóźniejsze wykorzystane wiadomości o wykazanej dostępności pochodzą z
+    grudnia 1981. Lukę dotyczącą granicy wiedzy zapisano w
+    [`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
 
-- „Motor Sport” oceniał, że Williams miał środki, by walczyć o trzeci kolejny
-  tytuł producentów [PRE-03].
-
-Pozostałe oczekiwania z PRE-01 wymagają najpierw potwierdzenia, że numer January
-1982 był publicznie dostępny przed granicą wiedzy.
-
-## Uwagi źródłowe
+[^2]: Dzienna data publikacji styczniowego numeru „Motor Sport” pozostaje
+    nieznana. Z tego powodu zawartych w nim przeglądów obsady, programów
+    technicznych, kalendarza i oczekiwań nie uznano za wiedzę publicznie dostępną
+    przed granicą; nie wykorzystano również relacji o próbach i innych zespołach
+    ani nie potraktowano kalendarza jako wiedzy o faktycznym przebiegu sezonu.
+    Niepełność listy zgłoszeń oraz ograniczenia tego materiału pozostają zapisane
+    w [`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
 
 - **PRE-01 / MS-1982-01-31** — Denis Jenkinson, „The Formula One Scene”,
   *Motor Sport*, January 1982 (dokładny dzień publikacji `unknown`), `PRESS`,

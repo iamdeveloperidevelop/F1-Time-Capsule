@@ -25,32 +25,20 @@ last_verified: null
 
 Opis oddziela rozwiązania publicznie znane przed planowanym rozpoczęciem
 pierwszej oficjalnej sesji Grand Prix RPA na Kyalami 21 stycznia 1982 od planów
-z czasowo niezweryfikowanego styczniowego numeru „Motor Sport”. Dokładna
-godzina pozostaje nieznana; lukę zapisano w
-[`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
-Nie uwzględniono żadnej obserwacji z oficjalnej sesji,
-późniejszego przebiegu weekendu ani oceny dokonanej na podstawie dalszej części
-sezonu.
+opisanych w styczniowym numerze „Motor Sport”.[^1]
 
 ## Ramy regulaminowe
 
-Niedatowany archiwalny PDF FIA jest jedynym źródłem części poniższych parametrów.
-Przytoczenia z niego opisują badany wariant tekstu, nie są zaś potwierdzonymi
-faktami o kompletnym stanie przepisów przy cutoff; odpowiednia luka pozostaje w
-[`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
-
-W badanym, niedatowanym PDF FIA opisano dwie równoległe formuły silnikowe: do
+W archiwalnym PDF FIA opisano dwie równoległe formuły silnikowe:[^2] do
 3000 cm³ bez doładowania albo do 1500 cm³ z doładowaniem, przy najwyżej 12
-cylindrach (`TECH-1982-001`, FIA art. 5). Szczegółowe limity wymiarów, masy,
-paliwa i kokpitu są w [opisie przepisów](regulations.md).
+cylindrach (art. 5). Szczegółowe limity wymiarów, masy, paliwa i kokpitu
+znajdują się w [opisie przepisów](regulations.md).
 
-W aerodynamice potrzebna jest ostrożność. Bazowy tekst FIA wymienia 6 cm
+W części dotyczącej aerodynamiki tekst FIA wymienia 6 cm
 minimalnego prześwitu i zabrania urządzenia wypełniającego przestrzeń między
 nadwoziem a podłożem. Współczesny artykuł z maja 1981 wyjaśniał jednocześnie
 zakaz przesuwnych fartuchów i poszukiwanie innych sposobów uszczelnienia
-podwozia (`TECH-1982-002`). Data i wariant PDF nie są potwierdzone jako
-kompletny stan przepisów przy granicy wiedzy, ponieważ dokument nie zawiera
-historii aneksów.
+podwozia.
 
 ## Podstawowe pojęcia techniczne
 
@@ -61,12 +49,12 @@ przez ukształtowane przewężenia pod podłogą. Kanał o profilu Venturiego
 przyspiesza strugę i pomaga wytworzyć niższe ciśnienie pod samochodem, a różnica
 ciśnień zwiększa docisk. „Motor Sport” podkreślał, że docisk nie zastępuje
 przyczepności opon: zwiększa obciążenie ich pól styku i pozwala lepiej je
-wykorzystać (`TECH-1982-003`).
+wykorzystać.
 
 Skuteczność układu zależała od ograniczenia dopływu powietrza bokiem. Przesuwne
 fartuchy mogły podążać za nierównościami nawierzchni, lecz od 1981 były
 zabronione. Bez ruchomego uszczelnienia skuteczność przepływu pod samochodem
-pozostawała zależna od wysokości zawieszenia (`TECH-1982-004`).
+pozostawała zależna od wysokości zawieszenia.
 
 ### Wysokość jazdy
 
@@ -77,10 +65,8 @@ uszczelnienie, ale ruch zawieszenia i nierówności zmieniały przepływ.
 ### Silniki wolnossące i doładowane
 
 Badany PDF FIA definiuje silnik doładowany przez zwiększenie masy ładunku
-trafiającego do komory spalania. Nie stanowi on samodzielnego źródła dla
-szczegółowego mechanizmu turbosprężarki. W tym wariancie tekstu regulaminowego
-dopuszczano jednostki 3,0 l bez doładowania oraz 1,5 l z doładowaniem
-(`TECH-1982-006`).
+trafiającego do komory spalania. W tym wariancie tekstu regulaminowego
+dopuszczano jednostki 3,0 l bez doładowania oraz 1,5 l z doładowaniem.
 
 ### Cela przetrwania
 
@@ -88,85 +74,81 @@ Badany, niedatowany tekst FIA opisuje celę przetrwania przez ciągłe struktury
 skrzynkowe po obu stronach kierowcy oraz minimalną przestrzeń kokpitu. Osobne
 postanowienie o panelach ochronnych wymienia materiały przekładkowe: metalowe
 lub Nomexowe plastry miodu oraz poszycia z aluminium, tworzywa albo włókna
-węglowego (`TECH-1982-007`, FIA art. 13.7). Wymienione materiały nie są przez
-to utożsamione z celą przetrwania. Zebrane źródła nie wspierają szerszej
-definicji monokoku ani utożsamienia obu pojęć; zwięzłe zastrzeżenie
-terminologiczne zawiera
+węglowego (art. 13.7). Wymienione materiały nie są przez to utożsamione z celą
+przetrwania. Zwięzłe zastrzeżenie terminologiczne zawiera
 [`glossary.md`](glossary.md#monokok-cela-przetrwania).
 
-## Konstrukcje i układy opisane w źródle styczniowym
+## Konstrukcje i zapowiadane programy
 
-Poniższe opisy konstrukcji i planów pochodzą wyłącznie ze styczniowego numeru
-„Motor Sport”, którego dzień publikacji jest nieznany. Odtwarzają treść czasowo
-niezweryfikowanego materiału, nie są więc przedstawiane jako wiedza publicznie
-dostępna przed cutoff ani jako zapowiedź tego, co rzeczywiście wystartuje lub
-okaże się skuteczne.
+Poniższe opisy konstrukcji i planów pochodzą ze styczniowego numeru „Motor
+Sport” i pozostają przypisanymi pismu zapowiedziami.
 
-- **Ferrari.** Czasowo niezweryfikowana styczniowa zapowiedź opisywała nową
-  konstrukcję podwozia z rdzeniem Nomex i włóknem węglowym oraz
+- **Ferrari.** Styczniowy artykuł opisywał nową konstrukcję podwozia z rdzeniem
+  Nomex i włóknem węglowym oraz
   turbodoładowany V6. Aerodynamikę łączyła z wpływem Harveya Postlethwaite’a,
-  nie przypisując tym materiałom konkretnej funkcji aerodynamicznej
-  (`TECH-1982-008`). Nie podano tu nazwy modelu. Dostępna wersja styczniowego
-  źródła nie potwierdza dostatecznie szczegółu o aluminium.
+  nie przypisując tym materiałom konkretnej funkcji aerodynamicznej. Nie podano
+  nazwy modelu.
 - **Renault.** Ten sam styczniowy materiał wymieniał zespół wśród użytkowników
-  silnika turbodoładowanego (`TECH-1982-009`), bez prawa do dopisywania
-  późniejszych osiągów.
+  silnika turbodoładowanego.
 - **Brabham–BMW.** Według tego materiału testowano BT50 z turbodoładowanym,
   rzędowym czterocylindrowym silnikiem BMW 1,5 l. „Motor Sport” przedstawiał
-  jego udział w wyścigach w 1982 jedynie jako możliwość, nie fakt
-  (`TECH-1982-010`).
+  jego udział w wyścigach w 1982 jedynie jako możliwość, nie fakt.
 - **Toleman–Hart.** Styczniowe zestawienie identyfikowało projekt z silnikiem
-  Hart (`TECH-1982-011`). Brak tu oceny gotowości lub przyszłej niezawodności.
+  Hart.
 - **McLaren.** Artykuł podawał, że bieżącym silnikiem pozostawał wolnossący
-  Cosworth DFV.
-  Ogłoszona umowa z Porsche dotyczyła przyszłego turbodoładowanego V6 1,5 l,
-  planowanego na hamownię pod koniec 1982 i do wyścigów w 1983
-  (`TECH-1982-012`). Są to terminy zapowiedzi, nie potwierdzenie realizacji.
+  Cosworth DFV. Ogłoszona umowa z Porsche dotyczyła przyszłego
+  turbodoładowanego V6 1,5 l, planowanego na hamownię pod koniec 1982 i do
+  wyścigów w 1983. Były to terminy zapowiedzi, nie potwierdzenie realizacji.
 - **Talbot/Ligier–Matra.** Na początek sezonu artykuł opisywał V12 Matra. Projekt
-  turbodoładowanego V6 1,5 l pozostawał jedynie zapowiedziany
-  (`TECH-1982-013`).
+  turbodoładowanego V6 1,5 l pozostawał jedynie zapowiedziany.
 - **Alfa Romeo.** Styczniowa zapowiedź rozróżniała używany silnik V12 od
-  planowanego, podwójnie turbodoładowanego V8 1,5 l (`TECH-1982-014`).
-  Plan nie jest tu zamieniany w stwierdzenie o późniejszym użyciu.
+  planowanego, podwójnie turbodoładowanego V8 1,5 l.
 
 Artykuł z października 1981 odnotowywał Goodyear, Michelin, Pirelli oraz
-wspólny program Avon/International Race Tire Service (IRTS) (`TECH-1982-015`).
-Nie potwierdza on jednak ich stanu na styczeń 1982 ani pełnych przydziałów dla
-zespołów; te kwestie pozostają otwarte w
-[`things-to-resolve-after-season.md`](../things-to-resolve-after-season.md).
+wspólny program Avon/International Race Tire Service (IRTS).
 
 ## Kompromisy konstrukcyjne
 
 Według technicznego wyjaśnienia „Motor Sport” z maja 1981 większy docisk
 pomagał w zakrętach i podczas hamowania, lecz zwykle zwiększał opór; artykuł
-przedstawiał to jako kompromis między prędkością maksymalną a czasem okrążenia
-(`TECH-1982-016`). Ten sam tekst wiązał uszczelnienie kanałów podwozia z
-ruchami samochodu względem nawierzchni po zakazie przesuwnych fartuchów. Jest to
-przypisane wyjaśnienie prasowe, nie niezależnie zweryfikowany opis każdego
-samochodu.
+przedstawiał to jako kompromis między prędkością maksymalną a czasem okrążenia.
+Ten sam tekst wiązał uszczelnienie kanałów podwozia z ruchami samochodu
+względem nawierzchni po zakazie przesuwnych fartuchów.
 
 Samo wymienienie włókna węglowego, Nomexu czy aluminium w źródle nie dowodzi
-właściwości ani przewagi konkretnego samochodu (`TECH-1982-018`).
+właściwości ani przewagi konkretnego samochodu.
 
 ## Otwarte pytania techniczne
 
-- Czy badany wariant bazowego PDF, pozbawiony daty i historii aneksów,
-  przedstawia kompletny stan przepisów przy granicy wiedzy?
-- Czy testowany Brabham–BMW zostanie zgłoszony do wyścigowej jazdy, skoro
-  styczniowe źródło o niepotwierdzonej dostępności przedstawiało to jedynie
-  jako możliwość?
+- Czy testowany Brabham–BMW zostanie zgłoszony do wyścigowej jazdy?
 - Kiedy i w jakiej postaci zapowiedziane silniki Porsche, Matra i Alfa Romeo
-  przejdą od planu do gotowego rozwiązania? Przy tej granicy odpowiedź jest
-  niedostępna.
-- Jak dostawcy opon rozdzielą programy między zespoły? Dostępny artykuł
-  potwierdza producentów, lecz nie bezpieczną, kompletną alokację na otwarcie
-  sezonu.
+  przejdą od planu do gotowego rozwiązania?
+- Jak dostawcy opon rozdzielą programy między zespoły?
 
 ## Słownik
 
 Definicje użytych terminów zawiera [`glossary.md`](glossary.md).
 
-## Uwagi źródłowe
+## Uwagi do źródeł
+
+[^1]: Dokładna godzina rozpoczęcia pierwszej oficjalnej sesji nie jest znana.
+    Nieznany pozostaje też dzień publikacji styczniowego numeru „Motor Sport”,
+    dlatego opisane w nim konstrukcje i plany nie są traktowane jako wiedza o
+    tym, co rzeczywiście wystartuje lub okaże się skuteczne. Nie uwzględniono
+    obserwacji z sesji ani późniejszej części sezonu. Luki zapisano w
+    [`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
+
+[^2]: Archiwalny PDF FIA nie ma daty publikacji ani historii aneksów. Parametry
+    opisują więc zachowany wariant dokumentu, a nie potwierdzoną kompletność
+    przepisów przy granicy wiedzy. PDF nie wyjaśnia samodzielnie szczegółowego
+    mechanizmu turbosprężarki, a zebrane źródła nie wspierają szerszej definicji
+    monokoku ani utożsamienia go z celą przetrwania. Styczniowy artykuł nie
+    potwierdza też aluminium w opisanej strukturze Ferrari ani gotowości i
+    przyszłej niezawodności projektu Toleman–Hart; październikowy materiał o
+    oponach nie ustala stanu ani pełnych przydziałów na styczeń 1982. Majowe
+    wyjaśnienie techniczne jest opisem prasowym, a nie niezależnym opisem każdego
+    samochodu. Te kwestie zapisano w
+    [`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
 
 ### Mapa twierdzeń
 
