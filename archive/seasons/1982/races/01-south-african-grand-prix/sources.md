@@ -188,8 +188,8 @@ event_date: "1982-01-23"
 source_type: "PRESS"
 contemporary: true
 spoiler_risk: "contains-later-material"
-locator: "https://www.motorsportmagazine.com/archive/article/march-1982/36/south-african-grand-prix-14/ — akapity zaczynające się od: „After the drivers had been duped…”, „At 11 a.m. the scheduled hour-and-a-half of testing…”, „With the delayed start to things…”, „With all the fuss over the drivers strike…”"
-access_date: "2026-08-03"
+locator: "https://www.motorsportmagazine.com/archive/article/march-1982/36/south-african-grand-prix-14/ — przedstart: „After the drivers had been duped…”, „At 11 a.m.…”, „With the delayed start…”, „With all the fuss…”; wyścig: od „All twenty-six cars went round…”, „On lap 41 as Alain Prost…”, „On lap 60…”, „On the 67th lap…”, zamknięcie D.S.J.; Results: „1st: Alain Prost… Fastest lap…”"
+access_date: "2026-08-04"
 supports:
   - claim_id: "R01-PR-SES-01"
     scope: "Brak oficjalnej jazdy w czwartek; po zakłóceniach piątkowy 90-minutowy test o 11:00; jedna piątkowa godzina kwalifikacji po 14:00 ustaliła pole; deszcz zaczął padać w połowie sesji, a tor nie wysechł przed końcem kwalifikacji."
@@ -208,11 +208,19 @@ supports:
   - claim_id: "R01-PR-STRIKE-01"
     scope: "Strajk kierowców, brak czwartku, Mass poza strajkiem, napięcia w Brabhamie, przeprosiny przed startem."
   - claim_id: "R01-RESULT-01"
-    scope: "Klasyfikacja: Prost, Reutemann, Arnoux, Lauda, Rosberg, Watson; czas Prosta; najszybsze okrążenie Prosta."
+    scope: "Klasyfikacja top-6 z czasami bezwzględnymi: Prost 1:32:08.401, Reutemann, Arnoux, Lauda, Rosberg, Watson; 77 okrążeń; najszybsze okrążenie Prost 1:08.278 na okrążeniu 49."
+  - claim_id: "R01-RESULT-02"
+    scope: "Straty do zwycięzcy wyliczone z czasów bezwzględnych w Results (nie podane jako delty w źródle)."
   - claim_id: "R01-RACE-01"
-    scope: "Narracja wyścigu: start Renault, odpadnięcia, postój Prosta, finisz i oceny Jenkinsona."
-disagreement_notes: "Relacja ukazała się po imprezie; oznaczenia modeli w OCR bywają wadliwe. Informacje przedstartowe użyte w pre-race; wynik w post-race."
-notes: "Współczesna prasa po cutoff pre-race; dla pre-race wyłącznie odseparowane informacje przedstartowe; dla post-race wynik i przebieg."
+    scope: "Narracja wyścigu: start (Prost szybszy niż Arnoux), Mansell/Jarier, Piquet, Villeneuve, Patrese, postój Prosta na 41., mijania na 60–67., finisz."
+  - claim_id: "R01-RACE-02"
+    scope: "Wycofania i przyczyny: Mansell (elektryka), Jarier (wypadek), Piquet (Crowthorne), Villeneuve (turbo/olej), Patrese (olej turbo), Cheever (wtrysk/opary), Warwick (opona; w relacji śruba zawieszenia), Pironi (elektryka wtrysku, w boksach przy fladze)."
+  - claim_id: "R01-RACE-03"
+    scope: "Oceny Jenkinsona: Prost, Reutemann (w tym kontekst utrzymania w Williamsie), Lauda, Rosberg, Watson „Watsrong”; pełna widownia w sobotę."
+  - claim_id: "R01-STAND-01"
+    scope: "Kolejność punktujących kierowców po R01 odpowiada kolejności top-6 z Results; sama skala punktowa nie jest w tej relacji."
+disagreement_notes: "Relacja ukazała się po imprezie; oznaczenia modeli w OCR bywają wadliwe. Informacje przedstartowe użyte w pre-race; wynik w post-race. Brak oficjalnego biuletynu FIA w pakiecie."
+notes: "Współczesna prasa; publication_date dnia unknown (March 1982). Dla pre-race wyłącznie odseparowane informacje przedstartowe; dla post-race wynik, przebieg i oceny z tej samej relacji. Otaczający materiał numeru i chrome WWW poza Kyalami — nie używany."
 ```
 
 ## Conflict and uncertainty index
@@ -230,3 +238,5 @@ notes: "Współczesna prasa po cutoff pre-race; dla pre-race wyłącznie odsepar
 | `1982-R01-PR-GRID-01` | `R01-PR-GRID-01`, `R01-PR-ENT-01`, `R01-PR-ENT-02` | `RSC-1982-R01-GRID`, `MS-MAR1982-R01` | open | Potrzebna jest oficjalna lista zgłoszeń, klasyfikacja kwalifikacji lub dokument pola startowego. |
 | `1982-R01-PR-PEN-01` | `R01-PR-PEN-01` | — | open | Potrzebny jest datowany przed startem oficjalny biuletyn kar lub zmian pola. |
 | `1982-R01-PR-TYR-01` | `R01-PR-TYR-01` | `MS-MAR1982-R01` | open | Potrzebny jest datowany przed startem materiał zespołu lub dostawcy opon, oficjalny komunikat albo współczesna relacja potwierdzające limit dwóch kompletów opon kwalifikacyjnych oraz wszelki przedstartowy kontekst opon lub strategii. |
+| `1982-R01-RES-01` | `R01-RESULT-01`, `R01-STAND-01` | `MS-MAR1982-R01` | open | Klasyfikacja z prasy; brak oficjalnego wyniku lub biuletynu FIA w zestawie. |
+| `1982-R01-PTS-01` | `R01-STAND-01` | — | open | Skala 9–6–4–3–2–1 użyta prowizorycznie w migawce; brak audytowanego tekstu punktacji sportowej w pakiecie sezonu i w relacji z Kyalami. |

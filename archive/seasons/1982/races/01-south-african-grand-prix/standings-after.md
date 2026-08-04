@@ -21,28 +21,31 @@
 
 ## Zasady zliczania
 
-Po pierwszej rundzie każdy punktujący ma jeden wynik; suma równa się punktom
-zdobytym na Kyalami. Skala: 9–6–4–3–2–1 za miejsca 1–6.*¹
+Po pierwszej rundzie każdy punktujący ma jeden wynik, więc suma równa się
+punktom z Kyalami. Skala przyjęta prowizorycznie: 9–6–4–3–2–1 za miejsca
+1–6.*¹ Zasada odrzucania wyników nie ma jeszcze zastosowania.
 
 ## Nierozstrzygnięte kwestie klasyfikacji
 
-Brak. Klasyfikacja oparta na relacji „Motor Sport” z marca 1982; nie jest to
-oficjalny komunikat FIA dołączony do zestawu.*²
+Klasyfikacja miejsc opiera się na relacji „Motor Sport” z marca 1982; w
+zestawie źródeł nie ma oficjalnego komunikatu FIA.*² Skala punktacji nie
+pochodzi z tej relacji ani z audytowanego tekstu sportowego w pakiecie sezonu.
 
 ## Weryfikacja
 
 - Arytmetyka sprawdzona: `yes`
-- Kwalifikowalność i zliczanie: `yes` (po jednej rundzie)
+- Kwalifikowalność i zliczanie: `yes` (po jednej rundzie; skala prowizoryczna)
 - Remisy: `not-applicable`
 - Status oficjalny przy cutoff: `provisional` (źródło prasowe, nie biuletyn FIA)
 - Źródła w `sources.md`: `MS-MAR1982-R01`
 
 ## Przypisy
 
-1. Skala punktów zgodna z ówczesnym systemem mistrzostw; szczegóły regulaminu
-   sezonu: [`regulations.md`](../../../season/regulations.md).
+1. Skala 9–6–4–3–2–1 przyjęta do migawki po R01 jako prowizoryczny rachunek;
+   [`regulations.md`](../../../season/regulations.md) nie audytuje punktacji
+   mistrzostw. Luka: `1982-R01-PTS-01`.
 2. Do potwierdzenia oficjalnym wynikiem lub biuletynem, gdy będzie dostępny w
-   zestawie źródeł.
+   zestawie źródeł (`1982-R01-RES-01`).
 
 ## Uwagi źródłowe
 

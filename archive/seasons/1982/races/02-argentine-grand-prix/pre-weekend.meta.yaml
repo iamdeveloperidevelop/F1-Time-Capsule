@@ -1,16 +1,18 @@
 season: "1982"
 document_type: "race-prelude"
 event: "Argentine Grand Prix"
-event_time: "[PRE-WEEKEND CONTEXT INTERVAL]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+event_time: "Planowany weekend Grand Prix Argentyny w Buenos Aires wokół niedzieli 7 marca 1982; impreza wycofana z kalendarza, oficjalne sesje się nie odbyły"
+public_knowledge_time: "Najpóźniejsze wykorzystane źródła: depesza AP/NYT z 10 lutego 1982 oraz marcowy Motor Sport (Formula One Scene / Reflections in the Transvaal; publication_date dnia unknown; content-based availability jako komentarz po anulowaniu Argentyny, przed wynikami Brazylii)"
+knowledge_cutoff: "Immediately before the scheduled Argentine Grand Prix weekend centred on Sunday 7 March 1982 in Buenos Aires; after public withdrawal of the round from the championship calendar (AP wire published 10 February 1982); no first official session took place; before any Brazilian Grand Prix session or result"
 spoiler_scope:
   allowed:
-    - "[PREVIOUS STANDINGS AND DEVELOPMENTS PUBLIC BEFORE THE WEEKEND]"
+    - "Klasyfikacja po Kyalami, rozwój po R01 do planowanego weekendu argentyńskiego, publiczne anulowanie rundy oraz przypisane oczekiwania prasowe sprzed Brazylii"
   forbidden:
-    - "[ALL INFORMATION FROM THE FIRST OFFICIAL SESSION ONWARD]"
+    - "Wszelkie sesje, kwalifikacje, wyniki i skutki Grand Prix Brazylii oraz późniejszych rund 1982"
+    - "Późniejsze rozstrzygnięcia apelacji kar z Kyalami, jeśli nie potwierdzone datą przed granicą"
+    - "Narracje o Falklandach lub późniejsze przyczyny anulowania spoza źródeł przy granicy"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-04"

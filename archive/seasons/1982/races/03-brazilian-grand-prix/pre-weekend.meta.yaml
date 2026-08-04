@@ -1,16 +1,19 @@
 season: "1982"
 document_type: "race-prelude"
 event: "Brazilian Grand Prix"
-event_time: "[PRE-WEEKEND CONTEXT INTERVAL]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+event_time: "Okres przedweekendowy Grand Prix Brazylii w Rio de Janeiro / Jacarepaguá wokół niedzieli 21 marca 1982; przed pierwszą oficjalną sesją weekendu"
+public_knowledge_time: "Najpóźniejsze wykorzystane źródła: depesza AP/NYT z 10 lutego 1982 oraz marcowy Motor Sport (Formula One Scene / Reflections in the Transvaal / Notes on the cars at Kyalami; publication_date dnia unknown; content-based availability jako komentarz po anulowaniu Argentyny i po Kyalami, przed wynikami Brazylii); kontekst toru z Motor Sport 1978-03 i 1981-05"
+knowledge_cutoff: "Immediately before the first official session of the Brazilian Grand Prix weekend at Jacarepaguá / Autódromo Riocentro, Rio de Janeiro, March 1982 (race day Sunday 21 March 1982); exact local clock of the first official session unknown; after the empty Argentine calendar slot of Sunday 7 March 1982; before any official practice, qualifying, grid, or race result from Brazil"
 spoiler_scope:
   allowed:
-    - "[PREVIOUS STANDINGS AND DEVELOPMENTS PUBLIC BEFORE THE WEEKEND]"
+    - "Klasyfikacja po Kyalami / pustej Argentynie, rozwój publiczny do granicy przed pierwszą sesją w Rio, kontekst toru z wcześniejszych wizyt F1 oraz przypisane oczekiwania prasowe sprzed sesji brazylijskich"
   forbidden:
-    - "[ALL INFORMATION FROM THE FIRST OFFICIAL SESSION ONWARD]"
+    - "Wszelkie oficjalne sesje, kwalifikacje, pole startowe, przebieg i wyniki Grand Prix Brazylii 1982 oraz późniejszych rund"
+    - "Protesty, dyskwalifikacje i werdykty z weekendu w Rio (w tym woda/balast jako rozstrzygnięcie brazylijskie)"
+    - "Debiuty nowych samochodów na Rio bez źródła sprzed pierwszej sesji"
+    - "Późniejsze rozstrzygnięcia apelacji kar z Kyalami bez daty publicznej przed granicą"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-05"

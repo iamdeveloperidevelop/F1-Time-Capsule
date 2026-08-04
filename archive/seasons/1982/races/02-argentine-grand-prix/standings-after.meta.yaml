@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "standings-snapshot"
 event: "Argentine Grand Prix"
-event_time: "[POST-RACE CLASSIFICATION BOUNDARY]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[SAME POST-RACE CUTOFF AS THE SUPPORTED SNAPSHOT]"
+event_time: "Po upływie planowanego dnia Grand Prix Argentyny 7 marca 1982 bez klasyfikacji wyścigowej; punkty z tej rundy = 0"
+public_knowledge_time: "Dziedziczy migawkę po Kyalami oraz publiczne wycofanie rundy (AP/NYT 10 lutego 1982); brak nowego wyniku punktowego z Buenos Aires"
+knowledge_cutoff: "After the scheduled Argentine Grand Prix race day of Sunday 7 March 1982 in Buenos Aires elapsed without any official practice, qualifying, warm-up, or race; after public withdrawal of the round from the championship calendar (AP wire published 10 February 1982); classification and points unchanged from after the South African Grand Prix; before any Brazilian Grand Prix session or result"
 spoiler_scope:
   allowed:
-    - "[CLASSIFICATIONS, POINTS, AND DECISIONS OFFICIAL BY THE CUTOFF]"
+    - "Zamrożona klasyfikacja po R01, zero punktów z anulowanej rundy 02"
   forbidden:
-    - "[LATER CORRECTIONS, APPEALS, RULINGS, AND FUTURE ROUNDS]"
+    - "Późniejsze korekty, apelacje, dyskwalifikacje oraz wyniki kolejnych rund"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-05"

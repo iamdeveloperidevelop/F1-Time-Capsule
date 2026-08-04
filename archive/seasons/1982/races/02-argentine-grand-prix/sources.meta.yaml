@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "race-source-ledger"
 event: "Argentine Grand Prix"
-event_time: "[EVENT INTERVAL COVERED BY THIS LEDGER]"
-public_knowledge_time: "[WHEN THE LATEST RETAINED SOURCE INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[LATEST DOCUMENT CUTOFF THIS LEDGER CURRENTLY SUPPORTS]"
+event_time: "Planowany dzień wyścigu Grand Prix Argentyny, niedziela 7 marca 1982 w Buenos Aires; runda wycofana; dzień upłynął bez sesji"
+public_knowledge_time: "Najpóźniejsze zachowane wpisy datowane: AP/NYT 10 lutego 1982 oraz marcowy Motor Sport (dzień publikacji unknown; content-based availability)"
+knowledge_cutoff: "After the scheduled Argentine Grand Prix race day of Sunday 7 March 1982 in Buenos Aires elapsed without any official practice, qualifying, warm-up, or race; after public withdrawal of the round from the championship calendar (AP wire published 10 February 1982); classification and points unchanged from after the South African Grand Prix; before any Brazilian Grand Prix session or result"
 spoiler_scope:
   allowed:
-    - "[SOURCE METADATA AND CLAIM SUPPORT WITHIN THE SUPPORTED CUTOFF]"
+    - "Metadane źródeł i wsparcie twierdzeń w granicach cutoff post-race R02 (anulowany termin)"
   forbidden:
-    - "[LATER SOURCE CONTENT EXCEPT QUARANTINED RISK METADATA]"
+    - "Treść źródeł późniejsza niż cutoff, poza kwarantanną ryzyka spoilera"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-05"

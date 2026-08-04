@@ -5,7 +5,7 @@ event: "Brazilian Grand Prix"
 event_slug: "brazilian-grand-prix"
 race_directory: "archive/seasons/1982/races/03-brazilian-grand-prix"
 cutoffs:
-  pre_weekend: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+  pre_weekend: "Immediately before the first official session of the Brazilian Grand Prix weekend at Jacarepaguá / Autódromo Riocentro, Rio de Janeiro, March 1982 (race day Sunday 21 March 1982); exact local clock of the first official session unknown; after the empty Argentine calendar slot of Sunday 7 March 1982; before any official practice, qualifying, grid, or race result from Brazil"
   pre_race: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
   post_race: "[END OF THE INCLUDED IMMEDIATE OFFICIAL POST-RACE PROCESS]"
 immediate_official_post_race_process: "[PRECISE INCLUDED PROCEDURES AND END BOUNDARY]"

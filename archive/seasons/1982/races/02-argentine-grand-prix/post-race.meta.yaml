@@ -1,16 +1,18 @@
 season: "1982"
 document_type: "post-race-report"
 event: "Argentine Grand Prix"
-event_time: "[RACE AND INCLUDED IMMEDIATE OFFICIAL PROCESS]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[END OF THE IMMEDIATE OFFICIAL PROCESS DEFINED IN metadata.yaml]"
+event_time: "Planowany dzień wyścigu Grand Prix Argentyny, niedziela 7 marca 1982 w Buenos Aires; runda wcześniej wycofana; dzień upłynął bez sesji i wyścigu"
+public_knowledge_time: "Najpóźniejsze wykorzystane źródła datowane: depesza AP/NYT z 10 lutego 1982; marcowy Motor Sport (Formula One Scene; publication_date dnia unknown; content-based availability jako komentarz po anulowaniu Argentyny, przed wynikami Brazylii); brak silniejszej depeszy ≤7 marca potwierdzającej pusty termin"
+knowledge_cutoff: "After the scheduled Argentine Grand Prix race day of Sunday 7 March 1982 in Buenos Aires elapsed without any official practice, qualifying, warm-up, or race; after public withdrawal of the round from the championship calendar (AP wire published 10 February 1982); classification and points unchanged from after the South African Grand Prix; before any Brazilian Grand Prix session or result"
 spoiler_scope:
   allowed:
-    - "[RACE AND IMMEDIATE CONSEQUENCES PUBLIC BY THE CUTOFF]"
+    - "Potwierdzenie niewyścigowego terminu, brak klasyfikacji i punktów z tej rundy, zamrożona tabela po Kyalami oraz przypisany kontekst kalendarzowy sprzed Brazylii"
   forbidden:
-    - "[NEXT-WEEKEND INFORMATION, LATER RULINGS, AND SEASON HINDSIGHT]"
+    - "Jakikolwiek przebieg wyścigu w Buenos Aires, sesje i wyniki Grand Prix Brazylii oraz późniejszych rund 1982"
+    - "Narracje o Falklandach lub późniejsze przyczyny anulowania spoza źródeł przy granicy"
+    - "Późniejsze rozstrzygnięcia apelacji kar z Kyalami bez daty publicznej przed granicą"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-05"

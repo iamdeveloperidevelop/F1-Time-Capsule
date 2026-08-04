@@ -1,67 +1,95 @@
-# Argentine Grand Prix — post-race report
+# Grand Prix Argentyny — po terminie
 
-## Result summary
+## Wynik w skrócie
 
-[CONCISE OUTCOME]
+Planowany dzień Grand Prix Argentyny — niedziela 7 marca 1982 w Buenos Aires —
+upłynął bez oficjalnego treningu, kwalifikacji, rozgrzewki i wyścigu. Rundy nie
+przywrócono; nie ma klasyfikacji wyścigowej ani punktów z tego terminu.*²
 
-## Race narrative
+Wycofanie z kalendarza i odrzucenie wniosku o przeniesienie ogłoszono jeszcze w
+lutym;*¹ kontekst sprzed terminu: [`pre-race.md`](pre-race.md), tło anulowania:
+[`pre-weekend.md`](pre-weekend.md).
 
-[SELECTIVE NARRATIVE; DO NOT DEFAULT TO EVERY LAP]
+Migawka mistrzostw (bez zmian względem Kyalami):
+[`standings-after.md`](standings-after.md).
 
-## Decisive phases of the race
+## Przebieg
 
-[PHASES SUPPORTED AND KNOWABLE BY THE CUTOFF]
+Imprezy torowej nie było. Lutowe wycofanie pozostało w mocy do końca niedzieli
+7 marca: w dostępnym materiale nie ma komunikatu przywracającego Buenos Aires
+ani otwierającego sesje.*³
 
-## Classified results
+## Klasyfikacja
 
-| Position | Driver | Team | Status | Time, laps, or gap | Points |
-| ---: | --- | --- | --- | --- | ---: |
-| [POSITION] | [DRIVER] | [TEAM] | [STATUS] | [RESULT] | [POINTS] |
+Brak. Bez wyścigu nie ma kolejności na mecie, czasów ani listy wycofań.
 
-## Retirements and known causes
+## Punkty z tej rundy
 
-[ONLY CAUSES KNOWN AT THE CUTOFF; PRESERVE UNCERTAINTY]
+Zero. Tabela kierowców i konstruktorów stoi jak po Grand Prix RPA.*⁴
 
-## Performances by team
+## Konsekwencje sportowe i polityczne przy cutoff
 
-[EVENT-SPECIFIC ANALYSIS; LINK teams.md FOR BACKGROUND]
+Dziura w kalendarzu, ogłoszona w lutym, stała się faktem sezonu: runda
+numerowana jako druga nie dostarczyła punktów. Kolejną zaplanowaną imprezą
+mistrzostw pozostaje Grand Prix Brazylii 21 marca.*⁵ Spór o Superlicence, kary
+po Kyalami oraz PRDA nie dostał w materiale na ten dzień nowego, datowanego
+rozstrzygnięcia.*⁶
 
-## Performances by driver
+## Reakcje współczesne
 
-[EVENT-SPECIFIC ANALYSIS; LINK drivers.md FOR BACKGROUND]
+Dostępny komentarz prasowy dotyczy lutowego anulowania i kosztów sporów dla
+kalendarza, a nie osobnej relacji „po pustej niedzieli 7 marca”. Denis Jenkinson
+w marcowym „Motor Sport” pisał, że zamieszanie w RPA i tarcia w Paryżu
+„przestraszyły Południową Amerykę” do odwołania rundy, która „miała się odbyć
+7 marca”; brazylijską pozycję uważał wtedy za „wyraźnie chwiejną”.*⁷ Szersze
+tło tego komentarza: [`pre-weekend.md`](pre-weekend.md).
 
-## Technical observations
+## Nierozstrzygnięte kwestie
 
-[CUTOFF-SAFE OBSERVATIONS; LINK technology.md FOR GENERAL EXPLANATIONS]
+- Brak dziennej depeszy z tygodnia 7 marca potwierdzającej pusty termin osobno
+  od lutowego wycofania.*²
+- Pełny biuletyn FISA/FIA o wycofaniu oraz precyzyjny dzień ogłoszenia
+  (≈9–10 lutego) — nadal otwarte.*¹
+- Skala punktacji i oficjalny biuletyn wyniku Kyalami pozostają prowizoryczne
+  w migawce.*⁴
+- Publiczna data decyzji w sprawie apelacji kar z Kyalami nie ustalona przed
+  tą granicą.*⁶
 
-## Sporting and political consequences known at the cutoff
+## Co wiadomo przed następną imprezą
 
-[IMMEDIATE CONSEQUENCES ONLY]
-
-## Points awarded
-
-[CONCISE SUMMARY; FULL EVENT GAINS LIVE IN standings-after.md]
-
-## Championship standings
-
-[BRIEF NARRATIVE AND LINK TO standings-after.md; DO NOT COPY FULL TABLES]
-
-## Contemporary reactions
-
-[ATTRIBUTED REACTIONS PUBLIC BY THE CUTOFF]
-
-## Unresolved issues
-
-[PROVISIONAL CLASSIFICATIONS, OPEN DECISIONS, OR OTHER UNCERTAINTIES]
-
-## What is now known before the next event
-
-[STATE AT THIS CUTOFF ONLY; DO NOT RESEARCH OR PREVIEW THE NEXT EVENT]
+- Argentyna 7 marca nie weszła do rachunku mistrzostw.
+- Punkty bez zmian po Kyalami — pełna tabela:
+  [`standings-after.md`](standings-after.md).*⁴
+- Następna zaplanowana runda: Brazylia, 21 marca.*⁵
 
 ## Przypisy
 
-[NUMBERED CAVEATS MARKED FROM THE TEXT WITH *¹, *², …]
+1. Anulowanie i odrzucenie przeniesienia: `NYT-AP-1982-02-10` (dateline
+   10 lutego 1982). Luki: `1982-R02-CAN-01`, `1982-R02-PR-FISA-01`.
+2. Brak sesji i klasyfikacji: wynika z wycofania sprzed terminu, braku rekordu
+   oficjalnej jazdy oraz upływu planowanego dnia wyścigu bez przywrócenia
+   rundy. Osobnej depeszy „nie wystartowano 7 marca” datowanej w samym
+   tygodniu imprezy nie znaleziono. Twierdzenia: `R02-PO-NOS-01`,
+   `R02-PO-HOLD-01`, `R02-PO-CLS-01`.
+3. Negatywne ustalenie: brak zweryfikowanego komunikatu z datą dzienną
+   przywracającego Buenos Aires lub otwierającego sesje między ≈11 lutego
+   a końcem 7 marca (`R02-PO-REV-01`, `R02-PO-NEW-01`).
+4. Migawka: [`standings-after.md`](standings-after.md) / `ARCHIVE-R01-STAND`;
+   skala prowizoryczna (`1982-R01-PTS-01`).
+5. Brazylia 21 marca: `NYT-AP-1982-02-10` (`R02-PO-CAL-01`). Bez sesji ani
+   wyników brazylijskich.
+6. Tło po Kyalami: `MS-MAR1982-TRANSVAAL`, `MS-MAR1982-SCENE` — content-based
+   availability; bez późniejszych rozstrzygnięć apelacji (`1982-R02-POL-01`).
+7. Atrybucja Jenkinsona: `MS-MAR1982-SCENE` (`R02-PO-RXN-01`) — oczekiwanie
+   wobec Brazylii, nie fakt o przebiegu imprezy.
 
 ## Uwagi źródłowe
 
-[BRIEF POINTER TO sources.md; CLAIM COVERAGE AND STATUS BELONG HERE OR IN THE LEDGER]
+- Granica wiedzy: po upływie planowanego dnia Grand Prix Argentyny
+  (niedziela 7 marca 1982, Buenos Aires) bez oficjalnych sesji i wyścigu;
+  po publicznym wycofaniu rundy (AP, 10 lutego 1982); klasyfikacja jak po
+  Kyalami; przed jakąkolwiek sesją lub wynikiem Grand Prix Brazylii.
+- Sekcje przebiegu okrążeń, wycofań i analiz torowych pominięte jako puste —
+  imprezy nie było.
+- Źródła i mapa twierdzeń: [`sources.md`](sources.md). Status źródeł:
+  częściowy.
