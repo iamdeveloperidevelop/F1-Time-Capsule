@@ -21,11 +21,8 @@ last_verified: null
 
 ## Granica wiedzy
 
-Tekst kończy się bezpośrednio przed planowanym startem na Kyalami. Późniejsze
-archiwum Formula 1 łączy wydarzenie z sobotą 23 stycznia 1982, ale nie jest to
-datowany, przedstartowy harmonogram. Dokładna godzina nie jest potwierdzona:
-baza Chicane podaje jedynie późniejszy, niezweryfikowany raport o 14:00 czasu
-lokalnego (`R01-PR-CUT-01`); nie przeliczamy go na UTC.
+Tekst zatrzymuje się bezpośrednio przed planowanym startem na Kyalami.
+Późniejsze archiwum Formula 1 łączy wydarzenie z sobotą 23 stycznia 1982.[^czas]
 
 Kontekst przyjazdu i informacje sprzed weekendu znajdują się we
 [wprowadzeniu do weekendu](pre-weekend.md), a szersze odniesienia — w
@@ -33,23 +30,20 @@ Kontekst przyjazdu i informacje sprzed weekendu znajdują się we
 
 ## Format weekendu i sesje
 
-Według późniejszej relacji „Motor Sport” w czwartek nie odbyła się oficjalna jazda.
-Po zakłóceniach w piątek o 11:00 odbył się 90-minutowy test, a po 14:00
-godzina kwalifikacji ustaliła pole startowe. W połowie tej sesji zaczął padać
-deszcz, a tor nie wysechł już przed jej końcem (`R01-PR-SES-01`).
+Według późniejszej relacji „Motor Sport” w czwartek nie odbyła się oficjalna
+jazda. Po zakłóceniach w piątek o 11:00 przeprowadzono 90-minutowy test, a
+godzinna sesja kwalifikacyjna rozpoczęta po 14:00 ustaliła pole startowe. W jej
+połowie zaczął padać deszcz i tor nie wysechł już przed końcem.[^motor-sport]
 
-Według przejrzanej relacji „Motor Sport” w sobotę odbyła się 30-minutowa
-rozgrzewka; relacja nie podaje jej czasów ani klasyfikacji
-(`R01-PR-WU-01`; [`1982-R01-PR-WU-01`](../../things-to-resolve-after-season.md#1982-r01-pr-wu-01)).
+Ta sama relacja opisuje 30-minutową sobotnią rozgrzewkę.
 
 ## Kwalifikacje i pole startowe
 
 Według późniejszego archiwum Formula 1 Arnoux figuruje na pierwszej pozycji z
-czasem 1:06.351 (`R01-PR-Q-01`). Poniższa tabela jest prowizoryczną
-rekonstrukcją z późniejszej, nieoficjalnej bazy Racing Sports Cars
-(`R01-PR-GRID-01`), a nie oficjalną klasyfikacją.
+czasem 1:06.351. Poniższa rekonstrukcja pola pochodzi z bazy Racing Sports
+Cars.[^pole]
 
-| Pozycja w rekonstrukcji | Kierowca | Zespół | Czas kwalifikacyjny (archiwalny) |
+| Pozycja | Kierowca | Zespół | Czas kwalifikacyjny |
 | ---: | --- | --- | --- |
 | 1 | Arnoux | Renault | 1:06.351 |
 | 2 | Piquet | Brabham | 1:06.625 |
@@ -78,46 +72,60 @@ rekonstrukcją z późniejszej, nieoficjalnej bazy Racing Sports Cars
 | 25 | Serra | Fittipaldi | 1:13.467 |
 | 26 | Jarier | Osella | 1:13.834 |
 
-Źródło „Motor Sport” opisuje stawkę jako 26 samochodów i prowizorycznie podaje,
-że Baldi, Henton, Paletti i Fabi nie uzyskali miejsc na polu startowym
-(`R01-PR-ENT-01`). Ta sama relacja podaje, że Ensign wycofał Guerrero przed
-kwalifikacjami, a Henton przejął Arrowsa nr 29 po zwolnieniu Tambaya
-(`R01-PR-ENT-02`).
+„Motor Sport” opisuje stawkę jako 26 samochodów i wymienia Baldiego, Hentona,
+Palettiego i Fabiego wśród kierowców bez miejsca na polu startowym. Ta sama
+relacja podaje, że Ensign wycofał Guerrero przed kwalifikacjami, a Henton
+przejął Arrowsa nr 29 po zwolnieniu Tambaya.
 
-## Kary, warunki i przygotowanie
-
-W przejrzanym materiale nie zidentyfikowano przedstartowego oficjalnego
-biuletynu kar lub zmian pola startowego. To luka dowodowa, a nie potwierdzenie
-braku takich zmian
-([`1982-R01-PR-PEN-01`](../../things-to-resolve-after-season.md#1982-r01-pr-pen-01)).
+## Warunki i przygotowanie
 
 Późniejsza relacja „Motor Sport” opisuje chwilę przed startem jako ciepłą,
-pochmurną i z okresowym słońcem (`R01-PR-COND-01`). Nie pozwala to wnioskować
-o dokładnym stanie nawierzchni ani prognozie.
+pochmurną i z okresowym słońcem.
 
 Według tej samej relacji podczas rozgrzewki zwracały uwagę: elektryczne
 przerywanie pracy Mansella, prace przy hamulcach Warwicka, kontrola jednostki
-turbo Arnoux oraz zmniejszone doładowanie Pironiego (`R01-PR-SET-01`).
+turbo Arnoux oraz zmniejszone doładowanie Pironiego.
 
-## Opony i uwagi źródłowe
+## Opony
 
 Późniejsza relacja „Motor Sport” podaje limit dwóch kompletów opon
-kwalifikacyjnych na kierowcę (`R01-PR-TYR-01`). Potwierdzenie zarówno tego
-limitu, jak i wszelkiego przedstartowego kontekstu opon lub strategii pozostaje luką dowodową
-([`1982-R01-PR-TYR-01`](../../things-to-resolve-after-season.md#1982-r01-pr-tyr-01)).
+kwalifikacyjnych na kierowcę.
 
-Źródła i ograniczenia zapisano w [rejestrze źródeł](sources.md). Audyt
-spoilerów nie obejmuje informacji po rozpoczęciu wyścigu; status: passed.
-Status źródeł: częściowy.
+## Uwagi do źródeł
+
+[^czas]: Nie jest to datowany, przedstartowy harmonogram. Dokładna godzina
+    pozostaje niepotwierdzona: baza Chicane podaje późniejszy, niezweryfikowany
+    raport o 14:00 czasu lokalnego, którego nie przeliczono na UTC.
+
+[^motor-sport]: Relacja „Motor Sport” ukazała się po granicy dokumentu i zawiera
+    późniejszy materiał. Wyodrębnione informacje o sesjach, zgłoszeniach,
+    warunkach, przygotowaniach i oponach pozostają przypisanymi jej raportami
+    przedstartowymi. Dla rozgrzewki brakuje czasów i klasyfikacji, a opis pogody
+    nie rozstrzyga dokładnego stanu nawierzchni ani prognozy.
+
+[^pole]: Rekord Arnoux pochodzi z późniejszego archiwum Formula 1, a pełne pole
+    z nieoficjalnej bazy bez daty publikacji. Rekonstrukcja kolejności, zespołów
+    i czasów nie jest oficjalną klasyfikacją.
+
+W przejrzanym materiale nie zidentyfikowano przedstartowego oficjalnego
+biuletynu kar lub zmian pola. Nie potwierdza to, że takich zmian nie było.
+Niezależnego potwierdzenia wymaga także limit opon kwalifikacyjnych i wszelki
+przedstartowy kontekst opon lub strategii.
+
+Pełny zakres zapisów znajduje się w [rejestrze źródeł](sources.md), a potrzebne
+dowody — w [rejestrze nierozstrzygniętych
+kwestii](../../things-to-resolve-after-season.md#1982-r01-pr-cut-01). Status
+audytu spoilerów: `passed`. Status źródeł: `partial`.
 
 ## CO MUSZĘ WIEDZIEĆ PRZED STARTEM
 
-- Późniejsze archiwum łączy wydarzenie z 23 stycznia; dokładna godzina pozostaje niezweryfikowana (`R01-PR-CUT-01`).
-- Prowizoryczne pole otwiera Arnoux przed Piquetem i Villeneuve’em (`R01-PR-GRID-01`).
-- W kwalifikacjach deszcz zaczął padać w połowie sesji (`R01-PR-SES-01`).
-- Przejrzana relacja „Motor Sport” potwierdza 30-minutową sobotnią rozgrzewkę,
-  lecz nie podaje jej czasów ani klasyfikacji
-  (`R01-PR-WU-01`; [`1982-R01-PR-WU-01`](../../things-to-resolve-after-season.md#1982-r01-pr-wu-01)).
-- Pole i zmiany obsady wymagają jeszcze [oficjalnego potwierdzenia](../../things-to-resolve-after-season.md#1982-r01-pr-grid-01).
-- Przed startem jest ciepło i pochmurno, z okresowym słońcem — według późniejszej relacji (`R01-PR-COND-01`).
-- W przejrzanym materiale nie zidentyfikowano oficjalnego biuletynu kar ani zmian pola ([`1982-R01-PR-PEN-01`](../../things-to-resolve-after-season.md#1982-r01-pr-pen-01)).
+- Rekonstrukcję pola otwierają Arnoux, Piquet i Villeneuve.
+- Deszcz zaczął padać w połowie godzinnych kwalifikacji.
+- W sobotę odbyła się 30-minutowa rozgrzewka.
+- Według relacji „Motor Sport” przed startem jest ciepło i pochmurno, z
+  okresowym słońcem.
+- Podczas rozgrzewki uwagę zwracały problemy elektryczne Mansella i prace przy
+  hamulcach Warwicka.
+- W samochodzie Arnoux kontrolowano jednostkę turbo, a Pironi korzystał ze
+  zmniejszonego doładowania.
+- Lauda zajmuje 13. miejsce w rekonstrukcji pola.

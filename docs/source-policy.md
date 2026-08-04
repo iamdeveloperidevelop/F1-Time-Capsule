@@ -88,17 +88,18 @@ When credible sources disagree:
 
 Absence of evidence is not proof that an event did not occur. Keep confidence
 proportional to the evidence and make translations or reconstructed dates
-visible.
+visible under the reader-facing presentation policy in `methodology.md`.
 
 ## Unresolved evidence without workflow blockage
 
 An unavailable, incomplete, or insufficiently dated source must not be stated
 as a confirmed reader-facing fact. It may be retained as an explicitly
-provisional, source-attributed report when that is useful for orientation: name
-the source limitation, preserve the uncertainty, and do not increase the
-claim's certainty, prominence, or scope from later knowledge. It is not, by
-itself, a reason to stop an otherwise safe workflow transition or require the
-user to perform verification.
+provisional, source-attributed report when that is useful for orientation:
+preserve the uncertainty, record the source limitation in a sparse endnote or
+source section, and do not increase the claim's certainty, prominence, or scope
+from later knowledge. Repeating verification caveats in the narrative is not
+required. The gap is not, by itself, a reason to stop an otherwise safe
+workflow transition or require the user to perform verification.
 
 Record the gap in the season's `things-to-resolve-after-season.md` ledger with:
 
@@ -108,9 +109,11 @@ Record the gap in the season's `things-to-resolve-after-season.md` ledger with:
 - a status such as `open`.
 
 Reader-facing text may state only the uncertainty already supportable at its
-boundary, including that an identified source could not be dated or fully
-verified. It must not reveal a later answer, use the gap to select
-later-known participants or details, or retrospectively alter an earlier
+boundary. Attribute a provisional report in prose and place dating,
+verification, source-ID, and locator detail in an endnote or source section as
+defined in `methodology.md`. Material competing versions still belong
+concisely in prose. The text must not reveal a later answer, use the gap to
+select later-known participants or details, or retrospectively alter an earlier
 document. A later authorized stage may resolve the item only with evidence
 public by that later stage's cutoff.
 

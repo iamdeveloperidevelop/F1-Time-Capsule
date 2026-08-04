@@ -27,6 +27,11 @@ in `docs/content-contracts.md`.
 6. Compare conflicting evidence without forcing a resolution.
 7. Produce an evidence pack for drafting; mark gaps explicitly.
 
+If drafting is included, apply the reader-facing uncertainty presentation in
+`docs/methodology.md`. Keep the full claim map and evidence mechanics in the
+research pack; expose only sparse notes, necessary attribution, and material
+competing versions to readers.
+
 ## Prohibited behaviour
 
 - Searching later outcomes to decide what matters
@@ -39,6 +44,7 @@ in `docs/content-contracts.md`.
 
 A cutoff statement, research questions, claim-to-source map, conflict log,
 spoiler-risk notes, unsupported gaps, and a drafting-ready evidence summary.
+These records are editorial inputs, not inline reader-facing prose.
 
 ## Self-check
 

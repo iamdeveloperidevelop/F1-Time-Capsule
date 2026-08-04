@@ -24,42 +24,29 @@ last_verified: null
 ## Granica wiedzy i zakres
 
 Definicje odpowiadają wiedzy dostępnej bezpośrednio przed planowanym początkiem
-pierwszej oficjalnej sesji Grand Prix RPA na Kyalami 21 stycznia 1982. Dokładna
-godzina pozostaje nieznana; lukę zapisano w
-[`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
+pierwszej oficjalnej sesji Grand Prix RPA na Kyalami 21 stycznia 1982 roku.
 Słownik objaśnia tylko terminy potrzebne w dokumentach
 [`regulations.md`](regulations.md) i [`technology.md`](technology.md); nie
 powtarza ich szerszych wyjaśnień ani nie dopowiada późniejszych przykładów i
 skutków.
 
-Gdy definicja opiera się wyłącznie na niedatowanym archiwalnym PDF FIA, opisuje
-ona ten wariant tekstu, a nie potwierdzony kompletny stan reguł przy cutoff.
-Zastrzeżenie i potrzebny dowód są ujęte w
-[`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
-
 ## Ballast (balast)
 
-W badanym, niedatowanym tekście FIA balast jest elementem, dla którego art. 4.2
-określał zamocowanie wymagające narzędzi do demontażu oraz możliwość
-zaplombowania przez sędziów technicznych (`GLO-1982-001`). Tekst nie wyjaśnia
-celu jego użycia ani rozkładu masy.
+Według art. 4.2 tekstu FIA balast musiał być zamocowany w sposób wymagający
+narzędzi do demontażu i umożliwiający zaplombowanie przez sędziów
+technicznych.[^1]
 
 - Zobacz także: [Monokok (cela przetrwania)](#monokok-cela-przetrwania)
-- Identyfikatory źródeł: `GLO-SRC-001`
-- Niepewność: brak dla samej definicji; zastrzeżenie dotyczące wariantu PDF opisują
-  [przepisy](regulations.md#nierozstrzygnięte-interpretacje).
 
 ## Doładowanie
 
-W badanym, niedatowanym PDF FIA art. 1.11 definiował doładowanie jako
-zwiększenie masy ładunku mieszanki doprowadzanej do komory spalania ponad
+Art. 1.11 definiował doładowanie jako zwiększenie masy ładunku mieszanki
+doprowadzanej do komory spalania ponad
 poziom wynikający z normalnego ciśnienia atmosferycznego oraz efektów
 dynamicznych dolotu i wydechu. W tym wariancie tekstu sam wtrysk paliwa pod
-ciśnieniem nie stanowił doładowania (`GLO-1982-002`).
+ciśnieniem nie stanowił doładowania.
 
 - Zobacz także: [Silnik wolnossący](#silnik-wolnossący)
-- Identyfikatory źródeł: `GLO-SRC-001`
-- Niepewność: brak
 
 ## Efekt przypowierzchniowy
 
@@ -67,73 +54,72 @@ Wykorzystanie przepływu powietrza pod samochodem do wytworzenia niższego
 ciśnienia i docisku. W opisywanych konstrukcjach służyły temu wyprofilowane
 kanały Venturiego; boczne uszczelnienie ograniczało napływ powietrza, który
 osłabiałby efekt. Docisk zwiększał obciążenie opon, nie zastępował ich
-przyczepności (`GLO-1982-003`).
+przyczepności.[^2]
 
 - Zobacz także: [Fartuch](#fartuch), [Wysokość jazdy](#wysokość-jazdy)
-- Identyfikatory źródeł: `GLO-SRC-002`
-- Niepewność: brak dla zasady działania; bazowy PDF nie zawiera daty ani
-  historii aneksów, więc nie potwierdza własnej kompletności przy granicy wiedzy.
 
 ## Fartuch
 
 Element przy dolnej krawędzi bocznej samochodu, którego zadaniem było
 uszczelnienie przepływu pod podwoziem. Fartuch przesuwny poruszał się względem
 nadwozia, aby podążać za nawierzchnią; współczesne źródło opisuje jego zakaz od
-1981 (`GLO-1982-004`).
+1981 roku.
 
 - Zobacz także: [Efekt przypowierzchniowy](#efekt-przypowierzchniowy),
   [Wysokość jazdy](#wysokość-jazdy)
-- Identyfikatory źródeł: `GLO-SRC-001`, `GLO-SRC-002`
-- Niepewność: bazowy PDF nie zawiera daty ani historii aneksów, więc nie
-  potwierdza własnej kompletności przy granicy wiedzy.
 
 ## Hybrid (samochód hybrydowy)
 
-W badanym, niedatowanym PDF FIA art. 1.6 nazywał „hybrydą” samochód, w którym
+Art. 1.6 nazywał „hybrydą” samochód, w którym
 konstruktor auta montował silnik innego producenta; w tym wariancie tekstu nazwa
-konstruktora samochodu miała poprzedzać nazwę producenta silnika
-(`GLO-1982-005`).
+konstruktora samochodu miała poprzedzać nazwę producenta silnika.
 
 - Zobacz także: [Monokok (cela przetrwania)](#monokok-cela-przetrwania)
-- Identyfikatory źródeł: `GLO-SRC-001`
-- Niepewność: brak
 
 ## Monokok (cela przetrwania)
 
-Badany tekst FIA opisuje wymaganą strukturę celi przetrwania: obejmowała ona
+Tekst FIA opisuje wymaganą strukturę celi przetrwania: obejmowała ona
 ciągłe elementy skrzynkowe po obu stronach kierowcy i minimalną przestrzeń
-kokpitu (`GLO-1982-006`). Dostępne źródła nie wystarczają do szerszej definicji
-monokoku ani utożsamienia obu pojęć.
+kokpitu. Nie daje to podstaw do szerszej definicji monokoku ani do utożsamienia
+obu pojęć.
 
 - Zobacz także: [Ballast / balast](#ballast--balast)
-- Identyfikatory źródeł: `GLO-SRC-001`
-- Niepewność: szersze znaczenie terminu „monokok” nie zostało zweryfikowane.
 
 ## Silnik wolnossący
 
-W badanym, niedatowanym PDF FIA jest to silnik napełniający cylindry bez
+Jest to silnik napełniający cylindry bez
 urządzenia zwiększającego masę ładunku ponad poziom wynikający z ciśnienia
 atmosferycznego oraz naturalnych zjawisk dynamicznych w dolocie i wydechu. W tym
-wariancie art. 5 dopuszczał dla takiego silnika pojemność do 3000 cm³
-(`GLO-1982-008`).
+wariancie art. 5 dopuszczał dla takiego silnika pojemność do 3000 cm³.
 
 - Zobacz także: [Doładowanie](#doładowanie)
-- Identyfikatory źródeł: `GLO-SRC-001`
-- Niepewność: brak
 
 ## Wysokość jazdy
 
 Odległość podwozia lub wskazanego punktu samochodu od nawierzchni w określonych
 warunkach obciążenia i ustawienia. Miała znaczenie dla przepływu w kanałach
-podwozia i dla kontroli zgodności z wymaganym prześwitem (`GLO-1982-010`).
+podwozia i dla kontroli zgodności z wymaganym prześwitem.
 Nie jest samodzielną stałą: zmienia się wraz z ruchem zawieszenia.
 
 - Zobacz także: [Efekt przypowierzchniowy](#efekt-przypowierzchniowy), [Fartuch](#fartuch)
-- Identyfikatory źródeł: `GLO-SRC-001`, `GLO-SRC-002`
-- Niepewność: bazowy PDF podaje prześwit 6 cm, ale jego data, wariant i
-  kompletność przy granicy wiedzy nie są potwierdzone.
 
-## Uwagi źródłowe
+## Uwagi do źródeł
+
+[^1]: Niedatowany archiwalny PDF FIA jest podstawą definicji balastu,
+    doładowania, samochodu hybrydowego, celi przetrwania i silnika
+    wolnossącego, a także części opisu wysokości jazdy. Definicje opisują badany
+    wariant tekstu. PDF nie zawiera daty ani historii aneksów, więc nie
+    potwierdza własnej kompletności przy granicy wiedzy; nie wyjaśnia też celu
+    użycia balastu ani rozkładu masy. Podaje prześwit 6 cm, lecz data, wariant i
+    kompletność tego wymogu pozostają niepotwierdzone.
+
+[^2]: Artykuł „Motor Sport” z maja 1981 roku wspiera definicje efektu
+    przypowierzchniowego, fartucha i wysokości jazdy oraz kontekst zakazu
+    fartuchów przesuwnych.
+
+Szersze znaczenie terminu „monokok” nie zostało zweryfikowane. Dokładną godzinę
+pierwszej sesji oraz właściwy wariant regulaminu i jego aneksów ujęto w
+[`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
 
 - `GLO-SRC-001` — FIA, „Formula One Technical Regulations 1982”, data
   publikacji nieznana, oficjalny tekst w archiwum FIA, typ `ARCHIVE`,

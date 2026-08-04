@@ -24,50 +24,35 @@ last_verified: null
 ## Granica wiedzy i podstawa opisu
 
 Dokument zatrzymuje stan wiedzy bezpośrednio przed planowanym początkiem pierwszej
-oficjalnej sesji Grand Prix RPA na Kyalami 21 stycznia 1982. Dokładna godzina
-pozostaje nieznana; lukę zapisano w
-[`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
-Granica ma charakter opisowy: nie wolno tu wykorzystywać niczego poznanego
-podczas tej sesji ani później.
+oficjalnej sesji Grand Prix RPA na Kyalami 21 stycznia 1982.[^1]
 
 Podstawą jest angielski tekst „Technical Regulations” udostępniony w
-historycznej bazie FIA (`REG-SRC-001`). Sam dokument w art. 15 wskazuje wersję
-angielską jako rozstrzygającą przy sporach interpretacyjnych. Skan nie podaje
-jednak daty publikacji ani historii zmian. Nie potwierdzono zatem, że ten wariant
-PDF stanowi kompletny zapis przepisów wraz ze wszystkimi aneksami obowiązującymi
-w chwili granicznej. Wszystkie niżej przytoczone parametry z tego niedatowanego
-archiwum FIA są więc opisem tego wariantu PDF, nie potwierdzonymi faktami o
-kompletnym stanie przepisów przy cutoff; luka jest zapisywana w
-[`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
+historycznej bazie FIA.[^2] W art. 15 dokument wskazuje wersję angielską jako
+rozstrzygającą przy sporach interpretacyjnych.
 
 ## Przepisy sportowe
 
-Udostępniony dokument FIA jest tekstem technicznym, nie wystarcza więc do
-audytowanego opisu punktacji mistrzostw ani zasad klasyfikacji. Regulamin
-sportowy nie został zweryfikowany w datowanym dokumencie FIA lub FISA publicznym
-przed granicą wiedzy (`REG-SPORT-GAP-001`).
-
-W badanym tekście technicznym „event” obejmuje oficjalne treningi oraz wyścig
-(`REG-1982-001`, art. 1.7). Wersja angielska nie dzieli treningów na odmiany;
-równoległy tekst francuski dopowiada treningi mierzone i niemierzone, lecz przy
-ewentualnej rozbieżności pierwszeństwo ma wersja angielska.
+Dostępny dokument FIA jest tekstem technicznym. Użyty w nim termin „event”
+obejmuje oficjalne treningi oraz wyścig (art. 1.7). Wersja angielska nie dzieli
+treningów na odmiany; równoległy tekst francuski dopowiada treningi mierzone i
+niemierzone, lecz przy ewentualnej rozbieżności pierwszeństwo ma wersja
+angielska.
 
 ## Przepisy techniczne
 
 ### Wymiary i masa
 
 Maksymalna szerokość całego samochodu wraz z kompletnymi kołami wynosi 215 cm,
-gdy koła kierowane są ustawione na wprost (`REG-1982-002`, art. 3.1).
+gdy koła kierowane są ustawione na wprost (art. 3.1).
 Z wyjątkiem struktur przeciwkapotażowych żadna część samochodu w normalnym
 ustawieniu wyścigowym, z kierowcą w środku, nie może znajdować się wyżej niż
-90 cm nad podłożem (`REG-1982-003`, art. 3.6).
+90 cm nad podłożem (art. 3.6).
 
-Bazowy tekst podaje minimalną masę 585 kg (`REG-1982-004`, art. 4.1). Zgodnie z
-definicją „weight” z art. 1.8 samochód jest gotowy do jazdy, ma normalną ilość
-środków smarnych i chłodziwa, lecz nie obejmuje paliwa ani kierowcy. Dopuszczony
+Tekst podaje minimalną masę 585 kg (art. 4.1). Zgodnie z definicją „weight” z
+art. 1.8 samochód ma być gotowy do jazdy oraz mieć normalną ilość środków
+smarnych i chłodziwa, ale do masy nie wlicza się paliwa ani kierowcy. Dopuszczony
 balast musi być zamocowany tak, by jego usunięcie wymagało narzędzi; sędziowie
-techniczni muszą też móc go zaplombować (`REG-1982-005`, art. 4.2). Data i wariant PDF nie są
-potwierdzone jako kompletny stan przepisów przy granicy wiedzy.
+techniczni muszą też móc go zaplombować (art. 4.2).
 
 ### Aerodynamika i prześwit
 
@@ -76,15 +61,14 @@ aerodynamikę do całkowicie resorowanej części samochodu i ich nieruchomości
 względem niej. Zabrania urządzenia wypełniającego przestrzeń między nadwoziem a
 podłożem, ustanawia minimalny prześwit 6 cm dla całkowicie resorowanych części
 oraz zakazuje ich systematycznego lub stałego kontaktu z nawierzchnią podczas
-jazdy (`REG-1982-006`). Brak daty i historii aneksów nie pozwala potwierdzić,
-że ten wariant PDF przedstawia kompletny stan przy granicy wiedzy.
+jazdy.
 
 ### Silnik
 
 Dozwolone są czterosuwowe silniki tłokowe o pojemności najwyżej 3000 cm³ bez
 doładowania albo najwyżej 1500 cm³ z doładowaniem, przy maksymalnie 12
-cylindrach (`REG-1982-007`, art. 5). Ten sam artykuł zabrania silników Wankla,
-Diesla i dwusuwowych oraz turbin (`REG-1982-008`). Regulaminowa definicja
+cylindrach (art. 5). Ten sam artykuł zabrania silników Wankla, Diesla,
+dwusuwowych oraz turbin. Regulaminowa definicja
 doładowania obejmuje zwiększenie masy ładunku mieszanki ponad poziom wynikający
 z ciśnienia atmosferycznego oraz efektów dynamicznych dolotu i wydechu; sam
 wtrysk paliwa pod ciśnieniem nie jest doładowaniem (art. 1.11).
@@ -92,29 +76,20 @@ wtrysk paliwa pod ciśnieniem nie jest doładowaniem (art. 1.11).
 ### Koła, paliwo i kokpit
 
 Maksymalna szerokość kompletnego koła wynosi 18 cali, a maksymalna średnica
-26 cali; pomiar wykonuje się poziomo na wysokości osi (`REG-1982-009`,
-art. 11.2). Łączna pojemność zbiorników paliwa nie może przekraczać 250 litrów
-(`REG-1982-010`, art. 6.1). Art. 6.14 nie zakazuje tankowania po rozpoczęciu
+26 cali; pomiar wykonuje się poziomo na wysokości osi (art. 11.2). Łączna
+pojemność zbiorników paliwa nie może przekraczać 250 litrów (art. 6.1).
+Art. 6.14 nie zakazuje tankowania po rozpoczęciu
 wyścigu, lecz określa szczelne połączenie pojemnika z wlewem i zawór zwrotny
-jego odpowietrzenia (`REG-1982-011`).
+jego odpowietrzenia.
 
 Wewnętrzny przekrój kokpitu od podeszew kierowcy do miejsca za jego fotelem nie
 może nigdzie być mniejszy niż 700 cm², a minimalna szerokość 25 cm ma być
-utrzymana na całej długości kokpitu (`REG-1982-012`, art. 13.7(f)(6)).
+utrzymana na całej długości kokpitu (art. 13.7(f)(6)).
 
 ## Zapowiedziane zmiany
 
 Współczesna prasa techniczna opisywała zakaz przesuwnych fartuchów i regulację
-prześwitu (`REG-1982-013`, `REG-SRC-002`), ale nie zastępuje to oficjalnej
-historii zmian. Nie odnaleziono datowanego, przedgranicznego rejestru aneksów,
-który potwierdzałby kompletność badanego wariantu PDF.
-
-## Nierozstrzygnięte interpretacje
-
-Bazowy PDF FIA podaje 585 kg i 6 cm (`REG-1982-004`, `REG-1982-006`), lecz brak
-daty publikacji i historii aneksów pozostawia niepewność, czy dokument obejmuje
-pełny stan przepisów przy granicy wiedzy. Bez datowanego źródła pierwotnego nie
-można tej niepewności rozstrzygnąć.
+prześwitu.
 
 ## Znaczenie w praktyce
 
@@ -125,10 +100,20 @@ bezpieczniejszego tankowania po starcie, zamiast go zabraniać.
 
 Niedatowany PDF określał wymiary kokpitu oraz warunki trwałego zamocowania i
 plombowania balastu; nie wyjaśnia celu balastu ani zastosowania go przez zespoły.
-Wartości z bazowego tekstu należy czytać z zastrzeżeniem, że brak historii
-aneksów nie pozwala potwierdzić kompletności tego wariantu PDF.
 
-## Uwagi źródłowe
+## Uwagi do źródeł
+
+[^1]: Dokładna godzina rozpoczęcia pierwszej oficjalnej sesji nie jest znana,
+    dlatego granica ma charakter opisowy. Lukę zapisano w
+    [`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
+
+[^2]: Archiwalny skan FIA nie podaje daty publikacji ani historii zmian, więc
+    przytoczone parametry opisują zachowany wariant PDF, nie potwierdzoną
+    kompletność przepisów wraz ze wszystkimi aneksami przy granicy wiedzy.
+    Dotyczy to także wartości 585 kg i 6 cm. Nie odnaleziono datowanego,
+    przedgranicznego rejestru aneksów ani regulaminu sportowego pozwalającego
+    opisać punktację i zasady klasyfikacji. Luki zapisano w
+    [`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
 
 ### Mapa twierdzeń
 

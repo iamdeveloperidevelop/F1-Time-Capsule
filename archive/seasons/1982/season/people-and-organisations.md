@@ -23,116 +23,93 @@ last_verified: null
 
 Role i relacje przedstawiono zgodnie ze stanem publicznej wiedzy bezpośrednio przed
 planowanym rozpoczęciem pierwszej oficjalnej sesji Grand Prix RPA na Kyalami w
-czwartek 21 stycznia 1982. Dokładna godzina pozostaje nieznana; lukę zapisano w
-[`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
-Najpóźniejsze wiadomości o wykazanej dostępności pochodzą z December
-1981. Dokładny dzień publikacji numeru „Motor Sport” datowanego na January 1982
-jest nieznany, więc nie można potwierdzić jego dostępności przed tą granicą.
-Treść tego numeru pozostaje poza zestawem cutoff-safe do czasu zamknięcia tej
-luki.
+czwartek 21 stycznia 1982 roku.
 
 ## Zakres
 
-Uwzględniono osoby i instytucje, których role można ustalić na podstawie źródeł
-o wykazanej dostępności albo odseparować jako wyraźnie datowane fakty z
-późniejszych profili FIA. Profile te zawierają materiał po cutoff i nie służą
-do budowania szerszej narracji. Nie jest to pełny katalog personelu padoku.
+Uwzględniono osoby i instytucje, których role opisują materiały dostępne przed
+granicą dokumentu albo dające się odseparować informacje z późniejszych profili
+FIA. Nie jest to pełny katalog personelu padoku.
 
 ## Osoby
 
 ### Paul Alfons Fürst von Metternich-Winneburg
 
-Według niedatowanego, późniejszego profilu FIA był prezydentem Fédération
-Internationale de l’Automobile (FIA), wybranym na to stanowisko w 1975
-[PEO-01]. Jest to przypisany temu profilowi opis roli, a nie niezależnie
-potwierdzony stan przy cutoff; profil zawiera także informacje wykraczające
-poza granicę i nie służą one do budowania narracji.
+Według późniejszego profilu FIA był prezydentem Fédération Internationale de
+l’Automobile (FIA), wybranym na to stanowisko w 1975 roku.[^1]
 
 ### Jean-Marie Balestre
 
-Niedatowany, późniejszy profil FIA przypisuje Balestre’owi prezydenturę FISA,
-a od 1981 także funkcję zastępcy prezydenta FIA [PEO-02]. Ten sam profil
-przypisuje mu podpisanie pierwszego Concorde Agreement. Są to separowalne
-informacje datowane przez profil na 1981, nie niezależnie potwierdzony pełny stan
-przy cutoff; dalsza biografia z profilu nie jest wykorzystywana.
+Późniejszy profil FIA przypisuje Balestre’owi prezydenturę FISA, a od 1981 roku
+także funkcję zastępcy prezydenta FIA. Według tego samego profilu podpisał
+pierwsze Concorde Agreement.
 
 ### Bernie Ecclestone
 
-Grudniowy profil Piqueta identyfikował Ecclestone’a jako właściciela Brabhama
-[PEO-03]. Styczniowy materiał opisywał także jego rolę w FOCA, lecz bez daty
-dziennej publikacji nie stanowi tu dowodu dostępnego przed cutoff.
+Grudniowy profil Piqueta identyfikował Ecclestone’a jako właściciela Brabhama.
+Styczniowy materiał opisywał także jego rolę w FOCA.[^2]
 
 ### Max Mosley
 
 Współczesny „Motor Sport” określał Mosleya jako zaplecze prawne Ecclestone’a i
-FOCA [PEO-04]. W przytoczonej rozmowie Mosley podkreślał skalę telewizyjnej
+FOCA. W przytoczonej rozmowie Mosley podkreślał skalę telewizyjnej
 widowni wobec liczby widzów na torze oraz możliwości telewizji jako kierunku
 rozwoju biznesu Formuły 1. Reszta artykułu była wyraźnie krytycznym komentarzem
 autora, a nie neutralnym stenogramem stanowiska FOCA.
 
 ### François Guiter
 
-Styczniowy materiał PEO-05 opisuje funkcję Guitera w ELF, lecz brak dziennej
-daty publikacji blokuje potwierdzenie dostępności tej informacji przed cutoff.
-Rola pozostaje do ponownej weryfikacji i nie jest tu przedstawiana jako
-potwierdzony stan.
+Styczniowy materiał opisuje funkcję Guitera w ELF.
 
 ## Organizacje
 
 ### Fédération Internationale de l’Automobile (FIA)
 
-Niedatowany, późniejszy profil Balestre’a przypisuje FIA zachowanie kontroli nad
-regulacjami sportowymi i technicznymi w pierwszym Concorde Agreement [PEO-02].
-Jest to wyłącznie separowalna, źródłowo przypisana rola datowana przez profil na
-1981, nie potwierdzony pełny opis instytucji przy cutoff; dalsza treść profilu
-wykracza poza granicę.
+Późniejszy profil Balestre’a przypisuje FIA zachowanie kontroli nad regulacjami
+sportowymi i technicznymi w pierwszym Concorde Agreement. Informację tę profil
+datuje na 1981 rok.
 
 ### Fédération Internationale du Sport Automobile (FISA)
 
-Niedatowany, późniejszy profil FIA przypisuje Balestre’owi funkcję prezydenta
-FISA [PEO-02]. Jego separowalny opis łączy władzę federacyjną z regulacjami
-sportowymi i technicznymi; nie potwierdza jednak pełnego zakresu kompetencji
-przy cutoff. Dostępny zestaw nie zawiera pełnego tekstu porozumienia ani
-wyczerpującego statutu kompetencji.
+Późniejszy profil FIA przypisuje Balestre’owi funkcję prezydenta FISA i łączy
+władzę federacyjną z regulacjami sportowymi i technicznymi.
 
 ### Formula One Constructors’ Association (FOCA)
 
-Materiał ze stycznia 1981 określał Mosleya jako prawne zaplecze FOCA [PEO-04].
-Według niedatowanego, późniejszego profilu FIA pierwsze Concorde Agreement
-przyznało FOCA prawa komercyjne do Formuły 1 [PEO-02]. Jest to wyłącznie
-separowalna, źródłowo przypisana informacja datowana przez profil na 1981, a
-profil zawiera również treści po cutoff.
+Materiał ze stycznia 1981 roku określał Mosleya jako prawne zaplecze FOCA.
+Według późniejszego profilu FIA pierwsze Concorde Agreement przyznało FOCA prawa
+komercyjne do Formuły 1; profil datuje tę informację na 1981 rok.
 
 ### ELF Aquitaine
 
-PEO-05 zawiera opis relacji ELF z Renault i kierowcami, lecz jego dzienna data
-publikacji pozostaje nieznana. Do czasu weryfikacji dostępności numeru przed
-cutoff opis ten nie jest używany jako potwierdzony stan organizacji.
+Styczniowy materiał opisuje relacje ELF z Renault i kierowcami.
 
 ## Relacje i zakres władzy
 
-Niedatowany, późniejszy profil FIA daje jedynie ograniczony, źródłowo
-przypisany obraz: rozdziela kontrolę regulacyjną i prawa komercyjne między FIA i
-FOCA [PEO-02]. Nie jest to potwierdzona pełna synteza kompetencji przy cutoff i
-nie zastępuje pełnego tekstu porozumienia; luka pozostaje w
+Późniejszy profil FIA przedstawia ograniczony obraz podziału władzy: kontrolę
+regulacyjną przypisuje FIA, a prawa komercyjne FOCA. Styczniowa prasa opisywała
+również bieżące relacje FISA–FOCA.[^2]
+
+## Uwagi do źródeł
+
+[^1]: Profile FIA są niedatowane, późniejsze i zawierają informacje
+    wykraczające poza granicę dokumentu. Wykorzystano z nich wyłącznie
+    odseparowane fakty, które same profile datują na 1975 lub 1981 rok. Nie
+    stanowią one niezależnego potwierdzenia pełnego stanu ról i kompetencji przy
+    tej granicy.
+
+[^2]: Dokładny dzień publikacji styczniowego numeru „Motor Sport” jest
+    nieznany, dlatego nie można potwierdzić dostępności tego materiału przed
+    granicą dokumentu. Dotyczy to opisów roli Ecclestone’a w FOCA, funkcji
+    François Guitera, relacji ELF z Renault i kierowcami oraz relacji
+    FISA–FOCA. Informacji tych nie wykorzystano do ustalania potwierdzonego
+    stanu ról ani organizacji.
+
+Najpóźniejsze wiadomości o wykazanej dostępności pochodzą z grudnia 1981 roku.
+Nieznana pozostaje również dokładna godzina pierwszej sesji, a baza źródłowa
+jest wąska; żadnej z tych luk nie uzupełniono domysłem. Luki dotyczące godziny
+oraz kompetencji stron Concorde Agreement zapisano w
 [`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
-
-## Bieżące kwestie i nierozstrzygnięte punkty
-
-Styczniowa prasa zawierała opis relacji FISA–FOCA [PEO-03, PEO-06], ale jej
-dostępność przed cutoff nie została wykazana. Dokument nie używa tego opisu do
-ustalania stanu relacji.
-
-Pełny tekst Concorde Agreement nie znajduje się w zestawie źródeł. Nie
-rozstrzygnięto więc szczegółowych kompetencji poszczególnych organów ani tego,
-jak postanowienia będą stosowane podczas sezonu.
-
-Baza źródłowa jest wąska. Dokładna godzina pierwszej sesji pozostaje nieznana,
-a brak dnia publikacji styczniowego numeru blokuje uznanie jego treści za
-publicznie dostępne do 21 stycznia. Żadna z tych luk nie jest uzupełniana
-domysłem.
-
-## Uwagi źródłowe
 
 - **PEO-01 / FIA-METTERNICH** — FIA, „Paul Alfons Fürst von
   Metternich-Winneburg”, data publikacji `unknown`, `ARCHIVE`,

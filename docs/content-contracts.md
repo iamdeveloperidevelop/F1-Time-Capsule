@@ -17,7 +17,9 @@ source dates, and whether the cutoff matches the document type.
 - **Forbidden knowledge:** all later facts and interpretations, even if a source
   used for an earlier claim contains them.
 - **Sources:** every major factual claim is mapped to suitable evidence; major
-  expectations are attributed; disagreements remain visible.
+  expectations are attributed; disagreements remain visible. Reader-facing
+  presentation follows `methodology.md`: use sparse notes and source sections,
+  not inline IDs or audit mechanics.
 - **Metadata:** all fields from the canonical metadata contract are required.
   Use `event: null` only when the document is genuinely season-wide.
 - **Duplication:** link to a fact's primary home and include only the context
@@ -25,8 +27,8 @@ source dates, and whether the cutoff matches the document type.
 - **Audit:** the document cannot advance to `verified` status until
   `spoiler_audit_status: passed` and `source_status: audited`. A later workflow
   transition may still use a safe document with `source_status: partial` when
-  its reader-facing claims are cutoff-safe, its limitations are explicit, and
-  each unresolved item is recorded in
+  its reader-facing claims are cutoff-safe, its limitations are recorded in
+  notes or source records, and each unresolved item is recorded in
   `things-to-resolve-after-season.md`. A source-attributed, explicitly
   provisional report may remain reader-facing under `docs/source-policy.md`;
   it is not a confirmed fact. `issues-found` never permits progression until
@@ -281,7 +283,8 @@ source dates, and whether the cutoff matches the document type.
 - **Length:** no prose target; store only metadata and notes needed for
   traceability.
 - **Duplication boundary:** `sources.md` is the sole race-folder ledger;
-  documents cite source and claim identifiers rather than copying source lists.
+  reader-facing documents link it from notes or source sections rather than
+  placing source and claim identifiers in narrative or copying source lists.
 - **Metadata and audit:** race-source-ledger type; advance its cutoff only when
   it begins supporting a later race document and recheck spoiler risk.
 

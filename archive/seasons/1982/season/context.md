@@ -23,73 +23,59 @@ last_verified: null
 
 Stan opisany tutaj kończy się bezpośrednio przed planowanym rozpoczęciem
 pierwszej oficjalnej sesji Grand Prix RPA na Kyalami w czwartek 21 stycznia
-1982. Dokładna godzina pozostaje nieznana; lukę zapisano w
-[`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
-Najpóźniejsze wiadomości o wykazanej dostępności pochodzą z December 1981.
-Dokładny dzień publikacji numeru „Motor Sport” datowanego na January 1982
-pozostaje nieznany, co uniemożliwia potwierdzenie jego dostępności przed cutoff
-i użycie jego treści w obecnym stanie dokumentu.
+1982.[^1]
 
 ## Odziedziczony kontekst sportowy
 
-Nelson Piquet przystępował do nowego sezonu jako mistrz świata kierowców 1981
-[CTX-01]. Współczesny profil w „Motor Sport” podkreślał, że zdobył tytuł w
-trzecim pełnym sezonie Grand Prix i że zwyciężył zgodnie z obowiązującym
-systemem punktowym. Oceny jego stylu i perspektyw były opiniami autora.
+Nelson Piquet przystępował do nowego sezonu jako mistrz świata kierowców 1981.
+Według współczesnego profilu w „Motor Sport” zdobył tytuł w trzecim pełnym
+sezonie Grand Prix i zwyciężył zgodnie z obowiązującym systemem punktowym;
+oceny jego stylu i perspektyw pozostawały opiniami autora.[^2]
 
 W rywalizacji zespołowej punktem odniesienia był Williams. Ekipa zdobyła
-mistrzostwo producentów 1981 wyraźną przewagą, drugi rok z rzędu [CTX-02].
+mistrzostwo producentów 1981 wyraźną przewagą, drugi rok z rzędu.
 Grudniowe podsumowanie przedstawiało ten sukces obok utraconego o jeden punkt
 tytułu kierowców i problemów w części sezonu, a zarazem zaliczało Williamsa do
 czołowych zespołów i przypisywało mu zdolność walki o trzeci kolejny tytuł.
 
 ## Władze i organizacje
 
-Niedatowany, późniejszy profil FIA przypisuje pierwszemu Concorde Agreement z
-1981 podział, w którym FOCA otrzymała prawa komercyjne do Formuły 1, a FIA
-zachowała kontrolę nad regulacjami sportowymi i technicznymi [CTX-05]. Jest to
-wyłącznie separowalna, źródłowo przypisana informacja, nie potwierdzony pełny
-opis stanu przy cutoff: profil jest retrospektywny i zawiera materiał
-wykraczający poza granicę. Brak pełnego tekstu porozumienia nie pozwala
-rozstrzygnąć wszystkich granic kompetencji; luka jest zapisana w
-[`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
-Szczegółowe, równie ograniczone role instytucji i ich przedstawicieli opisuje
+Według późniejszego, niedatowanego profilu FIA pierwsze Concorde Agreement z
+1981 przyznawało FOCA prawa komercyjne do Formuły 1, podczas gdy FIA zachowywała
+kontrolę nad regulacjami sportowymi i technicznymi. Szczegółowe role instytucji
+i ich przedstawicieli opisuje
 [`people-and-organisations.md`](people-and-organisations.md).
 
 ## Otoczenie padoku, gospodarka i działalność komercyjna
 
 Grudniowy komentarz „Motor Sport” relacjonował, że BBC zapewniła Formule 1 w
 1981 większą ekspozycję niż wcześniej, oraz wiązał uwagę mediów z
-osobowościami kierowców [CTX-08]. Ten sam tekst zauważał oznaczenia reklamowe
-na powierzchniach samochodów. Są to redakcyjne obserwacje źródła, nie pomiar
-oglądalności, przychodów ani dowód związku przyczynowego między transmisją a
-widocznością sponsorów.
-
-Styczniowe materiały o kalendarzu i programie ELF nie są tu używane, ponieważ
-nie wykazano, że numer był dostępny przed cutoff.
+osobowościami kierowców. Ten sam tekst zauważał oznaczenia reklamowe na
+powierzchniach samochodów.
 
 ## Otwarte pytania
 
-Grudniowy materiał nie daje pomiaru oglądalności, przychodów ani pełnego obrazu
-modelu gospodarczego. Szersze pytania o porządek instytucjonalny pozostają
-otwarte. Niezweryfikowaną czasowo wersję harmonogramu zapisano osobno w
-[`calendar.md`](calendar.md).
+Pytania o skalę oglądalności i przychodów, pełny model gospodarczy oraz granice
+kompetencji instytucji pozostają otwarte. Osobno zapisano
+[wersję harmonogramu](calendar.md).
 
-## Niepewności
+## Uwagi do źródeł
 
-- Nie odnaleziono pełnego tekstu Concorde Agreement w przekazanym zestawie
-  źródeł. Późniejszy profil FIA wspiera separowalny, ograniczony opis podziału
-  kompetencji, lecz nie pełną wykładnię dokumentu i zawiera materiał po cutoff.
-- Źródła prasowe pochodzą głównie z jednego tytułu, „Motor Sport”, i często są
-  komentarzami Denisa Jenkinsona lub redakcji. Ten wspólny punkt widzenia
-  ogranicza niezależność potwierdzenia oraz wymaga zachowania atrybucji,
-  zwłaszcza przy ocenie FOCA, FISA i promotorów.
-- Dokładny dzień publikacji numeru January 1982 i oficjalna godzina pierwszej
-  sesji na Kyalami nie są znane. Pierwsza luka blokuje uznanie treści numeru za
-  publicznie dostępną do 21 stycznia; druga oznacza, że cutoff pozostaje granicą
-  opisową, a nie niepotwierdzonym timestampem.
+[^1]: Dokładna godzina rozpoczęcia pierwszej oficjalnej sesji nie jest znana,
+    dlatego granica ma charakter opisowy. Najpóźniejsze wykorzystane wiadomości
+    o wykazanej dostępności pochodzą z grudnia 1981. Dzienna data publikacji
+    styczniowego numeru „Motor Sport” pozostaje nieznana, więc materiałów o
+    kalendarzu, konflikcie FISA–FOCA i programie ELF nie wykorzystano jako
+    wiedzy dostępnej przed granicą. Luki zapisano w
+    [`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
 
-## Uwagi źródłowe
+[^2]: Materiał prasowy pochodzi głównie z jednego tytułu, „Motor Sport”, i
+    obejmuje komentarze autorów oraz redakcji. Obserwacje o ekspozycji w BBC i
+    reklamach nie są pomiarem oglądalności lub przychodów ani dowodem związku
+    przyczynowego. Nie odnaleziono również pełnego tekstu Concorde Agreement;
+    późniejszy profil FIA wspiera jedynie ograniczony opis podziału kompetencji,
+    nie ich pełną wykładnię. Szersze ograniczenia zapisano w
+    [`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
 
 - **CTX-01 / MS-1981-12-76** — A.H., „Nelson Piquet”, *Motor Sport*, December
   1981, `PRESS`, `contemporary: true`, `spoiler_risk: contains-later-material`; pełny locator:
