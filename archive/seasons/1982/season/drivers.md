@@ -23,409 +23,128 @@ last_verified: null
 
 ## Granica wiedzy
 
-Dokument zatrzymuje stan wiedzy bezpośrednio przed planowanym początkiem
+Dokument przedstawia stan wiedzy bezpośrednio przed planowanym początkiem
 pierwszej oficjalnej sesji Grand Prix Republiki Południowej Afryki na Kyalami
-21 stycznia 1982 roku. Dokładna godzina rozpoczęcia pozostaje nieznana; lukę
-zapisano w [`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
-Statystyki kończą się na 1981 roku.
+21 stycznia 1982 roku. Statystyki kończą się na 1981 roku.
 
 ## Przegląd stawki
 
-To częściowe zestawienie referencyjne obejmuje wyłącznie role obecne w
-wykorzystanych źródłach: UPI albo wyraźnie prowizoryjnym styczniowym
-przeglądzie „Motor Sport”. Pełna stawka pozostaje luką `1982-DRV-01` w
-[`../things-to-resolve-after-season.md`](../things-to-resolve-after-season.md).
-Prowizoryjne raporty bazy STATS F1, odseparowane do końca 1981 roku, służą tu
-wyłącznie do przedstawienia wcześniejszego dorobku i nie potwierdzają ról na
-sezon 1982. Składy i wyposażenie ekip opisano w [`teams.md`](teams.md). Role
-oparte wyłącznie na `MS-1982-01` pochodzą ze styczniowego przeglądu o nieznanym
-dniu publikacji. Nie są potwierdzoną wiedzą dostępną przed granicą dokumentu i
-pozostają oznaczone jako „niezweryfikowane czasowo”.
+To częściowe zestawienie obejmuje kierowców obecnych w wykorzystanych źródłach.
+Statystyki wcześniejszego dorobku pochodzą z odseparowanych raportów bazy STATS
+F1.[^1] Składy i wyposażenie ekip opisano w [`teams.md`](teams.md).
 
 ## Nelson Piquet
 
-### Dotychczasowy dorobek
-
-Prowizoryjny raport bazy STATS F1 wskazuje tytuł mistrza świata z 1981 roku oraz
-6 zwycięstw i 13 podiów do końca tego sezonu.
-
-### Rola opisana w źródłach
-
-Niezweryfikowany czasowo styczniowy przegląd przedstawiał go jako kierowcę
-Brabhama.
-
-### Istotny styl lub doświadczenie
-
-Poza dorobkiem mistrzowskim źródła nie dają odrębnej charakterystyki stylu.
-
-### Współczesne oczekiwania
-
-Brak przypisanej wypowiedzi do przytoczenia.
-
-### Źródła
-
-`D01` — `STATS-D01`, `MS-1982-01`.
+Do końca 1981 roku zdobył tytuł mistrza świata, 6 zwycięstw i 13 podiów.
+Styczniowy przegląd przedstawiał go jako kierowcę Brabhama.[^2]
 
 ## Riccardo Patrese
 
-### Dotychczasowy dorobek
-
-Prowizoryjny raport bazy STATS F1 podaje 4 podia, 1 pole position i 31 punktów do końca 1981 roku.
-
-### Rola opisana w źródłach
-
-Niezweryfikowany czasowo styczniowy przegląd przedstawiał go jako kierowcę
-Brabhama.
-
-### Istotny styl lub doświadczenie
-
-Źródła nie dają odrębnej charakterystyki stylu.
-
-### Współczesne oczekiwania
-
-Brak przypisanej wypowiedzi do przytoczenia.
-
-### Źródła
-
-`D02` — `STATS-D02`, `MS-1982-01`.
+Do końca 1981 roku miał w dorobku 4 podia, 1 pole position i 31 punktów.
+Styczniowy przegląd przedstawiał go jako kierowcę Brabhama.
 
 ## Carlos Reutemann
 
-### Dotychczasowy dorobek
-
-Prowizoryjny raport bazy STATS F1 podaje 144 starty w Grand Prix, 12 zwycięstw
-i wicemistrzostwo świata w 1981 roku.
-
-### Rola opisana w źródłach
-
-Kierowca Williamsa; pozostanie w zespole potwierdzono 18 grudnia 1981 roku.
-
-### Istotny styl lub doświadczenie
-
-Poza podanym dorobkiem źródła nie dają odrębnej charakterystyki stylu.
-
-### Współczesne oczekiwania
-
-Brak przypisanej wypowiedzi samego kierowcy do przytoczenia.
-
-### Źródła
-
-`D05` — `STATS-D05`, `UPI-WILLIAMS-1981`.
+Do końca 1981 roku zaliczył 144 starty w Grand Prix i 12 zwycięstw, a sezon
+1981 ukończył jako wicemistrz świata. Jego pozostanie w Williamsie potwierdzono
+18 grudnia 1981 roku.
 
 ## Keke Rosberg
 
-### Dotychczasowy dorobek
-
-Prowizoryjny raport bazy STATS F1 podaje 36 startów w Grand Prix, 1 podium i 6 punktów do końca 1981 roku.
-
-### Rola opisana w źródłach
-
-Kierowca Williamsa; angaż potwierdzono 18 grudnia 1981 roku.
-
-### Istotny styl lub doświadczenie
-
-Źródła nie dają odrębnej charakterystyki stylu.
-
-### Współczesne oczekiwania
-
-Frank Williams publicznie chwalił jego podejście i szybkość; była to opinia
-szefa zespołu, nie prognoza autora.
-
-### Źródła
-
-`D06` — `STATS-D06`, `UPI-WILLIAMS-1981`.
+Do końca 1981 roku zaliczył 36 startów w Grand Prix, 1 podium i zdobył 6
+punktów. Jego angaż w Williamsie potwierdzono 18 grudnia 1981 roku. Frank
+Williams publicznie chwalił podejście i szybkość Rosberga.
 
 ## John Watson
 
-### Dotychczasowy dorobek
-
-Prowizoryjny raport bazy STATS F1 podaje 2 zwycięstwa, 12 podiów i 6. miejsce w mistrzostwach w sezonie 1981.
-
-### Rola opisana w źródłach
-
-Kierowca McLarena.
-
-### Istotny styl lub doświadczenie
-
-Źródła nie dają odrębnej charakterystyki stylu.
-
-### Współczesne oczekiwania
-
-Watson mówił, że powrót Laudy może być początkowo trudny ze względu na zmiany w
-samochodach; była to jego ówczesna opinia.
-
-### Źródła
-
-`D07` — `STATS-D07`, `UPI-LAUDA-1981`.
+Do końca 1981 roku odniósł 2 zwycięstwa i zdobył 12 podiów, a sezon 1981
+ukończył na 6. miejscu w mistrzostwach. Był kierowcą McLarena. Watson oceniał,
+że powrót Laudy może być początkowo trudny ze względu na zmiany w samochodach.
 
 ## Niki Lauda
 
-### Dotychczasowy dorobek
-
-Prowizoryjny raport bazy STATS F1 podaje tytuły mistrza świata z lat 1975 i 1977
-oraz 17 zwycięstw do końca 1979 roku. Wracał do Formuły 1 po przerwie rozpoczętej
-w 1979 roku.
-
-### Rola opisana w źródłach
-
-Kierowca McLarena.
-
-### Istotny styl lub doświadczenie
-
-Dwuletnia przerwa od startów jest potwierdzonym kontekstem powrotu; źródła nie
-dają odrębnej charakterystyki stylu.
-
-### Współczesne oczekiwania
-
-Lauda mówił, że po zmianach samochodów nie oczekuje natychmiastowego zwycięstwa
-w Grand Prix RPA.
-
-### Źródła
-
-`D08` — `STATS-D08`, `UPI-LAUDA-1981`.
+Zdobył tytuły mistrza świata w 1975 i 1977 roku oraz 17 zwycięstw do końca 1979
+roku. Wracał do Formuły 1 jako kierowca McLarena po dwuletniej przerwie od
+startów, rozpoczętej w 1979 roku. Mówił, że po zmianach samochodów nie oczekuje
+natychmiastowego zwycięstwa w Grand Prix RPA.
 
 ## Nigel Mansell
 
-### Dotychczasowy dorobek
-
-Prowizoryjny raport bazy STATS F1 podaje 15 startów w Grand Prix, 1 podium i 8 punktów do końca 1981 roku.
-
-### Rola opisana w źródłach
-
-Niezweryfikowany czasowo styczniowy przegląd przedstawiał go jako kierowcę
-Lotusa.
-
-### Istotny styl lub doświadczenie
-
-Źródła nie dają odrębnej charakterystyki stylu.
-
-### Współczesne oczekiwania
-
-Brak przypisanej wypowiedzi do przytoczenia.
-
-### Źródła
-
-`D12` — `STATS-D12`, `MS-1982-01`.
+Do końca 1981 roku zaliczył 15 startów w Grand Prix, 1 podium i zdobył 8
+punktów. Styczniowy przegląd przedstawiał go jako kierowcę Lotusa.
 
 ## Alain Prost
 
-### Dotychczasowy dorobek
-
-Prowizoryjny raport bazy STATS F1 podaje 26 startów w Grand Prix, 3 zwycięstwa, 6 podiów i 48 punktów do końca 1981 roku.
-
-### Rola opisana w źródłach
-
-Niezweryfikowany czasowo styczniowy przegląd przedstawiał go jako kierowcę
+Do końca 1981 roku zaliczył 26 startów w Grand Prix, odniósł 3 zwycięstwa,
+zdobył 6 podiów i 48 punktów. Styczniowy przegląd przedstawiał go jako kierowcę
 Renault.
-
-### Istotny styl lub doświadczenie
-
-Źródła nie dają odrębnej charakterystyki stylu.
-
-### Współczesne oczekiwania
-
-Brak przypisanej wypowiedzi do przytoczenia.
-
-### Źródła
-
-`D14` — `STATS-D14`, `MS-1982-01`.
 
 ## René Arnoux
 
-### Dotychczasowy dorobek
-
-Prowizoryjny raport bazy STATS F1 podaje 48 startów w Grand Prix, 2 zwycięstwa, 7 podiów i 9 pole positions do końca 1981 roku.
-
-### Rola opisana w źródłach
-
-Niezweryfikowany czasowo styczniowy przegląd przedstawiał go jako kierowcę
-Renault.
-
-### Istotny styl lub doświadczenie
-
-Źródła nie dają odrębnej charakterystyki stylu.
-
-### Współczesne oczekiwania
-
-Brak przypisanej wypowiedzi do przytoczenia.
-
-### Źródła
-
-`D15` — `STATS-D15`, `MS-1982-01`.
+Do końca 1981 roku zaliczył 48 startów w Grand Prix, odniósł 2 zwycięstwa,
+zdobył 7 podiów i 9 pole positions. Styczniowy przegląd przedstawiał go jako
+kierowcę Renault.
 
 ## Andrea de Cesaris
 
-### Dotychczasowy dorobek
-
-Prowizoryjny raport bazy STATS F1 podaje 16 startów w Grand Prix i 1 punkt do końca 1981 roku.
-
-### Rola opisana w źródłach
-
-Zebrane źródła nie potwierdzają jego roli na otwarcie sezonu. Pozostaje ona
-niezweryfikowana w luce
-[`1982-DRV-01`](../things-to-resolve-after-season.md#1982-drv-01).
-
-### Istotny styl lub doświadczenie
-
-Źródła nie dają odrębnej charakterystyki stylu.
-
-### Współczesne oczekiwania
-
-Brak przypisanej wypowiedzi do przytoczenia.
-
-### Źródła
-
-`D19` — `STATS-D19`.
+Do końca 1981 roku zaliczył 16 startów w Grand Prix i zdobył 1 punkt. Zebrane
+źródła nie potwierdzają jego roli na otwarcie sezonu.
 
 ## Bruno Giacomelli
 
-### Dotychczasowy dorobek
-
-Prowizoryjny raport bazy STATS F1 podaje 39 startów w Grand Prix, 1 pole position, 1 podium i 11 punktów do końca 1981 roku.
-
-### Rola opisana w źródłach
-
-Zebrane źródła nie potwierdzają jego roli na otwarcie sezonu. Pozostaje ona
-niezweryfikowana w luce
-[`1982-DRV-01`](../things-to-resolve-after-season.md#1982-drv-01).
-
-### Istotny styl lub doświadczenie
-
-Źródła nie dają odrębnej charakterystyki stylu.
-
-### Współczesne oczekiwania
-
-Brak przypisanej wypowiedzi do przytoczenia.
-
-### Źródła
-
-`D20` — `STATS-D20`.
+Do końca 1981 roku zaliczył 39 startów w Grand Prix, zdobył 1 pole position, 1
+podium i 11 punktów. Zebrane źródła nie potwierdzają jego roli na otwarcie
+sezonu.
 
 ## Eddie Cheever
 
-### Dotychczasowy dorobek
-
-Prowizoryjny raport bazy STATS F1 podaje 25 startów w Grand Prix i 10 punktów do końca 1981 roku.
-
-### Rola opisana w źródłach
-
-Niezweryfikowany czasowo styczniowy przegląd przedstawiał go jako kierowcę
-Talbota/Ligiera.
-
-### Istotny styl lub doświadczenie
-
-Źródła nie dają odrębnej charakterystyki stylu.
-
-### Współczesne oczekiwania
-
-Brak przypisanej wypowiedzi do przytoczenia.
-
-### Źródła
-
-`D21` — `STATS-D21`, `MS-1982-01`.
+Do końca 1981 roku zaliczył 25 startów w Grand Prix i zdobył 10 punktów.
+Styczniowy przegląd przedstawiał go jako kierowcę Talbota/Ligiera.
 
 ## Jacques Laffite
 
-### Dotychczasowy dorobek
-
-Prowizoryjny raport bazy STATS F1 podaje 108 startów w Grand Prix, 6 zwycięstw,
-26 podiów i 4. miejsce w mistrzostwach w sezonie 1981.
-
-### Rola opisana w źródłach
-
-Niezweryfikowany czasowo styczniowy przegląd przedstawiał go jako kierowcę
-Talbota/Ligiera.
-
-### Istotny styl lub doświadczenie
-
-Niezweryfikowany czasowo styczniowy „Motor Sport” opisywał jego centralną rolę
-w zespole; materiał nie uzasadnia dodatkowej charakterystyki stylu jazdy.
-
-### Współczesne oczekiwania
-
-Brak przypisanej wypowiedzi samego kierowcy do przytoczenia.
-
-### Źródła
-
-`D22` — `STATS-D22`, `MS-1982-01`.
+Do końca 1981 roku zaliczył 108 startów w Grand Prix, odniósł 6 zwycięstw i
+zdobył 26 podiów, a sezon 1981 ukończył na 4. miejscu w mistrzostwach.
+Styczniowy „Motor Sport” przedstawiał go jako kierowcę Talbota/Ligiera i
+opisywał jego centralną rolę w zespole, nie uzasadniał jednak dodatkowej
+charakterystyki stylu jazdy.
 
 ## Gilles Villeneuve
 
-### Dotychczasowy dorobek
-
-Prowizoryjny raport bazy STATS F1 podaje 63 starty w Grand Prix, 6 zwycięstw, 12 podiów i wicemistrzostwo świata w 1979 roku.
-
-### Rola opisana w źródłach
-
-Niezweryfikowany czasowo styczniowy przegląd przedstawiał go jako kierowcę
-Ferrari.
-
-### Istotny styl lub doświadczenie
-
-Źródła nie dają odrębnej charakterystyki stylu.
-
-### Współczesne oczekiwania
-
-Brak przypisanej wypowiedzi do przytoczenia.
-
-### Źródła
-
-`D23` — `STATS-D23`, `MS-1982-01`.
+Do końca 1981 roku zaliczył 63 starty w Grand Prix, odniósł 6 zwycięstw i
+zdobył 12 podiów; w 1979 roku został wicemistrzem świata. Styczniowy przegląd
+przedstawiał go jako kierowcę Ferrari.
 
 ## Didier Pironi
 
-### Dotychczasowy dorobek
-
-Prowizoryjny raport bazy STATS F1 podaje 60 startów w Grand Prix, 1 zwycięstwo i 7 podiów do końca 1981 roku.
-
-### Rola opisana w źródłach
-
-Niezweryfikowany czasowo styczniowy przegląd przedstawiał go jako kierowcę
-Ferrari.
-
-### Istotny styl lub doświadczenie
-
-Źródła nie dają odrębnej charakterystyki stylu.
-
-### Współczesne oczekiwania
-
-Brak przypisanej wypowiedzi do przytoczenia.
-
-### Źródła
-
-`D24` — `STATS-D24`, `MS-1982-01`.
+Do końca 1981 roku zaliczył 60 startów w Grand Prix, odniósł 1 zwycięstwo i
+zdobył 7 podiów. Styczniowy przegląd przedstawiał go jako kierowcę Ferrari.
 
 ## Derek Warwick
 
-### Dotychczasowy dorobek
+Do końca 1981 roku zaliczył 1 start w Grand Prix i nie zdobył punktów.
+Styczniowy „Motor Sport” odnotowywał, że pozostaje w Tolemanie, lecz nie
+przytaczał jego osobistej prognozy.
 
-Prowizoryjny raport bazy STATS F1 podaje 1 start w Grand Prix i brak punktów do końca 1981 roku.
+## Uwagi do źródeł
 
-### Rola opisana w źródłach
+[^1]: Rekordy STATS F1 są późniejszymi raportami o nieznanej dacie publikacji.
+    Wspierają wyłącznie odseparowane statystyki do końca 1981 roku, nie role na
+    sezon 1982.
 
-Niezweryfikowany czasowo styczniowy przegląd przedstawiał go jako kierowcę
-Tolemana.
+[^2]: Dokładny dzień publikacji styczniowego numeru „Motor Sport” jest
+    nieznany. Nie rozstrzygnięto, czy numer był publicznie dostępny przed
+    21 stycznia 1982 roku, dlatego opisane w nim role pozostają
+    niezweryfikowane czasowo.
 
-### Istotny styl lub doświadczenie
-
-Źródła nie dają odrębnej charakterystyki stylu.
-
-### Współczesne oczekiwania
-
-Niezweryfikowany czasowo „Motor Sport” odnotowywał, że pozostaje w zespole,
-lecz nie przytaczał jego osobistej prognozy.
-
-### Źródła
-
-`D30` — `STATS-D30`, `MS-1982-01`.
-
-## Uwagi źródłowe
-
-Zakres ról jest częściowy: wykorzystane współczesne źródła nie potwierdzają
-kompletnej stawki przed granicą dokumentu. Nie uzupełniono brakujących foteli z
-późniejszych zestawień. Styczniowy numer „Motor Sport” ma nieznany dokładny
-dzień publikacji; nie rozstrzygnięto, czy był publicznie dostępny przed
-21 stycznia 1982 roku. Dokument wymaga ponownego audytu spoilerów i źródeł.
+Poza wskazanym dorobkiem źródła nie dają odrębnej charakterystyki stylu
+kierowców. Nie zawierają też ich przypisanych wypowiedzi, z wyjątkiem ocen
+Watsona i Laudy; w przypadku Rosberga przytoczona ocena pochodzi od Franka
+Williamsa. Zakres ról jest częściowy i nie potwierdza kompletnej stawki przed
+granicą dokumentu. Nie uzupełniono brakujących foteli z późniejszych zestawień,
+a dokładna godzina pierwszej sesji pozostaje nieznana. Dokument wymaga ponownego
+audytu spoilerów i źródeł. Odpowiednie braki zapisano w
+[`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
 
 ### Rekordy STATS F1
 
