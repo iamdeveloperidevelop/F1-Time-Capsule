@@ -31,47 +31,38 @@ pierwszej oficjalnej sesji Grand Prix Republiki Południowej Afryki na Kyalami,
 
 To częściowy przegląd zespołów i ich wyposażenia na otwarcie sezonu.
 Szczegółowe sylwetki kierowców zawiera [`drivers.md`](drivers.md), a rozwiązania
-konstrukcyjne objaśnia [`technology.md`](technology.md). Informacje z
-przedsezonowego przeglądu „Motor Sport” należy czytać z zastrzeżeniem dotyczącym
-daty jego publikacji.[^1]
+konstrukcyjne objaśnia [`technology.md`](technology.md).[^1]
 
 ## Brabham
 
 Styczniowy przegląd łączył z Brabhamem Nelsona Piqueta i Riccarda Patresego.
 Według tego materiału zespół testował model BT50 z turbodoładowanym silnikiem
-BMW. Jego użycie przedstawiono jednak jako możliwość, a nie rozstrzygniętą
-konfigurację na otwarcie sezonu. Przegląd odnotowywał postęp prób, lecz nie daje
-podstaw do dalej idącej oceny osiągów. Nie ustalono, z jakiej konfiguracji
-zespół miał skorzystać podczas pierwszej oficjalnej sesji.
+BMW. Jego użycie przedstawiono jako możliwość na otwarcie sezonu. Przegląd
+odnotowywał również postęp prób.
 
 ## Williams
 
 Williams potwierdził Carlosa Reutemanna i Keke Rosberga 18 grudnia 1981 roku.
 Frank Williams publicznie podkreślał szybkość i podejście Rosberga; była to
-jego ówczesna opinia. Źródło potwierdza parę kierowców, ale nie pozwala opisać
-samochodu, silnika ani opon na otwarcie sezonu.
+jego ówczesna opinia.
 
 ## McLaren
 
 McLaren tworzył parę John Watson–Niki Lauda.
 UPI potwierdzało powrót Laudy do zespołu oraz zapowiedziany na przyszłość
 projekt Porsche. Sam Lauda mówił, że po przerwie nie oczekuje natychmiastowego
-zwycięstwa w Kyalami. Pozostałe szczegóły wyposażenia nie są w tym dokumencie
-potwierdzone.
+zwycięstwa w Kyalami.
 
 ## Lotus
 
 Styczniowy „Motor Sport” informował, że Nigel Mansell pozostaje w Lotusie.
-Przed zamknięciem numeru drugi fotel nie był jeszcze potwierdzony. Materiał nie
-zawierał przypisanej deklaracji celu zespołu ani nie pozwalał ustalić drugiego
-kierowcy i wyposażenia na otwarcie sezonu.
+Przed zamknięciem numeru drugi fotel nie był jeszcze potwierdzony.
 
 ## Renault
 
 Styczniowy przegląd przypisywał Renault duet Alain Prost–René Arnoux i
 wskazywał dalsze użycie konstrukcji RE30. „Motor Sport” oceniał pozycję zespołu
-jako mocną. Była to prasowa ocena z epoki; materiał nie pozwala dopisać dalszych
-szczegółów konfiguracji.
+jako mocną.
 
 ## Alfa Romeo
 
@@ -79,29 +70,25 @@ Styczniowy przegląd omawiał Alfę Romeo, ale nie wystarczał do potwierdzenia 
 kierowców. Dlatego Andrea de Cesaris i Bruno Giacomelli nie są tu przedstawieni
 jako potwierdzona obsada. Materiał opisywał używany silnik V12 oraz równoległy
 plan rozwoju jednostki turbodoładowanej, bez przesądzania konfiguracji na
-pierwszą oficjalną sesję. Nie zawierał przypisanej deklaracji celu zespołu.
+pierwszą oficjalną sesję.
 
 ## Ligier/Talbot
 
 Styczniowy przegląd przedstawiał Jacques’a Laffite’a i Eddiego Cheevera jako
 kierowców Talbota/Ligiera, a Laffite’owi przypisywał centralną rolę w ekipie.
-Według tego materiału samochód korzystał z silnika Matra V12. Dokładny model
-oraz pozostałe wyposażenie nie są tu potwierdzone.
+Według tego materiału samochód korzystał z silnika Matra V12.
 
 ## Ferrari
 
 Styczniowy przegląd przypisywał Ferrari duet Gilles Villeneuve–Didier Pironi i
-zapowiadał nowy samochód z turbodoładowanym silnikiem V6. Nie podawał dokładnego
-oznaczenia modelu ani przypisanej deklaracji celu zespołu.
+zapowiadał nowy samochód z turbodoładowanym silnikiem V6.
 
 ## Toleman
 
 Styczniowy „Motor Sport” informował, że Derek Warwick pozostaje w Tolemanie, i
 opisywał dalszy rozwój turbodoładowanego silnika Hart. Wymieniał także Briana
-Hentona, lecz przedstawiał obsadę z niepewnością. Drugi fotel i dokładna
-konfiguracja samochodu pozostają zatem nieustalone. Przegląd odnotowywał większe
-nadzieje zespołu po grudniowych testach; była to współczesna ocena, nie
-potwierdzenie przyszłych osiągów.
+Hentona, lecz przedstawiał obsadę z niepewnością. Przegląd odnotowywał większe
+nadzieje zespołu po grudniowych testach.
 
 ## Uwagi do źródeł
 

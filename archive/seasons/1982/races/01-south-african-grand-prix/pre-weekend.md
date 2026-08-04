@@ -22,64 +22,48 @@ last_verified: null
 ## Granica wiedzy
 
 Dokument zatrzymuje się bezpośrednio przed planowanym rozpoczęciem pierwszej
-oficjalnej sesji Grand Prix RPA na Kyalami. Pakiet sezonu przyjmuje tymczasowo
-21 stycznia jako tę granicę, choć jej data, godzina i format wydarzenia
-pozostają nierozstrzygnięte.[^granica]
+oficjalnej sesji Grand Prix RPA na Kyalami, przyjętym w pakiecie sezonu na
+21 stycznia.[^granica]
 
 ## Aktualna pozycja w mistrzostwach
 
-Dla pierwszej rundy nie ma wcześniejszej archiwalnej migawki ani tabeli
-bieżącej klasyfikacji mistrzostw.
+To pierwsza runda sezonu, więc nie poprzedza jej bieżąca klasyfikacja
+mistrzostw.
 
 ## Przed przyjazdem na Kyalami
 
-Kyalami figuruje w ogłoszonym harmonogramie, ale dostępna wzmianka nie
-rozstrzyga daty ani formatu imprezy.[^upi]
+Kyalami figuruje w ogłoszonym harmonogramie.[^upi]
 
 McLaren publicznie ogłosił powrót Nikiego Laudy u boku Johna Watsona. Williams
-ogłosił z kolei parę Carlos Reutemann–Keke Rosberg. Wykorzystane depesze
-potwierdzają składy tych dwóch zespołów, nie stanowią jednak kompletnej listy
-zgłoszeń na weekend.
+ogłosił z kolei parę Carlos Reutemann–Keke Rosberg.
 
 ## Tor
 
 Depesza UPI z 6 lutego 1981 roku opisywała Kyalami jako tor długości 2,55 mili.
-Nie wynika z niej jednak, czy w 1982 roku nie zmieniły się układ, kierunek
-jazdy, liczba zakrętów lub liczba okrążeń.
 
-## Pytania techniczne
+## Technika
 
-Tekst nie uwzględnia informacji o konkretnych zgłoszeniach technicznych. Przed
-weekendem pozostają cztery szersze pytania opisane w
-[`technology.md`](../../season/technology.md): czy badany wariant regulaminu,
-pozbawiony daty i historii aneksów, jest kompletny; czy testowany Brabham–BMW
-może wystartować; kiedy zapowiedziane projekty Porsche, Matry i Alfy Romeo
-przejdą do gotowego rozwiązania; oraz jak programy opon zostaną rozdzielone
-między zespoły.
+Przedsezonowe konstrukcje, programy silnikowe i sytuację dostawców opon opisano
+w [`technology.md`](../../season/technology.md).
 
 ## Kontekst polityczny i sportowy
 
 Depesza z 6 lutego 1981 roku przypomina o relacjach FISA–FOCA i o uznaniu
-ówczesnej imprezy za niezaliczaną do mistrzostw. To odziedziczony kontekst
-zarządzania sportem, z którego nie można wyprowadzać wniosków o wpływie na
-obecny weekend. Dostępny materiał nie pozwala też szerzej opisać politycznego
-kontekstu gospodarza w odniesieniu konkretnie do tego wydarzenia.
+ówczesnej imprezy za niezaliczaną do mistrzostw. Stanowi to odziedziczony
+kontekst zarządzania sportem.
 
 ## Współczesne oczekiwania
 
 Przed powrotem do McLarena Lauda mówił, że nie oczekuje natychmiastowego
-zwycięstwa w Grand Prix RPA. To jego ówczesne oczekiwanie, nie ocena
-redakcyjna. Frank Williams przedstawił z kolei własne oczekiwanie wobec
-Rosberga. Pozostaje ono opinią przypisaną przedstawicielowi zespołu, a nie
-prognozą wyniku tego weekendu.
+zwycięstwa w Grand Prix RPA. Frank Williams publicznie podkreślał z kolei
+szybkość i podejście Rosberga.
 
 ## Co warto wiedzieć przed weekendem
 
 Punktem wyjścia są publicznie ogłoszone pary Watson–Lauda w McLarenie oraz
-Reutemann–Rosberg w Williamsie. Kyalami znajduje się w ogłoszonym harmonogramie,
-ale data i format wydarzenia oraz parametry toru na 1982 rok pozostają otwarte.
-Nie zachowano również datowanej prognozy pogody dostępnej przed 20 stycznia,
-dlatego tekst nie przedstawia oczekiwań meteorologicznych.
+Reutemann–Rosberg w Williamsie. Lauda wraca do Formuły 1 po dwuletniej
+przerwie, a Rosberg rozpoczyna współpracę z Williamsem. Kyalami znajduje się w
+ogłoszonym harmonogramie.
 
 ## Uwagi do źródeł
 
@@ -89,8 +73,8 @@ dlatego tekst nie przedstawia oczekiwań meteorologicznych.
 [^upi]: Depesze UPI potwierdzają jedynie dokładnie przypisane im informacje:
     miejsce w ogłoszonym harmonogramie, opis toru i kontekst z 1981 roku, dwa
     ogłoszone składy oraz wypowiedzi Laudy i Franka Williamsa. Nie rozstrzygają
-    parametrów Kyalami na 1982 rok, prognozy pogody ani politycznego kontekstu
-    tego wydarzenia.
+    daty i formatu imprezy, parametrów Kyalami na 1982 rok, pełnej listy
+    zgłoszeń, prognozy pogody ani politycznego kontekstu tego wydarzenia.
 
 Szczegóły i zakres zapisów zawiera [rejestr źródeł](sources.md), a otwarte
 pytania — [rejestr

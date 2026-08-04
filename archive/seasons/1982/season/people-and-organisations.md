@@ -72,8 +72,7 @@ datuje na 1981 rok.
 ### Fédération Internationale du Sport Automobile (FISA)
 
 Późniejszy profil FIA przypisuje Balestre’owi funkcję prezydenta FISA i łączy
-władzę federacyjną z regulacjami sportowymi i technicznymi. Dostępny zestaw nie
-zawiera jednak pełnego tekstu porozumienia ani wyczerpującego opisu kompetencji.
+władzę federacyjną z regulacjami sportowymi i technicznymi.
 
 ### Formula One Constructors’ Association (FOCA)
 
@@ -88,16 +87,8 @@ Styczniowy materiał opisuje relacje ELF z Renault i kierowcami.
 ## Relacje i zakres władzy
 
 Późniejszy profil FIA przedstawia ograniczony obraz podziału władzy: kontrolę
-regulacyjną przypisuje FIA, a prawa komercyjne FOCA. Nie zastępuje to pełnego
-tekstu porozumienia ani pełnej syntezy kompetencji przy granicy dokumentu.
-
-## Bieżące kwestie i nierozstrzygnięte punkty
-
-Styczniowa prasa opisywała relacje FISA–FOCA.
-
-Pełny tekst Concorde Agreement nie znajduje się w zestawie źródeł. Nie
-rozstrzygnięto więc szczegółowych kompetencji poszczególnych organów ani tego,
-jak postanowienia będą stosowane podczas sezonu.
+regulacyjną przypisuje FIA, a prawa komercyjne FOCA. Styczniowa prasa opisywała
+również bieżące relacje FISA–FOCA.[^2]
 
 ## Uwagi do źródeł
 

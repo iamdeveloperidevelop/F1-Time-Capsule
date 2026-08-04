@@ -35,16 +35,15 @@ jazda. Po zakłóceniach w piątek o 11:00 przeprowadzono 90-minutowy test, a
 godzinna sesja kwalifikacyjna rozpoczęta po 14:00 ustaliła pole startowe. W jej
 połowie zaczął padać deszcz i tor nie wysechł już przed końcem.[^motor-sport]
 
-Ta sama relacja opisuje 30-minutową sobotnią rozgrzewkę, ale nie podaje jej
-czasów ani klasyfikacji.
+Ta sama relacja opisuje 30-minutową sobotnią rozgrzewkę.
 
 ## Kwalifikacje i pole startowe
 
 Według późniejszego archiwum Formula 1 Arnoux figuruje na pierwszej pozycji z
-czasem 1:06.351. Poniższa tabela jest prowizoryczną rekonstrukcją z późniejszej,
-nieoficjalnej bazy Racing Sports Cars, a nie oficjalną klasyfikacją.[^pole]
+czasem 1:06.351. Poniższa rekonstrukcja pola pochodzi z bazy Racing Sports
+Cars.[^pole]
 
-| Pozycja w rekonstrukcji | Kierowca | Zespół | Czas kwalifikacyjny (archiwalny) |
+| Pozycja | Kierowca | Zespół | Czas kwalifikacyjny |
 | ---: | --- | --- | --- |
 | 1 | Arnoux | Renault | 1:06.351 |
 | 2 | Piquet | Brabham | 1:06.625 |
@@ -73,16 +72,15 @@ nieoficjalnej bazy Racing Sports Cars, a nie oficjalną klasyfikacją.[^pole]
 | 25 | Serra | Fittipaldi | 1:13.467 |
 | 26 | Jarier | Osella | 1:13.834 |
 
-„Motor Sport” opisuje stawkę jako 26 samochodów i prowizorycznie podaje, że
-Baldi, Henton, Paletti i Fabi nie uzyskali miejsc na polu startowym. Ta sama
+„Motor Sport” opisuje stawkę jako 26 samochodów i wymienia Baldiego, Hentona,
+Palettiego i Fabiego wśród kierowców bez miejsca na polu startowym. Ta sama
 relacja podaje, że Ensign wycofał Guerrero przed kwalifikacjami, a Henton
 przejął Arrowsa nr 29 po zwolnieniu Tambaya.
 
 ## Warunki i przygotowanie
 
 Późniejsza relacja „Motor Sport” opisuje chwilę przed startem jako ciepłą,
-pochmurną i z okresowym słońcem. Nie pozwala to wnioskować o dokładnym stanie
-nawierzchni ani prognozie.
+pochmurną i z okresowym słońcem.
 
 Według tej samej relacji podczas rozgrzewki zwracały uwagę: elektryczne
 przerywanie pracy Mansella, prace przy hamulcach Warwicka, kontrola jednostki
@@ -102,7 +100,8 @@ kwalifikacyjnych na kierowcę.
 [^motor-sport]: Relacja „Motor Sport” ukazała się po granicy dokumentu i zawiera
     późniejszy materiał. Wyodrębnione informacje o sesjach, zgłoszeniach,
     warunkach, przygotowaniach i oponach pozostają przypisanymi jej raportami
-    przedstartowymi. Dla rozgrzewki brakuje czasów i klasyfikacji.
+    przedstartowymi. Dla rozgrzewki brakuje czasów i klasyfikacji, a opis pogody
+    nie rozstrzyga dokładnego stanu nawierzchni ani prognozy.
 
 [^pole]: Rekord Arnoux pochodzi z późniejszego archiwum Formula 1, a pełne pole
     z nieoficjalnej bazy bez daty publikacji. Rekonstrukcja kolejności, zespołów

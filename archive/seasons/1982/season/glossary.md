@@ -32,16 +32,16 @@ skutków.
 
 ## Ballast (balast)
 
-W badanym, niedatowanym tekście FIA balast jest elementem, dla którego art. 4.2
-określał zamocowanie wymagające narzędzi do demontażu oraz możliwość
-zaplombowania przez sędziów technicznych.[^1]
+Według art. 4.2 tekstu FIA balast musiał być zamocowany w sposób wymagający
+narzędzi do demontażu i umożliwiający zaplombowanie przez sędziów
+technicznych.[^1]
 
 - Zobacz także: [Monokok (cela przetrwania)](#monokok-cela-przetrwania)
 
 ## Doładowanie
 
-W badanym tekście FIA art. 1.11 definiował doładowanie jako
-zwiększenie masy ładunku mieszanki doprowadzanej do komory spalania ponad
+Art. 1.11 definiował doładowanie jako zwiększenie masy ładunku mieszanki
+doprowadzanej do komory spalania ponad
 poziom wynikający z normalnego ciśnienia atmosferycznego oraz efektów
 dynamicznych dolotu i wydechu. W tym wariancie tekstu sam wtrysk paliwa pod
 ciśnieniem nie stanowił doładowania.
@@ -70,7 +70,7 @@ nadwozia, aby podążać za nawierzchnią; współczesne źródło opisuje jego 
 
 ## Hybrid (samochód hybrydowy)
 
-W badanym tekście FIA art. 1.6 nazywał „hybrydą” samochód, w którym
+Art. 1.6 nazywał „hybrydą” samochód, w którym
 konstruktor auta montował silnik innego producenta; w tym wariancie tekstu nazwa
 konstruktora samochodu miała poprzedzać nazwę producenta silnika.
 
@@ -78,7 +78,7 @@ konstruktora samochodu miała poprzedzać nazwę producenta silnika.
 
 ## Monokok (cela przetrwania)
 
-Badany tekst FIA opisuje wymaganą strukturę celi przetrwania: obejmowała ona
+Tekst FIA opisuje wymaganą strukturę celi przetrwania: obejmowała ona
 ciągłe elementy skrzynkowe po obu stronach kierowcy i minimalną przestrzeń
 kokpitu. Nie daje to podstaw do szerszej definicji monokoku ani do utożsamienia
 obu pojęć.
@@ -87,7 +87,7 @@ obu pojęć.
 
 ## Silnik wolnossący
 
-W badanym tekście FIA jest to silnik napełniający cylindry bez
+Jest to silnik napełniający cylindry bez
 urządzenia zwiększającego masę ładunku ponad poziom wynikający z ciśnienia
 atmosferycznego oraz naturalnych zjawisk dynamicznych w dolocie i wydechu. W tym
 wariancie art. 5 dopuszczał dla takiego silnika pojemność do 3000 cm³.

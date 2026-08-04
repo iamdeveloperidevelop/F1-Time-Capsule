@@ -87,14 +87,12 @@ kierowcę Renault.
 
 ## Andrea de Cesaris
 
-Do końca 1981 roku zaliczył 16 startów w Grand Prix i zdobył 1 punkt. Zebrane
-źródła nie potwierdzają jego roli na otwarcie sezonu.
+Do końca 1981 roku zaliczył 16 startów w Grand Prix i zdobył 1 punkt.
 
 ## Bruno Giacomelli
 
 Do końca 1981 roku zaliczył 39 startów w Grand Prix, zdobył 1 pole position, 1
-podium i 11 punktów. Zebrane źródła nie potwierdzają jego roli na otwarcie
-sezonu.
+podium i 11 punktów.
 
 ## Eddie Cheever
 
@@ -106,8 +104,7 @@ Styczniowy przegląd przedstawiał go jako kierowcę Talbota/Ligiera.
 Do końca 1981 roku zaliczył 108 startów w Grand Prix, odniósł 6 zwycięstw i
 zdobył 26 podiów, a sezon 1981 ukończył na 4. miejscu w mistrzostwach.
 Styczniowy „Motor Sport” przedstawiał go jako kierowcę Talbota/Ligiera i
-opisywał jego centralną rolę w zespole, nie uzasadniał jednak dodatkowej
-charakterystyki stylu jazdy.
+opisywał jego centralną rolę w zespole.
 
 ## Gilles Villeneuve
 
@@ -123,8 +120,7 @@ zdobył 7 podiów. Styczniowy przegląd przedstawiał go jako kierowcę Ferrari.
 ## Derek Warwick
 
 Do końca 1981 roku zaliczył 1 start w Grand Prix i nie zdobył punktów.
-Styczniowy „Motor Sport” odnotowywał, że pozostaje w Tolemanie, lecz nie
-przytaczał jego osobistej prognozy.
+Styczniowy „Motor Sport” odnotowywał, że pozostaje w Tolemanie.
 
 ## Uwagi do źródeł
 
