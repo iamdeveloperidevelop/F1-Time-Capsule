@@ -107,10 +107,6 @@ the canonical race `sources.md` ledger needed to support this document. Use the
 canonical template and contract. Preserve all other race documents unchanged;
 do not generate `pre-race.md`, `post-race.md`, or standings.
 
-Apply the reader-facing presentation in `docs/methodology.md`. Keep raw IDs,
-ledger links, limitations, and audit status in sparse notes or the final
-`Uwagi do źródeł` section, not in the narrative.
-
 Run metadata, source, spoiler, contradiction, Polish-language, and repetition
 audits. Link to canonical season references and the previous standings snapshot
 instead of copying full biographies, histories, technical explanations, or

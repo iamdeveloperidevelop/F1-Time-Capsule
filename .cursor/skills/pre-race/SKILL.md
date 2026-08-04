@@ -99,17 +99,13 @@ Keep the brief concise and ready for a reader about to watch the race. Do not
 repeat full biographies, team histories, technology explanations, the entire
 `pre-weekend.md`, or full championship tables stored elsewhere.
 
-End the main narrative with the Polish heading:
+End the reader-facing document with the Polish heading:
 
 ```text
 CO MUSZĘ WIEDZIEĆ PRZED STARTEM
 ```
 
 and no more than 12 short points.
-
-Then add the final `Uwagi do źródeł` section required by the template. Apply
-the reader-facing presentation in `docs/methodology.md`: use sparse notes and
-keep raw IDs, ledger links, limitations, and audit status out of the narrative.
 
 Run metadata, source, spoiler, contradiction, Polish-language, and repetition
 audits. Advance statuses only when the actual results support them. Partial

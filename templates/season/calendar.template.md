@@ -25,9 +25,9 @@ last_verified: null
 
 ## Announced schedule
 
-| Round | Event | Announced timing | Status at cutoff |
-| ---: | --- | --- | --- |
-| [ROUND] | [GRAND PRIX] | [ANNOUNCED TIMING] | [STATUS] |
+| Round | Event | Announced timing | Status at cutoff | Source ID |
+| ---: | --- | --- | --- | --- |
+| [ROUND] | [GRAND PRIX] | [ANNOUNCED TIMING] | [STATUS] | [SOURCE ID] |
 
 ## Status notes
 
@@ -37,7 +37,6 @@ last_verified: null
 
 [CHANGES OR none]
 
-## Uwagi do źródeł
+## Source notes
 
-[ONE NOTE MAY COVER THE SCHEDULE TABLE OR A SOURCE FAMILY; PUT DIRECT
-CLAIM/SOURCE IDS, LOCATORS, LIMITATIONS, AND STATUS HERE]
+[SOURCE IDS AND LOCATORS]

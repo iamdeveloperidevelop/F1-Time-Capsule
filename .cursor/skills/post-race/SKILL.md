@@ -101,9 +101,6 @@ section, retirements and then-known causes, team and driver analysis, technical
 observations, immediate sporting and political consequences, attributed
 contemporary reactions, and unresolved issues. It may summarize major
 championship changes but must not duplicate complete standings tables.
-Apply the reader-facing presentation in `docs/methodology.md`: keep raw IDs,
-ledger links, limitations, and audit status in sparse notes or the final
-`Uwagi do źródeł` section, not in the narrative.
 
 `standings-after.md` is the sole canonical location for complete driver and
 constructor standings at this boundary. Calculate points using the historically

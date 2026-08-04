@@ -39,26 +39,6 @@ where prose is clearer. Explain a technical concept at its first meaningful
 appearance and refer to it concisely later. Use period units when useful and add
 a metric clarification where needed.
 
-## Reader-facing uncertainty presentation
-
-Keep narrative clean: raw claim, source, or uncertainty IDs, audit statuses,
-evidence mechanics, and repeated verification caveats do not belong inline.
-Preserve traceability and appropriate confidence with sparse Markdown footnotes
-or endnotes and the canonical source ledger:
-
-- place a note marker at the first affected passage, not on every sentence; one
-  note may cover a source family, table, or section;
-- keep source IDs, ledger links, detailed limitations, and audit status in
-  endnotes or the final `Uwagi do źródeł` section;
-- state material competing versions concisely in the prose when they affect the
-  reader's understanding;
-- do not turn a provisional report into fact: attribute it in the prose and use
-  an endnote for confidence or source limitations; and
-- omit unsupported detail when it is not essential.
-
-This presentation rule changes neither the evidence threshold nor the duty to
-preserve uncertainty. It separates editorial prose from verification records.
-
 ## Deduplication and navigation
 
 Each fact has one primary home:

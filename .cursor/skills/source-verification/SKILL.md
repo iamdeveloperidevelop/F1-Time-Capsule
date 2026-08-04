@@ -28,9 +28,6 @@ Read `docs/source-policy.md` and `docs/temporal-scope.md`. Use
    citation gaps.
 7. Compare conflicts and record the best-supported account without erasing
    uncertainty.
-8. Check reader-facing presentation against `docs/methodology.md`: traceability
-   remains in sparse notes and ledgers, while IDs, audit mechanics, and repeated
-   source caveats stay out of narrative.
 
 ## Prohibited behaviour
 
@@ -44,8 +41,7 @@ Read `docs/source-policy.md` and `docs/temporal-scope.md`. Use
 
 A claim-level verification matrix, unsupported/partially supported list,
 source-quality flags, date and cutoff issues, conflict findings, and overall
-source-status recommendation. Keep this audit output separate from narrative;
-reader-facing documents receive only the canonical notes and source section.
+source-status recommendation.
 
 ## Self-check
 
