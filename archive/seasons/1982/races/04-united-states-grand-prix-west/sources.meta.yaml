@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "race-source-ledger"
 event: "United States Grand Prix West"
-event_time: "[EVENT INTERVAL COVERED BY THIS LEDGER]"
-public_knowledge_time: "[WHEN THE LATEST RETAINED SOURCE INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[LATEST DOCUMENT CUTOFF THIS LEDGER CURRENTLY SUPPORTS]"
+event_time: "Ledger wspiera race-prelude do granicy bezpośrednio przed pierwszą oficjalną sesją Grand Prix Stanów Zjednoczonych Zachód w Long Beach (race day 4 kwietnia 1982)"
+public_knowledge_time: "Najpóźniejsze źródła użyte dla pre-weekend: Motor Sport May 1982 (izolowane pasaże o przyjeździe/układzie/entry; kwarantanna sesji); UPI 22 kwietnia 1982 tylko jako negatywny dowód chronologii FISA DSQ (poza reader-facing)"
+knowledge_cutoff: "Immediately before the first official session of the 1982 United States Grand Prix West weekend on the Long Beach street circuit, California (race day Sunday 4 April 1982). Best available marker: Friday 2 April 1982 morning official test session around 10:00 local time as reported in Motor Sport May 1982; exact official programme clock not independently verified. Does not include Long Beach session results or the later FISA exclusion of Piquet/Rosberg from Brazil."
 spoiler_scope:
   allowed:
-    - "[SOURCE METADATA AND CLAIM SUPPORT WITHIN THE SUPPORTED CUTOFF]"
+    - "Metadane źródeł i wsparcie twierdzeń w granicach cutoff pre-weekend"
   forbidden:
-    - "[LATER SOURCE CONTENT EXCEPT QUARANTINED RISK METADATA]"
+    - "Używanie wyników sesji Long Beach, późniejszego DSQ z Brazylii oraz spoilerów kolejnych rund jako faktów przy tej granicy"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
+research_status: "drafted"
+source_status: "partial"
 spoiler_audit_status: "not-run"
 last_verified: null

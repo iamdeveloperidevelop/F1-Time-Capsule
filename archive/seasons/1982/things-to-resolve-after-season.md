@@ -59,6 +59,24 @@ etapu bezpiecznego względem granicy wiedzy.
 | 1982-R03-TEC-01 | `races/03-brazilian-grand-prix/pre-weekend.md`, `sources.md` | Czy przed pierwszą sesją ogłoszono publicznie debiuty nowych samochodów na Rio (np. Lotus 91, Alfa 182, BT49D)? | Datowany komunikat zespołu lub preview ≤ cutoff. | open |
 | 1982-R03-WX-01 | `races/03-brazilian-grand-prix/pre-weekend.md` | Jaka datowana prognoza pogody dla weekendu w Rio była dostępna przed pierwszą oficjalną sesją? | Brazylijska prasa lub biuletyn pogodowy ≤ cutoff. | open |
 | 1982-R03-POL-01 | `races/03-brazilian-grand-prix/pre-weekend.md`, `sources.md` | Publiczny status apelacji kar z Kyalami względem granicy przed pierwszą sesją w Rio (kontynuacja `1982-R02-POL-01`). | Datowana depesza lub biuletyn ≤ cutoff. | open |
+| 1982-R03-PR-CUT-01 | `races/03-brazilian-grand-prix/pre-race.md`, `metadata.yaml`, `sources.md` | Oficjalna lokalna godzina startu GP Brazylii 21 marca 1982 (Autosport wskazuje oczekiwanie na 13:00). | Datowany oficjalny program / harmonogram wydarzenia. | open |
+| 1982-R03-PR-GRID-01 | `races/03-brazilian-grand-prix/pre-race.md`, `sources.md` | Oficjalna klasyfikacja kwalifikacji / dokument pola (obecnie F1.com / RSC / MS). | Biuletyn FIA/FISA lub oficjalny timing. | open |
+| 1982-R03-PR-WU-01 | `races/03-brazilian-grand-prix/pre-race.md`, `sources.md` | Pełne czasy / oficjalna klasyfikacja niedzielnej rozgrzewki. | Biuletyn timingowy przed startem. | open |
+| 1982-R03-PR-PEN-01 | `races/03-brazilian-grand-prix/pre-race.md` | Czy przed startem opublikowano biuletyn kar przesuwających pole? | Oficjalny biuletyn ≤ start. | open |
+| 1982-R03-PR-MODEL-01 | `races/03-brazilian-grand-prix/pre-race.md`, `sources.md` | Uzgodnienie oznaczeń podwozi (RE30B vs RE36B OCR; FW07C vs FW07D; ATS D5 vs D6). | Współczesny entry list / notes on the cars. | open |
+| 1982-R03-PO-RES-01 | `races/03-brazilian-grand-prix/post-race.md`, `standings-after.md`, `sources.md` | Klasyfikacja R03 oparta na MS/Autosport; brak oficjalnego wyniku lub biuletynu FIA; pełna lista poza top 6 niepełna. | Oficjalny wynik, komunikat lub biuletyn FIA/FISA. | open |
+| 1982-R03-PO-GAP-01 | `races/03-brazilian-grand-prix/post-race.md`, `sources.md` | Konflikt straty Rosberga: MS „just under 12 s” vs bazy ~9 s. | Oficjalny timing lub zgodna współczesna tabela. | open |
+| 1982-R03-PO-STEW-01 | `races/03-brazilian-grand-prix/post-race.md`, `sources.md` | Dokładna godzina i pełny tekst decyzji stewardów imprezy odrzucającej protest. | Biuletyn stewardów lub depesza z 21 marca 1982. | open |
+| 1982-R03-PO-ASN-01 | `races/03-brazilian-grand-prix/post-race.md` | Data publicznej decyzji ASN / późniejszego wykluczenia — poza cutoff post-race; do osobnej granicy. | Datowany komunikat ASN/FISA (nie backfill R03-PO). | open-deferred |
+| 1982-R04-PW-CUT-01 | `races/04-united-states-grand-prix-west/pre-weekend.md`, `metadata.yaml`, `sources.md` | Jaka była dokładna lokalna godzina (i oficjalny program) pierwszej oficjalnej sesji Long Beach 1982? MS May podaje 10:00 piątek. | Datowany oficjalny program lub lokalna prasa sprzed sesji. | open |
+| 1982-R04-PW-REU-01 | `races/04-united-states-grand-prix-west/pre-weekend.md`, `sources.md` | Datowany współczesny wire emerytury Reutemanna (dokładny dzień, cytaty, podane powody). | Depesza AP/UPI/NYT lub komunikat Williamsa ≤ pierwszej sesji LB. | open |
+| 1982-R04-PW-AND-01 | `races/04-united-states-grand-prix-west/pre-weekend.md`, `sources.md` | Współczesne ogłoszenie podpisu Andrettiego (data, cytaty). | Depesza lub komunikat Williamsa ≤ cutoff. | open |
+| 1982-R04-PW-JONES-01 | `races/04-united-states-grand-prix-west/pre-weekend.md` | Czy Jones dostał ofertę i odmówił Long Beach — źródło współczesne? | Datowana depesza ≤ cutoff. | open |
+| 1982-R04-PW-ASN-01 | `races/04-united-states-grand-prix-west/pre-weekend.md`, `sources.md` | Czy między 21 III a 2 IV 1982 ukazał się komunikat ASN Brazylii w sprawie protestu o masę? | Datowany biuletyn ASN ≤ cutoff. | open |
+| 1982-R04-PW-ENT-01 | `races/04-united-states-grand-prix-west/pre-weekend.md`, `sources.md` | Oficjalna lista zgłoszeń FOCA/FISA na Long Beach sprzed pierwszej sesji. | Datowany entry list ≤ cutoff. | open |
+| 1982-R04-PW-CIR-01 | `races/04-united-states-grand-prix-west/pre-weekend.md` | Oficjalna długość / mapa układu Long Beach 1982 (MS: „slightly longer”). | Program 1982 lub dane FISA. | open |
+| 1982-R04-PW-WX-01 | `races/04-united-states-grand-prix-west/pre-weekend.md` | Datowana prognoza pogody dla Long Beach przed pierwszą sesją. | Lokalna prasa / biuletyn pogodowy ≤ cutoff. | open |
+| 1982-R04-PW-DEV-01 | `races/04-united-states-grand-prix-west/pre-weekend.md`, `sources.md` | Czy między ≈22 III a 1 IV 1982 pojawiły się datowane dziennie nowe komunikaty F1 (apelacje, Hiszpania, PRDA)? | Depesze / biuletyny z tego przedziału. | open |
 
 ## Zasady późniejszego rozstrzygania
 

@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "standings-snapshot"
 event: "Brazilian Grand Prix"
-event_time: "[POST-RACE CLASSIFICATION BOUNDARY]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[SAME POST-RACE CUTOFF AS THE SUPPORTED SNAPSHOT]"
+event_time: "Natychmiastowa klasyfikacja po Grand Prix Brazylii 21 marca 1982: kolejność na mecie i punkty po odrzuceniu protestu przez stewardów imprezy"
+public_knowledge_time: "Punkty i kolejność 1–6 z relacji Motor Sport April 1982 i Autosportu; arytmetyka od stanu po pustej Argentynie; protest/status prowizoryczny z Autosportu"
+knowledge_cutoff: "End of the immediate official post-race process at Jacarepaguá on Sunday 21 March 1982: chequered flag, provisional finishing order and podium (including Piquet's collapse), then-known retirement causes, and the same-day Ferrari/Renault protest against the first two cars together with the stewards of the meeting's rejection of that protest and referral to the Brazilian ASN (presumed further appeal path). Does not include any subsequent ASN, FISA, or FIA Court of Appeal exclusion of Piquet or Rosberg, any reclassification awarding victory to Prost, Long Beach weekend developments, or later championship arithmetic based on a DSQ"
 spoiler_scope:
   allowed:
-    - "[CLASSIFICATIONS, POINTS, AND DECISIONS OFFICIAL BY THE CUTOFF]"
+    - "Punkty i klasyfikacje ważne przy cutoff (kolejność na mecie po odrzuceniu protestu stewardów)"
   forbidden:
-    - "[LATER CORRECTIONS, APPEALS, RULINGS, AND FUTURE ROUNDS]"
+    - "Późniejsze korekty, wykluczenia, apelacje zmieniające wynik Rio, przyszłe rundy"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-05"

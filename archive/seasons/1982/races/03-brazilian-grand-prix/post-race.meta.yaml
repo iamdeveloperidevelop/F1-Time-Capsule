@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "post-race-report"
 event: "Brazilian Grand Prix"
-event_time: "[RACE AND INCLUDED IMMEDIATE OFFICIAL PROCESS]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[END OF THE IMMEDIATE OFFICIAL PROCESS DEFINED IN metadata.yaml]"
+event_time: "Wyścig Grand Prix Brazylii w Jacarepaguá / Autódromo Riocentro, niedziela 21 marca 1982 (63 okrążenia), podium oraz natychmiastowy protest Ferrari/Renault z decyzją stewardów imprezy"
+public_knowledge_time: "Wynik na mecie, przebieg i podium znane z relacji Motor Sport April 1982 (A.H.) oraz współczesnego korpusu raportu Autosportu (reprint Grand Prix Gold); protest i odrzucenie przez stewardów — z zamknięcia relacji Autosportu; publication_date numeru MS po imprezie"
+knowledge_cutoff: "End of the immediate official post-race process at Jacarepaguá on Sunday 21 March 1982: chequered flag, provisional finishing order and podium (including Piquet's collapse), then-known retirement causes, and the same-day Ferrari/Renault protest against the first two cars together with the stewards of the meeting's rejection of that protest and referral to the Brazilian ASN (presumed further appeal path). Does not include any subsequent ASN, FISA, or FIA Court of Appeal exclusion of Piquet or Rosberg, any reclassification awarding victory to Prost, Long Beach weekend developments, or later championship arithmetic based on a DSQ"
 spoiler_scope:
   allowed:
-    - "[RACE AND IMMEDIATE CONSEQUENCES PUBLIC BY THE CUTOFF]"
+    - "Przebieg wyścigu, klasyfikacja na mecie, punkty prowizoryczne, podium, natychmiastowy protest i odrzucenie przez stewardów imprezy, otwarta ścieżka ASN"
   forbidden:
-    - "[NEXT-WEEKEND INFORMATION, LATER RULINGS, AND SEASON HINDSIGHT]"
+    - "Późniejsze wykluczenie Piqueta/Rosberga, reklasyfikacja z Prostiem jako zwycięzcą, Long Beach, San Marino/FOCA boycott, odejście Reutemanna, hindsight sezonu"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-05"

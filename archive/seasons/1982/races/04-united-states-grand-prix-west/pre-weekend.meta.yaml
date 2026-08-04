@@ -1,16 +1,19 @@
 season: "1982"
 document_type: "race-prelude"
 event: "United States Grand Prix West"
-event_time: "[PRE-WEEKEND CONTEXT INTERVAL]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+event_time: "Okres przedweekendowy Grand Prix Stanów Zjednoczonych Zachód w Long Beach, Kalifornia, wokół niedzieli 4 kwietnia 1982; przed pierwszą oficjalną sesją weekendu"
+public_knowledge_time: "Najpóźniejsze wykorzystane źródła przed sesjami: stan po GP Brazylii 21 marca 1982 (klasyfikacja prowizoryczna, protest/stewardzi); marcowy Motor Sport (Formula One Scene / Transvaal / Notes — publication_date dnia unknown; content-based availability); kwietniowy Motor Sport (relacja z Brazylii — kontekst sporu o masę); majowy Motor Sport (pasaże o przyjeździe do Long Beach, emeryturze Reutemanna, Andrettim, przebudowie toru i planowanej procedurze — izolowane od wyników sesji; publication_date dnia unknown)"
+knowledge_cutoff: "Immediately before the first official session of the 1982 United States Grand Prix West weekend on the Long Beach street circuit, California (race day Sunday 4 April 1982). Best available marker for that session start: Friday 2 April 1982 morning official test session around 10:00 local time as reported in Motor Sport May 1982; exact official programme clock not independently verified. After the Brazilian GP of 21 March 1982 and the open ASN appeal path on the water/weight protest; before any official practice, qualifying, grid, or race result from Long Beach. Does not include the later FISA Appeals Tribunal exclusion of Piquet or Rosberg from Brazil (publicly tied to circa 19–20 April 1982)."
 spoiler_scope:
   allowed:
-    - "[PREVIOUS STANDINGS AND DEVELOPMENTS PUBLIC BEFORE THE WEEKEND]"
+    - "Prowizoryczna klasyfikacja po Brazylii, rozwój publiczny do granicy przed pierwszą sesją w Long Beach (w tym emerytura Reutemanna i Andretti w Williamsie), przebudowa toru znana przy przyjeździe, przypisane oczekiwania prasowe sprzed sesji"
   forbidden:
-    - "[ALL INFORMATION FROM THE FIRST OFFICIAL SESSION ONWARD]"
+    - "Wszelkie oficjalne sesje, kwalifikacje, pole startowe, przebieg i wyniki Grand Prix Stanów Zjednoczonych Zachód 1982 oraz późniejszych rund"
+    - "Werdykt FISA / Court of Appeal wykluczający Piqueta i Rosberga z Brazylii oraz reklasyfikacja z Prostiem jako zwycięzcą"
+    - "Pomiary i oceny z treningów/kwalifikacji Long Beach (czasy, kto odpadł w prekwalifikacji, skrzydło Ferrari z soboty itd.)"
+    - "Retrospektywne wiązanie emerytury Reutemanna z Falklandami jako ustalony motyw"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
+research_status: "drafted"
+source_status: "partial"
 spoiler_audit_status: "not-run"
 last_verified: null

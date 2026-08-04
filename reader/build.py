@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import shutil
 from dataclasses import dataclass, field
@@ -302,6 +303,117 @@ def render_markdown(text: str, *, season: str, current_dir: str, base: str) -> s
     return converter.convert(text)
 
 
+READER_JS = r"""
+(function () {
+  var STORAGE_KEY = "f1tc-reading-progress-v1";
+
+  function withBase(href, base) {
+    var b = base || "/";
+    if (!b.endsWith("/")) b += "/";
+    return b + String(href || "").replace(/^\//, "");
+  }
+
+  function loadProgress() {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function saveProgress(href) {
+    if (!href) return;
+    try {
+      localStorage.setItem(
+        STORAGE_KEY,
+        JSON.stringify({ lastHref: href, updatedAt: new Date().toISOString() })
+      );
+    } catch (e) {}
+  }
+
+  function readingOrder() {
+    var el = document.getElementById("reading-order");
+    if (!el) return [];
+    try {
+      var data = JSON.parse(el.textContent || "{}");
+      return Array.isArray(data.order) ? data.order : [];
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function siteBase() {
+    var el = document.getElementById("reading-order");
+    if (!el) return document.body.getAttribute("data-base") || "/";
+    try {
+      return JSON.parse(el.textContent || "{}").base || "/";
+    } catch (e) {
+      return "/";
+    }
+  }
+
+  function findContinueTarget(order, lastHref) {
+    if (!order.length) return null;
+    if (!lastHref) {
+      return { doc: order[0], mode: "start" };
+    }
+    var idx = -1;
+    for (var i = 0; i < order.length; i++) {
+      if (order[i].href === lastHref) {
+        idx = i;
+        break;
+      }
+    }
+    if (idx < 0) return { doc: order[0], mode: "start" };
+    if (idx + 1 < order.length) {
+      return { doc: order[idx + 1], mode: "next", previous: order[idx] };
+    }
+    return { doc: order[idx], mode: "caught-up", previous: order[idx] };
+  }
+
+  function labelFor(target) {
+    if (!target || !target.doc) return "Czytaj";
+    var name = target.doc.label || target.doc.title || "dokument";
+    if (target.mode === "start") return "Zacznij czytanie · " + name;
+    if (target.mode === "next") return "Czytaj dalej · " + name;
+    return "Jesteś na bieżąco · " + name;
+  }
+
+  var tracked = document.body.getAttribute("data-track-href");
+  if (tracked) saveProgress(tracked);
+
+  var order = readingOrder();
+  var base = siteBase();
+  var progress = loadProgress();
+  var lastHref = progress && progress.lastHref ? progress.lastHref : null;
+  var target = findContinueTarget(order, lastHref);
+
+  document.querySelectorAll("[data-continue-reading]").forEach(function (btn) {
+    if (!target) {
+      btn.hidden = true;
+      return;
+    }
+    btn.hidden = false;
+    btn.setAttribute("href", withBase(target.doc.href, base));
+    btn.textContent = labelFor(target);
+  });
+
+  var note = document.querySelector("[data-reading-note]");
+  if (note) {
+    if (!lastHref) {
+      note.textContent = "Nie masz jeszcze zapisanego postępu — start od pierwszego dokumentu.";
+    } else if (target && target.mode === "next") {
+      note.textContent = "Ostatnio: " + (target.previous.title || target.previous.label) + ".";
+    } else if (target && target.mode === "caught-up") {
+      note.textContent = "Przeczytałeś wszystkie obecnie dostępne dokumenty.";
+    } else {
+      note.textContent = "";
+    }
+  }
+})();
+"""
+
+
 CSS = r"""
 :root {
   --ink: #1a2332;
@@ -361,6 +473,7 @@ a:hover{color:var(--accent-soft)}
 .btn.secondary:hover{background:var(--paper-deep);color:var(--ink)}
 .state-card{margin-top:2rem;padding:1.1rem 1.25rem;border:1px solid var(--rule);border-radius:.85rem;background:rgba(255,255,255,.45);box-shadow:var(--shadow);max-width:36rem}
 .state-card strong{display:block;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ok);margin-bottom:.35rem}
+.btn[hidden]{display:none !important}
 .article-wrap{max-width:calc(var(--measure) + 2rem)}
 .doc-kicker{font-size:.78rem;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:.5rem}
 .article{font-family:var(--serif);font-size:1.125rem;line-height:1.7}
@@ -401,6 +514,8 @@ def page_shell(
     base: str,
     season: Season | None = None,
     current_href: str | None = None,
+    track_href: str | None = None,
+    reading_manifest: dict | None = None,
 ) -> str:
     rail = ['<a class="brand" href="' + with_base("/", base) + '">F1 Time Capsule</a>',
             '<div class="brand-sub">Archiwum bez spoilerów</div>']
@@ -442,10 +557,16 @@ def page_shell(
         )
 
     css_href = with_base("/assets/styles.css", base)
+    js_href = with_base("/assets/reader.js", base)
     fonts = (
         "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400"
         "&family=Fraunces:opsz,wght@9..144,500;9..144,650&family=IBM+Plex+Mono:wght@400;500&display=swap"
     )
+    manifest = reading_manifest or {"base": base, "order": []}
+    manifest_json = json.dumps(manifest, ensure_ascii=False).replace("<", "\\u003c")
+    track_attr = f' data-track-href="{escape(track_href)}"' if track_href else ""
+    body_attrs = f'data-base="{escape(base)}"{track_attr}'
+
     return f"""<!doctype html>
 <html lang="pl">
 <head>
@@ -458,14 +579,27 @@ def page_shell(
   <link href="{fonts}" rel="stylesheet" />
   <link rel="stylesheet" href="{escape(css_href)}" />
 </head>
-<body>
+<body {body_attrs}>
+  <script type="application/json" id="reading-order">{manifest_json}</script>
   <div class="site-shell">
     <aside class="rail">{"".join(rail)}</aside>
     <main class="main">{body}</main>
   </div>
+  <script src="{escape(js_href)}" defer></script>
 </body>
 </html>
 """
+
+
+def reading_manifest_for(season: Season, base: str) -> dict:
+    return {
+        "base": base if base.endswith("/") else base + "/",
+        "order": [
+            {"href": d.href, "title": d.title, "label": d.label}
+            for d in season.reading_order
+            if d.unlocked
+        ],
+    }
 
 
 def write(path: Path, content: str) -> None:
@@ -497,38 +631,41 @@ def pager_html(prev: Doc | None, nxt: Doc | None, base: str) -> str:
 
 
 def render_home(state: dict, season: Season, base: str) -> str:
-    continue_doc = next(
-        (d for d in season.reading_order if d.rel_path == state.get("last_completed_document")),
-        None,
-    ) or next((d for d in season.reading_order if d.unlocked), None)
-    ctas = []
-    if continue_doc:
-        ctas.append(
-            f'<a class="btn" href="{escape(with_base(continue_doc.href, base))}">Czytaj dalej · {escape(continue_doc.label)}</a>'
-        )
-    ctas.append(
-        f'<a class="btn secondary" href="{escape(with_base(f"/seasons/{season.season}/", base))}">Spis sezonu {escape(season.season)}</a>'
-    )
+    first = next((d for d in season.reading_order if d.unlocked), None)
+    fallback_href = with_base(first.href, base) if first else with_base(f"/seasons/{season.season}/", base)
+    fallback_label = f"Zacznij czytanie · {first.label}" if first else "Spis sezonu"
     body = f"""
 <section class="hero">
   <h1>F1 Time Capsule</h1>
   <p>Czytaj Formułę 1 rundę po rundzie — tylko to, co dało się wiedzieć w danym momencie. Bez wyników z przyszłości, bez retrospektywnego „wiadomo było”.</p>
-  <div class="cta-row">{"".join(ctas)}</div>
+  <div class="cta-row">
+    <a class="btn" data-continue-reading href="{escape(fallback_href)}">{escape(fallback_label)}</a>
+    <a class="btn secondary" href="{escape(with_base(f"/seasons/{season.season}/", base))}">Spis sezonu {escape(season.season)}</a>
+  </div>
   <div class="state-card">
-    <strong>Aktualny punkt archiwum</strong>
-    Sezon {escape(str(state.get("active_season")))}, runda {escape(str(state.get("active_round")))}, etap <code>{escape(str(state.get("current_stage")))}</code>.
-    <div class="muted" style="margin-top:.55rem;font-size:.92rem">Ostatni ukończony dokument: {escape(str(state.get("last_completed_document")))}</div>
+    <strong>Twój postęp czytania</strong>
+    <div data-reading-note>Ładowanie postępu…</div>
+    <div class="muted" style="margin-top:.55rem;font-size:.92rem">Zapisywane lokalnie w tej przeglądarce (localStorage), nie w stanie archiwum.</div>
   </div>
 </section>
 """
-    return page_shell(title="F1 Time Capsule", body=body, base=base)
+    return page_shell(
+        title="F1 Time Capsule",
+        body=body,
+        base=base,
+        reading_manifest=reading_manifest_for(season, base),
+    )
 
 
 def render_season_index(season: Season, base: str) -> str:
-    prelude = next((d for d in season.season_docs if d.kind == "season-prelude"), None)
+    first = next((d for d in season.reading_order if d.unlocked), None)
     cta = ""
-    if prelude and prelude.unlocked:
-        cta = f'<div class="cta-row"><a class="btn" href="{escape(with_base(prelude.href, base))}">Zacznij od preludium</a></div>'
+    if first:
+        cta = (
+            f'<div class="cta-row">'
+            f'<a class="btn" data-continue-reading href="{escape(with_base(first.href, base))}">'
+            f"Zacznij czytanie · {escape(first.label)}</a></div>"
+        )
 
     season_cards = []
     for doc in season.season_docs:
@@ -544,11 +681,11 @@ def render_season_index(season: Season, base: str) -> str:
 
     race_cards = []
     for race in season.races:
-        first = next((d for d in race.docs if d.unlocked), None)
+        first_open = next((d for d in race.docs if d.unlocked), None)
         open_count = sum(1 for d in race.docs if d.unlocked)
-        if first:
+        if first_open:
             race_cards.append(
-                f'<a class="card" href="{escape(with_base(first.href, base))}"><div class="meta">Runda {escape(race.round)}</div><h3>{escape(race.event_name)}</h3><p>{open_count} dostępne</p><span class="badge">czytaj</span></a>'
+                f'<a class="card" href="{escape(with_base(first_open.href, base))}"><div class="meta">Runda {escape(race.round)}</div><h3>{escape(race.event_name)}</h3><p>{open_count} dostępne</p><span class="badge">czytaj</span></a>'
             )
         else:
             race_cards.append(
@@ -558,7 +695,7 @@ def render_season_index(season: Season, base: str) -> str:
     body = f"""
 <section class="hero" style="padding-top:.5rem">
   <h1>Sezon {escape(season.season)}</h1>
-  <p>Czytaj w kolejności historycznej albo skacz po dokumentach już odblokowanych względem stanu archiwum.</p>
+  <p>Czytaj w kolejności historycznej. „Czytaj dalej” pamięta ostatni dokument w tej przeglądarce.</p>
   {cta}
 </section>
 <h2 class="section-title">Dokumenty sezonu</h2>
@@ -571,10 +708,12 @@ def render_season_index(season: Season, base: str) -> str:
         body=body,
         base=base,
         season=season,
+        reading_manifest=reading_manifest_for(season, base),
     )
 
 
 def render_doc(season: Season, doc: Doc, *, kicker: str, base: str) -> str:
+    manifest = reading_manifest_for(season, base)
     if not doc.unlocked:
         body = f"""
 <div class="locked-panel">
@@ -589,6 +728,7 @@ def render_doc(season: Season, doc: Doc, *, kicker: str, base: str) -> str:
             base=base,
             season=season,
             current_href=doc.href,
+            reading_manifest=manifest,
         )
 
     text = doc.file_path.read_text(encoding="utf-8")
@@ -608,6 +748,8 @@ def render_doc(season: Season, doc: Doc, *, kicker: str, base: str) -> str:
         base=base,
         season=season,
         current_href=doc.href,
+        track_href=doc.href,
+        reading_manifest=manifest,
     )
 
 
@@ -616,6 +758,7 @@ def build(base: str = "/") -> None:
         shutil.rmtree(OUT_DIR)
     OUT_DIR.mkdir(parents=True)
     write(OUT_DIR / "assets" / "styles.css", CSS)
+    write(OUT_DIR / "assets" / "reader.js", READER_JS)
 
     state = load_state()
     seasons = []

@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "pre-start-weekend-brief"
 event: "Brazilian Grand Prix"
-event_time: "[OFFICIAL PRE-RACE SESSIONS AND PRE-START MOMENT]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
+event_time: "Ukończone sesje przedwyścigowe (trening, kwalifikacje, rozgrzewka) i chwila bezpośrednio przed startem Grand Prix Brazylii, Autódromo Riocentro / Jacarepaguá, niedziela 21 marca 1982"
+public_knowledge_time: "Informacje o sesjach, polu i warunkach dostępne przed startem; główna relacja Motor Sport April 1982 oraz współczesny raport Autosportu (reprint Grand Prix Gold) opisują je retrospektywnie względem publikacji, lecz użyte treści dotyczą stanu przed startem; tabele czasów z archiwów F1.com / Racing Sports Cars / STATS F1 jako prowizoryczne rekonstrukcje"
+knowledge_cutoff: "Immediately before the scheduled start of the Brazilian Grand Prix at Jacarepaguá / Autódromo Riocentro, Rio de Janeiro, Sunday 21 March 1982; contemporary Autosport reporting associates the grid wait with 13:00 local, exact official clock unverified; before formation-lap developments after that boundary, race events, results, and post-race protests or rulings"
 spoiler_scope:
   allowed:
-    - "[COMPLETED PRE-RACE SESSIONS AND CONFIRMED PRE-START INFORMATION]"
+    - "Ukończone treningi i kwalifikacje, pole startowe, DNQ/DNPQ, rozgrzewka, warunki i informacje publiczne przed startem, w tym otwarty spór o wodę/balast i zapowiedź protestu Ferrari/Renault"
   forbidden:
-    - "[THE RACE START, RACE EVENTS, RESULTS, AND ALL LATER KNOWLEDGE]"
+    - "Start wyścigu, przebieg, wyniki, wycofania po starcie, dyskwalifikacje i werdykty protestu wagowego oraz późniejsze rundy"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-05"

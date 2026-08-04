@@ -5,7 +5,7 @@ event: "United States Grand Prix West"
 event_slug: "united-states-grand-prix-west"
 race_directory: "archive/seasons/1982/races/04-united-states-grand-prix-west"
 cutoffs:
-  pre_weekend: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+  pre_weekend: "Immediately before the first official session of the 1982 United States Grand Prix West weekend on the Long Beach street circuit, California (race day Sunday 4 April 1982). Best available marker: Friday 2 April 1982 morning official test session around 10:00 local time as reported in Motor Sport May 1982; exact official programme clock not independently verified. After the Brazilian GP of 21 March 1982 and the open ASN appeal path on the water/weight protest; before any official practice, qualifying, grid, or race result from Long Beach. Does not include the later FISA Appeals Tribunal exclusion of Piquet or Rosberg from Brazil."
   pre_race: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
   post_race: "[END OF THE INCLUDED IMMEDIATE OFFICIAL POST-RACE PROCESS]"
 immediate_official_post_race_process: "[PRECISE INCLUDED PROCEDURES AND END BOUNDARY]"

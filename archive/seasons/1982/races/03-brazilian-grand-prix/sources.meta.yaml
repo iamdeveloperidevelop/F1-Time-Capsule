@@ -1,14 +1,14 @@
 season: "1982"
 document_type: "race-source-ledger"
 event: "Brazilian Grand Prix"
-event_time: "Ledger obecnie wspiera race-prelude przed pierwszą oficjalną sesją Grand Prix Brazylii 1982 w Rio / Jacarepaguá (dzień wyścigu 21 marca 1982)"
-public_knowledge_time: "Najpóźniejsze zachowane źródła użyte dla pre-weekend: AP/NYT 10 lutego 1982; marcowy Motor Sport (dzień publikacji unknown; content-based availability); kontekst toru Motor Sport 1978-03 i 1981-05"
-knowledge_cutoff: "Immediately before the first official session of the Brazilian Grand Prix weekend at Jacarepaguá / Autódromo Riocentro, Rio de Janeiro, March 1982 (race day Sunday 21 March 1982); exact local clock of the first official session unknown; after the empty Argentine calendar slot of Sunday 7 March 1982; before any official practice, qualifying, grid, or race result from Brazil"
+event_time: "Ledger wspiera race-prelude, pre-start weekend brief oraz post-race / standings-after do natychmiastowego procesu po GP Brazylii 21 marca 1982 (wynik na mecie, protest, odrzucenie przez stewardów imprezy)"
+public_knowledge_time: "Najpóźniejsze źródła użyte dla post-race: Motor Sport April 1982 (relacja A.H.); Autosport contemporary report (reprint Grand Prix Gold; korpus do protestu/stewardów; kwarantanna kursywy DSQ 2012); GPR-1982-R03 tylko izolowane absoluty czasów"
+knowledge_cutoff: "End of the immediate official post-race process at Jacarepaguá on Sunday 21 March 1982: chequered flag, provisional finishing order and podium (including Piquet's collapse), then-known retirement causes, and the same-day Ferrari/Renault protest against the first two cars together with the stewards of the meeting's rejection of that protest and referral to the Brazilian ASN (presumed further appeal path). Does not include any subsequent ASN, FISA, or FIA Court of Appeal exclusion of Piquet or Rosberg, any reclassification awarding victory to Prost, Long Beach weekend developments, or later championship arithmetic based on a DSQ"
 spoiler_scope:
   allowed:
-    - "Metadane źródeł i wsparcie twierdzeń w granicach cutoff pre-weekend"
+    - "Metadane źródeł i wsparcie twierdzeń w granicach cutoff pre-weekend, pre-race oraz post-race (wynik na mecie + protest/stewardzi)"
   forbidden:
-    - "Treść źródeł późniejszych niż cutoff poza rekordami kwarantanny (MS-APR1982-BRA)"
+    - "Używanie późniejszego wykluczenia Piqueta/Rosberga, reklasyfikacji z Prostiem jako zwycięzcą, tabel mistrzostw po DSQ oraz spoilerów kolejnych rund jako faktów przy tej granicy"
 content_language: "pl"
 research_status: "drafted"
 source_status: "partial"

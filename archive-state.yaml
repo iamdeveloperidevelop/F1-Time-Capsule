@@ -1,10 +1,10 @@
 schema_version: 1
 active_season: 1982
-active_round: "03"
-current_stage: "pre-weekend"
-knowledge_cutoff: "Immediately before the first official session of the Brazilian Grand Prix weekend at Jacarepaguá / Autódromo Riocentro, Rio de Janeiro, March 1982 (race day Sunday 21 March 1982); exact local clock of the first official session unknown; after the empty Argentine calendar slot of Sunday 7 March 1982; before any official practice, qualifying, grid, or race result from Brazil"
-last_completed_document: "archive/seasons/1982/races/03-brazilian-grand-prix/pre-weekend.md"
-next_allowed_action: "/pre-race 1982 03"
+active_round: "04"
+current_stage: "post-race"
+knowledge_cutoff: "End of the immediate official post-race process at Jacarepaguá on Sunday 21 March 1982: chequered flag, provisional finishing order and podium (including Piquet's collapse), then-known retirement causes, and the same-day Ferrari/Renault protest against the first two cars together with the stewards of the meeting's rejection of that protest and referral to the Brazilian ASN (presumed further appeal path). Does not include any subsequent ASN, FISA, or FIA Court of Appeal exclusion of Piquet or Rosberg, any reclassification awarding victory to Prost, Long Beach weekend developments, or later championship arithmetic based on a DSQ"
+last_completed_document: "archive/seasons/1982/races/03-brazilian-grand-prix/post-race.md"
+next_allowed_action: "/pre-weekend 1982 04"
 allowed_stages:
   - "uninitialized"
   - "season-prelude"
