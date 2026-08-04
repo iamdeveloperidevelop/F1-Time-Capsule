@@ -84,15 +84,15 @@ dlatego tekst nie przedstawia oczekiwań meteorologicznych.
 ## Uwagi do źródeł
 
 [^granica]: Zachowane źródła nie potwierdzają niezależnie daty ani godziny
-    przyjętej granicy. Rozbieżność daty i formatu wraz z potrzebnym dowodem
-    pozostaje w [rejestrze kwestii](../../../things-to-resolve-after-season.md#1982-r01-cut-02).
+    przyjętej granicy. Rozbieżność daty i formatu pozostaje nierozstrzygnięta.
 
 [^upi]: Depesze UPI potwierdzają jedynie dokładnie przypisane im informacje:
     miejsce w ogłoszonym harmonogramie, opis toru i kontekst z 1981 roku, dwa
     ogłoszone składy oraz wypowiedzi Laudy i Franka Williamsa. Nie rozstrzygają
     parametrów Kyalami na 1982 rok, prognozy pogody ani politycznego kontekstu
-    tego wydarzenia. Szczegóły i zakres każdego zapisu zawiera
-    [rejestr źródeł](sources.md), a otwarte pytania — [rejestr
-    kwestii](../../../things-to-resolve-after-season.md#otwarte-pozycje).
+    tego wydarzenia.
 
-Status audytu spoilerów: `passed`. Status źródeł: `partial`.
+Szczegóły i zakres zapisów zawiera [rejestr źródeł](sources.md), a otwarte
+pytania — [rejestr
+kwestii](../../../things-to-resolve-after-season.md#otwarte-pozycje). Status
+audytu spoilerów: `passed`. Status źródeł: `partial`.
