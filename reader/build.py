@@ -412,10 +412,11 @@ CSS = r"""
   --rail: 16rem;
 }
 *,*::before,*::after{box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;color-scheme:only light;background-color:var(--paper)}
 body{
   margin:0;min-height:100vh;font-family:var(--sans);color:var(--ink);line-height:1.55;
-  background:
+  background-color:var(--paper);
+  background-image:
     radial-gradient(1200px 600px at 10% -10%, rgba(180,35,24,.08), transparent 55%),
     radial-gradient(900px 500px at 100% 0%, rgba(31,107,74,.07), transparent 50%),
     linear-gradient(180deg,#f7f5f0 0%,var(--paper) 40%,#ebe7de 100%);
@@ -425,12 +426,23 @@ a:hover{color:var(--accent-soft)}
 .site-shell{display:grid;grid-template-columns:var(--rail) minmax(0,1fr);min-height:100vh}
 .rail{
   position:sticky;top:0;align-self:start;height:100vh;padding:1.5rem 1.1rem 2rem;
-  border-right:1px solid var(--rule);background:rgba(243,241,235,.82);
+  border-right:1px solid var(--rule);background:rgba(243,241,235,.92);
   backdrop-filter:blur(10px);overflow:auto
 }
 .brand{display:block;font-family:var(--serif);font-weight:600;font-size:1.35rem;line-height:1.15;color:var(--ink);text-decoration:none;letter-spacing:-.02em;margin-bottom:.35rem}
 .brand:hover{color:var(--accent)}
 .brand-sub{font-size:.78rem;color:var(--ink-soft);margin-bottom:1.5rem}
+.nav-toggle{position:absolute;opacity:0;pointer-events:none;width:0;height:0}
+.nav-toggle-label{
+  display:none;align-items:center;justify-content:space-between;gap:.75rem;
+  width:100%;margin:0 0 .75rem;padding:.65rem .85rem;border:1px solid var(--rule);
+  border-radius:.55rem;background:rgba(255,255,255,.65);color:var(--ink);
+  font:inherit;font-weight:600;font-size:.92rem;cursor:pointer
+}
+.nav-toggle-label::after{content:"Spis";font-size:.78rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft)}
+.nav-toggle:focus-visible + .nav-toggle-label{outline:2px solid var(--accent);outline-offset:2px}
+.nav-toggle:checked + .nav-toggle-label::after{content:"Zamknij"}
+.rail-body{min-width:0}
 .rail-label{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);margin:1.25rem 0 .5rem}
 .rail nav a,.rail nav .locked{
   display:block;padding:.28rem .4rem;margin:0 -.4rem;border-radius:.35rem;color:var(--ink);text-decoration:none;font-size:.92rem
@@ -438,7 +450,7 @@ a:hover{color:var(--accent-soft)}
 .rail nav a:hover,.rail nav a[aria-current="page"]{background:var(--paper-deep);color:var(--accent)}
 .rail nav .locked{color:var(--lock)}
 .rail .round{margin-top:.85rem;font-size:.78rem;font-weight:600;color:var(--ink-soft)}
-.main{padding:2rem clamp(1.25rem,4vw,3.5rem) 4rem}
+.main{padding:2rem clamp(1.25rem,4vw,3.5rem) 4rem;min-width:0;color:var(--ink)}
 .hero{max-width:48rem;padding:2.5rem 0 2rem}
 .hero h1{font-family:var(--serif);font-size:clamp(2.4rem,5vw,3.8rem);line-height:1.05;letter-spacing:-.03em;margin:0 0 .75rem}
 .hero p{font-size:1.1rem;color:var(--ink-soft);max-width:34rem;margin:0 0 1.5rem}
@@ -482,7 +494,25 @@ a:hover{color:var(--accent-soft)}
 .badge.locked{background:#ece8ef;color:var(--lock)}
 .section-title{font-family:var(--serif);font-size:1.8rem;margin:2.5rem 0 .4rem}
 .muted{color:var(--ink-soft)}
-@media (max-width:900px){.site-shell{grid-template-columns:1fr}.rail{position:relative;height:auto;border-right:0;border-bottom:1px solid var(--rule)}}
+@media (max-width:900px){
+  .site-shell{grid-template-columns:1fr}
+  .rail{
+    position:sticky;top:0;z-index:20;height:auto;max-height:none;overflow:visible;
+    border-right:0;border-bottom:1px solid var(--rule);padding:0.85rem 1rem
+  }
+  .brand{font-size:1.15rem;margin-bottom:.15rem}
+  .brand-sub{margin-bottom:.65rem}
+  .nav-toggle-label{display:flex}
+  .rail-body{
+    display:none;margin:0 0 .35rem;padding:.35rem 0 .5rem;
+    max-height:min(70vh,32rem);overflow:auto;-webkit-overflow-scrolling:touch
+  }
+  .nav-toggle:checked ~ .rail-body{display:block}
+  .main{padding:1.25rem 1.1rem 3rem}
+  .hero{padding:1rem 0 1.25rem}
+  .hero h1{font-size:clamp(1.9rem,8vw,2.8rem)}
+  .article{font-size:1.05rem}
+}
 """
 
 
@@ -496,46 +526,65 @@ def page_shell(
     track_href: str | None = None,
     reading_manifest: dict | None = None,
 ) -> str:
-    rail = ['<a class="brand" href="' + with_base("/", base) + '">F1 Time Capsule</a>',
-            '<div class="brand-sub">Archiwum bez spoilerów</div>']
+    header = [
+        '<a class="brand" href="' + with_base("/", base) + '">F1 Time Capsule</a>',
+        '<div class="brand-sub">Archiwum bez spoilerów</div>',
+    ]
+    nav_parts: list[str] = []
 
     if season:
-        rail.append(f'<div class="rail-label">Sezon {escape(season.season)}</div><nav>')
+        nav_parts.append(f'<div class="rail-label">Sezon {escape(season.season)}</div><nav>')
         for doc in season.season_docs:
             if doc.kind != "season-prelude" and not doc.unlocked:
                 continue
             if doc.unlocked:
                 cur = ' aria-current="page"' if doc.href == current_href else ""
-                rail.append(
+                nav_parts.append(
                     f'<a href="{escape(with_base(doc.href, base))}"{cur}>{escape(doc.label)}</a>'
                 )
             else:
-                rail.append(f'<span class="locked">{escape(doc.label)} · wkrótce</span>')
-        rail.append("</nav>")
-        rail.append('<div class="rail-label">Rundy</div><nav>')
+                nav_parts.append(f'<span class="locked">{escape(doc.label)} · wkrótce</span>')
+        nav_parts.append("</nav>")
+        nav_parts.append('<div class="rail-label">Rundy</div><nav>')
+        remaining_locked = 0
         for race in season.races:
-            rail.append(f'<div class="round">{escape(race.round)} · {escape(race.event_name)}</div>')
-            shown = False
-            for doc in race.docs:
-                if doc.unlocked:
-                    cur = ' aria-current="page"' if doc.href == current_href else ""
-                    rail.append(
-                        f'<a href="{escape(with_base(doc.href, base))}"{cur}>{escape(doc.label)}</a>'
-                    )
-                    shown = True
-                else:
-                    rail.append(f'<span class="locked">{escape(doc.label)} · wkrótce</span>')
-                    shown = True
-            if not shown:
-                rail.append('<span class="locked">jeszcze niepisane</span>')
-        rail.append("</nav>")
+            unlocked_docs = [doc for doc in race.docs if doc.unlocked]
+            if not unlocked_docs:
+                remaining_locked += 1
+                continue
+            nav_parts.append(
+                f'<div class="round">{escape(race.round)} · {escape(race.event_name)}</div>'
+            )
+            for doc in unlocked_docs:
+                cur = ' aria-current="page"' if doc.href == current_href else ""
+                nav_parts.append(
+                    f'<a href="{escape(with_base(doc.href, base))}"{cur}>{escape(doc.label)}</a>'
+                )
+            locked_here = sum(1 for doc in race.docs if not doc.unlocked)
+            if locked_here:
+                nav_parts.append(
+                    f'<span class="locked">+{locked_here} · wkrótce</span>'
+                )
+        if remaining_locked:
+            nav_parts.append(
+                f'<span class="locked">Dalsze rundy · {remaining_locked} · wkrótce</span>'
+            )
+        nav_parts.append("</nav>")
     else:
         season_ids = list_seasons()
         links = "".join(
             f'<a href="{escape(with_base(f"/seasons/{sid}/", base))}">Sezon {escape(sid)}</a>'
             for sid in season_ids
         )
-        rail.append(f'<div class="rail-label">Sezony</div><nav>{links}</nav>')
+        nav_parts.append(f'<div class="rail-label">Sezony</div><nav>{links}</nav>')
+
+    rail = "".join(header) + (
+        '<input type="checkbox" id="nav-toggle" class="nav-toggle" />'
+        '<label class="nav-toggle-label" for="nav-toggle">'
+        '<span>Menu sezonu</span>'
+        "</label>"
+        f'<div class="rail-body">{"".join(nav_parts)}</div>'
+    )
 
     css_href = with_base("/assets/styles.css", base)
     js_href = with_base("/assets/reader.js", base)
@@ -553,6 +602,7 @@ def page_shell(
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light only" />
   <meta name="description" content="Spoiler-safe archive Formuły 1 — czytanie sezonu bez wiedzy z przyszłości." />
   <title>{escape(title)}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -563,8 +613,8 @@ def page_shell(
 <body {body_attrs}>
   <script type="application/json" id="reading-order">{manifest_json}</script>
   <div class="site-shell">
-    <aside class="rail">{"".join(rail)}</aside>
-    <main class="main">{body}</main>
+    <aside class="rail">{rail}</aside>
+    <main class="main" id="tresc">{body}</main>
   </div>
   <script src="{escape(js_href)}" defer></script>
 </body>
