@@ -6,11 +6,11 @@ public_knowledge_time: "Najpóźniejsze wykorzystane źródła obejmują UPI z g
 knowledge_cutoff: "Immediately before the planned start of the first official session of the South African Grand Prix at Kyalami on Thursday, 21 January 1982; exact time unknown"
 spoiler_scope:
   allowed:
-    - "Role osób i organizacji znane przed granicą wiedzy"
+    - "Role osób i organizacji, w tym personelu zespołów i partnerów komercyjnych, znane przed granicą wiedzy"
   forbidden:
     - "Późniejsze zmiany personalne i oceny retrospektywne"
 content_language: "pl"
 research_status: "drafted"
 source_status: "partial"
-spoiler_audit_status: "not-run"
-last_verified: null
+spoiler_audit_status: "passed"
+last_verified: "2026-08-05"

@@ -114,6 +114,17 @@ engines, tyres, relevant people and organisations, the announced calendar,
 circuit orientation, glossary terms, and attributed contemporary expectations.
 Place details in their canonical primary homes and link rather than duplicate.
 
+For `teams.md`, apply the Season teams contract checklist in
+`docs/content-contracts.md`: identity; owner/principal/key staff; sponsors or
+partners; driver and equipment links; attributed expectations; uncertainties.
+A drivers-and-engine-only draft is insufficient for prepare-season handoff.
+When researching teams, collect organisation, personnel, and sponsors in
+parallel with entries — not as an afterthought. After drafting teams, update
+`people-and-organisations.md` for named non-driver figures and commercial
+bodies referenced there; keep teams entries to a concise role plus link.
+Self-check: no team entry is drivers-and-engine-only when contemporary sources
+name organisation or sponsors; otherwise state uncertainty and ledger the gap.
+
 Keep reader-facing historical prose in Polish and readable. Do not use any race
 or season outcome to select, evaluate, or emphasize preseason information. Use
 content-based availability for day-undated contemporary preseason sources; do

@@ -125,9 +125,23 @@ source dates, and whether the cutoff matches the document type.
   contemporary independent reporting.
 - **Length:** approximately 200–500 words per team plus a short overview.
 - **Duplication boundary:** owns team reference facts, not full biographies,
-  engineering treatises, or repeated event previews.
+  engineering treatises, or repeated event previews. Fuller non-driver
+  biographies and commercial-body profiles belong in
+  `people-and-organisations.md`; teams keep a concise role statement and link.
+- **Per-team claim checklist:** each entry should cover, when cutoff-safe
+  sources support it, or state explicit uncertainty otherwise: (1) identity /
+  entrant naming; (2) owner, principal, or other key named staff; (3) known
+  sponsors or commercial partners; (4) links to confirmed drivers and equipment
+  homes (`drivers.md`, `technology.md`); (5) attributed contemporary aims or
+  expectations; (6) open uncertainties (seats, configs, missing entry list).
+- **Insufficient draft:** an entry limited to drivers plus engine or chassis,
+  without organisation, personnel, or sponsors when contemporary sources name
+  them — or without explicit uncertainty when they do not — does not satisfy
+  this contract. A season-teams document is not complete enough for
+  prepare-season handoff if most entries are drivers-and-equipment only.
 - **Metadata and audit:** season-teams type; audit each entry against the same
-  cutoff and avoid unequal later-informed prominence.
+  cutoff and avoid unequal later-informed prominence; verify the per-team claim
+  checklist and reject drivers-and-engine-only drafts.
 
 ## Season drivers
 

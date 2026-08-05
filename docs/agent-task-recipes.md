@@ -29,6 +29,24 @@ things-to-resolve-after-season.md.
 Do not use any in-season knowledge.
 ```
 
+## Generate / revise season teams
+
+```text
+Generate or revise teams.md for [SEASON] using the season-teams contract.
+Set the exact cutoff to [KNOWLEDGE CUTOFF].
+Research organisation, personnel, sponsors/partners, drivers, and equipment in
+parallel; do not stop at drivers-and-engine entries.
+For each team cover the contract checklist (identity; owner/principal/key
+staff; sponsors; links to drivers.md and technology.md; attributed
+contemporary expectations; uncertainties) or state explicit uncertainty and
+ledger the gap.
+Keep fuller non-driver profiles in people-and-organisations.md; teams keep a
+concise role plus link. Update PEO for figures named in teams.
+Do not use in-season form, disputes, later personnel changes, or team fate.
+Run source verification and a spoiler audit; preserve unresolved conflicts in
+footnotes and things-to-resolve-after-season.md.
+```
+
 ## Initialize one race folder
 
 ```text

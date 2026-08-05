@@ -17,6 +17,9 @@ historical content. Start from the matching file in `templates/season/` or
   sibling `.meta.yaml` (Markdown has no YAML front matter).
 - Keep allowed and forbidden knowledge, sections, source expectations, length,
   primary-home boundaries, and audits consistent with that contract.
+- Season-teams entries must cover organisation, personnel, and sponsors (or
+  explicit uncertainty), not only drivers and equipment; see the Season teams
+  checklist in `docs/content-contracts.md`.
 - Do not advance workflow status until source and spoiler audits pass.
 - Never mutate an earlier-boundary document to include a later state; create the
   separately contracted document only when explicitly tasked.
