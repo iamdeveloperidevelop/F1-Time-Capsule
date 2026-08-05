@@ -91,7 +91,10 @@ def title_from_md(text: str, fallback: str) -> str:
 def is_ready(text: str) -> bool:
     if not text.strip() or len(text.strip()) < 80:
         return False
-    if PLACEHOLDER_RE.search(text) or BRACKET_TOKEN_RE.search(text):
+    # Markdown links like [PDF](https://...) must not count as unfinished
+    # bracket placeholders that keep a document locked out of the reader nav.
+    scrubbed = re.sub(r"\[[^\]]+\]\([^)]+\)", "", text)
+    if PLACEHOLDER_RE.search(scrubbed) or BRACKET_TOKEN_RE.search(scrubbed):
         return False
     return True
 
