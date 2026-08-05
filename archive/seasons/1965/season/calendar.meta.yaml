@@ -1,0 +1,16 @@
+season: "1965"
+document_type: "season-calendar"
+event: null
+event_time: "[CALENDAR VERSION MOMENT]"
+public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
+knowledge_cutoff: "[SEASON BOUNDARY]"
+spoiler_scope:
+  allowed:
+    - "[ANNOUNCED DATES, VENUES, STATUS, AND CHANGES PUBLIC BY THE CUTOFF]"
+  forbidden:
+    - "[LATER CHANGES, RESULTS, AND FINAL-SCHEDULE HINDSIGHT]"
+content_language: "pl"
+research_status: "planned"
+source_status: "unstarted"
+spoiler_audit_status: "not-run"
+last_verified: null

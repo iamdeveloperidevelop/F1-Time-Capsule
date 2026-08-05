@@ -1,0 +1,16 @@
+season: "1964"
+document_type: "season-drivers"
+event: null
+event_time: "[DRIVER REFERENCE MOMENT]"
+public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
+knowledge_cutoff: "[SEASON BOUNDARY]"
+spoiler_scope:
+  allowed:
+    - "[CAREER AND CONFIRMED ROLE INFORMATION KNOWABLE BY THE CUTOFF]"
+  forbidden:
+    - "[LATER RESULTS, INCIDENTS, REPLACEMENTS, INJURIES, ENDINGS, AND LEGACY]"
+content_language: "pl"
+research_status: "planned"
+source_status: "unstarted"
+spoiler_audit_status: "not-run"
+last_verified: null
