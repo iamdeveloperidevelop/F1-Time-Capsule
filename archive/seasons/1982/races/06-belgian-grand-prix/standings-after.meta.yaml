@@ -1,16 +1,17 @@
 season: "1982"
 document_type: "standings-snapshot"
 event: "Belgian Grand Prix"
-event_time: "[POST-RACE CLASSIFICATION BOUNDARY]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[SAME POST-RACE CUTOFF AS THE SUPPORTED SNAPSHOT]"
+event_time: "Klasyfikacja mistrzostw po GP Belgii 1982 i natychmiastowym DSQ Nikiego Laudy (9 maja 1982)"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje: natychmiastowe ważenie / DSQ Laudy 9 maja 1982 (Motor Sport); punkty Zolder według klasyfikacji po DSQ; baza po Imoli (ARCHIVE-R05-STAND)"
+knowledge_cutoff: "End of the immediate official post-race process at Zolder: chequered flag and on-the-road finishing order of Sunday 9 May 1982; podium and same-day paddock reactions; immediate post-race fuel drain and weighing of the leading finishers; and the same-day disqualification of Niki Lauda for underweight (578 kg vs 580 kg limit) with the resulting official classification and points. Does not include Monaco GP or later rounds, later appeals or championship bulletins, UPI 11 May Lauda–Mass commentary, Villeneuve burial logistics beyond same-day mention, or season retrospectives."
 spoiler_scope:
   allowed:
-    - "[CLASSIFICATIONS, POINTS, AND DECISIONS OFFICIAL BY THE CUTOFF]"
+    - "Klasyfikacja, punkty i decyzje oficjalne przy cutoff post-race Zolder (w tym DSQ Laudy)"
+    - "Prowizoryczna arytmetyka po Imoli + Belgia"
   forbidden:
-    - "[LATER CORRECTIONS, APPEALS, RULINGS, AND FUTURE ROUNDS]"
+    - "Późniejsze korekty, apelacje, biuletyny FIA i przyszłe rundy"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-06"

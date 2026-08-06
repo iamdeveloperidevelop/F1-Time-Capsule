@@ -1,16 +1,18 @@
 season: "1982"
 document_type: "race-prelude"
 event: "Monaco Grand Prix"
-event_time: "[PRE-WEEKEND CONTEXT INTERVAL]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+event_time: "Okres przedweekendowy Grand Prix Monako w Monte Carlo, wokół niedzieli 23 maja 1982; przed pierwszą oficjalną sesją weekendu"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje przed sesjami: Motor Sport July 1982 i Autosport Grand Prix Gold (pasaże o formacie weekendu, obsadzie, Avon/IRTS, JS19, wtrysku Renault, split Brabhama — izolowane od wyników sesji/wyścigu; publication_date dnia unknown; content-based availability); UPI 9–12 maja 1982 (śmierć/pogrzeb Villeneuve’a, Balestre); RSC entry reconstruction; klasyfikacja archiwum po Zolderze (9 V)"
+knowledge_cutoff: "Immediately before the first official session of the 1982 Monaco Grand Prix weekend at Monte Carlo (race day Sunday 23 May 1982). Best available marker: Thursday 20 May 1982 08:00 local pre-qualifying / elimination for teams that scored no points in the 1981 Manufacturers’ Championship (Motor Sport July 1982); exact official programme time-zone label not independently verified (treated as CEST). After the Zolder immediate official process (9 May 1982, including Lauda DSQ) and after public Villeneuve funeral coverage through 12 May 1982; before any Monaco pre-qualifying results, practice or qualifying times, grid, warm-up, or race information."
 spoiler_scope:
   allowed:
-    - "[PREVIOUS STANDINGS AND DEVELOPMENTS PUBLIC BEFORE THE WEEKEND]"
+    - "Klasyfikacja po Zolderze (z DSQ Laudy); śmierć i pogrzeb Villeneuve’a; obsada i format paddocku przed pierwszą sesją; kontekst toru Monte Carlo; zmiany techniczne przyjazdu; przypisane oczekiwania prasowe sprzed sesji"
   forbidden:
-    - "[ALL INFORMATION FROM THE FIRST OFFICIAL SESSION ONWARD]"
+    - "Wszelkie oficjalne sesje, czasy treningów/prekwalifikacji, kwalifikacje, pole startowe, przebieg i wyniki Grand Prix Monako 1982 oraz późniejszych rund"
+    - "Wyniki czwartkowej eliminacji (kto awansował / odpadł); walka o spódnice JS19 w treningu; teatr opon Ensign/Theodore w trakcie sesji"
+    - "Ogłoszenie Tambaya w Ferrari lub debiut w późniejszych rundach; wynik dochodzenia Ongaro / zwolnienie Massa (28 V); retrospectives sezonu"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-06"

@@ -1,16 +1,17 @@
 season: "1982"
 document_type: "pre-start-weekend-brief"
 event: "Belgian Grand Prix"
-event_time: "[OFFICIAL PRE-RACE SESSIONS AND PRE-START MOMENT]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
+event_time: "Oficjalne sesje treningowe i kwalifikacyjne Grand Prix Belgii 1982 na Circuit Zolder (piątek 7–sobota 8 maja) oraz niedzielny poranek 9 maja 1982 do chwili bezpośrednio przed planowanym startem wyścigu"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje: niedzielna rozgrzewka (~11:45 / południe), warunki pogodowe przed planowanym startem ≈15:30 lokalnie 9 maja 1982 oraz potwierdzone wycofanie Ferrari / zamknięcie pola — według Motor Sport June 1982, Autosport Grand Prix Gold (pasaże przedstartowe; publication_date dnia unknown dla reprintu; content-based availability) i UPI 9 maja 1982 (śmierć Villeneuve’a sobotnią nocą, wycofanie Ferrari); czasy pola z rekonstrukcji Racing Sports Cars"
+knowledge_cutoff: "Immediately before the scheduled race start of the 1982 Belgian Grand Prix at Circuit Zolder, Sunday 9 May 1982. Best available start marker: approximately 15:30 local time as reported in Motor Sport June 1982 (“start was due at 3.30 p.m.”) and Autosport (“At 3.30 they were on their way”); Belgian afternoon CEST/UTC+2 assumed; exact official programme clock and named time zone not independently verified. Includes completed Friday Concorde sort and practice/qualifying, Saturday sessions, Villeneuve’s fatal qualifying accident and Saturday-evening death announcement, Ferrari withdrawal and Sunday grid close-up (Mass/Baldi promoted), Sunday morning warm-up, confirmed DNS/DNQ/DNPQ, and pre-start weather/tyre notes. Does not include the green-light start, formation/parade-lap incidents after cars leave for the parade, race events or results, post-race weighing/DSQs, later appeals, or season retrospectives."
 spoiler_scope:
   allowed:
-    - "[COMPLETED PRE-RACE SESSIONS AND CONFIRMED PRE-START INFORMATION]"
+    - "Ukończone treningi i kwalifikacje Zolder 1982, sortowanie Concorde, wypadek i śmierć Villeneuve’a znane przed startem, wycofanie Ferrari, pole startowe po zamknięciu, rozgrzewka, opony i warunki pogodowe przed startem, cytaty paddockowe sprzed zielonego światła, kontekst mistrzostw sprzed startu"
   forbidden:
-    - "[THE RACE START, RACE EVENTS, RESULTS, AND ALL LATER KNOWLEDGE]"
+    - "Start wyścigu, okrążenie formujące / paradne po wyjeździe na parade lap, przebieg i wyniki GP Belgii 1982"
+    - "Retirements, DNS/DNF z procesu startowego, DSQ po wyścigu (w tym Lauda), podium, punkty belgijskie, foreshadowing sezonu"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-06"

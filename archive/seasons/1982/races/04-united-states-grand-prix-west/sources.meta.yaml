@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "race-source-ledger"
 event: "United States Grand Prix West"
-event_time: "Ledger wspiera race-prelude do granicy bezpośrednio przed pierwszą oficjalną sesją Grand Prix Stanów Zjednoczonych Zachód w Long Beach (race day 4 kwietnia 1982)"
-public_knowledge_time: "Najpóźniejsze źródła użyte dla pre-weekend: Motor Sport May 1982 (izolowane pasaże o przyjeździe/układzie/entry; kwarantanna sesji); UPI 22 kwietnia 1982 tylko jako negatywny dowód chronologii FISA DSQ (poza reader-facing)"
-knowledge_cutoff: "Immediately before the first official session of the 1982 United States Grand Prix West weekend on the Long Beach street circuit, California (race day Sunday 4 April 1982). Best available marker: Friday 2 April 1982 morning official test session around 10:00 local time as reported in Motor Sport May 1982; exact official programme clock not independently verified. Does not include Long Beach session results or the later FISA exclusion of Piquet/Rosberg from Brazil."
+event_time: "Ledger wspiera pre-weekend, pre-race i post-race do granicy natychmiastowej procedury oficjalnej po Long Beach (DSQ Villeneuve ogłoszony po posiedzeniu 5 kwietnia 1982)"
+public_knowledge_time: "Najpóźniejsze źródła użyte dla post-race: UPI 6 kwietnia 1982 (decyzja poniedziałkowa); Motor Sport May 1982 i Autosport Grand Prix Gold (pasaże Race/protestów; publication_date dnia unknown; content-based availability); UPI 22 kwietnia 1982 tylko jako negatywny dowód chronologii FISA Brazil DSQ"
+knowledge_cutoff: "End of the immediate official post-race process at Long Beach: chequered flag and on-the-road finishing order of Sunday 4 April 1982; podium; lodging of post-race protests; and the race officials' Monday 5 April 1982 private session decision disqualifying Villeneuve for the twin rear wing (publicly announced by race director Chris Pook after about 12 hours), together with disallowance of Ferrari's protest against McLaren/Lauda and the recorded fine of de Angelis/Lotus, with those matters under appeal. Does not include later appeal rulings, the FISA Appeals Tribunal exclusion of Piquet or Rosberg from Brazil (about 19–20 April 1982), or San Marino weekend session or race results."
 spoiler_scope:
   allowed:
-    - "Metadane źródeł i wsparcie twierdzeń w granicach cutoff pre-weekend"
+    - "Metadane źródeł i wsparcie twierdzeń w granicach cutoff post-race Long Beach"
   forbidden:
-    - "Używanie wyników sesji Long Beach, późniejszego DSQ z Brazylii oraz spoilerów kolejnych rund jako faktów przy tej granicy"
+    - "Używanie werdyktu FISA w sprawie Rio, rozstrzygnięć apelacji po LB oraz spoilerów San Marino / dalszego sezonu jako faktów przy tej granicy"
 content_language: "pl"
 research_status: "drafted"
 source_status: "partial"
 spoiler_audit_status: "passed"
-last_verified: "2026-08-05"
+last_verified: "2026-08-06"

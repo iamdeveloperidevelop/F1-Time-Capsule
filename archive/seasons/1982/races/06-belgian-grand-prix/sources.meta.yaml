@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "race-source-ledger"
 event: "Belgian Grand Prix"
-event_time: "[EVENT INTERVAL COVERED BY THIS LEDGER]"
-public_knowledge_time: "[WHEN THE LATEST RETAINED SOURCE INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[LATEST DOCUMENT CUTOFF THIS LEDGER CURRENTLY SUPPORTS]"
+event_time: "Sesje, wyścig i natychmiastowa procedura post-race Grand Prix Belgii na Circuit Zolder, 7–9 maja 1982"
+public_knowledge_time: "Najpóźniejsze zachowane źródła przy cutoff post-race: Motor Sport June 1982 Race + Reflections (ważenie/DSQ); Autosport Gold (wyścig/cytaty); UPI 9 V 1982 (wyniki na drodze; bezpieczeństwo); RSC race reconstruction; ARCHIVE-R05-STAND"
+knowledge_cutoff: "End of the immediate official post-race process at Zolder: chequered flag and on-the-road finishing order of Sunday 9 May 1982; podium and same-day paddock reactions; immediate post-race fuel drain and weighing of the leading finishers; and the same-day disqualification of Niki Lauda for underweight with the resulting official classification and points. Ledger supports pre-weekend.md, pre-race.md, post-race.md, and standings-after.md."
 spoiler_scope:
   allowed:
-    - "[SOURCE METADATA AND CLAIM SUPPORT WITHIN THE SUPPORTED CUTOFF]"
+    - "Metadane źródeł i wsparcie twierdzeń w granicach cutoff pre-weekend, pre-race i post-race Zolder"
   forbidden:
-    - "[LATER SOURCE CONTENT EXCEPT QUARANTINED RISK METADATA]"
+    - "Treść Monako / późniejszych rund; UPI 11 V Lauda–Mass; retrospectives sezonu poza kwarantanną"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-06"

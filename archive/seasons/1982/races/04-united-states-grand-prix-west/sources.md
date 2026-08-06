@@ -15,12 +15,14 @@ source_type: "ARCHIVE"
 contemporary: true
 spoiler_risk: "none"
 locator: "archive/seasons/1982/races/03-brazilian-grand-prix/standings-after.md"
-access_date: "2026-08-05"
+access_date: "2026-08-06"
 supports:
   - claim_id: "R04-PW-STD-01"
     scope: "Prowizoryczna kolejność i punkty po Rio (po odrzuceniu protestu przez stewardów imprezy): Prost 13, Piquet 9, Rosberg 8, Reutemann 6, Arnoux 4 / Watson 4, Lauda 3, Mansell 2, Alboreto 1; Renault 17, Williams 14, Brabham 9, McLaren 7, Lotus 2, Tyrrell 1."
+  - claim_id: "R04-PO-STD-01"
+    scope: "Stan przed Long Beach = prowizoryczna tabela po Rio (jak wyżej); baza arytmetyki standings-after R04."
 disagreement_notes: "Skala punktowa prowizoryczna; brak oficjalnego biuletynu FIA w pakiecie R03; ścieżka ASN otwarta."
-notes: "Wskaźnik do kanonicznej migawki; nie kopiować pełnych tabel do narracji pre-weekend."
+notes: "Wskaźnik do kanonicznej migawki; nie kopiować pełnych tabel do narracji."
 ```
 
 ```yaml
@@ -144,8 +146,8 @@ event_date: "1982-04-02/04"
 source_type: "PRESS"
 contemporary: true
 spoiler_risk: "contains-later-material"
-locator: "https://www.motorsportmagazine.com/archive/article/may-1982/46/united-stateswest-grand-prix/ — May 1982, p. 46; pre-weekend: przyjazd, Reutemann/Andretti, przebudowa, 10:00 test, procedura prekwali; pre-race: Qualifying + warm-up/warunki przed startem + dystans 75½; QUARANTINE: narracja Race od zielonego światła, podium, protest Tyrrella o skrzydło"
-access_date: "2026-08-05"
+locator: "https://www.motorsportmagazine.com/archive/article/may-1982/46/united-stateswest-grand-prix/ — May 1982, p. 46; pre-weekend/pre-race jak wcześniej; post-race: sekcja Race (green light→meta), kolejność na drodze Lauda–Rosberg–Villeneuve–Patrese–Alboreto, protest Tyrrella o twin-wing (bez jawnego werdyktu DSQ w zamknięciu tekstu)"
+access_date: "2026-08-06"
 supports:
   - claim_id: "R04-PW-CAL-02"
     scope: "Jeden wolny weekend między Brazylią a Long Beach; zespoły przyjechały do Kalifornii prosto z Brazylii."
@@ -187,8 +189,16 @@ supports:
     scope: "Woda/580 kg; podane ważenia Williams/McLaren/Renault/Ferrari; Brabham nie zważony."
   - claim_id: "R04-PR-AERO-01"
     scope: "Ferrari twin rear aerofoil zamontowane w sobotę (Pironi, potem Villeneuve)."
-disagreement_notes: "Publication_date dnia unknown. Cały tekst miesza przyjazd, sesje i wyścig — izolować. FW07C w MS vs FW07D w niektórych bazach."
-notes: "Content-based availability. Pre-weekend: tylko pasaże przed-sesyjne. Pre-race: Qualifying + warm-up/pre-start; nie używać Race od green light, podium ani końcowego protestu Tyrrella."
+  - claim_id: "R04-PO-RACE-01"
+    scope: "Narracja Race: start de Cesaris/Arnoux, kolizja Giacomelli–Arnoux, Pironi/Prost, Lauda lead okr. 15, Andretti, Watson pit, de Cesaris mur ≈34, Cheever skrzynia, meta Lauda≈14 s przed Rosbergiem, Villeneuve 3. na drodze."
+  - claim_id: "R04-PO-TOP-ROAD-01"
+    scope: "Na drodze: Lauda, Rosberg, Villeneuve, Patrese, Alboreto; Lotus 91 6. i 8. z Watsonem między nimi."
+  - claim_id: "R04-PO-PROT-TYR-01"
+    scope: "Po mecie Ken Tyrrell protestuje twin-wing Villeneuve’a jako mis-interpretation of the rules (tekst nie podaje werdyktu DSQ)."
+  - claim_id: "R04-PO-RXN-01"
+    scope: "Reakcje: Dennis/Barnard; Lauda o marginesie ≈3 cale; Jenkinson o precyzji vs ścianach."
+disagreement_notes: "Publication_date dnia unknown. Tekst miesza przyjazd, sesje i wyścig. Zamknięcie MS kończy się na proteście Tyrrella bez jawnego DSQ — werdykt z UPI/AS. FW07C w MS vs FW07D w niektórych bazach."
+notes: "Content-based availability. Pre-weekend/pre-race: izolować od Race. Post-race: Race + protest Tyrrella; DSQ koroborować UPI/AS."
 ```
 
 ```yaml
@@ -218,15 +228,17 @@ event_date: "1982-04-04"
 source_type: "DATABASE"
 contemporary: false
 spoiler_risk: "contains-later-material"
-locator: "https://www.silhouet.com/motorsport/archive/f1/1982/82usaw.html — dystans 258.814 km (3.428 km × 75.5); grid gaps; DNPQ/DNQ"
-access_date: "2026-08-05"
+locator: "https://www.silhouet.com/motorsport/archive/f1/1982/82usaw.html — dystans; grid; results po DSQ; FL Lauda 1:30.831; leaders de Cesaris→Lauda"
+access_date: "2026-08-06"
 supports:
   - claim_id: "R04-PR-DIST-01"
     scope: "Długość okrążenia 3,428 km; dystans wyścigu 258,814 km przy 75,5 okrążeniach."
   - claim_id: "R04-PR-GRID-01"
     scope: "Kolejność pola i straty do pole; DNPQ Warwick; DNQ Fabi–Baldi — koroboracja RSC."
-disagreement_notes: "Strona zawiera wynik wyścigu i DSQ Villeneuve — kwarantanna."
-notes: "Użyte wyłącznie dla dystansu km i koroboracji kolejności pola; nie cytować wyników."
+  - claim_id: "R04-PO-CLS-01"
+    scope: "Klasyfikacja po DSQ: Lauda 1:58:25.318, Rosberg +14.660, Patrese +1:18.143, Alboreto +1:20.947, de Angelis −1 okr., Watson −1 okr.; Villeneuve DSQ; FL Lauda 1:30.831 okr. 12."
+disagreement_notes: "Nie oficjalny biuletyn; numery okrążeń DNF częściowo konfliktują z RSC/AS (np. Cheever)."
+notes: "Pre-race: dystans/grid. Post-race: czasy i kolejność po DSQ; koroboracja z UPI/AS/RSC."
 ```
 
 ```yaml
@@ -242,9 +254,83 @@ locator: "https://www.upi.com/Archives/1982/04/22/The-controversy-plagued-San-Ma
 access_date: "2026-08-05"
 supports:
   - claim_id: "R04-PW-QUAR-01"
-    scope: "Dowód, że publiczny werdykt FISA unieważniający 1–2 z Rio datuje się na poniedziałek ≈19–20 kwietnia 1982 — PO Long Beach — i dlatego jest zakazany jako fakt przedweekendowy."
+    scope: "Dowód, że publiczny werdykt FISA unieważniający 1–2 z Rio datuje się na poniedziałek ≈19–20 kwietnia 1982 — PO Long Beach — i dlatego jest zakazany jako fakt przy cutoff post-race Long Beach."
+  - claim_id: "R04-PO-QUAR-FISA-01"
+    scope: "Negatywny dowód chronologii: FISA Brazil DSQ po Long Beach — poza reader-facing post-race LB."
 disagreement_notes: null
-notes: "Źródło kwarantanny / negatywnego dowodu chronologii; nie cytować w reader-facing prose jako stanu przed Long Beach."
+notes: "Źródło kwarantanny / negatywnego dowodu chronologii; nie cytować w reader-facing prose jako stanu przy cutoff LB."
+```
+
+```yaml
+source_id: "UPI-1982-04-06-LB"
+title: "Canadian Gilles Villeneuve has been disqualified from Sunday's Long..."
+author_or_organisation: "United Press International"
+publication_date: "1982-04-06"
+event_date: "1982-04-04/05"
+source_type: "PRESS"
+contemporary: true
+spoiler_risk: "none"
+locator: "https://www.upi.com/Archives/1982/04/06/Canadian-Gilles-Villeneuve-has-been-disqualified-from-Sundays-Long/2854386917200/ — DSQ Villeneuve; Monday private session; Pook announcement ~12 h later; Ferrari protest vs McLaren disallowed; de Angelis fine $2000; appeals open"
+access_date: "2026-08-06"
+supports:
+  - claim_id: "R04-PO-DSQ-01"
+    scope: "Villeneuve wykluczony z 3. miejsca za illegal rear wing; pozostali przesunięci o jedno miejsce; Watson zyskuje punkt w mistrzostwach."
+  - claim_id: "R04-PO-STEW-01"
+    scope: "Decyzja early Monday private session; Chris Pook ogłosił po prawie 12 godzinach."
+  - claim_id: "R04-PO-PROT-FER-01"
+    scope: "Ferrari protestowało McLaren/Laudę (procedure of scrutineering) — oddalone."
+  - claim_id: "R04-PO-FINE-01"
+    scope: "Grzywna 2000 USD dla de Angelisa i Lotusa za nieprawidłowe ustawienie na polu."
+  - claim_id: "R04-PO-APP-01"
+    scope: "Oba protesty i grzywna zaskarżone; decyzja apelacji może potrwać kilka miesięcy."
+disagreement_notes: "AS-1982-USW opisuje protest Ferrari jako water tank vs McLaren i Williams — inna formuła niż UPI; zachować obie wersje w aparacie."
+notes: "Kluczowe źródło datowane dla granicy post-race (poniedziałkowa decyzja + ogłoszenie)."
+```
+
+```yaml
+source_id: "AS-1982-USW"
+title: "Grand Prix Gold: 1982 US West GP (Autosport contemporary report reprint)"
+author_or_organisation: "Autosport / Nigel Roebuck (Grand Prix Gold reprint)"
+publication_date: "unknown"
+event_date: "1982-04-04"
+source_type: "PRESS"
+contemporary: true
+spoiler_risk: "contains-later-material"
+locator: "https://www.autosport.com/f1/news/grand-prix-gold-1982-us-west-gp-5098995/5098995/ — korpus współczesny o wyścigu, kolejności po DSQ, protestach; kwarantanna kursywy/edytorskich dopisków reprintu"
+access_date: "2026-08-06"
+supports:
+  - claim_id: "R04-PO-RACE-01"
+    scope: "Szczegółowa narracja: Watson charge, Giacomelli–Arnoux, Lauda lead 15, Villeneuve spin vs Rosberg, Piquet/de Cesaris, Patrese vs Alboreto okr. 59, Cheever skrzynia."
+  - claim_id: "R04-PO-CLS-01"
+    scope: "Po blue-pencil Villeneuve: 3–6 Patrese, Alboreto, de Angelis, Watson; Rosberg prowadzi mistrzostwa przed Prostem."
+  - claim_id: "R04-PO-PROT-TYR-01"
+    scope: "Tyrrell protestuje twin-wing successfully."
+  - claim_id: "R04-PO-PROT-FER-01"
+    scope: "Piccinini protestuje dwa pierwsze auta (McLaren i Williams) na water tank — thrown out by organisers."
+  - claim_id: "R04-PO-RXN-01"
+    scope: "Ramka o hymnie austriackim / klasie Laudy; cytaty Villeneuve/Andretti z weekendu użyte ostrożnie."
+disagreement_notes: "Reprint 2012 może zawierać późniejsze dopiski (np. kursywa o later DSQ); izolować. Konflikt z UPI co do opisu protestu Ferrari."
+notes: "Content-based availability korpusu współczesnego; nie używać foreshadowingu sezonu ani FISA Brazil."
+```
+
+```yaml
+source_id: "RSC-1982-R04-RES"
+title: "Long Beach 1982 Formula 1 race results"
+author_or_organisation: "Racing Sports Cars"
+publication_date: "unknown"
+event_date: "1982-04-04"
+source_type: "DATABASE"
+contemporary: false
+spoiler_risk: "contains-later-material"
+locator: "https://www.racingsportscars.com/f1/results/Long_Beach-1982-04-04.html — tabela wyników po DSQ; DNF z przyczynami; Villeneuve DSQ illegal rear wing"
+access_date: "2026-08-06"
+supports:
+  - claim_id: "R04-PO-CLS-01"
+    scope: "Koroboracja kolejności 1–10 po DSQ i statusu Villeneuve DSQ."
+  - claim_id: "R04-PO-DNF-01"
+    scope: "Lista DNF z przypisanymi przyczynami (częściowo konflikt numerów okrążeń vs SILH/AS)."
+disagreement_notes: "Nie biuletyn FIA; oznaczenia podwozi FW07D vs MS FW07C."
+notes: "Użyte do koroboracji klasyfikacji po DSQ; narrację okrążeń brać z MS/AS przy konflikcie."
 ```
 
 ## Conflict and uncertainty index
@@ -264,7 +350,12 @@ notes: "Źródło kwarantanny / negatywnego dowodu chronologii; nie cytować w r
 | UNC-R04-PR-PEN-01 | R04-PR-PEN-01 | — | open | Brak biuletynu kar przed startem w pakiecie. |
 | UNC-R04-PR-MODEL-01 | R04-PR-GRID-01 | MS-MAY1982-USW, RSC-1982-R04-GRID | noted | FW07C (MS) vs FW07D (RSC). |
 | UNC-R04-PR-DIST-01 | R04-PR-DIST-01 | MS-MAY1982-USW, SILH-1982-USW | open | 75½ z MS; km z bazy, nie biuletyn. |
-| UNC-R04-PR-QUAR-RACE | — | MS-MAY1982-USW, SILH-1982-USW | quarantined | Cała narracja Race / wyniki / DSQ skrzydła. |
+| UNC-R04-PR-QUAR-RACE | — | — | resolved-for-cutoff | Narracja Race użyta przy post-race; wcześniej kwarantanna pre-race. |
+| UNC-R04-PO-RES-01 | R04-PO-CLS-01 | UPI-1982-04-06-LB, MS-MAY1982-USW, AS-1982-USW, SILH-1982-USW, RSC-1982-R04-RES | open | Brak biuletynu FIA; czasy z baz. |
+| UNC-R04-PO-PROT-01 | R04-PO-PROT-FER-01 | UPI-1982-04-06-LB, AS-1982-USW | open | Konflikt opisu protestu Ferrari: UPI scrutineering vs McLaren/Lauda; AS water tank vs McLaren+Williams. |
+| UNC-R04-PO-LAPS-01 | R04-PO-RACE-01, R04-PO-DNF-01 | MS-MAY1982-USW, AS-1982-USW, SILH-1982-USW, RSC-1982-R04-RES | open | Rozbieżne numery okrążeń DNF (np. Cheever, de Cesaris 34/35). |
+| UNC-R04-PO-APP-01 | R04-PO-APP-01 | UPI-1982-04-06-LB | open-deferred | Apelacje po LB — poza natychmiastowym cutoff do osobnej granicy. |
+| UNC-R04-PO-FISA-01 | R04-PO-QUAR-FISA-01 | UPI-1982-04-22-IMOLA | quarantined | FISA Brazil DSQ ≈19–20 IV — poza cutoff LB. |
 
 ## Pre-weekend claim map (R04-PW)
 
@@ -302,4 +393,23 @@ notes: "Źródło kwarantanny / negatywnego dowodu chronologii; nie cytować w r
 | `R04-PR-AERO-01` | Twin-wing Ferrari | `MS-MAY1982-USW` |
 | `R04-PR-PEN-01` | Brak biuletynu kar | — |
 | `R04-PR-STD-01` | Punkty przed startem = po Rio | `ARCHIVE-R03-STAND` |
+
+## Post-race claim map (R04-PO)
+
+| claim_id | Scope | Source IDs |
+| --- | --- | --- |
+| `R04-PO-RACE-01` | Narracja wyścigu, kluczowe fazy, wycofania | `MS-MAY1982-USW`, `AS-1982-USW` |
+| `R04-PO-TOP-ROAD-01` | Kolejność na drodze Lauda–Rosberg–Villeneuve–… | `MS-MAY1982-USW`, `AS-1982-USW` |
+| `R04-PO-CLS-01` | Klasyfikacja po DSQ 1–6 + Villeneuve DSQ; czasy | `UPI-1982-04-06-LB`, `AS-1982-USW`, `SILH-1982-USW`, `RSC-1982-R04-RES` |
+| `R04-PO-DSQ-01` | Werdykt DSQ Villeneuve twin-wing | `UPI-1982-04-06-LB`, `AS-1982-USW` |
+| `R04-PO-STEW-01` | Poniedziałkowe posiedzenie; ogłoszenie Pook ≈12 h | `UPI-1982-04-06-LB` |
+| `R04-PO-PROT-TYR-01` | Protest Tyrrella o twin-wing | `MS-MAY1982-USW`, `AS-1982-USW`, `UPI-1982-04-06-LB` |
+| `R04-PO-PROT-FER-01` | Protest Ferrari vs McLaren (opis konfliktowy) | `UPI-1982-04-06-LB`, `AS-1982-USW` |
+| `R04-PO-FINE-01` | Grzywna de Angelis/Lotus 2000 USD | `UPI-1982-04-06-LB` |
+| `R04-PO-APP-01` | Apelacje otwarte | `UPI-1982-04-06-LB` |
+| `R04-PO-DNF-01` | Lista DNF / przyczyny | `MS-MAY1982-USW`, `AS-1982-USW`, `RSC-1982-R04-RES` |
+| `R04-PO-RXN-01` | Reakcje paddocku | `MS-MAY1982-USW`, `AS-1982-USW` |
+| `R04-PO-PTS-01` | Punkty LB 9–6–4–3–2–1 po DSQ; sumy standings | `UPI-1982-04-06-LB`, `ARCHIVE-R03-STAND`, `SILH-1982-USW` |
+| `R04-PO-STD-01` | Stan przed LB = po Rio | `ARCHIVE-R03-STAND` |
+| `R04-PO-QUAR-FISA-01` | FISA Brazil po LB — kwarantanna | `UPI-1982-04-22-IMOLA` |
 

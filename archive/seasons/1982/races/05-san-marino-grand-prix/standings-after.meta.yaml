@@ -1,16 +1,17 @@
 season: "1982"
 document_type: "standings-snapshot"
 event: "San Marino Grand Prix"
-event_time: "[POST-RACE CLASSIFICATION BOUNDARY]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[SAME POST-RACE CUTOFF AS THE SUPPORTED SNAPSHOT]"
+event_time: "Klasyfikacja mistrzostw po GP San Marino 1982 i poniedziałkowym DSQ Winkelhocka (26 kwietnia 1982)"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje: ogłoszenie DSQ Winkelhocka 26 kwietnia 1982 (UPI); punkty Imoli według klasyfikacji po DSQ (MS/RSC: pięciu punktujących); baza przed Imolą z rekonstrukcji po trybunale brazylijskim (pre-weekend / ARCHIVE-R01-R03-ARITH)"
+knowledge_cutoff: "End of the immediate official post-race process at Imola: chequered flag and on-the-road finishing order of Sunday 25 April 1982; podium and same-day paddock reactions; post-race weighing of the finishing cars; and the organisers’ Monday 26 April 1982 public announcement disqualifying Manfred Winkelhock for underweight (UPI), with Fabi remaining not classified. Does not include Belgian GP / Zolder weekend information, later appeals or championship bulletins, Casablanca FISA congress material, or season retrospectives."
 spoiler_scope:
   allowed:
-    - "[CLASSIFICATIONS, POINTS, AND DECISIONS OFFICIAL BY THE CUTOFF]"
+    - "Klasyfikacja, punkty i decyzje oficjalne przy cutoff post-race Imola (w tym DSQ Winkelhocka)"
+    - "Prowizoryczna arytmetyka po trybunale brazylijskim + Long Beach + Imola"
   forbidden:
-    - "[LATER CORRECTIONS, APPEALS, RULINGS, AND FUTURE ROUNDS]"
+    - "Późniejsze korekty, apelacje, biuletyny FIA i przyszłe rundy"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-06"

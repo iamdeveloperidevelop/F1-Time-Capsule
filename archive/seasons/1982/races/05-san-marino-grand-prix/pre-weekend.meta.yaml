@@ -1,16 +1,18 @@
 season: "1982"
 document_type: "race-prelude"
 event: "San Marino Grand Prix"
-event_time: "[PRE-WEEKEND CONTEXT INTERVAL]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+event_time: "Okres przedweekendowy Grand Prix San Marino na Autodromo Dino Ferrari w Imoli, wokół niedzieli 25 kwietnia 1982; przed pierwszą oficjalną sesją weekendu"
+public_knowledge_time: "Najpóźniejsze wykorzystane źródła przed sesjami: UPI 22 kwietnia 1982 (werdykt FISA z poniedziałku o unieważnieniu 1–2 Piqueta/Rosberga w Rio; oświadczenie bojkotu FOCA z czwartku; zapewnienia organizatorów); Motor Sport June 1982 i Autosport Grand Prix Gold (pasaże o paddocku, obsadzie, godzinie pierwszej sesji i charakterystyce toru — izolowane od wyników sesji/wyścigu; publication_date dnia unknown; content-based availability); marcowy Motor Sport (plan BT50–BMW na Imolę)"
+knowledge_cutoff: "Immediately before the first official session of the 1982 San Marino Grand Prix weekend at Autodromo Dino Ferrari, Imola (race day Sunday 25 April 1982). Best available marker for that session start: Friday 23 April 1982 morning official testing at the scheduled time of about 10:00 local as reported in Motor Sport June 1982; exact official programme clock not independently verified. After the Long Beach immediate official process (through Monday 5 April 1982 Villeneuve DSQ) and after the FISA Appeals Tribunal Brazil ruling (Monday circa 19 April 1982) and Thursday 22 April 1982 FOCA boycott statement; before any official practice, qualifying, grid, or race result from Imola."
 spoiler_scope:
   allowed:
-    - "[PREVIOUS STANDINGS AND DEVELOPMENTS PUBLIC BEFORE THE WEEKEND]"
+    - "Klasyfikacja po Long Beach oraz publiczna reklasyfikacja Brazylii po werdykcie FISA; bojkot FOCA i obsada paddocku przed pierwszą sesją; kontekst toru Imola; przypisane oczekiwania prasowe sprzed sesji"
   forbidden:
-    - "[ALL INFORMATION FROM THE FIRST OFFICIAL SESSION ONWARD]"
+    - "Wszelkie oficjalne sesje, kwalifikacje, pole startowe, przebieg i wyniki Grand Prix San Marino 1982 oraz późniejszych rund"
+    - "Czasy treningów/kwalifikacji Imoli, protest Tyrrella o turbiny, DSQ Winkelhocka, kontrowersja Pironi–Villeneuve w wyścigu"
+    - "Późniejsze rozstrzygnięcia apelacji Long Beach poza statusem otwartym znanym przy cutoff"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-06"

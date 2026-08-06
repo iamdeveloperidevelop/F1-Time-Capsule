@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "race-source-ledger"
 event: "San Marino Grand Prix"
-event_time: "[EVENT INTERVAL COVERED BY THIS LEDGER]"
-public_knowledge_time: "[WHEN THE LATEST RETAINED SOURCE INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[LATEST DOCUMENT CUTOFF THIS LEDGER CURRENTLY SUPPORTS]"
+event_time: "Ledger wspiera pre-weekend, pre-race, post-race i standings-after do granicy procedury oficjalnej po GP San Marino 1982 (ważenie niedzielne + ogłoszenie DSQ Winkelhocka poniedziałek 26 kwietnia 1982)"
+public_knowledge_time: "Najpóźniejsze źródła użyte dla post-race: UPI 26 kwietnia 1982 (DSQ); Motor Sport June 1982 i Autosport Grand Prix Gold (pasaże wyścigu/ważenia/reakcji; publication_date dnia unknown dla reprintu Autosportu; content-based availability); UPI 25 kwietnia 1982 (czasy/dystans); RSC race results (struktura klasyfikacji)"
+knowledge_cutoff: "End of the immediate official post-race process at Imola: chequered flag and on-the-road finishing order of Sunday 25 April 1982; podium and same-day paddock reactions; post-race weighing of the finishing cars; and the organisers’ Monday 26 April 1982 public announcement disqualifying Manfred Winkelhock for underweight (UPI), with Fabi remaining not classified. Does not include Belgian GP / Zolder weekend information, later appeals or championship bulletins, Casablanca FISA congress material, or season retrospectives."
 spoiler_scope:
   allowed:
-    - "[SOURCE METADATA AND CLAIM SUPPORT WITHIN THE SUPPORTED CUTOFF]"
+    - "Metadane źródeł i wsparcie twierdzeń w granicach cutoff pre-weekend, pre-race i post-race Imola (w tym DSQ poniedziałkowe)"
   forbidden:
-    - "[LATER SOURCE CONTENT EXCEPT QUARANTINED RISK METADATA]"
+    - "Używanie weekendu Zolder, późniejszych wypadków, apelacji i retrospectives jako faktów przy tej granicy"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-06"

@@ -1,16 +1,18 @@
 season: "1982"
 document_type: "race-prelude"
 event: "Belgian Grand Prix"
-event_time: "[PRE-WEEKEND CONTEXT INTERVAL]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+event_time: "Okres przedweekendowy Grand Prix Belgii na Circuit Zolder, wokół niedzieli 9 maja 1982; przed pierwszą oficjalną sesją weekendu"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje przed sesjami: Motor Sport June 1982 i Autosport Grand Prix Gold (pasaże o paddocku, obsadzie, Concorde/pre-sort, FW08/BT50, przebudowie pitów — izolowane od wyników sesji/wyścigu; publication_date dnia unknown; content-based availability); Motor Sport May 1982 Scene (reguła 580 kg); UPI 22 kwietnia 1982 (trybunał Rio / bojkot Imoli jako tło); klasyfikacja archiwum po Imoli (26 IV)"
+knowledge_cutoff: "Immediately before the first official session of the 1982 Belgian Grand Prix weekend at Circuit Zolder (race day Sunday 9 May 1982). Best available marker: Friday morning official test/practice session used under the Concorde Agreement to sort a crowded entry before Friday afternoon qualifying (Motor Sport June 1982); exact official programme clock not independently verified. After the Imola immediate official process (through Monday 26 April 1982 Winkelhock DSQ) and after public FOCA return / Zolder paddock arrival state; before any official practice lap times, pre-qualifying results, qualifying, grid, or race information from Zolder."
 spoiler_scope:
   allowed:
-    - "[PREVIOUS STANDINGS AND DEVELOPMENTS PUBLIC BEFORE THE WEEKEND]"
+    - "Klasyfikacja po Imoli (z DSQ Winkelhocka); powrót FOCA i obsada paddocku przed pierwszą sesją; kontekst toru Zolder; zmiany kierowców i technika przyjazdu; przypisane oczekiwania prasowe sprzed sesji"
   forbidden:
-    - "[ALL INFORMATION FROM THE FIRST OFFICIAL SESSION ONWARD]"
+    - "Wszelkie oficjalne sesje, czasy treningów/prekwalifikacji, kwalifikacje, pole startowe, przebieg i wyniki Grand Prix Belgii 1982 oraz późniejszych rund"
+    - "Wypadek Gilles’a Villeneuve’a, kolizja z Massem, wycofanie Ferrari, hospitalizacja, ogłoszenie śmierci"
+    - "Późniejsze rozstrzygnięcia apelacji Long Beach poza statusem otwartym znanym przy cutoff; kongres Casablanca jako fakt bez pierwotnego źródła"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-06"

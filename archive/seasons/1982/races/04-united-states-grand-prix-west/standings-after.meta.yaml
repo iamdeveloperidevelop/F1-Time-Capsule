@@ -1,16 +1,17 @@
 season: "1982"
 document_type: "standings-snapshot"
 event: "United States Grand Prix West"
-event_time: "[POST-RACE CLASSIFICATION BOUNDARY]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[SAME POST-RACE CUTOFF AS THE SUPPORTED SNAPSHOT]"
+event_time: "Klasyfikacja i punkty po Grand Prix Stanów Zjednoczonych Zachód 4 kwietnia 1982 według decyzji organizatorów o DSQ Villeneuve’a (ogłoszenie po posiedzeniu 5 kwietnia 1982)"
+public_knowledge_time: "Punkty i kolejność po DSQ z UPI 6 kwietnia 1982 oraz relacji Autosport / Motor Sport; arytmetyka od stanu po Rio; status apelacji z UPI"
+knowledge_cutoff: "End of the immediate official post-race process at Long Beach: chequered flag and on-the-road finishing order of Sunday 4 April 1982; podium; lodging of post-race protests; and the race officials' Monday 5 April 1982 private session decision disqualifying Villeneuve for the twin rear wing (publicly announced by race director Chris Pook after about 12 hours), together with disallowance of Ferrari's protest against McLaren/Lauda and the recorded fine of de Angelis/Lotus, with those matters under appeal. Does not include later appeal rulings, the FISA Appeals Tribunal exclusion of Piquet or Rosberg from Brazil (about 19–20 April 1982), or San Marino weekend session or race results."
 spoiler_scope:
   allowed:
-    - "[CLASSIFICATIONS, POINTS, AND DECISIONS OFFICIAL BY THE CUTOFF]"
+    - "Punkty i klasyfikacje ważne przy cutoff (po DSQ Villeneuve’a)"
+    - "Otwarte apelacje Long Beach i otwarta ścieżka ASN po Rio jako status prowizoryczny"
   forbidden:
-    - "[LATER CORRECTIONS, APPEALS, RULINGS, AND FUTURE ROUNDS]"
+    - "Późniejsze korekty, werdykt FISA w sprawie Rio, przyszłe rundy"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-06"
