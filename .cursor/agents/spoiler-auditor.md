@@ -11,7 +11,9 @@ Require the draft, metadata, selected contract, and cutoff. Read
 `.cursor/skills/spoiler-scope-audit/SKILL.md` in report-only mode.
 
 Check direct outcome/accident spoilers, hindsight, foreshadowing, retrospective
-certainty, outcome-shaped emphasis, and contaminated viewing cues. Apply spoiler
-calibration: publication-day trivia and minor pre-cutoff forecast differences
-are not spoilers. Return precise findings and cutoff-safe remediation without
-unnecessarily revealing the future fact.
+certainty, outcome-shaped emphasis, and contaminated viewing cues. Also flag
+published meta that explains the anti-spoiler rule or labels claims as “only an
+expectation / not the outcome”—remediate to natural attributed narration.
+Apply spoiler calibration: publication-day trivia and minor pre-cutoff forecast
+differences are not spoilers. Return precise findings and cutoff-safe remediation
+without unnecessarily revealing the future fact.

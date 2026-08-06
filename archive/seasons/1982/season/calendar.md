@@ -36,14 +36,13 @@ Grand Prix Australii zaplanowane na 3 października figurowało wyłącznie jako
 
 ## Przypisy
 
-1. CAL-01 — reprodukcja w „The 1982 International Racing Season”, *Motor Sport*, January 1982 (`publication_date` dnia `unknown`; content-based availability jako przedsezonowa reprodukcja kalendarza FIA). Nie jest to zapis późniejszego przebiegu sezonu. Otwarte pozycje inne niż dzień publikacji: [`rejestr kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
+1. CAL-01 — reprodukcja w „The 1982 International Racing Season”, *Motor Sport*, January 1982 (`publication_date` dnia `unknown`; content-based availability jako przedsezonowa reprodukcja kalendarza FIA). Otwarte pozycje inne niż dzień publikacji: [`rejestr kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
 2. Wszystkie te uwagi pochodzą z CAL-01 (ten sam materiał co tabela).
 3. Konflikt daty kanadyjskiej występuje wewnątrz CAL-01; dostępne źródła, w tym wcześniejszy oficjalny stan CAL-02 z 22 października 1981, nie rozstrzygają go. Zapisano w [`rejestrze kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
 
 ## Uwagi źródłowe
 
-- Granica wiedzy (metadane YAML): Dokładna godzina pierwszej sesji nie jest znana: [`rejestr kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
-
+- Otwarte pozycje: [`rejestr kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
 
 - **CAL-01** — „The 1982 International Racing Season”, *Motor Sport*, January
   1982, s. 35; współczesne źródło prasowe reprodukujące kalendarz opublikowany

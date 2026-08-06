@@ -66,7 +66,7 @@ supports:
   - claim_id: "R02-CAN-04"
     scope: "Jenkinson przypisywał anulowanie Argentyny (miała być 7 marca) skutkom sporów w RPA i Paryżu."
   - claim_id: "R02-CAN-06"
-    scope: "W chwili pisania Grand Prix Brazylii „looks distinctly shaky” — oczekiwanie, nie fakt."
+    scope: "W chwili pisania Grand Prix Brazylii „looks distinctly shaky”."
   - claim_id: "R02-POL-05"
     scope: "Po uregulowaniu zaległości wobec FOCA Grand Prix Hiszpanii przywrócono z datą w czerwcu; Holandia jako pierwsza rezerwa."
   - claim_id: "R02-TEC-01"

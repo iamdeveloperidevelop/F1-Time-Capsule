@@ -14,6 +14,9 @@ alwaysApply: true
 - Never invent a historical fact, quotation, citation, or resolution of
   conflicting evidence. Keep conflicts and uncertainty in footnotes and source
   apparatus rather than as constant interruptions in reader-facing prose.
+- Published historical prose must read as contemporary motorsport journalism:
+  always from the historical point of view, never explaining that viewpoint or
+  the anti-spoiler rule (see `docs/methodology.md`).
 
 Priority: follow the explicit task for deliverables; for all historical content,
 the cutoff and evidence requirements remain mandatory. `AGENTS.md` is the entry

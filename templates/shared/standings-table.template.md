@@ -24,5 +24,5 @@ OR none]
 - Arithmetic checked: `[yes | no]`
 - Eligibility and counting rules checked: `[yes | no | not-applicable]`
 - Tie-breaking checked: `[yes | no | not-applicable]`
-- Official status at cutoff: `[provisional | final-at-cutoff | disputed]`
+- Official status: `[provisional | final | disputed]`
 - Supporting source IDs: `[SOURCE IDS]`

@@ -11,7 +11,7 @@ Nigel Mansell 2, Michele Alboreto 1. W konstruktorach Renault 17, Williams
 
 Protest Ferrari i Renault przeciwko dwóm pierwszym samochodom w Rio został
 odrzucony przez stewardów imprezy; sprawa poszła dalej ścieżką brazylijskiego
-ASN (i dalej, jak oczekiwano, ku Paryżowi). Przy tej granicy wynik na mecie
+ASN (i dalej, jak oczekiwano, ku Paryżowi). Na razie wynik na mecie
 i punkty z Brazylii pozostają prowizoryczne — jak po decyzji stewardów
 imprezy, przy otwartej ścieżce ASN.*²
 
@@ -38,8 +38,8 @@ ten sam wątek, który wywołał protest w Rio.*²*⁶
 Jedyna poważna zmiana względem Brazylii: Andretti zamiast Reutemanna w
 Williamsie.*⁷ Poza tą deltą nie ma zamkniętej listy FOCA na Long Beach;
 oczekiwana ciągłość peletonu po Rio / Kyalami obejmuje te same czołowe pary
-i ten sam szerszy peleton — jako przypisany obraz obsady, nie oficjalny
-entry list.*⁸
+i ten sam szerszy peleton — jako obraz obsady z poprzednich rund, bez
+zamkniętego entry list FOCA.*⁸
 
 Brabham — Piquet i Riccardo Patrese; Williams — Rosberg i Andretti; McLaren —
 Watson i Lauda; Renault — Prost i Arnoux; Ferrari — Gilles Villeneuve i
@@ -54,7 +54,7 @@ i Manfred Winkelhock.*⁸
 Planowany peleton wchodzi w limit Concorde: przy zgłoszeniu około 31
 samochodów pięciu kierowców (Boesel, Paletti, Jarier, Warwick, Fabi)
 musi przejść poranną prekwalifikację, zanim zostanie 30 aut na godzinę
-kwalifikacyjną i 26 miejsc na starcie — to procedura, nie wynik.*⁹
+kwalifikacyjną i 26 miejsc na starcie.*⁹
 
 Szczegóły ekip i kierowców: [`teams.md`](../../../season/teams.md),
 [`drivers.md`](../../../season/drivers.md).
@@ -73,8 +73,7 @@ prawym kątem i nową, techniczną sekcją prowadzącą pod Ocean Boulevard;
 na dole Linden Avenue tor wydłużono przed zawrotem; na Shoreline Drive
 pojawiła się ciasna chicane (część planu przeniesienia pitów nad
 brzeg na 1983). Tor jest nieco dłuższy niż poprzednio; oczekiwano
-wolniejszego średniego tempa — to opis układu znanego przy przyjeździe,
-nie pomiary z sesji.*¹²
+wolniejszego średniego tempa — taki był układ znany przy przyjeździe.*¹²
 
 Przed piątkową oficjalną sesją nie było treningu na samym torze ulicznym;
 wszyscy zaczynali od tej samej bazy.*¹³
@@ -82,9 +81,8 @@ wszyscy zaczynali od tej samej bazy.*¹³
 ## Technika
 
 Sezonowe napięcie turbo (Renault, Ferrari) kontra wolnossące Cosworth
-zostaje w tle; Long Beach jako ciasny tor uliczny na poziomie morza był
-w paddocku punktem spekulacji o tym, kto na czym zyska — to oczekiwanie,
-nie wynik.*¹⁴
+zostaje w tle; na ciasnym torze ulicznym na poziomie morza w paddocku
+spekulowano, kto na czym zyska.*¹⁴
 
 Brabham według wcześniejszego komunikatu nadal odkłada BT50–BMW do
 San Marino na Imoli (25 kwietnia); w Brazylii jechał Cosworthami.*¹⁵
@@ -102,11 +100,10 @@ dziurze.*⁵
 
 Denis Jenkinson w marcowym „Motor Sport” ostrzegał, że przy dalszym
 chaosie organizator w Long Beach mógłby teoretycznie rozważyć IndyCar
-zamiast Formuły 1 — to ówczesna opinia o kruchości kalendarza, nie fakt
-o przebiegu imprezy.*¹⁶ Szersze tło:
+zamiast Formuły 1 — tak wtedy oceniał kruchość kalendarza.*¹⁶ Szersze tło:
 [`context.md`](../../../season/context.md).
 
-## Współczesne oczekiwania
+## Oczekiwania w paddocku
 
 Prowizoryczna tabela po Rio stawia Prosta i Renault na czele, z Piquetem
 i Rosbergiem tuż za nimi oraz Williamsem i McLarenem w grze punktowej.*¹
@@ -134,8 +131,7 @@ układu pozostają otwarte do pierwszej sesji.*¹²*¹⁴
    / `ARCHIVE-R03-STAND`. Skala 9–6–4–3–2–1 prowizoryczna
    (`1982-R01-PTS-01`).
 2. Protest i odrzucenie przez stewardów imprezy; ścieżka ASN:
-   `AS-1982-BRA`. Wszelkie rozstrzygnięcia apelacyjne po tej granicy —
-   poza zakresem dokumentu (chronologia w `sources.md`).
+   `AS-1982-BRA`. Dalsza ścieżka apelacyjna pozostaje otwarta.
 3. Jeden wolny weekend; przyjazd prosto z Brazylii: `MS-MAY1982-USW`
    (pasaż o przyjeździe; izolowany od relacji sesji).
 4. Emerytura Reutemanna i Andretti na jeden wyścig: `MS-MAY1982-USW`.
@@ -145,44 +141,34 @@ układu pozostają otwarte do pierwszej sesji.*¹²*¹⁴
    `MS-MAR1982-TRANSVAAL`; brak nowych depesz 22 III–1 IV w pakiecie:
    `1982-R04-PW-DEV-01`.
 6. Kontekst wody / 580 kg z Rio: `MS-APR1982-BRA`, `AS-1982-BRA` —
-   spór otwarty przy tej granicy.
+   spór nadal otwarty.
 7. Jedyna poważna zmiana entry vs Brazylia: `MS-MAY1982-USW`.
 8. Ciągłość peletonu: `MS-MAR1982-NOTES` / stan po R03; nie zamknięty
    oficjalny entry list FOCA (`1982-R04-PW-ENT-01`).
 9. Limit Concorde, ~31 aut, pięciu prekwalifikantów nazwanych z formy
-   1981: `MS-MAY1982-USW` — procedura przed sesją; bez wyniku
-   prekwalifikacji.
+   1981: `MS-MAY1982-USW` — planowana procedura przed sesją.
 10. Kalendarz: [`calendar.md`](../../../season/calendar.md) /
     `MS-JAN1982-CAL`.
 11. Charakter toru ulicznego: `MS-MAY1982-USW` (pasaż o charakterze;
     porównanie do Monaco).
-12. Przebudowa 1982 (Pook / LBGPA): `MS-MAY1982-USW`. Pomiary i porównania
-    tempa z oficjalnych sesji Long Beach — poza zakresem. Dokładna długość
+12. Przebudowa 1982 (Pook / LBGPA): `MS-MAY1982-USW`. Dokładna długość
     w km — wtórna / luka `1982-R04-PW-CIR-01`.
 13. Brak pre-practice na torze; start porannej sesji testowej: `MS-MAY1982-USW`.
     Dokładny zegar z oficjalnego programu — luka `1982-R04-PW-CUT-01`
     (MS May podaje 10:00 lokalnie jako rozpoczęcie sesji).
 14. Spekulacja turbo vs Cosworth na torze ulicznym: `MS-MAY1982-USW` —
-    oczekiwanie paddocku, nie wynik.
+    oczekiwanie paddocku przed pierwszą sesją.
 15. BT50–BMW dopiero Imola: `MS-MAR1982-SCENE`.
 16. Jenkinson o ryzyku IndyCar w Long Beach: `MS-MAR1982-SCENE` —
-    opinia, nie zapowiedź anulowania.
+    opinia o kruchości kalendarza.
 
 ## Uwagi źródłowe
 
-- Granica wiedzy: bezpośrednio przed pierwszą oficjalną sesją Grand Prix
-  Stanów Zjednoczonych Zachód na torze ulicznym w Long Beach, Kalifornia
-  (dzień wyścigu: niedziela 4 kwietnia 1982). Najlepszy marker pierwszej
-  sesji w pakiecie: piątek 2 kwietnia 1982, poranna oficjalna sesja
-  testowa ok. 10:00 czasu lokalnego (`MS-MAY1982-USW`); dokładny oficjalny
-  program — `1982-R04-PW-CUT-01`. Bez treningu, kwalifikacji, pola,
-  przebiegu ani wyniku Long Beach 1982.
-- Klasyfikacja Brazylii: prowizoryczna po odrzuceniu protestu przez
-  stewardów imprezy; ścieżka ASN otwarta. Rozstrzygnięcia apelacyjne po
-  tej granicy — poza zakresem.
-- `MS-MAY1982-USW` użyty content-based availability wyłącznie dla
-  przyjazdu, emerytury Reutemanna, Andrettiego, przebudowy toru i
-  planowanej procedury weekendu; cały korpus sesji/kwalifikacji/wyścigu —
-  kwarantanna.
-- Źródła i mapa twierdzeń: [`sources.md`](sources.md). Status źródeł:
-  częściowy.
+Źródła i mapa twierdzeń: [`sources.md`](sources.md). Status źródeł: częściowy.
+Najlepszy marker pierwszej sesji w pakiecie: piątek 2 kwietnia 1982, poranna
+oficjalna sesja testowa ok. 10:00 czasu lokalnego (`MS-MAY1982-USW`); dokładny
+oficjalny program — `1982-R04-PW-CUT-01`. Klasyfikacja Brazylii: prowizoryczna
+po odrzuceniu protestu przez stewardów imprezy; ścieżka ASN otwarta.
+`MS-MAY1982-USW` użyty content-based availability wyłącznie dla przyjazdu,
+emerytury Reutemanna, Andrettiego, przebudowy toru i planowanej procedury
+weekendu.

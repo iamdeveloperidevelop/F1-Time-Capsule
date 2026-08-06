@@ -17,7 +17,9 @@ Before researching or editing historical material:
 3. Declare event time, public-knowledge time, `knowledge_cutoff`, and categorical
    `spoiler_scope` in the document's sibling `.meta.yaml`.
 4. Use no knowledge beyond that boundary in claims, analysis, or reader-facing
-   prose.
+   prose. Published prose must never announce the boundary, spoilers, or that a
+   claim is “only an expectation / not the outcome”; write as a journalist in
+   that moment (`docs/methodology.md`).
 
 Treat direct future outcomes, accidents, hindsight, foreshadowing,
 outcome-shaped emphasis, and retrospective certainty as spoilers. Do not treat
@@ -27,7 +29,7 @@ calibration in `docs/source-policy.md` and `docs/temporal-scope.md`. A later
 source does not widen scope. A research record may identify and quarantine a
 spoiler-bearing source under `docs/source-policy.md`; that recordkeeping does
 not make later knowledge usable. Remove vague dramatic outcome signals as well
-as explicit results.
+as explicit results. Remove published anti-spoiler meta without widening scope.
 
 This rule is intended for the provisional future `archive/` and `research/`
 roots; apply it manually to any historical draft stored elsewhere.

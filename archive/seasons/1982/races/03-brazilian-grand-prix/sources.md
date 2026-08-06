@@ -58,7 +58,7 @@ supports:
   - claim_id: "R03-POL-01"
     scope: "Po karach z Kyalami kierowcy w Paryżu rozwiązali GPDA i powołali PRDA; wielu odmawiało zapłaty kar i sankcji."
   - claim_id: "R03-EXP-01"
-    scope: "Jenkinson: Grand Prix Brazylii „looks distinctly shaky” — oczekiwanie, nie fakt."
+    scope: "Jenkinson: Grand Prix Brazylii „looks distinctly shaky”."
   - claim_id: "R03-EXP-02"
     scope: "Przypisany komentarz o koszcie sporów dla kalendarza i ryzyku utraty płatnych rund."
   - claim_id: "R03-TEC-01"

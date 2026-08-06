@@ -2,7 +2,7 @@
 
 ## Inherited context
 
-[CUTOFF-SAFE CONTEXT]
+[PREVIOUS-SEASON AND ARRIVAL CONTEXT]
 
 ## Confirmed field
 
@@ -18,12 +18,16 @@
 
 ## Preseason evidence
 
-[CUTOFF-SAFE EVIDENCE]
+[TESTS, ANNOUNCEMENTS, AND OTHER PRESEASON REPORTING]
 
-## Contemporary questions and expectations
+## Questions and expectations in the paddock
 
-[ATTRIBUTED EXPECTATIONS AND OPEN QUESTIONS]
+[ATTRIBUTED EXPECTATIONS AND OPEN QUESTIONS IN NATURAL PROSE]
 
-## Source notes
+## Przypisy
+
+[NUMBERED CAVEATS MARKED FROM THE TEXT WITH *¹, *², …]
+
+## Uwagi źródłowe
 
 [CLAIM IDS AND SOURCE IDS]

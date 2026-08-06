@@ -26,7 +26,7 @@ Pierwszą rundą mistrzostw miał być powrót Grand Prix RPA na Kyalami. Styczn
 
 Jenkinson pisał przegląd w połowie grudnia 1981; numer datowany January 1982 zbierał ten obraz przed otwarciem sezonu.*⁷ South African Grand Prix było z powrotem w kalendarzu mistrzostw. Williams dopinał obsadę i negocjacje wokół przyszłości zespołu; Patrick Head pracował nad eksperymentalnym sześciokołowym projektem. Ferrari i Renault uchodziły za dawno ustalone. McLaren ogłaszał powrót Laudy i umowę silnikową z Porsche. Brabham łączył mistrza Piqueta z Patrese i próbami BMW turbo. Lotus wychodził z bardzo niespokojnego 1981; Toleman po grudniowych testach w Paul Ricard mówił o większych nadziejach. W tylnej części stawki styczniowy tekst opisywał jeszcze „kocioł” nazw — Tyrrell, ATS, Ensign, March, Fittipaldi, Arrows, Osella i wielu kierowców — który miał się częściowo ułożyć do końca grudnia.
 
-## Współczesne oczekiwania
+## Oczekiwania w paddocku
 
 „Motor Sport” oceniał, że Williams ma środki, by walczyć o trzeci kolejny tytuł producentów.*⁸ Ten sam styczniowy przegląd widział Renault w mocnej pozycji po końcówce 1981, Ferrari na drodze turbo z nowym podwoziem, a Talbot/Ligier — z Laffite’em w centrum — jako siłę, z którą trzeba się liczyć. Brabhamowi przypisywano naturalnego zwycięzcę w Piquecie i możliwe wejście BT50–BMW do wyścigów. McLarenowi — spokojny postęp po połączeniu z Project Four oraz prestiż umowy z Porsche, przy DFV na początek. O Theodore z Patrickiem Tambayem pismo pisało z nadzieją na solidne punkty, bez stawiania ich przeciwko wielkim fabrycznym ekipom. Lauda publicznie tonował oczekiwania wobec Kyalami; Frank Williams chwalił szybkość i podejście Rosberga.*⁹
 
@@ -37,14 +37,14 @@ Jenkinson pisał przegląd w połowie grudnia 1981; numer datowany January 1982 
 3. PRE-01 — Denis Jenkinson, „The Formula One Scene”, *Motor Sport*, January 1982.
 4. Przegląd obsady: PRE-01 oraz potwierdzenia UPI dla Williamsa i McLarena. To nie oficjalna, kompletna lista zgłoszeń na pierwszą sesję; luki foteli i tylnej stawki: [`rejestr kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
 5. Ramy silnikowe i aerodynamiczne: [`regulations.md`](regulations.md), [`technology.md`](technology.md); programy zespołów głównie z PRE-01.
-6. CAL-01 / PRE-02. Konflikt daty Kanady i status Detroit należą do tego źródła, nie do późniejszego przebiegu sezonu.
-7. PRE-01; autor zaznacza czas pisania („mid-December”). Dokładny dzień publikacji numeru pozostaje `unknown`; treść to przedsezonowy przegląd bez wyników Kyalami — użyta na zasadzie content-based availability (`docs/source-policy.md`).
+6. CAL-01 / PRE-02. Konflikt daty Kanady i status Detroit pochodzą z tej reprodukcji kalendarza.
+7. PRE-01; autor zaznacza czas pisania („mid-December”). Dokładny dzień publikacji numeru pozostaje `unknown`; treść to przedsezonowy przegląd — użyta na zasadzie content-based availability (`docs/source-policy.md`).
 8. PRE-03 / CTX-02 — grudniowy profil Williamsa; uzupełnienie pól oczekiwań: PRE-01.
-9. UPI-LAUDA-1981; UPI-WILLIAMS-1981. Oczekiwania przypisane źródłom z epoki, nie ocenie autora archiwum.
+9. UPI-LAUDA-1981; UPI-WILLIAMS-1981. Wypowiedzi Laudy i Franka Williamsa z depesz UPI z listopada i grudnia 1981.
 
 ## Uwagi źródłowe
 
-- Granica wiedzy (metadane YAML): tuż przed pierwszą oficjalną sesją na Kyalami, 21 stycznia 1982; dokładna godzina nieznana. Styczniowy „Motor Sport” ma `publication_date: unknown`, lecz treść jest przedsezonowa i użyta jako współczesny raport. Otwarte luki inne niż dzień publikacji: [`rejestr kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
+- Styczniowy „Motor Sport” ma `publication_date: unknown`; treść przedsezonowa użyta jako współczesny raport. Otwarte luki: [`rejestr kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
 
 - **PRE-01 / MS-1982-01-31** — Denis Jenkinson, „The Formula One Scene”,
   *Motor Sport*, January 1982 (`publication_date: unknown`), `PRESS`,
@@ -52,7 +52,7 @@ Jenkinson pisał przegląd w połowie grudnia 1981; numer datowany January 1982 
   https://www.motorsportmagazine.com/archive/article/january-1982/31/formula-one-scene/
   (s. 31). Wspiera przegląd obsad i oczekiwań, komentarz o sporach 1981 oraz
   brak otwartego rozłamu na starcie 1982. Content-based availability: tekst
-  pisany w połowie grudnia, bez wyników pierwszej rundy.
+  pisany w połowie grudnia.
 - **PRE-02 / MS-1982-01-35** — „The 1982 International Racing Season”,
   *Motor Sport*, January 1982 (`publication_date: unknown`), `PRESS`,
   `contemporary: true`, `spoiler_risk: contains-later-material`; locator:

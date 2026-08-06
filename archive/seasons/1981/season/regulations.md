@@ -2,7 +2,7 @@
 
 ## Document versions and authority
 
-[DOCUMENT VERSIONS AND AUTHORITY; CUTOFF LIVES IN YAML METADATA]
+[DOCUMENT VERSIONS AND AUTHORITY — exact boundary lives in sibling YAML]
 
 ## Sporting regulations
 
@@ -18,11 +18,11 @@
 
 ## Unresolved interpretations
 
-[UNCERTAINTY NOTES]
+[OPEN INTERPRETATIONS IN NATURAL LANGUAGE]
 
 ## Plain-language implications
 
-[ONLY IMPLICATIONS SUPPORTED AT THE CUTOFF]
+[IMPLICATIONS SUPPORTED BY THE THEN-PUBLIC TEXTS]
 
 ## Source notes
 

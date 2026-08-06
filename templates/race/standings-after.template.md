@@ -16,18 +16,18 @@
 
 ## Counting-result rules
 
-[RULES APPLICABLE AT THIS CUTOFF OR not-applicable]
+[RULES THEN IN FORCE OR not-applicable]
 
 ## Unresolved classification issues
 
-[PROVISIONAL OR DISPUTED ITEMS OR none]
+[PROVISIONAL OR DISPUTED ITEMS IN NATURAL SPORTING LANGUAGE, OR none]
 
 ## Verification
 
 - Arithmetic checked: `[yes | no]`
 - Eligibility and counting rules checked: `[yes | no | not-applicable]`
 - Tie-breaking checked: `[yes | no | not-applicable]`
-- Official status at cutoff: `[provisional | final-at-cutoff | disputed]`
+- Official status: `[provisional | final | disputed]`
 - Supporting source IDs in `sources.md`: `[SOURCE IDS]`
 
 The column schema is canonical in

@@ -103,6 +103,16 @@ The race filenames map to existing contract types as follows:
 - `sources.md` is a supporting `race-source-ledger`, bounded by the latest
   document cutoff it supports and using the canonical source-entry schema.
 
+## Published voice (paired with the cutoff)
+
+The cutoff and spoiler categories are **internal correctness rules**. Published
+prose must never remind the reader that the project avoids spoilers, that
+something is “only an expectation,” “not the outcome,” “not yet known,” or
+“outside the knowledge boundary.” Write as a journalist in that moment: show
+expectations through attribution, state open sporting status in natural
+language, and omit later facts completely. Style detail is canonical in
+`docs/methodology.md` (Published voice).
+
 ## Absolute spoiler policy
 
 Never reveal information beyond `knowledge_cutoff`, directly or indirectly.
@@ -128,8 +138,10 @@ questioned cooling and reliability while the team expected better straight-line
 performance.
 
 Predictions must remain attributed contemporary expectations, never facts
-validated by later events. Remove dramatic foreshadowing that signals a later
-outcome, even when the wording is vague.
+validated by later events. In published prose, attribute them naturally
+(“the paddock expected…”) without meta labels such as “this is only an
+expectation, not the result.” Remove dramatic foreshadowing that signals a
+later outcome, even when the wording is vague.
 
 ### Calibration: do not over-police dating trivia
 

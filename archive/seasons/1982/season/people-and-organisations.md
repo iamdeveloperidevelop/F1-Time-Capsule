@@ -136,7 +136,9 @@ Profil FIA rozdziela kontrolę regulacyjną i prawa komercyjne między FIA i FOC
 
 ## Przypisy
 
-1. Profile FIA są niedatowane i retrospektywne; zawierają materiał po cutoff i nie służą do budowania szerszej narracji poza wyraźnie odseparowanymi faktami datowanymi na lata przed granicą.
+1. Profile FIA są niedatowane i retrospektywne; służą wyłącznie do wyraźnie
+   odseparowanych faktów datowanych na lata przed otwarciem sezonu, nie do
+   szerszej narracji z późniejszego materiału biograficznego.
 2. PEO-01 / FIA-METTERNICH — wybór na prezydenta FIA w 1975 i pełniona funkcja według profilu; późniejszych informacji z profilu nie użyto.
 3. PEO-02 / FIA-BALESTRE — role Balestre’a, podpisanie pierwszego Concorde Agreement oraz separowalny podział praw komercyjnych (FOCA) i kontroli regulacyjnej (FIA), datowane przez profil na 1981. Nie jest to pełny tekst porozumienia. Dalsza biografia z profilu nie jest wykorzystywana.
 4. PEO-03 — MS-1981-12-76 (właściciel Brabhama) oraz MS-1982-01-31 (rola w FOCA / sporach o przepisy); styczniowy tekst użyty content-based availability.
@@ -163,15 +165,14 @@ Profil FIA rozdziela kontrolę regulacyjną i prawa komercyjne między FIA i FOC
 
 ## Uwagi źródłowe
 
-- Granica wiedzy (metadane YAML): tuż przed pierwszą oficjalną sesją na Kyalami, 21 stycznia 1982; dokładna godzina nieznana. Styczniowy „Motor Sport” użyty jako współczesny materiał przedsezonowy. Otwarte pozycje: [`rejestr kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
-
+- Styczniowy „Motor Sport” użyty jako współczesny materiał przedsezonowy. Otwarte pozycje: [`rejestr kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
 
 - **PEO-01 / FIA-METTERNICH** — FIA, „Paul Alfons Fürst von
   Metternich-Winneburg”, data publikacji `unknown`, `ARCHIVE`,
   `contemporary: false`, `spoiler_risk: contains-later-material`; pełny locator:
   https://www.fia.com/profile/presidency/prince-paul-alfons-f-rst-von-metternich-winneburg
   (nagłówek i akapit o wyborze w 1975). Wspiera wybór na prezydenta FIA w 1975
-  i pełnioną przed cutoff funkcję. Późniejszych informacji z profilu nie użyto.
+  i pełnioną wówczas funkcję. Późniejszych informacji z profilu nie użyto.
 - **PEO-02 / FIA-BALESTRE** — FIA, „Jean-Marie Balestre”, data publikacji
   `unknown`, `ARCHIVE`, `contemporary: false`,
   `spoiler_risk: contains-later-material`; pełny locator:

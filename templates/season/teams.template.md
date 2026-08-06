@@ -4,7 +4,8 @@
 
 ## Field overview
 
-[CONSISTENT CUTOFF-SAFE OVERVIEW — who is on the grid as known by the cutoff; unsettled seats; link drivers.md / technology.md / people-and-organisations.md]
+[FIELD OVERVIEW — who is on the grid; unsettled seats; link drivers.md /
+technology.md / people-and-organisations.md]
 
 ## [TEAM]
 
@@ -16,13 +17,14 @@
 
 [Drivers/equipment: links only to drivers.md and technology.md; no tech treatise.]
 
-### Stated aims and contemporary expectations
+### Stated aims and paddock expectations
 
-[Expectations: attributed contemporary only — team or press statements knowable by the cutoff.]
+[ATTRIBUTED AIMS AND EXPECTATIONS IN NATURAL PROSE — team or press statements]
 
 ### Uncertainties
 
-[Uncertainties: open seats, unconfirmed config, missing entry list, thin commercial detail.]
+[OPEN QUESTIONS IN NATURAL SPORTING LANGUAGE — open seats, unconfirmed config,
+missing entry list, thin commercial detail]
 
 ### Sources
 

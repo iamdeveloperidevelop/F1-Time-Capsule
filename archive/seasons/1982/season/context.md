@@ -28,7 +28,7 @@ Ogłoszony zarys harmonogramu zapisano w [`calendar.md`](calendar.md).*⁷
 
 ## Uwagi źródłowe
 
-- Granica wiedzy (metadane YAML): tuż przed pierwszą oficjalną sesją na Kyalami, 21 stycznia 1982; dokładna godzina nieznana. Styczniowy „Motor Sport” użyty jako współczesny materiał przedsezonowy. Otwarte pozycje: [`rejestr kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
+- Styczniowy „Motor Sport” użyty jako współczesny materiał przedsezonowy. Otwarte pozycje: [`rejestr kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
 
 - **CTX-01 / MS-1981-12-76** — A.H., „Nelson Piquet”, *Motor Sport*, December
   1981, `PRESS`, `contemporary: true`, `spoiler_risk: contains-later-material`;

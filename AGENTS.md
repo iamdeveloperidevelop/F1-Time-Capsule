@@ -6,14 +6,20 @@ future outcomes, accidents, hindsight, foreshadowing, and later-informed
 emphasis are spoilers. Exact publication-day trivia for clearly pre-cutoff
 contemporary material is not; see content-based availability in
 `docs/source-policy.md` and spoiler calibration in `docs/temporal-scope.md`.
-Reader-facing prose must remain readable—put dating caveats in footnotes, not
-in every sentence.
+Published prose must read as contemporary motorsport journalism—never as a
+reminder of the anti-spoiler rule. Put dating and source caveats in footnotes
+as a careful reporter would, not in every sentence and not as meta commentary
+about cutoffs or “what was not yet known.”
 
 - Read the relevant `.cursor/rules/` files and canonical documents they cite.
 - Use an applicable `.cursor/skills/` workflow before substantial research,
   drafting, auditing, editing, or state updates.
 - Future historical content defaults to Polish unless the task says otherwise.
 - Verify historical claims; never invent facts, quotations, or citations.
+- Write published prose as a contemporary motorsport journalist: always from
+  the historical point of view, never explaining that viewpoint, spoilers, or
+  cutoffs. Show uncertainty through attribution and natural status language;
+  omit future facts silently. See `docs/methodology.md` (Published voice).
 - Preserve credible conflicts and uncertainty instead of guessing or silently
   reconciling them; keep those caveats in footnotes and source apparatus, not
   as constant interruptions in reader-facing prose.

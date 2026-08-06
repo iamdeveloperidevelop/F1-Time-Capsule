@@ -72,8 +72,8 @@ prześwitu, ale nie zastępuje to oficjalnej historii zmian.*³
 ## Nierozstrzygnięte interpretacje
 
 Bazowy PDF FIA podaje m.in. 585 kg i 6 cm, lecz brak daty publikacji i historii
-aneksów pozostawia otwarte pytanie, czy dokument obejmuje pełny stan przepisów
-przy granicy wiedzy.*¹
+aneksów pozostawia otwarte pytanie, czy dokument obejmuje pełny ówczesny stan
+przepisów.*¹
 
 ## Znaczenie w praktyce
 
@@ -90,20 +90,19 @@ zespoły.*¹
 
 *¹ Niedatowany archiwalny PDF FIA nie podaje daty publikacji ani historii zmian.
 Przytoczone parametry opisują badany wariant tekstu, nie potwierdzony kompletny
-stan przepisów przy cutoff. Luka:
+ówczesny stan przepisów. Luka:
 [`rejestr kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
 
 *² Regulamin sportowy nie został zweryfikowany w datowanym dokumencie FIA lub
-FISA publicznym przed granicą wiedzy (`REG-SPORT-GAP-001`).
+FISA publicznym z tego okresu (`REG-SPORT-GAP-001`).
 
-*³ Przedgraniczny kontekst fartuchów i kontroli prześwitu pochodzi z „Motor
-Sport” z maja 1981. Nie odnaleziono datowanego, przedgranicznego rejestru
-aneksów potwierdzającego kompletność badanego wariantu PDF.
+*³ Kontekst fartuchów i kontroli prześwitu pochodzi z „Motor Sport” z maja
+1981. Nie odnaleziono datowanego rejestru aneksów potwierdzającego kompletność
+badanego wariantu PDF.
 
 ## Uwagi źródłowe
 
-- Granica wiedzy (metadane YAML): Dokładna godzina granicy wiedzy pozostaje nieznana; lukę zapisano w [`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
-
+- Otwarte pozycje: [`rejestr kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
 
 ### Mapa twierdzeń
 
@@ -118,10 +117,10 @@ aneksów potwierdzającego kompletność badanego wariantu PDF.
   `REG-SRC-001`, art. 11.2, 6.1 i 6.14.
 - `REG-1982-012` — przekrój i szerokość kokpitu; `REG-SRC-001`,
   art. 13.7(f)(6).
-- `REG-1982-013` — przedgraniczny kontekst fartuchów i kontroli prześwitu;
+- `REG-1982-013` — kontekst fartuchów i kontroli prześwitu z maja 1981;
   `REG-SRC-002`, s. 45.
 - `REG-SPORT-GAP-001` — regulamin sportowy wymaga weryfikacji w datowanym
-  źródle pierwotnym publicznym przed granicą wiedzy.
+  źródle pierwotnym publicznym z tego okresu.
 
 ### Rekordy źródeł
 
@@ -135,6 +134,6 @@ ani rejestru zmian; nie dowodzi własnej kompletności względem aneksów.
 `REG-SRC-002` — D.S.J., „Formula One Trend of Design”, „Motor Sport”, maj 1981,
 typ `PRESS`, współczesne, ryzyko spoilera `contains-later-material`;
 [s. 45](https://www.motorsportmagazine.com/archive/article/may-1981/45/formula-one-trend-design/),
-dostęp 2026-08-03. Wspiera wyłącznie przedgraniczny kontekst efektu przypowierzchniowego,
-przesuwnych fartuchów, ich zakazu oraz regulacji prześwitu; nie rozstrzyga
-brzmienia zasad na otwarcie sezonu 1982.
+dostęp 2026-08-03. Wspiera kontekst efektu przypowierzchniowego, przesuwnych
+fartuchów, ich zakazu oraz regulacji prześwitu według dostępnych tekstów; nie
+rozstrzyga brzmienia zasad na otwarcie sezonu 1982.

@@ -348,7 +348,7 @@ March, Fittipaldi, Arrows, Osella oraz pełna obsada Ensign —
     Tyrrell, McLaren; oleje i tech. Ligier/Talbot).
 16. `MS-1982-01`.
 17. `MS-1982-01`; nie przesądza pakietu na pierwszą sesję.
-18. Ocena prasowa `MS-1982-01`, nie prognoza autora archiwum.
+18. Ocena prasowa styczniowego „Motor Sport” (`MS-1982-01`).
 19. `MS-1982-01`.
 20. `UPI-LAUDA-1981`; `MS-1982-01`.
 21. `MS-1982-01` — Marlboro jako sponsor de Cesarisa / ścieżka odejścia.
@@ -374,13 +374,14 @@ March, Fittipaldi, Arrows, Osella oraz pełna obsada Ensign —
 41. `MS-1982-01`.
 41a. `MS-1982-01` — tożsamość producenta; personel i sponsorzy w niepewnościach.
 42. `MS-1982-01` (Andretti); para Alfa niepotwierdzona.
-43. `MS-1982-01` — bilans 1981, nie oczekiwanie na 1982.
+43. `MS-1982-01` — bilans sezonu 1981.
 44. `MS-1982-01`.
 44a. `MS-1982-01` — nazwa Toleman-Hart; principal w niepewnościach.
-45. Współczesna ocena prasowa `MS-1982-01`, nie potwierdzenie przyszłych
-    osiągów.
+45. Ocena prasowa styczniowego „Motor Sport” (`MS-1982-01`) po grudniowych
+    testach w Paul Ricard.
 46. `MS-1982-01`.
-47. `MS-1982-01-68` — charakterystyka 1981, nie lista sponsorów 1982.
+47. `MS-1982-01-68` — charakterystyka 1981; lista sponsorów 1982 nie jest tu
+    ustalona.
 48. `MS-1982-01`; obraz z połowy grudnia — potwierdzenie na otwarcie sesji
     pozostaje w rejestrze.
 49. `MS-1982-01`.
@@ -391,9 +392,7 @@ March, Fittipaldi, Arrows, Osella oraz pełna obsada Ensign —
 
 ## Uwagi źródłowe
 
-- Granica wiedzy (metadane YAML): tuż przed planowanym rozpoczęciem pierwszej
-  oficjalnej sesji GP RPA na Kyalami, 21 stycznia 1982; dokładna godzina
-  nieznana ([`1982-CUT-01`](../things-to-resolve-after-season.md#1982-cut-01)).
+- Otwarte pozycje: [`rejestr kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
 - Styczniowy „Motor Sport” (`publication_date: unknown`) użyty jako współczesny
   materiał przedsezonowy (content-based availability); nie zastępuje oficjalnej
   listy zgłoszeń.
@@ -435,7 +434,7 @@ supports:
   - claim_id: "T-REAR"
     scope: "Kocioł Tyrrell–ATS–Ensign–March–Fittipaldi–Arrows–Osella (mid-December)."
 disagreement_notes: "Williams: prefer UPI 18 Dec for confirmed pair over mid-Dec unsettled picture."
-notes: "publication_date unknown; content-based availability — mid-December writing, no Kyalami results."
+notes: "publication_date unknown; content-based availability — mid-December writing, before Kyalami."
 ```
 
 ```yaml

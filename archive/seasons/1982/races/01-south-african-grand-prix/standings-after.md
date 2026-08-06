@@ -36,7 +36,7 @@ pochodzi z tej relacji ani z audytowanego tekstu sportowego w pakiecie sezonu.
 - Arytmetyka sprawdzona: `yes`
 - Kwalifikowalność i zliczanie: `yes` (po jednej rundzie; skala prowizoryczna)
 - Remisy: `not-applicable`
-- Status oficjalny przy cutoff: `provisional` (źródło prasowe, nie biuletyn FIA)
+- Status oficjalny: `provisional` (źródło prasowe, nie biuletyn FIA)
 - Źródła w `sources.md`: `MS-MAR1982-R01`
 
 ## Przypisy

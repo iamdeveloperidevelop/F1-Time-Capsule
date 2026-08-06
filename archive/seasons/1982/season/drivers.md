@@ -133,16 +133,15 @@ Do końca 1981 roku: 1 start w Grand Prix, bez punktów.*² Kierowca Tolemana.*�
 3. Role z `MS-1982-01` (`publication_date: unknown`) pochodzą z przedsezonowego
    przeglądu — content-based availability; nie zastępują oficjalnej listy
    zgłoszeń.
-4. Opinia szefa zespołu, nie prognoza autora.
-5. Przypisana ówczesna opinia kierowcy, nie prognoza wyniku.
+4. Wypowiedź Franka Williamsa z depeszy UPI z 18 grudnia 1981.
+5. Wypowiedzi Watsona i Laudy z depeszy UPI z 12 listopada 1981.
 6. Wykorzystane źródła nie potwierdzają roli na otwarcie sezonu; patrz także
    przypis 2.
 7. Materiał nie uzasadnia dodatkowej charakterystyki stylu jazdy.
 
 ## Uwagi źródłowe
 
-- Granica wiedzy (metadane YAML): Dokładna godzina rozpoczęcia pozostaje nieznana; lukę zapisano w [`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
-
+- Otwarte pozycje: [`rejestr kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
 
 Status źródeł: częściowy. Styczniowy „Motor Sport” użyty jako współczesny
 przegląd przedsezonowy (content-based availability).
@@ -208,7 +207,7 @@ supports:
   - claim_id: "D30"
     scope: "Warwick pozostaje w Tolemanie."
 disagreement_notes: null
-notes: "publication_date unknown; content-based availability — przedsezonowy przegląd bez wyników Kyalami."
+notes: "publication_date unknown; content-based availability — przedsezonowy przegląd."
 ```
 
 ```yaml

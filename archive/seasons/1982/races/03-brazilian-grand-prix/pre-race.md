@@ -108,13 +108,12 @@ dojścia do minimum 580 kg; Ferrari i Renault od początku treningów dawały do
 zrozumienia, że złożą protest, jeśli wygra „piórkowy” samochód FOCA.*¹⁶ To
 spór otwarty przed startem, nie werdykt.
 
-## Na co patrzeć — bez zgadywania wyniku
+## Na co patrzeć
 
 Z pierwszej linii: Prost (pole), Villeneuve, Rosberg jako najszybszy
 Cosworth. Za nimi Arnoux, Lauda, Reutemann; lokalny mistrz Piquet startuje
 siódmy w nowym BT49D. Turbo Renault i Ferrari stoją wysoko, ale Cosworthy
-Williamsa i Brabhama wcisnęły się wysoko w pole — obserwacja z kwalifikacji,
-nie ranking faworytów wyścigu.*¹⁷
+Williamsa i Brabhama wcisnęły się wysoko w pole.*¹⁷
 
 ## Co telewizja może pominąć
 
@@ -167,15 +166,14 @@ interpretacji minimum wagowego / wody w hamulcach, otwarty już w treningach.*¹
     wyścigu).
 15. 63 okrążenia: `MS-APR1982-BRA` / `AS-1982-BRA` (dystans imprezy).
 16. Woda/balast i zapowiedź protestu Ferrari/Renault od początku treningów:
-    `MS-APR1982-BRA`. **Nie** używać późniejszego werdyktu ani dyskwalifikacji.
-17. Układ pola i obserwacje sesji — bez wniosków o wyniku: `MS-APR1982-BRA`.
+    `MS-APR1982-BRA`.
+17. Układ pola i obserwacje sesji: `MS-APR1982-BRA`.
 
 ## Uwagi źródłowe
 
 Źródła i mapa twierdzeń: [`sources.md`](sources.md). Status źródeł: częściowy.
-Główna relacja: kwietniowy „Motor Sport” (`MS-APR1982-BRA`) — użyte wyłącznie
-odseparowane akapity o treningu/kwalifikacjach i przedstartowym sporze
-wagowym; narracja wyścigu, klasyfikacja i protest po mecie — poza zakresem.
-Autosport (reprint „Grand Prix Gold”, `AS-1982-BRA`) — wyłącznie przedstart
-(pogoda niedzieli, rozgrzewka, DNQ/DNPQ, mieszanki, ~13:00). Archiwa F1.com /
-Racing Sports Cars / STATS F1: prowizoryczne tabele, nie oficjalny biuletyn.
+Główna relacja: kwietniowy „Motor Sport” (`MS-APR1982-BRA`) — akapity o
+treningu/kwalifikacjach i przedstartowym sporze wagowym. Autosport (reprint
+„Grand Prix Gold”, `AS-1982-BRA`) — przedstart (pogoda niedzieli, rozgrzewka,
+DNQ/DNPQ, mieszanki, ~13:00). Archiwa F1.com / Racing Sports Cars / STATS F1:
+prowizoryczne tabele, nie oficjalny biuletyn.

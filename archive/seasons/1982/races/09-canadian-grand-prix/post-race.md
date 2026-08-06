@@ -10,7 +10,7 @@
 
 ## Decisive phases of the race
 
-[PHASES SUPPORTED AND KNOWABLE BY THE CUTOFF]
+[KEY PHASES OF THIS RACE]
 
 ## Classified results
 
@@ -20,7 +20,7 @@
 
 ## Retirements and known causes
 
-[ONLY CAUSES KNOWN AT THE CUTOFF; PRESERVE UNCERTAINTY]
+[THEN-KNOWN CAUSES; STATE OPEN QUESTIONS IN NATURAL SPORTING LANGUAGE]
 
 ## Performances by team
 
@@ -32,9 +32,9 @@
 
 ## Technical observations
 
-[CUTOFF-SAFE OBSERVATIONS; LINK technology.md FOR GENERAL EXPLANATIONS]
+[EVENT OBSERVATIONS; LINK technology.md FOR GENERAL EXPLANATIONS]
 
-## Sporting and political consequences known at the cutoff
+## Sporting and political consequences
 
 [IMMEDIATE CONSEQUENCES ONLY]
 
@@ -46,17 +46,17 @@
 
 [BRIEF NARRATIVE AND LINK TO standings-after.md; DO NOT COPY FULL TABLES]
 
-## Contemporary reactions
+## Reactions from the paddock
 
-[ATTRIBUTED REACTIONS PUBLIC BY THE CUTOFF]
+[ATTRIBUTED REACTIONS — natural journalism, not “contemporary-only” meta]
 
 ## Unresolved issues
 
-[PROVISIONAL CLASSIFICATIONS, OPEN DECISIONS, OR OTHER UNCERTAINTIES]
+[PROVISIONAL CLASSIFICATIONS, OPEN APPEALS, OR OTHER OPEN QUESTIONS IN NATURAL SPORTING LANGUAGE]
 
-## What is now known before the next event
+## Looking ahead from here
 
-[STATE AT THIS CUTOFF ONLY; DO NOT RESEARCH OR PREVIEW THE NEXT EVENT]
+[ORIENTATION AFTER THIS RACE ONLY — no preview research of the next event]
 
 ## Przypisy
 

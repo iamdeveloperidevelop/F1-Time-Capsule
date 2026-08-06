@@ -6,7 +6,7 @@
 
 ## Developments since the previous race
 
-[ONLY DEVELOPMENTS PUBLIC BY THE CUTOFF]
+[RECENT PUBLIC DEVELOPMENTS IN NATURAL NARRATIVE]
 
 ## Confirmed entries and personnel
 
@@ -14,23 +14,23 @@
 
 ## Circuit briefing
 
-[CUTOFF-SAFE CONTEXT]
+[VENUE AND CIRCUIT CONTEXT]
 
 ## Technical questions
 
-[KNOWN UPDATES AND OPEN QUESTIONS; LINK technology.md]
+[ONLY weekend-relevant technical storylines with substance; otherwise omit or fold into a short paragraph. Link season/technology.md for detail.]
 
 ## Political and sporting context
 
 [CONTENT]
 
-## Contemporary expectations
+## Expectations in the paddock
 
-[ATTRIBUTED EXPECTATIONS]
+[ATTRIBUTED PADDOCK AND PRESS EXPECTATIONS IN NATURAL PROSE — e.g. "The paddock expected…", "Teams believed…". Never label claims as "only an expectation / not the outcome".]
 
 ## What to know before the weekend
 
-[CONCISE ORIENTATION AND QUESTIONS]
+[CONCISE ORIENTATION; NO CLAIM/SOURCE IDS]
 
 ## Przypisy
 

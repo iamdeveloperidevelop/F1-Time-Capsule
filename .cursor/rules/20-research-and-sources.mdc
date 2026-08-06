@@ -17,8 +17,10 @@ Follow `docs/source-policy.md`.
 - Do not invent exact calendar dates; leave `publication_date: unknown` when
   needed. Use content-based availability to decide whether clearly pre-cutoff
   contemporary material may still support readable, attributed prose.
-- Attribute expectations; label cautious interpretation; preserve unresolved
-  disagreement.
+- Attribute expectations in published prose through natural narration
+  (“the paddock expected…”); label expectation vs fact in research records,
+  not with reader-facing meta such as “only an expectation / not the result.”
+  Preserve unresolved disagreement.
 - Never guess facts, silently combine incompatible accounts, or use a citation
   for more than it supports.
 - Isolate cutoff-safe facts from later sources and flag spoiler-bearing sources.

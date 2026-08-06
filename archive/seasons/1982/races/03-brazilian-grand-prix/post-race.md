@@ -12,7 +12,7 @@ go było podtrzymywać i przywracać do przytomności obok trybuny zwycięzców.
 złożyły protest przeciwko dwóm pierwszym samochodom; stewardzi imprezy
 odrzucili go tego samego dnia, a sprawa poszła dalej ścieżką ASN / Paryż.*²
 
-Pełna migawka mistrzostw przy tej granicy:
+Pełna migawka mistrzostw według prowizorycznej klasyfikacji:
 [`standings-after.md`](standings-after.md).
 
 ## Przebieg wyścigu
@@ -72,8 +72,8 @@ histerycznego przyjęcia. Na podium padł z odwodnienia i upału.*¹
 
 ## Klasyfikacja
 
-Kolejność na mecie i prowizoryczna punktacja przy tej granicy (stewardzi nie
-zmienili wyniku po proteście):*¹*²
+Kolejność na mecie i prowizoryczna punktacja według tej klasyfikacji
+(stewardzi nie zmienili wyniku po proteście):*¹*²
 
 | Pozycja | Kierowca | Zespół | Status | Czas / strata | Punkty |
 | ---: | --- | --- | --- | --- | ---: |
@@ -123,7 +123,7 @@ jednorazowy balast względem minimum 580 kg, zapowiedziany już w treningach,
 przeszedł w formalny protest po mecie.*⁶ Szerszy kontekst epoki:
 [`technology.md`](../../../season/technology.md).
 
-## Skutki sportowe i polityczne znane przy cutoff
+## Skutki sportowe i polityczne
 
 Piquet i Rosberg dostają punkty z Brazylii przy prowizorycznej klasyfikacji
 na mecie; Prost powiększa prowadzenie w mistrzostwach kierowców. W
@@ -134,8 +134,7 @@ Marco Piccinini (Ferrari) i Jean Sage (Renault) zaprotestowali dwa pierwsze
 auta. Sage mówił o potrzebie wyjaśnienia legalności zbiorników wody — „my też
 możemy zbudować lekkie samochody, jeśli trzeba”. Stewardzi imprezy protest
 odrzucili; sprawa miała iść do brazylijskiego ASN i dalej, „przypuszczalnie do
-Paryża”.*² To otwarta ścieżka odwoławcza, nie zamknięty werdykt wykluczający
-zwycięzcę.
+Paryża”.*² Ścieżka odwoławcza pozostaje otwarta.
 
 ## Punkty z tej rundy
 
@@ -148,7 +147,7 @@ Prost prowadzi (13) przed Piquetem (9) i Rosbergiem (8). Konstruktorzy:
 Renault 17, Williams 14, Brabham 9. Pełne tabele:
 [`standings-after.md`](standings-after.md).
 
-## Reakcje współczesne
+## Reakcje z paddocku
 
 Rosberg o jeździe Piqueta: „triumf umysłu nad materią — nic poza czystą
 siłą woli”.*¹ Anonimowy kierowca w relacji Autosportu ostrzegał, że przy
@@ -161,16 +160,15 @@ Piqueta przywracano do przytomności przy podium.*¹
 ## Nierozstrzygnięte kwestie
 
 - Protest Ferrari/Renault odrzucony przez stewardów imprezy; dalsza droga ASN
-  / Paryż bez rozstrzygnięcia przy tej granicy.*²
+  / Paryż bez rozstrzygnięcia.*²
 - Brak oficjalnego biuletynu FIA z czasami i pełną klasyfikacją w pakiecie.*⁴
 - Skala punktacji nadal prowizoryczna.*⁷
 - Dokładna godzina decyzji stewardów nieustalona.
 
-## Co wiadomo przed kolejną imprezą
+## Patrząc stąd dalej
 
 Po Rio klasyfikacja na mecie stoi: Piquet, Rosberg, Prost… z otwartym
-protestem wagowym na ścieżce odwoławczej. Kolejny weekend i późniejsze
-werdykty pozostają poza tą granicą.
+protestem wagowym na ścieżce odwoławczej.
 
 ## Przypisy
 
@@ -195,4 +193,5 @@ werdykty pozostają poza tą granicą.
 
 Rejestr: [`sources.md`](sources.md). Status: częściowy — brak oficjalnego
 biuletynu FIA; klasyfikacja i protest oparte na współczesnych relacjach
-prasowych; późniejsze rozstrzygnięcia odwoławcze poza cutoff.
+prasowych; ścieżka ASN / odwoławcza po decyzji stewardów imprezy pozostaje
+otwarta.

@@ -72,10 +72,13 @@ accidents or conflicts, and retrospective statements such as “this proved
 decisive for the championship.” Label classifications and points provisional
 whenever that is their status at the cutoff.
 
-Write a readable race report: selective narrative, decisive phases, and
-attributed contemporary reaction. Prefer continuous Polish prose over template
-scaffolding left in place. Link standings-after.md instead of duplicating full
-tables in the report body beyond a concise results table.
+Write a readable race report in a contemporary motorsport-journalist voice:
+selective narrative, decisive phases, and attributed reaction. Prefer
+continuous Polish prose over template scaffolding left in place. Never explain
+cutoffs, spoilers, or that a reaction is “only contemporary opinion.” State
+provisional classifications in natural sporting language. Link standings-after.md
+instead of duplicating full tables in the report body beyond a concise results
+table.
 
 Do not require the user to provide missing archival evidence. Omit unsupported
 claims, or keep supportable wording with a short footnote, then record the concrete evidence

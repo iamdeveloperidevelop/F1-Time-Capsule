@@ -4,7 +4,7 @@
 
 ## Scope
 
-[INCLUSION RULE; CUTOFF LIVES IN YAML METADATA]
+[INCLUSION RULE — period terms only; exact boundary lives in sibling YAML]
 
 ## [TERM]
 

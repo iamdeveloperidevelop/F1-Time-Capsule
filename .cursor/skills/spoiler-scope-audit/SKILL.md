@@ -23,7 +23,10 @@ Read `docs/temporal-scope.md` and the document's contract in
 3. Review every claim for direct future outcomes, accidents, and status leaks.
 4. Review wording for hindsight, retrospective certainty, dramatic
    foreshadowing, and outcome-shaped emphasis or omission.
-5. Check predictions remain attributed contemporary expectations.
+5. Check predictions remain attributed contemporary expectations in natural
+   journalism voice—not labelled with published meta such as “only an
+   expectation / not the result.” Flag such meta as a voice defect to remove
+   without widening scope.
 6. Check later sources have not influenced framing or who gets coverage.
 7. Apply spoiler calibration from `docs/temporal-scope.md`: do not flag unknown
    publication day-of-month, minor pre-cutoff forecast revisions, or similar

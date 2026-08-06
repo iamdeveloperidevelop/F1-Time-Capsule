@@ -46,7 +46,9 @@ A cutoff statement, research questions, claim-to-source map, conflict log,
 spoiler-risk notes, unsupported gaps, and a drafting-ready evidence summary.
 If the task includes drafting, put uncertainty and citation apparatus in
 footnotes / source notes per `docs/methodology.md` and `docs/source-policy.md`;
-do not turn the reader-facing draft into a research log.
+do not turn the reader-facing draft into a research log or an explanation of
+the anti-spoiler cutoff. Label expectations vs facts in the evidence pack;
+in published prose, show them through attribution instead.
 
 ## Self-check
 
@@ -54,6 +56,7 @@ do not turn the reader-facing draft into a research log.
       content-based availability where exact day is unknown.
 - [ ] Publication, event, and public-knowledge dates are distinguished.
 - [ ] Important claims have exact support and the best practical locator.
-- [ ] Expectations and interpretations are labelled.
+- [ ] Expectations and interpretations are labelled in the evidence pack
+      (published prose uses attribution, not meta labels).
 - [ ] Conflicts and gaps remain visible without gutting readable coverage.
 - [ ] Later-source contamination has been checked.

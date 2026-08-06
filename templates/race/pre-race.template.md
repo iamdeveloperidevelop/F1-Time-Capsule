@@ -8,7 +8,7 @@
 
 ## Practice summary
 
-[ONLY SESSIONS THAT EXISTED AND WERE COMPLETE BY THE CUTOFF]
+[COMPLETED PRACTICE SESSIONS]
 
 ## Qualifying summary
 
@@ -22,19 +22,19 @@
 
 ## Penalties and confirmed changes
 
-[ONLY ITEMS CONFIRMED BEFORE THE START]
+[ITEMS CONFIRMED BEFORE THE START]
 
 ## Weather and track conditions
 
-[CONDITIONS KNOWN AT THE CUTOFF]
+[CURRENT CONDITIONS]
 
 ## Tyre and strategy considerations known before the start
 
-[CONTEMPORARY INFORMATION AND ATTRIBUTED EXPECTATIONS]
+[PADDOCK AND TEAM THINKING IN NATURAL PROSE]
 
 ## Cars or drivers to watch
 
-[CUTOFF-SAFE VIEWING CUES WITHOUT OUTCOME-SHAPED EMPHASIS]
+[WHO AND WHAT TO WATCH — attributed interest, not outcome-shaped emphasis]
 
 ## What the television commentary may not explain
 
@@ -46,8 +46,10 @@
 
 ## Przypisy
 
-[NUMBERED CAVEATS MARKED FROM THE TEXT WITH *¹, *², …]
+[NUMBERED CAVEATS MARKED FROM THE TEXT WITH *¹, *², … — journalistic notes,
+not anti-spoiler meta]
 
 ## Uwagi źródłowe
 
-[BRIEF POINTER TO sources.md; CLAIM/SOURCE MAP BELONGS HERE OR IN THE LEDGER]
+[BRIEF POINTER TO sources.md; CLAIM/SOURCE MAP BELONGS HERE OR IN THE LEDGER.
+Do not restate knowledge_cutoff or “Granica wiedzy” here.]

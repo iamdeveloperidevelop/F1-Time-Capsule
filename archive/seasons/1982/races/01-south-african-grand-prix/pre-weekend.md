@@ -61,7 +61,7 @@ pokoju.*⁶ W tle zostawała też pamięć, że wcześniejsza impreza na Kyalami
 bywała traktowana jako niezaliczana do mistrzostw.*⁷ Szerszy kontekst:
 [`context.md`](../../../season/context.md).
 
-## Współczesne oczekiwania
+## Oczekiwania w paddocku
 
 Prasowy obraz nie sprowadzał weekendu do jednej ekipy. „Motor Sport” widział
 Williamsa z zasobami na walkę o trzeci tytuł producentów, Renault w mocnej
@@ -72,8 +72,7 @@ McLarenowi — spokojny postęp i prestiż umowy z Porsche przy DFV na początek
 
 Osobne depesze dopełniały ten obraz konkretnymi głosami: Lauda studził
 oczekiwania wobec własnego powrotu na Kyalami, a Frank Williams chwalił
-szybkość i nastawienie Rosberga.*⁹ To wypowiedzi z epoki, nie ranking faworytów
-tego weekendu.
+szybkość i nastawienie Rosberga.*⁹
 
 ## Co warto wiedzieć przed weekendem
 
@@ -91,7 +90,7 @@ tego weekendu.
 1. Status mistrzowski 1981: sezonowe [`prelude.md`](../../../season/prelude.md)
    / [`context.md`](../../../season/context.md).
 2. CAL-01 / PRE-02 oraz `UPI-CALENDAR-1981-10-09`. Depesza UPI nie rozstrzyga
-   samodzielnie daty i formatu; pakiet sezonu przyjmuje granicę przed sesjami
+   samodzielnie daty i formatu; dokument przyjmuje start weekendu przed sesjami
    21 stycznia 1982 przy nieznanej godzinie.
 3. PRE-01 oraz potwierdzenia UPI dla McLarena i Williamsa. Nie oficjalna lista
    zgłoszeń na pierwszą sesję.
@@ -99,15 +98,14 @@ tego weekendu.
    rejestrze kwestii.
 5. PRE-01 / sezonowe [`technology.md`](../../../season/technology.md).
 6. PRE-01, PRE-02; zob. też [`context.md`](../../../season/context.md).
-7. Kontekst z `UPI-KYALAMI-1981-02-06`; bez wnioskowania o wpływie na ten
-   weekend. Brak osobnego źródła o polityce gospodarza przed granicą.
+7. Kontekst z `UPI-KYALAMI-1981-02-06`. Brak osobnego źródła o polityce
+   gospodarza przed weekendem.
 8. PRE-03 (Williams) oraz PRE-01 (szersze oczekiwania).
 9. `UPI-LAUDA-1981-11-12`, `UPI-WILLIAMS-1981-12-18`.
 
 ## Uwagi źródłowe
 
-- Granica wiedzy: bezpośrednio przed planowanym rozpoczęciem pierwszej
-  oficjalnej sesji na Kyalami; dokładna godzina nieznana. Styczniowy „Motor
-  Sport” użyty content-based availability jako przedsezonowy przegląd.
-
 Źródła i mapa twierdzeń: [`sources.md`](sources.md). Status źródeł: częściowy.
+Styczniowy „Motor Sport” użyty jako przedsezonowy przegląd (content-based
+availability); dokładna lokalna godzina pierwszej oficjalnej sesji nie jest
+w pakiecie potwierdzona.

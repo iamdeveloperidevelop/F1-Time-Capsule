@@ -103,15 +103,14 @@ Villeneuve’a i Patrese, wibracje Arnoux. Cosworthy mogły punktować, gdy turb
 zawodziło.*³ Szerszy opis epoki:
 [`technology.md`](../../../season/technology.md).
 
-## Skutki sportowe znane od razu
+## Skutki sportowe
 
 Pierwsza runda sezonu: punkty dla Prosta, Reutemanna, Arnoux, Laudy, Rosberga
 i Watsona. Renault prowadzi w konstruktorach przed Williamsem i McLarenem.*⁴
 Strajk kierowców z czwartku pozostał w tle sobotniego pełnego audytorium i
-przedstartowych przeprosin — bez rozstrzygania tu dalszych konsekwencji
-organizacyjnych.
+przedstartowych przeprosin.
 
-## Reakcje współczesne
+## Reakcje z paddocku
 
 Denis Jenkinson w „Motor Sport” chwalił Prosta za szybkość bez widowiskowej
 jazdy, Reutemanna za konsekwencję uzasadniającą utrzymanie go w Williamsie oraz
@@ -119,10 +118,10 @@ Laudę za tempo rozłożone na cały dystans. Rosbergowi przypisywał udany debi
 czołowej ekipie przy wciąż niespokojnym stylu w zakrętach; Watsonowi —
 przezwisko warsztatowe „Watsrong” za litanię usterek.*³
 
-## Stan po Kyalami
+## Patrząc stąd dalej
 
 Po Kyalami tabela ma pierwszych punktujących; kalendarz prowadzi dalej według
-ogłoszonego harmonogramu.*⁵ Ten dokument nie zagląda w kolejny weekend.
+ogłoszonego harmonogramu.*⁵
 
 ## Przypisy
 
@@ -130,7 +129,7 @@ ogłoszonego harmonogramu.*⁵ Ten dokument nie zagląda w kolejny weekend.
    Prix”, *Motor Sport*, March 1982 (`MS-MAR1982-R01`). Oznaczenia modeli w
    OCR źródła bywają wadliwe — w tekście użyto nazw zespołów.
 2. Narracja wyścigu i przyczyny wycofań: ta sama relacja.
-3. Oceny i obserwacje techniczne przypisane Jenkinsowi, nie autorowi archiwum.
+3. Oceny i obserwacje techniczne według Jenkinsona.
 4. Skala 9–6–4–3–2–1 przyjęta prowizorycznie do migawki po pierwszej rundzie;
    sama relacja z Kyalami jej nie podaje, a [`regulations.md`](../../../season/regulations.md)
    nie audytuje punktacji sportowej. Migawka:

@@ -75,13 +75,12 @@ Sport” dług miał być uregulowany, a Grand Prix Hiszpanii — przywrócone z
 datą w czerwcu; Holandia wracała jako pierwsza rezerwa.*¹⁴ Szersze tło:
 [`context.md`](../../../season/context.md).
 
-## Współczesne oczekiwania
+## Oczekiwania w paddocku
 
 Po lutowym anulowaniu nie ma już prasowego pytania, kto wygra w Buenos
 Aires. Zamiast faworytów toru jest komentarz o koszcie sporów: Jenkinson
 żałował utraty rundy i ostrzegał, że kalendarz może tracić kolejne płatne
-imprezy, jeśli konflikt się nie uspokoi.*¹⁵ To głos z epoki o pustym
-terminie, nie ranking startowy.
+imprezy, jeśli konflikt się nie uspokoi.*¹⁵
 
 ## Co warto wiedzieć przed weekendem
 
@@ -116,7 +115,7 @@ terminie, nie ranking startowy.
 11. Komunikat o BT50–BMW: `MS-MAR1982-SCENE` — wyłącznie ogłoszenie, bez
     wniosków o Imoli.
 12. Brazylia jako następna runda: `NYT-AP-1982-02-10`.
-13. „Distinctly shaky”: `MS-MAR1982-SCENE` — oczekiwanie, nie fakt.
+13. „Distinctly shaky”: `MS-MAR1982-SCENE` — komentarz Jenkinsona o Brazylii.
 14. Wniosek Hiszpanii 10 lutego: `NYT-AP-1982-02-10`. Przywrócenie z datą
     w czerwcu: `MS-MAR1982-SCENE` (dzień publikacji numeru `unknown`;
     content-based availability jako komentarz po anulowaniu Argentyny,
@@ -125,14 +124,6 @@ terminie, nie ranking startowy.
 
 ## Uwagi źródłowe
 
-- Granica wiedzy: bezpośrednio przed planowanym weekendem Grand Prix
-  Argentyny wokół 7 marca 1982 w Buenos Aires — po publicznym wycofaniu
-  rundy z kalendarza (AP, 10 lutego 1982); bez sesji, kwalifikacji ani
-  wyników brazylijskich. Dokładna godzina „pierwszej oficjalnej sesji”
-  nie istnieje, bo sesji nie było.
-- Marcowy „Motor Sport” (Formula One Scene, Reflections in the Transvaal)
-  użyty content-based availability dla materiału po Kyalami i po
-  anulowaniu Argentyny; spekulacje o Long Beach / Indy-car oraz późniejsze
-  rozstrzygnięcia apelacji kar — poza zakresem tego tekstu.
-
 Źródła i mapa twierdzeń: [`sources.md`](sources.md). Status źródeł: częściowy.
+Marcowy „Motor Sport” (Formula One Scene, Reflections in the Transvaal) użyty
+content-based availability dla materiału po Kyalami i po anulowaniu Argentyny.

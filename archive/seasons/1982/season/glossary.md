@@ -83,7 +83,7 @@ samodzielną stałą: zmienia się wraz z ruchem zawieszenia.
 
 *¹ Definicje oparte na niedatowanym archiwalnym PDF FIA opisują badany wariant
 tekstu; dokument nie zawiera daty publikacji ani historii aneksów, więc nie
-potwierdza własnej kompletności względem stanu przepisów przy cutoff. Luka:
+potwierdza własnej kompletności wobec ówczesnego stanu przepisów. Luka:
 [`rejestr kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
 
 *² Definicja i kontekst z „Motor Sport” (maj 1981) oraz — gdzie dotyczy —
@@ -95,8 +95,7 @@ utożsamienia obu pojęć.
 
 ## Uwagi źródłowe
 
-- Granica wiedzy (metadane YAML): Dokładna godzina granicy wiedzy pozostaje nieznana; lukę zapisano w [`rejestrze kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
-
+- Otwarte pozycje: [`rejestr kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
 
 ### Mapa twierdzeń
 
@@ -130,5 +129,5 @@ wysokości jazdy oraz kontekst zakazu fartuchów przesuwnych.
 [s. 31](https://www.motorsportmagazine.com/archive/article/january-1982/31/formula-one-scene/),
 dostęp 2026-08-03. Wspiera okresowe użycie terminów dotyczących materiałów
 konstrukcyjnych i turbodoładowanych silników. Dzień publikacji numeru jest
-nieznany, dlatego nie rozstrzygnięto, czy materiał był publicznie dostępny
-przed granicą wiedzy.
+nieznany; materiał użyty jako przedsezonowy przegląd (content-based
+availability).

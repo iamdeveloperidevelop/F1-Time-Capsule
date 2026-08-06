@@ -4,13 +4,13 @@
 
 ## Scope
 
-[INCLUSION CRITERIA WITHOUT LATER-INFORMED PROMINENCE]
+[INCLUSION CRITERIA]
 
 ## People
 
 ### [PERSON]
 
-[ROLE AND CUTOFF-SAFE CONTEXT]
+[ROLE AND CONTEXT]
 
 ## Organisations
 
@@ -28,4 +28,4 @@
 
 ## Source notes
 
-[CLAIM IDS AND SOURCE IDS]
+[CLAIM IDS AND SOURCE IDS — no “Granica wiedzy” restatement]

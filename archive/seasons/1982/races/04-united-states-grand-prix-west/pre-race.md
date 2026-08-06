@@ -108,7 +108,7 @@ i zbiorniki wody — przy ważeniu w piątek podano m.in. Williams 606 kg,
 McLaren 590,5, Renault 599, Ferrari 610,3; Brabhama nie zważono (Piquet
 zatrzymał się poza pitami).*¹⁵
 
-## Na co patrzeć — bez zgadywania wyniku
+## Na co patrzeć
 
 Pierwszy rząd: pierwsze pole de Cesarisa w Alfie 182 kontra metodyczny Lauda
 w McLarenie–Michelin. Czołowa piątka na Michelinach; najszybszy Goodyear —
@@ -145,7 +145,7 @@ prowizoryczna — [`pre-weekend.md`](pre-weekend.md). Ferrari odpowiada
    / bazy — nie biuletyn FIA (`1982-R04-PR-DIST-01`).
 2. „At 1.05 p.m. on Sunday…” — `MS-MAY1982-USW`; brak oficjalnego programu
    w pakiecie (`1982-R04-PR-CUT-01`).
-3. Migawka po R03: `ARCHIVE-R03-STAND`. Ścieżka ASN otwarta przy tej granicy.
+3. Migawka po R03: `ARCHIVE-R03-STAND`. Ścieżka ASN nadal otwarta.
 4. Format sesji, 10:00, prekwalifikacja pięciu: `MS-MAY1982-USW`.
 5. Warwick DNPQ (misfire Hart): `MS-MAY1982-USW`.
 6. Poranek, Alfa, Patrese → BT49C: `MS-MAY1982-USW`.
@@ -163,15 +163,13 @@ prowizoryczna — [`pre-weekend.md`](pre-weekend.md). Ferrari odpowiada
 14. Warunki niedzieli przed startem: `MS-MAY1982-USW` (izolowane od narracji
     wyścigu).
 15. Waga / woda; podane wyniki ważenia; Brabham nie zważony: `MS-MAY1982-USW`.
-16. Obserwacje z kwalifikacji i pola — bez wniosków o wyniku: `MS-MAY1982-USW`.
+16. Obserwacje z kwalifikacji i pola: `MS-MAY1982-USW`.
 
 ## Uwagi źródłowe
 
 Źródła i mapa twierdzeń: [`sources.md`](sources.md). Status źródeł: częściowy.
-Główna relacja: majowy „Motor Sport” (`MS-MAY1982-USW`) — użyte wyłącznie
-odseparowane akapity o sesjach, polu, rozgrzewce i warunkach przed startem;
-narracja od zielonego światła, klasyfikacja weekendu oraz procedury i
-rozstrzygnięcia po mecie lub poza tym weekendem — poza zakresem. Racing
-Sports Cars / silhouet.com: prowizoryczne tabele i dystans km, nie oficjalny
-biuletyn FIA. Oznaczenia podwozi Williams: w tekście **FW07C** wg MS; RSC
-podaje FW07D (`1982-R04-PR-MODEL-01`).
+Główna relacja: majowy „Motor Sport” (`MS-MAY1982-USW`) — akapity o sesjach,
+polu, rozgrzewce i warunkach przed startem. Racing Sports Cars / silhouet.com:
+prowizoryczne tabele i dystans km, nie oficjalny biuletyn FIA. Oznaczenia
+podwozi Williams: w tekście **FW07C** wg MS; RSC podaje FW07D
+(`1982-R04-PR-MODEL-01`).

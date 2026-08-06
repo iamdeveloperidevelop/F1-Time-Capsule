@@ -22,7 +22,9 @@ instructions, metadata, and filenames use English.
 Spoiler safety excludes more than future results. It also excludes hindsight,
 dramatic foreshadowing, and emphasis that only makes sense because of later
 history. Later sources may support separable earlier facts, but may not expand a
-document's permitted knowledge.
+document's permitted knowledge. That boundary is an internal generation rule:
+published pages should read like contemporary motorsport journalism, not like a
+reminder that spoilers are being avoided.
 
 ## Current status: Phase 0 scaffolding
 

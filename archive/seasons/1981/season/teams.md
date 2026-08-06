@@ -2,7 +2,7 @@
 
 ## Field overview
 
-[CONSISTENT CUTOFF-SAFE OVERVIEW]
+[FIELD OVERVIEW]
 
 ## [TEAM]
 
@@ -14,13 +14,13 @@
 
 [CONCISE LINKS TO drivers.md AND technology.md]
 
-### Stated aims and contemporary expectations
+### Stated aims and paddock expectations
 
-[ATTRIBUTED EXPECTATIONS]
+[ATTRIBUTED AIMS AND EXPECTATIONS IN NATURAL PROSE]
 
 ### Uncertainties
 
-[UNCERTAINTY NOTES]
+[OPEN QUESTIONS IN NATURAL SPORTING LANGUAGE]
 
 ### Sources
 

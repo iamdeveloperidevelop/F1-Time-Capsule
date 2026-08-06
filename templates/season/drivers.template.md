@@ -4,13 +4,13 @@
 
 ## Field overview
 
-[CONSISTENT CUTOFF-SAFE OVERVIEW]
+[FIELD OVERVIEW]
 
 ## [DRIVER]
 
 ### Prior record
 
-[CONTENT THROUGH THE CUTOFF]
+[PRIOR RECORD]
 
 ### Current role
 
@@ -18,11 +18,11 @@
 
 ### Relevant style or experience
 
-[SUPPORTED, NON-RETROSPECTIVE DESCRIPTION]
+[SUPPORTED DESCRIPTION WITHOUT RETROSPECTIVE LABELS]
 
-### Contemporary expectations
+### Expectations in the paddock
 
-[ATTRIBUTED EXPECTATIONS]
+[ATTRIBUTED EXPECTATIONS IN NATURAL PROSE]
 
 ### Sources
 

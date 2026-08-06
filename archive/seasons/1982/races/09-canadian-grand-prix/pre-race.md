@@ -6,7 +6,7 @@
 
 ## Practice summary
 
-[ONLY SESSIONS THAT EXISTED AND WERE COMPLETE BY THE CUTOFF]
+[COMPLETED PRACTICE SESSIONS]
 
 ## Qualifying summary
 
@@ -20,19 +20,19 @@
 
 ## Penalties and confirmed changes
 
-[ONLY ITEMS CONFIRMED BEFORE THE START]
+[ITEMS CONFIRMED BEFORE THE START]
 
 ## Weather and track conditions
 
-[CONDITIONS KNOWN AT THE CUTOFF]
+[CURRENT CONDITIONS]
 
 ## Tyre and strategy considerations known before the start
 
-[CONTEMPORARY INFORMATION AND ATTRIBUTED EXPECTATIONS]
+[PADDOCK AND TEAM THINKING IN NATURAL PROSE]
 
 ## Cars or drivers to watch
 
-[CUTOFF-SAFE VIEWING CUES WITHOUT OUTCOME-SHAPED EMPHASIS]
+[WHO AND WHAT TO WATCH — attributed interest, not outcome-shaped emphasis]
 
 ## What the television commentary may not explain
 
@@ -40,7 +40,7 @@
 
 ## Before the lights go out
 
-[NO MORE THAN 12 CONCISE POINTS]
+[NO MORE THAN 12 CONCISE POINTS; NO CLAIM/SOURCE IDS]
 
 ## Przypisy
 

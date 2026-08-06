@@ -1,8 +1,7 @@
 # Klasyfikacja po Grand Prix Brazylii
 
-Migawka przy granicy natychmiastowego procesu po wyścigu: kolejność na mecie
-i punkty według prowizorycznej klasyfikacji po odrzuceniu protestu przez
-stewardów imprezy.*¹
+Migawka zaraz po wyścigu: kolejność na mecie i punkty według prowizorycznej
+klasyfikacji po odrzuceniu protestu przez stewardów imprezy.*¹
 
 ## Klasyfikacja kierowców
 
@@ -35,14 +34,14 @@ Druga runda punktowa sezonu (po pustej Argentynie). Skala przyjęta
 prowizorycznie: 9–6–4–3–2–1 za miejsca 1–6.*² Zasada odrzucania wyników nie
 ma jeszcze zastosowania przy dwóch wynikach maksymalnie.
 
-Punkty z Brazylii przy tej granicy: Piquet 9, Rosberg 6, Prost 4, Watson 3,
-Mansell 2, Alboreto 1.*³
+Punkty z Brazylii według tej klasyfikacji: Piquet 9, Rosberg 6, Prost 4,
+Watson 3, Mansell 2, Alboreto 1.*³
 
 ## Nierozstrzygnięte kwestie klasyfikacji
 
 Protest Ferrari/Renault przeciwko dwóm pierwszym autom został odrzucony przez
 stewardów imprezy i skierowany dalej (ASN / Paryż) — bez zmiany kolejności na
-mecie przy tej granicy.*¹ Klasyfikacja opiera się na relacjach „Motor Sport”
+mecie.*¹ Klasyfikacja opiera się na relacjach „Motor Sport”
 i Autosportu; w zestawie nie ma oficjalnego komunikatu FIA.*⁴ Skala punktacji
 nadal prowizoryczna.*²
 
@@ -51,12 +50,12 @@ nadal prowizoryczna.*²
 - Arytmetyka sprawdzona: `yes` (sumy = stan po R02 + punkty z Rio)
 - Kwalifikowalność i zliczanie: `yes` (dwie rundy punktowe; skala prowizoryczna)
 - Remisy: `yes` (Arnoux i Watson po 4 pkt — pozycja dzielona 5 bez rozstrzygnięcia w pakiecie)
-- Status oficjalny przy cutoff: `provisional` (klasyfikacja na mecie po odrzuceniu protestu stewardów; ścieżka ASN otwarta; brak biuletynu FIA)
+- Status oficjalny: `provisional` (klasyfikacja na mecie po odrzuceniu protestu stewardów; ścieżka ASN otwarta; brak biuletynu FIA)
 - Źródła w `sources.md`: `MS-APR1982-BRA`, `AS-1982-BRA`, `ARCHIVE-R02-STAND`
 
 ## Przypisy
 
-1. Granica: flaga w szachownicę, podium, protest i odrzucenie przez stewardów
+1. Stan na flagę w szachownicę, podium, protest i odrzucenie przez stewardów
    imprezy (`AS-1982-BRA`). Rozstrzygnięcia ścieżki ASN / odwoławczej po
    decyzji stewardów imprezy — poza tą migawką.
 2. Skala 9–6–4–3–2–1 prowizoryczna; luka `1982-R01-PTS-01`.

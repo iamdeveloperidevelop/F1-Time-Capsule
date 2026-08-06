@@ -76,7 +76,7 @@ supports:
   - claim_id: "R04-PW-POL-03"
     scope: "Tło po Kyalami: GPDA→PRDA, kary, anulowana Argentyna; kalendarzowa kruchość płatnych rund."
   - claim_id: "R04-PW-EXP-01"
-    scope: "Jenkinson: przy dalszym chaosie Chris Pook mógłby teoretycznie rozważyć IndyCar zamiast F1 w Long Beach — przypisane oczekiwanie, nie fakt."
+    scope: "Jenkinson: przy dalszym chaosie Chris Pook mógłby teoretycznie rozważyć IndyCar zamiast F1 w Long Beach."
 disagreement_notes: "Publication_date dnia unknown."
 notes: "Content-based availability; spekulacje o Long Beach / Indy-car tylko jako atrybuowana opinia."
 ```
@@ -162,7 +162,7 @@ supports:
   - claim_id: "R04-PW-CUT-01"
     scope: "Brak pre-practice na torze; poranna oficjalna sesja testowa rozpoczęta o 10:00 lokalnie w piątek — marker pierwszej sesji (z raportu majowego)."
   - claim_id: "R04-PW-ENT-04"
-    scope: "Plan: zgłoszenie ~31; pięciu prekwalifikantów (Boesel, Paletti, Jarier, Warwick, Fabi) z limitu Concorde 30/26 — procedura, nie wynik."
+    scope: "Plan: zgłoszenie ~31; pięciu prekwalifikantów (Boesel, Paletti, Jarier, Warwick, Fabi) z limitu Concorde 30/26."
   - claim_id: "R04-PW-EXP-02"
     scope: "Przypisana spekulacja paddocku, że poziom morza i kręty tor mogą utrudnić turbom — oczekiwanie."
   - claim_id: "R04-PR-CUT-01"

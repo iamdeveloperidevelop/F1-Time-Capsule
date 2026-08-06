@@ -46,8 +46,8 @@ PRDA.*⁶ Godzina planowanego startu w Buenos Aires nie jest w zachowanych
    braku rekordu oficjalnej jazdy na ten weekend; osobnego potwierdzenia
    „nie wystartowano 7 marca” datowanego w samym tygodniu imprezy nie
    znaleziono. Twierdzenie: `R02-PR-NOS-01`.
-3. Brazylia 21 marca: `NYT-AP-1982-02-10`. Oczekiwanie „distinctly shaky”:
-   `MS-MAR1982-SCENE` — atrybucja prasowa, nie fakt o przebiegu imprezy.
+3. Brazylia 21 marca: `NYT-AP-1982-02-10`. Jenkinson w „Motor Sport” nazywał
+   tę pozycję kalendarza „wyraźnie chwiejną” (`MS-MAR1982-SCENE`).
 4. Migawka po R01: [`standings-after.md`](../01-south-african-grand-prix/standings-after.md)
    (`ARCHIVE-R01-STAND`); skala punktowa prowizoryczna.
 5. Negatywne ustalenie w dostępnym materiale: brak nowego komunikatu z datą
@@ -61,11 +61,6 @@ PRDA.*⁶ Godzina planowanego startu w Buenos Aires nie jest w zachowanych
 
 ## Uwagi źródłowe
 
-- Granica wiedzy: bezpośrednio przed planowanym startem Grand Prix Argentyny
-  w niedzielę 7 marca 1982 w Buenos Aires (dokładna lokalna godzina
-  nieznana); po publicznym wycofaniu rundy (AP, 10 lutego 1982); bez sesji
-  i bez jakiegokolwiek wyniku brazylijskiego.
-- Sekcje treningów, kwalifikacji, pola, kar weekendowych, pogody i opon
-  pominięte jako puste — imprezy nie było.
-- Źródła i mapa twierdzeń: [`sources.md`](sources.md). Status źródeł:
-  częściowy.
+Źródła i mapa twierdzeń: [`sources.md`](sources.md). Status źródeł: częściowy.
+Sekcje treningów, kwalifikacji, pola, kar weekendowych, pogody i opon
+pominięte jako puste — imprezy nie było.

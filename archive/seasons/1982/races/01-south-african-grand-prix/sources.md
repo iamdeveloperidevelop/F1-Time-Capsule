@@ -60,7 +60,7 @@ supports:
   - claim_id: "R01-EXP-01"
     scope: "Wypowiedź Laudy, że nie oczekuje natychmiastowego zwycięstwa w Grand Prix RPA."
 disagreement_notes: null
-notes: "Wypowiedź Laudy jest współczesnym oczekiwaniem, nie potwierdzeniem przyszłego wyniku; otoczenie archiwum zawiera późniejszy materiał."
+notes: "Wypowiedź Laudy z depeszy UPI; otoczenie archiwum zawiera późniejszy materiał."
 ```
 
 ```yaml
@@ -80,7 +80,7 @@ supports:
   - claim_id: "R01-EXP-02"
     scope: "Przypisane Frankowi Williamsowi oczekiwanie, że Keke Rosberg wkrótce stanie się regularnym zwycięzcą ze względu na swoje nastawienie i szybkość."
 disagreement_notes: null
-notes: "Wypowiedź Franka Williamsa jest współczesnym oczekiwaniem, nie prognozą wyniku; otoczenie archiwum zawiera późniejszy materiał."
+notes: "Wypowiedź Franka Williamsa z depeszy UPI; otoczenie archiwum zawiera późniejszy materiał."
 ```
 
 ```yaml

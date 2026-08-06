@@ -40,7 +40,7 @@ regulaminu w pakiecie sezonu.*²
 - Arytmetyka sprawdzona: `yes` (0 z tej rundy; sumy = R01)
 - Kwalifikowalność i zliczanie: `yes` (jedna runda punktowa; skala prowizoryczna)
 - Remisy: `not-applicable`
-- Status oficjalny przy cutoff: `provisional` (dziedziczy prowizję R01; brak wyniku R02)
+- Status oficjalny: `provisional` (dziedziczy prowizję R01; brak wyniku R02)
 - Źródła w `sources.md`: `ARCHIVE-R01-STAND`, `NYT-AP-1982-02-10`
 
 ## Przypisy

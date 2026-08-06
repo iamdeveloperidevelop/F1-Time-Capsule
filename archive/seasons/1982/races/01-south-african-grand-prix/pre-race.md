@@ -92,14 +92,13 @@ wieczoru przepraszał widzów w telewizji za strajk; przed wyścigiem Pironi mó
 przez nagłośnienie o limicie jazdy i zapowiedział, że pierwsza szóstka odda
 kaski na publiczną loterię.*⁸
 
-## Na co patrzeć — bez zgadywania wyniku
+## Na co patrzeć
 
 Współczesna relacja podkreślała, że turbo na Kyalami wyglądały na klasę samą
 dla siebie, a wolnossące Cosworthy walczyły o miano najszybszego „nie-turbo”.
 Na czele pola stoją dwa Renault, dwa Brabhamy–BMW i dwa Ferrari; za nimi
 Williams i McLaren jako najmocniejsi z Cosworthami. Lauda wraca po przerwie z
-środka stawki; Rosberg — z dobrego miejsca wśród wolnossących. To obserwacje z
-sesji, nie ranking faworytów wyścigu.*³
+środka stawki; Rosberg — z dobrego miejsca wśród wolnossących.*³
 
 ## Przed zgaszeniem świateł
 
@@ -123,9 +122,8 @@ sesji, nie ranking faworytów wyścigu.*³
 6. Czas Arnoux: archiwum Formula 1; tabela: prowizoryczna rekonstrukcja Racing
    Sports Cars, nie oficjalny dokument FIA/FISA.
 7. Zmiany obsady i auta poza polem — „Motor Sport”.
-8. Gest PR przed startem — „Motor Sport”; bez wnioskowania o skuteczności.
+8. Gest PR przed startem — „Motor Sport”.
 
 ## Uwagi źródłowe
 
 Źródła i ograniczenia: [`sources.md`](sources.md). Status: częściowy.
-`spoiler_audit_status` po tej redakcji: do ponownego audytu.

@@ -27,7 +27,7 @@ Brak. Bez wyścigu nie ma kolejności na mecie, czasów ani listy wycofań.
 
 Zero. Tabela kierowców i konstruktorów stoi jak po Grand Prix RPA.*⁴
 
-## Konsekwencje sportowe i polityczne przy cutoff
+## Konsekwencje sportowe i polityczne
 
 Dziura w kalendarzu, ogłoszona w lutym, stała się faktem sezonu: runda
 numerowana jako druga nie dostarczyła punktów. Kolejną zaplanowaną imprezą
@@ -35,7 +35,7 @@ mistrzostw pozostaje Grand Prix Brazylii 21 marca.*⁵ Spór o Superlicence, kar
 po Kyalami oraz PRDA nie dostał w materiale na ten dzień nowego, datowanego
 rozstrzygnięcia.*⁶
 
-## Reakcje współczesne
+## Reakcje z paddocku
 
 Dostępny komentarz prasowy dotyczy lutowego anulowania i kosztów sporów dla
 kalendarza, a nie osobnej relacji „po pustej niedzieli 7 marca”. Denis Jenkinson
@@ -52,10 +52,10 @@ tło tego komentarza: [`pre-weekend.md`](pre-weekend.md).
   (≈9–10 lutego) — nadal otwarte.*¹
 - Skala punktacji i oficjalny biuletyn wyniku Kyalami pozostają prowizoryczne
   w migawce.*⁴
-- Publiczna data decyzji w sprawie apelacji kar z Kyalami nie ustalona przed
-  tą granicą.*⁶
+- Publiczna data decyzji w sprawie apelacji kar z Kyalami nie ustalona w
+  dostępnym materiale.*⁶
 
-## Co wiadomo przed następną imprezą
+## Patrząc stąd dalej
 
 - Argentyna 7 marca nie weszła do rachunku mistrzostw.
 - Punkty bez zmian po Kyalami — pełna tabela:
@@ -80,16 +80,11 @@ tło tego komentarza: [`pre-weekend.md`](pre-weekend.md).
    wyników brazylijskich.
 6. Tło po Kyalami: `MS-MAR1982-TRANSVAAL`, `MS-MAR1982-SCENE` — content-based
    availability; bez późniejszych rozstrzygnięć apelacji (`1982-R02-POL-01`).
-7. Atrybucja Jenkinsona: `MS-MAR1982-SCENE` (`R02-PO-RXN-01`) — oczekiwanie
-   wobec Brazylii, nie fakt o przebiegu imprezy.
+7. Atrybucja Jenkinsona: `MS-MAR1982-SCENE` (`R02-PO-RXN-01`) — komentarz
+   o Brazylii jako „wyraźnie chwiejnej”.
 
 ## Uwagi źródłowe
 
-- Granica wiedzy: po upływie planowanego dnia Grand Prix Argentyny
-  (niedziela 7 marca 1982, Buenos Aires) bez oficjalnych sesji i wyścigu;
-  po publicznym wycofaniu rundy (AP, 10 lutego 1982); klasyfikacja jak po
-  Kyalami; przed jakąkolwiek sesją lub wynikiem Grand Prix Brazylii.
-- Sekcje przebiegu okrążeń, wycofań i analiz torowych pominięte jako puste —
-  imprezy nie było.
-- Źródła i mapa twierdzeń: [`sources.md`](sources.md). Status źródeł:
-  częściowy.
+Źródła i mapa twierdzeń: [`sources.md`](sources.md). Status źródeł: częściowy.
+Sekcje przebiegu okrążeń, wycofań i analiz torowych pominięte jako puste —
+imprezy nie było. Klasyfikacja jak po Kyalami.

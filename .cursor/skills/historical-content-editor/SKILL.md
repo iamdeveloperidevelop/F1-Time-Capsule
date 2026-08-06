@@ -19,21 +19,31 @@ than replaces, factual and spoiler review.
 
 1. Freeze the factual claim set and knowledge cutoff.
 2. Improve natural Polish, clarity, flow, and structure so the main text reads
-   as continuous narrative or clean reference prose.
-3. Move uncertainty, source limits, claim/source IDs, and ledger links out of
+   as continuous narrative or clean reference prose—as if written by a
+   motorsport journalist living in that moment.
+3. Enforce published voice from `docs/methodology.md`: always write from the
+   historical point of view; never explain that viewpoint. Remove meta phrases
+   such as “oczekiwanie, nie fakt,” “nie wynik,” “Granica wiedzy,” “przy
+   cutoff,” “not the outcome,” “only an expectation,” or reminders about
+   spoilers / future knowledge. Prefer “W paddocku spodziewano się…,” “Zespoły
+   uważały…,” “Inżynierowie obawiali się…,” “Plotki głosiły…,” “Wielu
+   obserwatorów sądziło….” Omit later facts silently.
+4. Move uncertainty, source limits, claim/source IDs, and ledger links out of
    running paragraphs into `## Przypisy` (short numbered notes) and
    `## Uwagi źródłowe` (citation apparatus). Mark needed caveats with `*¹`,
-   `*²`, and so on.
-4. Preserve factual meaning, attribution, confidence, names, and diacritics;
+   `*²`, and so on. Footnotes should sound like careful reporting, not like
+   temporal-scope policy.
+5. Preserve factual meaning, attribution, confidence, names, and diacritics;
    do not resolve uncertainty by wording alone.
-5. Explain technical terms at first meaningful use for a non-engineer.
-6. Remove clickbait, empty phrasing, artificial drama, repeated summaries, and
+6. Explain technical terms at first meaningful use for a non-engineer.
+7. Remove clickbait, empty phrasing, artificial drama, repeated summaries, and
    research-process narration (“nie potwierdza”, “luka dowodowa”, “źródła nie
    dają”, “brak daty dziennej blokuje użycie”) from the main text unless a
    single brief footnote is the right place for it. Prefer readable coverage of
    the contemporary field over a skeleton that mentions only hard-dated scraps.
-7. Replace duplicated detail with concise context and links to its primary home.
-8. Re-audit changed wording for accidental hindsight or spoilers.
+8. Replace duplicated detail with concise context and links to its primary home.
+9. Re-audit changed wording for accidental hindsight or spoilers—without
+   injecting anti-spoiler meta into the published text.
 
 ## Prohibited behaviour
 
@@ -43,20 +53,23 @@ than replaces, factual and spoiler review.
 - Leaving claim IDs, source IDs, or open-item links inside reader-facing
   paragraphs
 - Introducing foreshadowing or outcome-informed emphasis
+- Explaining the anti-spoiler rule, cutoff, or “historical point of view” to
+  the reader
 - Flattening original names or diacritics without a documented reason
 
 ## Expected output
 
 An edited draft plus a short change note listing structural changes, removed
-duplication, how uncertainties were moved to footnotes, and any factual issues
-returned for research rather than silently edited.
+duplication and meta language, how uncertainties were moved to footnotes, and
+any factual issues returned for research rather than silently edited.
 
 ## Self-check
 
 - [ ] No new factual claim was introduced.
 - [ ] Polish is natural, precise, and readable in the main text.
+- [ ] Voice reads as contemporary journalism; no anti-spoiler meta remains.
 - [ ] Attribution and uncertainty are preserved in footnotes/apparatus.
 - [ ] Main text is free of claim/source ID clutter and constant hedging.
 - [ ] Technical explanations remain accurate and proportionate.
 - [ ] Repetition has a justified primary home.
-- [ ] Changed prose passes a spoiler-scope check.
+- [ ] Changed prose passes a spoiler-scope check without publishing that check.

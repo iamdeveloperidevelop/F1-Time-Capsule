@@ -24,13 +24,18 @@ source dates, and whether the cutoff matches the document type.
 - **Duplication:** link to a fact's primary home and include only the context
   this document needs.
 - **Reader prose:** main sections read as continuous Polish narrative or clean
-  reference entries. Do not open with a reader-facing knowledge-boundary
-  section; the cutoff and spoiler scope stay in the sibling `.meta.yaml`. Do not
-  end with a spoiler-audit section; record `spoiler_audit_status` in that
-  metadata file (and a separate audit file only when a fuller record is needed).
-  Claim IDs, source IDs, ledger links, and research caveats belong in
-  `## Przypisy` and `## Uwagi źródłowe` (or `sources.md`), marked from the text
-  with short footnote markers when needed.
+  reference entries in a contemporary motorsport-journalist voice (see
+  `docs/methodology.md`, Published voice). Always write from the historical
+  point of view; never explain that viewpoint, the anti-spoiler rule, or that
+  a claim is “only an expectation / not the outcome.” Show uncertainty through
+  attribution and natural status language; omit later facts silently. Do not
+  open with a reader-facing knowledge-boundary section or put “Granica wiedzy”
+  / cutoff restatements in source notes; the cutoff and spoiler scope stay in
+  the sibling `.meta.yaml`. Do not end with a spoiler-audit section; record
+  `spoiler_audit_status` in that metadata file (and a separate audit file only
+  when a fuller record is needed). Claim IDs, source IDs, ledger links, and
+  research caveats belong in `## Przypisy` and `## Uwagi źródłowe` (or
+  `sources.md`), marked from the text with short footnote markers when needed.
 - **Audit:** the document cannot advance to `verified` status until
   `spoiler_audit_status: passed` and `source_status: audited`. A later workflow
   transition may still use a safe document with `source_status: partial` when
@@ -51,8 +56,8 @@ source dates, and whether the cutoff matches the document type.
 - **Forbidden knowledge:** any in-season session, result, development, change,
   or hindsight.
 - **Expected sections:** inherited context; confirmed field; regulations and
-  technology overview; calendar outline; preseason evidence; contemporary
-  questions; footnotes; source notes.
+  technology overview; calendar outline; preseason evidence; paddock questions
+  and expectations; footnotes; source notes.
 - **Sources:** broad contemporary coverage plus official entries, regulations,
   announcements, and calendar material.
 - **Length:** approximately 1,800–3,500 Polish words.
@@ -120,7 +125,8 @@ source dates, and whether the cutoff matches the document type.
   contemporary expectations confirmed by the cutoff.
 - **Forbidden knowledge:** later form, disputes, personnel changes, and fate.
 - **Expected sections:** field overview; consistent team entries; organisation;
-  drivers and equipment links; stated aims; uncertainties; sources.
+  drivers and equipment links; stated aims and paddock expectations;
+  uncertainties; sources.
 - **Sources:** official entries and announcements, team material, and
   contemporary independent reporting.
 - **Length:** approximately 200–500 words per team plus a short overview.
@@ -220,7 +226,7 @@ source dates, and whether the cutoff matches the document type.
 - **Forbidden knowledge:** any practice, qualifying, grid, race, or later
   weekend information.
 - **Expected sections:** arrival state; standings links; entries; circuit
-  context; technical and political storylines; weather expectations; questions;
+  context; technical and political storylines; weather; paddock expectations;
   footnotes; source notes.
 - **Sources:** official event documents and standings, contemporary previews,
   announcements, and dated forecasts.
@@ -258,9 +264,10 @@ source dates, and whether the cutoff matches the document type.
   public, and contemporary reactions.
 - **Forbidden knowledge:** next-event information, later appeals or rulings,
   later diagnoses, future consequences, and season hindsight.
-- **Expected sections:** race narrative; decisive factors knowable by cutoff;
-  classification; retirements; official action; brief standings context linked
-  to the snapshot; reactions; unresolved issues; footnotes; source notes.
+- **Expected sections:** race narrative; decisive phases; classification;
+  retirements; official action; brief standings context linked to the snapshot;
+  paddock reactions; unresolved issues; looking ahead from here; footnotes;
+  source notes.
 - **Sources:** official timing, classification and decisions; contemporary
   reports, broadcasts, and attributed participant reactions.
 - **Length:** approximately 1,800–3,500 words plus the canonical race

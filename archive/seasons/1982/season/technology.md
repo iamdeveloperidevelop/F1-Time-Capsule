@@ -88,8 +88,8 @@ właściwości ani przewagi konkretnego samochodu.
 
 ## Otwarte pytania techniczne
 
-- Czy badany wariant bazowego PDF FIA przedstawia kompletny stan przepisów przy
-  granicy wiedzy?
+- Czy badany wariant bazowego PDF FIA przedstawia kompletny ówczesny stan
+  przepisów?
 - Czy testowany Brabham–BMW zostanie zgłoszony do wyścigowej jazdy?
 - Kiedy i w jakiej postaci zapowiedziane silniki Porsche, Matra i Alfa Romeo
   przejdą od planu do gotowego rozwiązania?
@@ -103,13 +103,12 @@ Definicje użytych terminów zawiera [`glossary.md`](glossary.md).
 
 *¹ Styczniowy „Motor Sport” 1982 (`publication_date: unknown`); przedsezonowy
 przegląd użyty content-based availability. Opisy konstrukcji i planów
-odtwarzają treść tego materiału, nie potwierdzenie późniejszego startu czy
-skuteczności. Lukę godzinową granicy wiedzy: [`rejestr
-kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
+odtwarzają treść tego materiału według dostępnych tekstów. Otwarte pozycje:
+[`rejestr kwestii`](../things-to-resolve-after-season.md#1982-cut-01).
 
 *² Parametry z niedatowanego archiwalnego PDF FIA opisują badany wariant tekstu;
 dokument nie zawiera daty publikacji ani historii aneksów, więc nie potwierdza
-własnej kompletności względem stanu przepisów przy cutoff. Odpowiednia luka:
+własnej kompletności wobec ówczesnego stanu przepisów. Odpowiednia luka:
 [`rejestr kwestii`](../things-to-resolve-after-season.md#otwarte-pozycje).
 
 *³ Kontekst aerodynamiczny: bazowa reguła w PDF FIA (art. 3.7) oraz wyjaśnienie

@@ -65,8 +65,8 @@ Charakter układu z wcześniejszych wizyt F1: ciasne, następujące po sobie
 zakręty — często porównywane do „płaskiej Jaramy” — oraz dłuższa prosta,
 przy której w 1978 odnotowywano brak chwili oddechu między zmianami biegów.*¹³
 Klimat: tropikalne upały podkreślane już przy pierwszej wizycie w 1978; w
-1981 weekend brazylijski znał też deszcz.*¹⁴ To charakter miejsca z
-przeszłości, nie prognoza na ten weekend.
+1981 weekend brazylijski znał też deszcz.*¹⁴ To charakter miejsca znany
+z wcześniejszych wizyt Formuły 1.
 
 ## Technika
 
@@ -96,15 +96,14 @@ Hiszpania, wcześniej skreślona za zaległości wobec FOCA, według marcowego
 pierwsza rezerwa.*¹⁸ Szersze tło:
 [`context.md`](../../../season/context.md).
 
-## Współczesne oczekiwania
+## Oczekiwania w paddocku
 
 Po jednej rundzie punktowej prasowy obraz mistrzostw zaczyna się od Prosta
 i Renault, z Reutemannem i Williamsem tuż za nimi oraz McLarenem na tablicy.*¹
 W Rio naturalnym punktem zainteresowania jest brazylijski mistrz Piquet.*¹⁹
 
-Głos z epoki o ryzyku politycznym — czy impreza utrzyma się na kalendarzu —
-pozostaje otwarty; to komentarz o koszcie sporów dla płatnych rund, nie o
-faworytach kwalifikacji.*⁶
+W paddocku i w prasie wciąż pytano, czy brazylijska runda utrzyma się na
+kalendarzu — Jenkinson nazywał ją „wyraźnie chwiejną”.*⁶
 
 ## Co warto wiedzieć przed weekendem
 
@@ -115,8 +114,7 @@ faworytach kwalifikacji.*⁶
   nazywała brazylijską pozycję chwiejną.
 - Brabham według komunikatu odkłada BT50–BMW do Imoli.
 - Tor: ciasny, gorący autodrom Riocentro / Jacarepaguá (ok. 5,031 km w
-  opisie z 1981) — charakter z wcześniejszych wizyt F1, nie wynik tego
-  weekendu.
+  opisie z 1981) — charakter znany z wcześniejszych wizyt F1.
 
 ## Przypisy
 
@@ -130,7 +128,7 @@ faworytach kwalifikacji.*⁶
 4. Paryż, GPDA→PRDA, odmowa kar: `MS-MAR1982-SCENE`.
 5. Anulowanie Argentyny i Brazylia 21 marca: `NYT-AP-1982-02-10`.
 6. „Distinctly shaky” i komentarz o kalendarzu: `MS-MAR1982-SCENE` —
-   oczekiwanie, nie fakt o przebiegu imprezy.
+   Jenkinson o ryzyku dla płatnych rund i o Brazylii.
 7. Brak dziennych depesz 8–19 marca w pakiecie, które by publicznie
    „domknęły” wątpliwość o Brazylii albo ogłosiły nowe rozstrzygnięcie
    apelacji kar: luka `1982-R03-DEV-01`, `1982-R03-GO-01`.
@@ -141,31 +139,23 @@ faworytach kwalifikacji.*⁶
     nie zamknięty entry list Brazylii.
 11. Nazwy i lokalizacja: `MS-MAR1978-BRA`, `MS-MAY1981-BRA`.
 12. Długość 5,031 km i umowa FOCA na Rio: `MS-MAY1981-BRA` (stan 1981;
-    oczekiwanie lokalizacji 1982, nie wynik).
+    Ecclestone mówił wtedy o umowie na kolejne dwa lata).
 13. Charakter układu: `MS-MAR1978-BRA`, `MS-MAY1981-BRA`.
-14. Upał 1978 / deszcz 1981: `MS-MAR1978-BRA`, `MS-MAY1981-BRA` — nie
-    prognoza 1982 (`1982-R03-WX-01`).
+14. Upał 1978 / deszcz 1981: `MS-MAR1978-BRA`, `MS-MAY1981-BRA` —
+    charakter klimatu z wcześniejszych wizyt (`1982-R03-WX-01`).
 15. Sezonowe tło: [`technology.md`](../../../season/technology.md).
 16. Komunikat o BT50–BMW: `MS-MAR1982-SCENE` — wyłącznie ogłoszenie o braku
     BT50–BMW przed Imolą; bez wniosków o konkretnym silniku na Rio.
-17. Alfa na Kyalami: `MS-MAR1982-NOTES` — stan garażowy po R01, nie zapowiedź
-    debiutu w Rio.
+17. Alfa na Kyalami: `MS-MAR1982-NOTES` — stan garażowy po R01.
 18. Hiszpania / Holandia: `MS-MAR1982-SCENE` (dzień publikacji numeru
     `unknown`; content-based availability).
 19. Piquet jako mistrz kierowców 1981 (`MS-MAR1982-NOTES` / sezonowe
-    materiały); zainteresowanie lokalne w Rio — kontekst prasowy, nie
-    ranking.
+    materiały); zainteresowanie lokalne w Rio — kontekst prasowy.
 
 ## Uwagi źródłowe
 
-- Granica wiedzy: bezpośrednio przed pierwszą oficjalną sesją Grand Prix
-  Brazylii na Jacarepaguá / Autódromo Riocentro w Rio de Janeiro, marzec
-  1982 (dzień wyścigu: niedziela 21 marca); po pustym terminie Argentyny
-  7 marca; bez treningu, kwalifikacji, pola startowego ani wyniku Brazylii.
-  Dokładna lokalna godzina pierwszej sesji — nieznana (`1982-R03-CUT-01`).
-- Marcowy „Motor Sport” (Formula One Scene, Reflections in the Transvaal,
-  Notes on the cars…) użyty content-based availability dla materiału po
-  Kyalami i po anulowaniu Argentyny; spekulacje o Long Beach / Indy-car
-  oraz cały kwietniowy raport z Rio — poza zakresem.
-- Źródła i mapa twierdzeń: [`sources.md`](sources.md). Status źródeł:
-  częściowy.
+Źródła i mapa twierdzeń: [`sources.md`](sources.md). Status źródeł: częściowy.
+Marcowy „Motor Sport” (Formula One Scene, Reflections in the Transvaal,
+Notes on the cars…) użyty content-based availability dla materiału po Kyalami
+i po anulowaniu Argentyny. Dokładna lokalna godzina pierwszej sesji —
+nieznana (`1982-R03-CUT-01`).

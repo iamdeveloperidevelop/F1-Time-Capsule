@@ -15,7 +15,11 @@
 - [ ] No knowledge imported from a later race.
 - [ ] No knowledge imported from a later season.
 - [ ] No statement or emphasis influenced by final championship outcomes.
-- [ ] Contemporary expectations remain attributed as expectations.
+- [ ] Contemporary expectations remain attributed as expectations in natural
+      journalism voice (no published meta such as “only an expectation / not
+      the result”).
+- [ ] No published reminder of the anti-spoiler rule, cutoff, or “Granica
+      wiedzy” in reader-facing prose.
 - [ ] The audit report itself avoids unnecessary disclosure of future facts.
 
 ## Findings

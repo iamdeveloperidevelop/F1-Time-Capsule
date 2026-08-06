@@ -8,7 +8,7 @@
 
 ## Developments since the previous race
 
-[ONLY DEVELOPMENTS PUBLIC BY THE CUTOFF]
+[RECENT PUBLIC DEVELOPMENTS IN NATURAL NARRATIVE]
 
 ## Confirmed entries and personnel
 
@@ -16,7 +16,7 @@
 
 ## Circuit briefing
 
-[CUTOFF-SAFE CONTEXT]
+[VENUE AND CIRCUIT CONTEXT]
 
 ## Technical questions
 
@@ -28,9 +28,11 @@ technology.md. Link season/technology.md for detail.]
 
 [CONTENT]
 
-## Contemporary expectations
+## Expectations in the paddock
 
-[ATTRIBUTED EXPECTATIONS IN NATURAL PROSE]
+[ATTRIBUTED PADDOCK AND PRESS EXPECTATIONS IN NATURAL PROSE — e.g. “The
+paddock expected…”, “Teams believed…”. Never label claims as “only an
+expectation / not the outcome”.]
 
 ## What to know before the weekend
 
@@ -38,8 +40,10 @@ technology.md. Link season/technology.md for detail.]
 
 ## Przypisy
 
-[NUMBERED CAVEATS MARKED FROM THE TEXT WITH *¹, *², …]
+[NUMBERED CAVEATS MARKED FROM THE TEXT WITH *¹, *², … — journalistic notes,
+not anti-spoiler meta]
 
 ## Uwagi źródłowe
 
-[BRIEF POINTER TO sources.md; CLAIM/SOURCE MAP BELONGS HERE OR IN THE LEDGER]
+[BRIEF POINTER TO sources.md; CLAIM/SOURCE MAP BELONGS HERE OR IN THE LEDGER.
+Do not restate knowledge_cutoff or “Granica wiedzy” here.]

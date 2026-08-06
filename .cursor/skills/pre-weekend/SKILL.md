@@ -86,8 +86,10 @@ Only information publicly knowable by that cutoff is allowed, including:
 Exclude all information from the first official session onward, including
 practice, qualifying, grid, race, later rulings, and later-event knowledge.
 
-Write a readable race prelude, not a skeletal bulletin. Cover the contemporary
-field and attributed expectations in proportion to preseason evidence; do not
+Write a readable race prelude in a contemporary motorsport-journalist voice, not
+a skeletal bulletin and not a reminder of the anti-spoiler rule. Cover the field
+and paddock expectations through natural attribution (“W paddocku spodziewano
+się…”); never label claims as “only an expectation / not the outcome.” Do not
 narrow the weekend to the few drivers with hard-dated wire announcements if a
 broader preseason survey exists (content-based availability). Omit hollow
 sections that only cross-link season references without adding weekend context.
