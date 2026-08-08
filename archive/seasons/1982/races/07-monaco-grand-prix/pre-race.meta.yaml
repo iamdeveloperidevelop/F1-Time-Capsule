@@ -1,16 +1,17 @@
 season: "1982"
 document_type: "pre-start-weekend-brief"
 event: "Monaco Grand Prix"
-event_time: "[OFFICIAL PRE-RACE SESSIONS AND PRE-START MOMENT]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
+event_time: "Oficjalne sesje Grand Prix Monako 1982 w Monte Carlo (czwartek 20 maja prekwalifikacja i trening/kwalifikacje; piątek 21 maja wolny dla F1; sobota 22 maja trening i kwalifikacje) oraz niedzielny poranek 23 maja 1982 do chwili bezpośrednio przed planowanym startem wyścigu"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje: niedzielna 30-minutowa rozgrzewka, warunki pogodowe przed planowanym startem ≈15:30 lokalnie 23 maja 1982, potwierdzone pole 20 samochodów oraz grzywna Surera po sobotnim ważeniu — według Motor Sport July 1982, Autosport Grand Prix Gold (pasaże przedstartowe; publication_date dnia unknown dla reprintu; content-based availability) i rekonstrukcji Racing Sports Cars (czasy pola)"
+knowledge_cutoff: "Immediately before the scheduled race start of the 1982 Monaco Grand Prix at Monte Carlo, Sunday 23 May 1982. Best available start marker: approximately 15:30 local time as reported in Motor Sport July 1982 (“start was due at 3.30 p.m.”) and Racing Sports Cars race page (Start time: 15:30); Monaco afternoon CEST/UTC+2 assumed; exact official programme clock and named time zone not independently verified. Includes completed Thursday pre-qualifying/elimination and practice/qualifying, Friday F1 rest day, Saturday sessions, Surer ballast fine, confirmed DNQ/DNPQ, Sunday morning warm-up, and pre-start weather/tyre notes. Does not include the green-light start, parade/formation-lap incidents after cars leave for the parade, race events or results, post-race procedures, later appeals, or season retrospectives."
 spoiler_scope:
   allowed:
-    - "[COMPLETED PRE-RACE SESSIONS AND CONFIRMED PRE-START INFORMATION]"
+    - "Ukończone treningi, prekwalifikacja i kwalifikacje Monako 1982, pole startowe 20 aut, DNQ/DNPQ, rozgrzewka, opony i warunki pogodowe przed startem, cytaty paddockowe sprzed zielonego światła, kontekst mistrzostw sprzed startu, teatr opon Ensign/Theodore i spódnice JS19 w trakcie sesji"
   forbidden:
-    - "[THE RACE START, RACE EVENTS, RESULTS, AND ALL LATER KNOWLEDGE]"
+    - "Start wyścigu, okrążenie paradne/formujące po wyjeździe, przebieg i wyniki GP Monako 1982"
+    - "Retirements, DNS/DNF z procesu startowego, podium, punkty monakijskie, foreshadowing Detroit/Montreal lub sezonu"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-08"

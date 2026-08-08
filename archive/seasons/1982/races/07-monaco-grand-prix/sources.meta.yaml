@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "race-source-ledger"
 event: "Monaco Grand Prix"
-event_time: "Okres przedweekendowy Grand Prix Monako w Monte Carlo; przed pierwszą oficjalną sesją (czwartek 20 maja 1982)"
-public_knowledge_time: "Najpóźniejsze zachowane źródła przy cutoff pre-weekend: Motor Sport July 1982 (format/pasaż otwierający); Autosport Gold (Avon/JS19/wtrysk/split Brabhama — izolowane); UPI 9–12 V 1982; RSC entry; ARCHIVE-R06-STAND"
-knowledge_cutoff: "Immediately before Thursday 20 May 1982 08:00 local Monte Carlo pre-qualifying / elimination. Ledger currently supports pre-weekend.md only."
+event_time: "Grand Prix Monako 1982 w Monte Carlo (20–23 maja 1982) oraz natychmiastowa procedura post-race 23 maja 1982"
+public_knowledge_time: "Najpóźniejsze zachowane źródła przy cutoff post-race: UPI 23 maja 1982; Motor Sport July 1982 Race; Autosport Gold (pasaże wyścigu; publication_date dnia unknown; content-based availability); RSC results reconstruction; ARCHIVE-R06-STAND"
+knowledge_cutoff: "End of the immediate official post-race process at Monte Carlo, Sunday 23 May 1982 (same boundary as post-race.md / standings-after.md). Ledger supports pre-weekend.md, pre-race.md, post-race.md, and standings-after.md."
 spoiler_scope:
   allowed:
-    - "Metadane źródeł i wsparcie twierdzeń w granicach cutoff pre-weekend Monako"
+    - "Metadane źródeł i wsparcie twierdzeń w granicach cutoff post-race Monako"
   forbidden:
-    - "Treść sesji/wyścigu Monako poza kwarantanną spoiler_risk; późniejsze rundy; retrospectives sezonu poza kwarantanną"
+    - "Detroit i późniejsze rundy poza kwarantanną spoiler_risk; retrospectives sezonu poza kwarantanną"
 content_language: "pl"
 research_status: "drafted"
 source_status: "partial"
 spoiler_audit_status: "passed"
-last_verified: "2026-08-06"
+last_verified: "2026-08-08"

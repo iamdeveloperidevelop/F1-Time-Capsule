@@ -6,9 +6,9 @@ event_slug: "monaco-grand-prix"
 race_directory: "archive/seasons/1982/races/07-monaco-grand-prix"
 cutoffs:
   pre_weekend: "Immediately before Thursday 20 May 1982 08:00 local Monte Carlo pre-qualifying / elimination (first official F1 session of the Monaco weekend; race day Sunday 23 May 1982). Exact official programme time-zone label not independently verified."
-  pre_race: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
-  post_race: "[END OF THE INCLUDED IMMEDIATE OFFICIAL POST-RACE PROCESS]"
-immediate_official_post_race_process: "[PRECISE INCLUDED PROCEDURES AND END BOUNDARY]"
+  pre_race: "Immediately before the scheduled race start of the 1982 Monaco Grand Prix at Monte Carlo, Sunday 23 May 1982 ≈15:30 local (Motor Sport July 1982; CEST assumed; exact official programme time-zone label not independently verified)."
+  post_race: "End of the immediate official post-race process at Monte Carlo: chequered flag after 76 scheduled laps of Sunday 23 May 1982; on-the-road finishing order and same-day classification of incomplete finishers (including Pironi and de Cesaris); podium / victory-lap gestures; same-day paddock reactions; and same-day absence of protest or DSQ over Patrese’s marshal push / bump-start as reported by UPI 23 May 1982. CEST assumed; exact official programme time-zone label not independently verified."
+immediate_official_post_race_process: "Included: race completion to the scheduled 76 laps (Clerk of the Course kept full distance despite late rain — Motor Sport); chequered flag; classification of cars short of distance; podium and Patrese–Pironi victory-lap gesture; same-day confirmation of no objections to Patrese’s push-start, no technical rows, and no disqualifications (UPI 23 May). Not included: Detroit GP or later rounds, later appeals or championship bulletins, later diagnoses, or season retrospectives."
 document_order:
   - "pre-weekend.md"
   - "pre-race.md"

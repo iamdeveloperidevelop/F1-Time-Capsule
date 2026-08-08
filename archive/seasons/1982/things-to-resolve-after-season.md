@@ -146,6 +146,19 @@ etapu bezpiecznego względem granicy wiedzy.
 | 1982-R07-PW-LB-01 | `races/07-monaco-grand-prix/pre-weekend.md`, `sources.md` | Czy między Zolderem a Monako ukazała się aktualizacja apelacji Long Beach? | Datowany biuletyn. | open |
 | 1982-R07-PW-FISA-01 | `races/07-monaco-grand-prix/pre-weekend.md`, `sources.md` | Czy komitet Balestre’a zebrał się / opublikował środki przed pierwszą sesją Monako? | Datowany biuletyn FISA ≤ cutoff. | open |
 | 1982-R07-PW-AS-01 | `races/07-monaco-grand-prix/sources.md` | Oryginalna data numeru Autosport dla Monako 1982 (vs reprint Gold 2012). | Offline Autosport. | open |
+| 1982-R07-PR-CUT-01 | `races/07-monaco-grand-prix/pre-race.md`, `metadata.yaml`, `sources.md` | Potwierdzenie oficjalnego zegara startu ≈15:30 i nazwy strefy (CEST założone). | Program / biuletyn ACM 1982. | open |
+| 1982-R07-PR-PQ-01 | `races/07-monaco-grand-prix/pre-race.md`, `sources.md` | Oficjalne czasy prekwalifikacji czwartek 20 V (trójka + DNPQ). | Biuletyn timingowy ACM/FISA. | open |
+| 1982-R07-PR-GRID-01 | `races/07-monaco-grand-prix/pre-race.md`, `sources.md` | Oficjalny biuletyn kwalifikacji P1–P26 vs rekonstrukcja RSC. | Timing FIA/ACM. | open |
+| 1982-R07-PR-WU-01 | `races/07-monaco-grand-prix/pre-race.md`, `sources.md` | Pełna klasyfikacja niedzielnej rozgrzewki (MS podaje narrację, nie tabelę czasów). | Biuletyn timingowy przed startem. | open |
+| 1982-R07-PR-WX-01 | `races/07-monaco-grand-prix/pre-race.md`, `sources.md` | Niezależna meteo niedzielnego przedpołudnia vs MS/AS gloom/muggy. | Lokalny biuletyn pogodowy 23 V 1982. | open |
+| 1982-R07-PR-PEN-01 | `races/07-monaco-grand-prix/pre-race.md` | Czy poza grzywną Surera był biuletyn kar przesuwających pole przed startem? | Oficjalny biuletyn ≤ start. | open |
+| 1982-R07-PO-RES-01 | `races/07-monaco-grand-prix/post-race.md`, `standings-after.md`, `sources.md` | Klasyfikacja R07 oparta na UPI/MS/AS/RSC; brak oficjalnego wyniku lub biuletynu FIA w zestawie. | Oficjalny wynik, komunikat lub biuletyn FIA/ACM. | open |
+| 1982-R07-PO-FL-01 | `races/07-monaco-grand-prix/post-race.md`, `sources.md` | Oficjalne FL (kierowca/czas/okrążenie); RSC Patrese 1:26.354 nie użyte w prose. | Biuletyn timingowy / results box. | open-nonblocking |
+| 1982-R07-PO-TIME-01 | `races/07-monaco-grand-prix/post-race.md`, `sources.md` | Współczesny czas zwycięzcy / średnia; DB 1:54:11.259 nie w MS/UPI. | Results box contemporary. | open-nonblocking |
+| 1982-R07-PO-DNF-01 | `races/07-monaco-grand-prix/post-race.md`, `sources.md` | Rozbieżne okrążenia/przyczyny: Arnoux 14/15, Watson zapłon/olej, Rosberg kontakt/krawężnik, Pironi paliwo/elektryka, Cheever. | Oficjalny timing / zgodna współczesna tabela. | open |
+| 1982-R07-PO-PIR-PTS-01 | `races/07-monaco-grand-prix/standings-after.md`, `sources.md` | UPI 23 V implikuje Pironi 16 vs archiwum 15 (9+6). | Oficjalna tabela mistrzostw / wyjaśnienie off-by-one UPI. | open |
+| 1982-R07-PO-WEIGH-01 | `races/07-monaco-grand-prix/post-race.md`, `sources.md` | Czy po Monako było natychmiastowe ważenie (UPI: brak awantur technicznych; MS milczy). | Biuletyn stewardów. | open-nonblocking |
+| 1982-R07-PO-LB-01 | `races/07-monaco-grand-prix/post-race.md` | Czy 23 V ukazała się aktualizacja apelacji Long Beach? | Datowany biuletyn (nie backfill). | open |
 
 ## Zasady późniejszego rozstrzygania
 
