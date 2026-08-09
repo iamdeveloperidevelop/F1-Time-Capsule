@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "race-source-ledger"
 event: "Canadian Grand Prix"
-event_time: "[EVENT INTERVAL COVERED BY THIS LEDGER]"
-public_knowledge_time: "[WHEN THE LATEST RETAINED SOURCE INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[LATEST DOCUMENT CUTOFF THIS LEDGER CURRENTLY SUPPORTS]"
+event_time: "Okres od przed weekendem Grand Prix Kanady 1982 do natychmiastowej procedury po wyścigu 13 VI (flaga, klasyfikacja, podium); ledger wspiera pre-weekend.md, pre-race.md, post-race.md i standings-after.md"
+public_knowledge_time: "Najpóźniejsze źródła użyte przy cutoff post-race: MS July 1982 Race+RESULTS i Autosport/Roebuck The Grand Prix (izolowane od nav/retrospectives); WP/RSC race tables (wtórne); ARCHIVE-R08-STAND + arytmetyka punktów CAN"
+knowledge_cutoff: "End of the immediate official post-race process at Circuit Gilles Villeneuve, Sunday 13 June 1982: chequered flag after restarted 70-lap race; initial classification; podium; same-day paddock reactions; provisional points. Does not support next-race documents."
 spoiler_scope:
   allowed:
-    - "[SOURCE METADATA AND CLAIM SUPPORT WITHIN THE SUPPORTED CUTOFF]"
+    - "Metadane źródeł i zakres wsparcia claimów w granicach pre-weekend, pre-race i post-race"
   forbidden:
-    - "[LATER SOURCE CONTENT EXCEPT QUARANTINED RISK METADATA]"
+    - "Treść późniejszych rund i retrospectives w claimach narracyjnych; źródła spoiler-bearing tylko z kwarantanną"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-09"

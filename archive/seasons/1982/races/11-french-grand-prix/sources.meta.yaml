@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "race-source-ledger"
 event: "French Grand Prix"
-event_time: "[EVENT INTERVAL COVERED BY THIS LEDGER]"
-public_knowledge_time: "[WHEN THE LATEST RETAINED SOURCE INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[LATEST DOCUMENT CUTOFF THIS LEDGER CURRENTLY SUPPORTS]"
+event_time: "Przedweekend Paul Ricard przed pierwszą oficjalną sesją piątek 23 VII 1982 ≈10:00 CEST"
+public_knowledge_time: "Najpóźniejsze źródła przy cutoff pre-weekend: MS Sep 1982 (pasaże przedsesyjne); Autosport/Roebuck Entry & Practice (izolowane); ARCHIVE-R10-STAND; prostfan/RSC entry; WP/MS-DB venue"
+knowledge_cutoff: "Immediately before the first official practice session of the 1982 French Grand Prix weekend at Paul Ricard, Friday morning 23 July 1982 ≈10:00 CEST. Supports pre-weekend.md only at this ledger cutoff."
 spoiler_scope:
   allowed:
-    - "[SOURCE METADATA AND CLAIM SUPPORT WITHIN THE SUPPORTED CUTOFF]"
+    - "Metadane źródeł i zakres wsparcia claimów w granicach pre-weekend Paul Ricard"
   forbidden:
-    - "[LATER SOURCE CONTENT EXCEPT QUARANTINED RISK METADATA]"
+    - "Treść qualifying/race/later rounds w claimach narracyjnych; źródła spoiler-bearing tylko z kwarantanną"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-10"

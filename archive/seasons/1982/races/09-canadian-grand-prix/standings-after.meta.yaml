@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "standings-snapshot"
 event: "Canadian Grand Prix"
-event_time: "[POST-RACE CLASSIFICATION BOUNDARY]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[SAME POST-RACE CUTOFF AS THE SUPPORTED SNAPSHOT]"
+event_time: "Natychmiastowa klasyfikacja po Grand Prix Kanady, niedziela 13 czerwca 1982 (flaga w szachownicę po restarcie, 70 okr.)"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje: wyniki i punkty rundy z Motor Sport July 1982 / Autosport/Roebuck / Wiki–RSC; arytmetyka na bazie ARCHIVE-R08-STAND + punkty Kanady"
+knowledge_cutoff: "End of the immediate official post-race process at Circuit Gilles Villeneuve, Sunday 13 June 1982: same cutoff as post-race.md — classification and points after the chequered flag. Does not include later corrections, British GP or later rounds, or season-end counting."
 spoiler_scope:
   allowed:
-    - "[CLASSIFICATIONS, POINTS, AND DECISIONS OFFICIAL BY THE CUTOFF]"
+    - "Klasyfikacja Kanady, punkty 9–6–4–3–2–1, sumy kierowców i konstruktorów na bazie po Detroit"
   forbidden:
-    - "[LATER CORRECTIONS, APPEALS, RULINGS, AND FUTURE ROUNDS]"
+    - "Późniejsze korekty, apelacje, biuletyny mistrzostw, przyszłe rundy"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-09"

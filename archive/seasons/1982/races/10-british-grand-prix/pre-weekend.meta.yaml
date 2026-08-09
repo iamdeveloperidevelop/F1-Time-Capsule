@@ -1,16 +1,18 @@
 season: "1982"
 document_type: "race-prelude"
 event: "British Grand Prix"
-event_time: "[PRE-WEEKEND CONTEXT INTERVAL]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+event_time: "Okres przedweekendowy XXXV Marlboro British Grand Prix na Brands Hatch (Kent), wokół niedzieli 18 lipca 1982; przed pierwszą oficjalną sesją weekendu"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje przed sesjami: UPI 18 June 1982 (FOCA–Zandvoort); wynik i obsada Holandii 3 July 1982 (publiczne przed Brands); Autosport/Roebuck Grand Prix Gold reprint (pasaże Entry & Practice / kontekst przedsesyjny — izolowane od czasów, grida i wyniku Brands Hatch; publication_date oryginału unknown; content-based availability); RSC entry list; MS database date/venue/length; klasyfikacja archiwum po Kanadzie + arytmetyka punktów Holandii"
+knowledge_cutoff: "Immediately before the first official practice session of the 1982 British Grand Prix weekend at Brands Hatch (Kent), Friday morning, 16 July 1982 (BST). Exact official programme clock for that session is not independently verified. Race day Sunday 18 July 1982. After the Canadian immediate official process (13 June 1982) and after the Dutch Grand Prix at Zandvoort (3 July 1982) as public between-rounds knowledge; before any Friday practice times, qualifying, grid, warm-up, or race information from Brands Hatch."
 spoiler_scope:
   allowed:
-    - "[PREVIOUS STANDINGS AND DEVELOPMENTS PUBLIC BEFORE THE WEEKEND]"
+    - "Klasyfikacja po Kanadzie; przywrócenie i wynik Holandii (3 VII) jako wiedza międzyrundowa; umowa FOCA–Zandvoort 18 VI; obsada i sprzęt przyjazdu Brands Hatch przed pierwszą oficjalną sesją; opis toru; testy Donington/Snetterton sprzed weekendu; przypisane oczekiwania prasowe sprzed sesji"
   forbidden:
-    - "[ALL INFORMATION FROM THE FIRST OFFICIAL SESSION ONWARD]"
+    - "Wszelkie oficjalne sesje piątkowe i późniejsze Brands Hatch, czasy treningów/kwalifikacji, pole startowe, DNQ jako wynik, przebieg i wyniki Grand Prix Wielkiej Brytanii 1982 oraz późniejszych rund"
+    - "Pogoda sesji/wyścigu jako przeżyte wydarzenia; frekwencja dnia wyścigu jako wynik"
+    - "Retrospectives sezonu; foreshadowing Hockenheim / kariery Pironiego; «ostatnia wygrana»"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-10"

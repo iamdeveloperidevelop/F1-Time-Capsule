@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "race-source-ledger"
 event: "Detroit Grand Prix"
-event_time: "[EVENT INTERVAL COVERED BY THIS LEDGER]"
-public_knowledge_time: "[WHEN THE LATEST RETAINED SOURCE INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[LATEST DOCUMENT CUTOFF THIS LEDGER CURRENTLY SUPPORTS]"
+event_time: "Weekend Grand Prix Detroit 1982 przez natychmiastową procedurę oficjalną po wyścigu 6 czerwca 1982"
+public_knowledge_time: "Najpóźniejsze zachowane źródła przy cutoff post-race: Motor Sport July 1982 (Race + RESULTS; publication_date dnia unknown; content-based availability); RSC/Wiki rekonstrukcja klasyfikacji; ARCHIVE-R07-STAND jako baza mistrzostw"
+knowledge_cutoff: "End of the immediate official post-race process at downtown Detroit, Sunday 6 June 1982 (chequered flag after 62-lap two-part race; aggregate classification; same-day scrutineering). Ledger supports pre-weekend.md, pre-race.md, post-race.md, and standings-after.md; Canadian GP and later rounds quarantined."
 spoiler_scope:
   allowed:
-    - "[SOURCE METADATA AND CLAIM SUPPORT WITHIN THE SUPPORTED CUTOFF]"
+    - "Metadane źródeł i wsparcie twierdzeń w granicach cutoff pre-weekend, pre-race i post-race Detroit"
   forbidden:
-    - "[LATER SOURCE CONTENT EXCEPT QUARANTINED RISK METADATA]"
+    - "Wyniki późniejszych rund poza kwarantanną spoiler_risk; retrospectives sezonu poza kwarantanną"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-09"

@@ -1,16 +1,19 @@
 season: "1982"
 document_type: "post-race-report"
 event: "British Grand Prix"
-event_time: "[RACE AND INCLUDED IMMEDIATE OFFICIAL PROCESS]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[END OF THE IMMEDIATE OFFICIAL PROCESS DEFINED IN metadata.yaml]"
+event_time: "Wyścig XXXV Marlboro British Grand Prix na Brands Hatch (Kent), niedziela 18 lipca 1982, oraz natychmiastowa procedura oficjalna: 76 okrążeń do flagi w szachownicę; początkowa klasyfikacja; podium"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje: Autosport/Roebuck Grand Prix Gold reprint (pasaż Race — izolowany; publication_date oryginału unknown; content-based availability); Wikipedia/formula1.com/RSC tabele wyniku jako krzyżowy check; same-day knowability przebiegu i wyniku 18 VII 1982"
+knowledge_cutoff: "End of the immediate official post-race process of the 1982 British Grand Prix at Brands Hatch on Sunday 18 July 1982 (BST): chequered flag after the scheduled 76-lap race; initial race classification as published that day; podium ceremony; same-day paddock and press reactions; championship points awarded on the provisional 9–6–4–3–2–1 scale for places 1–6. Exact clock time of classification publication not independently verified. Does not include French GP weekend or later rounds, later appeals or championship bulletins, later driver replacements, later Warwick half-tank explanations, Hockenheim foreshadowing, or season retrospectives."
 spoiler_scope:
   allowed:
-    - "[RACE AND IMMEDIATE CONSEQUENCES PUBLIC BY THE CUTOFF]"
+    - "Przebieg i wynik Grand Prix Wielkiej Brytanii 1982, start Patrese–Arnoux–Fabi, klasyfikacja, podium, FL Henton, natychmiastowe reakcje paddocku, punkty z Brands Hatch"
+    - "Punkty i mistrzostwa według tej klasyfikacji na bazie prowizorycznej po Holandii"
+    - "Współczesne przyczyny wycofań; plan postoju Brabhama jako anulowany tego dnia"
   forbidden:
-    - "[NEXT-WEEKEND INFORMATION, LATER RULINGS, AND SEASON HINDSIGHT]"
+    - "Weekend Grand Prix Francji / Paul Ricard (poza datą kalendarza) i późniejsze rundy; foreshadowing Hockenheim / sezonu"
+    - "Późniejsze apelacje, biuletyny mistrzostw, retrospectives, późniejsze wyjaśnienia Warwicka o pół baku, późniejsze zastępstwa kierowców"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-10"

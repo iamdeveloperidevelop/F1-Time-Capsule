@@ -1,16 +1,17 @@
 season: "1982"
 document_type: "pre-start-weekend-brief"
 event: "British Grand Prix"
-event_time: "[OFFICIAL PRE-RACE SESSIONS AND PRE-START MOMENT]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
+event_time: "Oficjalne sesje weekendu XXXV Marlboro British Grand Prix 1982 (piątek–niedziela) do chwili bezpośrednio przed planowanym startem wyścigu w niedzielę 18 lipca 1982 na Brands Hatch (Kent)"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje przed startem: Autosport/Roebuck Grand Prix Gold reprint (Entry & Practice + warm-up / pre-parade — izolowane od wyniku wyścigu; publication_date oryginału unknown; content-based availability); Wikipedia/F1.com tabele kwalifikacji jako krzyżowy check; RSC/Motorsport Stats 15:00 jako wtórna kotwica zegara; klasyfikacja archiwum po Holandii z pre-weekend"
+knowledge_cutoff: "Immediately before the scheduled race start of the 1982 British Grand Prix, Brands Hatch (Kent), Sunday 18 July 1982, local time (BST). Best available pre-start clock anchors from secondary databases: race due approximately 15:00 local (Racing Sports Cars; Motorsport Stats). Exact official programme clock not independently verified. Includes completed Friday/Saturday practice and qualifying, confirmed grid/DNQ/DNA, warm-up, parade-lap pre-lights developments (Rosberg start from back), and publicly known pre-start car/reliability/strategy issues; excludes green lights, formation developments after this boundary, race events, results, and all later knowledge."
 spoiler_scope:
   allowed:
-    - "[COMPLETED PRE-RACE SESSIONS AND CONFIRMED PRE-START INFORMATION]"
+    - "Ukończone sesje treningowe i kwalifikacyjne, pole startowe, DNQ/DNA, rozgrzewka, okrążenie paradne przed zielonym światłem (w tym start Rosberga z końca), warunki toru/pogody znane przed startem, cytaty i obserwacje paddocku sprzed startu, plan postoju Brabhama jako intencja, klasyfikacja po Holandii"
   forbidden:
-    - "[THE RACE START, RACE EVENTS, RESULTS, AND ALL LATER KNOWLEDGE]"
+    - "Zielone światła, przebieg i wynik Grand Prix Wielkiej Brytanii 1982, kolizja Patrese–Arnoux–Fabi na starcie, punkty i klasyfikacja po wyścigu"
+    - "Późniejsze apelacje, retrospectives sezonu, foreshadowing Hockenheim / kariery Pironiego / Warwick half-tank jako fakt potwierdzony po fakcie"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-10"

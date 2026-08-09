@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "race-source-ledger"
 event: "British Grand Prix"
-event_time: "[EVENT INTERVAL COVERED BY THIS LEDGER]"
-public_knowledge_time: "[WHEN THE LATEST RETAINED SOURCE INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[LATEST DOCUMENT CUTOFF THIS LEDGER CURRENTLY SUPPORTS]"
+event_time: "Weekend Brands Hatch 16–18 VII 1982 przez natychmiastową procedurę oficjalną po wyścigu niedziela 18 VII 1982"
+public_knowledge_time: "Najpóźniejsze źródła przy cutoff post-race: Autosport/Roebuck Race (izolowane); Wikipedia/F1.com/RSC wynik; ARCHIVE-R10-PW-STD baza po Holandii; MS Aug 1982 zarejestrowany bez pełnego tekstu"
+knowledge_cutoff: "End of the immediate official post-race process at Brands Hatch, Sunday 18 July 1982 (BST): same cutoff as post-race.md / standings-after.md. Supports pre-weekend.md, pre-race.md, post-race.md, and standings-after.md."
 spoiler_scope:
   allowed:
-    - "[SOURCE METADATA AND CLAIM SUPPORT WITHIN THE SUPPORTED CUTOFF]"
+    - "Metadane źródeł i zakres wsparcia claimów w granicach pre-weekend, pre-race i post-race Brands Hatch"
   forbidden:
-    - "[LATER SOURCE CONTENT EXCEPT QUARANTINED RISK METADATA]"
+    - "Treść French GP i późniejszych rund w claimach narracyjnych; Warwick half-tank later; źródła spoiler-bearing tylko z kwarantanną"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-10"

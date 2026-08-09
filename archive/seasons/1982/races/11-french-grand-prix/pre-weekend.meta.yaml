@@ -1,16 +1,19 @@
 season: "1982"
 document_type: "race-prelude"
 event: "French Grand Prix"
-event_time: "[PRE-WEEKEND CONTEXT INTERVAL]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+event_time: "Okres przedweekendowy LXVIII Grand Prix de France na Circuit Paul Ricard (Le Castellet, Var), wokół niedzieli 25 lipca 1982; przed pierwszą oficjalną sesją weekendu"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje przed sesjami: wynik i konsekwencje Brands Hatch 18 July 1982 (archiwum); Motor Sport September 1982 French GP (pasaże przed Qualifying — izolowane; publication_date dnia unknown; content-based availability); Autosport/Roebuck Grand Prix Gold reprint (Entry & Practice przedsesyjne — izolowane); prostfan/RSC entry compilations; MS database date/venue/length; klasyfikacja archiwum po Brands Hatch"
+knowledge_cutoff: "Immediately before the first official practice session of the 1982 French Grand Prix weekend at Circuit Paul Ricard (Le Castellet), Friday morning, 23 July 1982, approximately 10:00 CEST. Exact official programme clock is supported by contemporary Motor Sport narrative (~10 a.m. Friday) but not by an independently verified event programme bulletin. Race day Sunday 25 July 1982. After the British Grand Prix immediate official process (18 July 1982); before any Friday practice times, qualifying, grid, warm-up, or race information from Paul Ricard."
 spoiler_scope:
   allowed:
-    - "[PREVIOUS STANDINGS AND DEVELOPMENTS PUBLIC BEFORE THE WEEKEND]"
+    - "Klasyfikacja po Brands Hatch; logistyka back-to-back i kontekst kalendarza World Cup; obsada i sprzęt przyjazdu Paul Ricard przed pierwszą oficjalną sesją; opis toru Mistral; przypisane oczekiwania prasowe sprzed sesji"
   forbidden:
-    - "[ALL INFORMATION FROM THE FIRST OFFICIAL SESSION ONWARD]"
+    - "Wszelkie oficjalne sesje piątkowe i późniejsze Paul Ricard, czasy treningów/kwalifikacji, pole startowe, DNQ jako wynik, przebieg i wyniki Grand Prix Francji 1982 oraz późniejszych rund"
+    - "Wypadek Mass–Baldi; kontrowersja Arnoux/Prost team orders; foreshadowing Hockenheim / kariery Pironiego; «ostatni finisz»"
+    - "Pogoda sesji/wyścigu jako przeżyte wydarzenia; frekwencja dnia wyścigu jako wynik"
+    - "Retrospectives sezonu"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-10"

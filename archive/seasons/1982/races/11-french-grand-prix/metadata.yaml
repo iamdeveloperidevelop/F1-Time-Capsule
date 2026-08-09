@@ -5,7 +5,7 @@ event: "French Grand Prix"
 event_slug: "french-grand-prix"
 race_directory: "archive/seasons/1982/races/11-french-grand-prix"
 cutoffs:
-  pre_weekend: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+  pre_weekend: "Immediately before the first official practice session of the 1982 French Grand Prix weekend at Circuit Paul Ricard (Le Castellet), Friday morning, 23 July 1982, approximately 10:00 CEST. Exact official programme clock not independently verified beyond contemporary Motor Sport narrative."
   pre_race: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
   post_race: "[END OF THE INCLUDED IMMEDIATE OFFICIAL POST-RACE PROCESS]"
 immediate_official_post_race_process: "[PRECISE INCLUDED PROCEDURES AND END BOUNDARY]"

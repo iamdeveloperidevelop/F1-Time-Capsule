@@ -1,16 +1,18 @@
 season: "1982"
 document_type: "race-prelude"
 event: "Detroit Grand Prix"
-event_time: "[PRE-WEEKEND CONTEXT INTERVAL]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+event_time: "Okres przedweekendowy pierwszego Grand Prix Detroit na tymczasowym układzie ulicznym w centrum Detroit, wokół niedzieli 6 czerwca 1982; przed pierwszą oficjalną sesją weekendu"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje przed sesjami: Motor Sport July 1982 (pasaże o odwołaniu czwartkowego testu, planowanym formacie piątku, obsadzie/sprzęcie przyjazdu, opisie toru — izolowane od wyników sesji/wyścigu; publication_date dnia unknown; content-based availability); UPI 23 maja 1982 (zapowiedź Detroit / organizator / Stewart); RSC entry reconstruction; klasyfikacja archiwum po Monako (23 V)"
+knowledge_cutoff: "Immediately before the first official session of the 1982 Detroit Grand Prix weekend on the downtown street circuit (race day Sunday 6 June 1982). Best available marker: Friday 4 June 1982 10:00 local (EDT) regulation test / free practice as originally scheduled (Motor Sport July 1982); exact official programme time-zone label not independently verified (treated as EDT). After the Monaco immediate official process (23 May 1982) and after Thursday 3 June cancellation of the unofficial F1 familiarisation test following FISA inspection; before any Friday practice times, scrubbed-session outcomes as lived events, qualifying, grid, warm-up, or race information."
 spoiler_scope:
   allowed:
-    - "[PREVIOUS STANDINGS AND DEVELOPMENTS PUBLIC BEFORE THE WEEKEND]"
+    - "Klasyfikacja po Monako; zapowiedź i kontekst organizacyjny Detroit; odwołanie czwartkowego testu nieoficjalnego; obsada i sprzęt przyjazdu przed pierwszą oficjalną sesją; opis toru z planów/oględzin; przypisane oczekiwania prasowe sprzed sesji"
   forbidden:
-    - "[ALL INFORMATION FROM THE FIRST OFFICIAL SESSION ONWARD]"
+    - "Wszelkie oficjalne sesje piątkowe i późniejsze, czasy treningów/kwalifikacji, pole startowe, przebieg i wyniki Grand Prix Detroit 1982 oraz późniejszych rund"
+    - "Odwołanie / przesunięcie piątkowych sesji 10:00 i 13:00 jako przeżyte wydarzenia; kraksy i czasy z piątku po południu; sobotnia przebudowa kwalifikacji; wynik wyścigu"
+    - "Debiut Tambaya w Ferrari / Holandia; Montreal (Paletti i wyniki); retrospectives sezonu"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-09"

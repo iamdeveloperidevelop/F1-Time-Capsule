@@ -1,16 +1,19 @@
 season: "1982"
 document_type: "race-prelude"
 event: "Canadian Grand Prix"
-event_time: "[PRE-WEEKEND CONTEXT INTERVAL]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+event_time: "Okres przedweekendowy Grand Prix Labatt du Canada na Circuit Gilles Villeneuve (Île Notre-Dame, Montreal), wokół niedzieli 13 czerwca 1982; przed pierwszą oficjalną sesją weekendu"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje przed sesjami: Motor Sport July 1982 (pasaże o przejeździe Detroit→Montreal, planowanym piątkowym poranku, obsadzie/sprzęcie przyjazdu, fali upałów, nazwie toru — izolowane od wyników sesji/wyścigu; publication_date dnia unknown; content-based availability); Ville de Montréal toponymy 14 May 1982; UPI 9 May 1982; RSC entry reconstruction; klasyfikacja archiwum po Detroit (6 VI)"
+knowledge_cutoff: "Immediately before the first official practice session of the 1982 Canadian Grand Prix weekend at Circuit Gilles Villeneuve (Île Notre-Dame / Montreal), Friday morning, 11 June 1982 (EDT). Exact official programme clock for that session is not independently verified. Race day Sunday 13 June 1982. After the Detroit immediate official process (6 June 1982); before any Friday practice times, qualifying, grid, warm-up, or race information."
 spoiler_scope:
   allowed:
-    - "[PREVIOUS STANDINGS AND DEVELOPMENTS PUBLIC BEFORE THE WEEKEND]"
+    - "Klasyfikacja po Detroit; przejazd i kontekst organizacyjny Montreal; nazwa Circuit Gilles Villeneuve od 14 V; obsada i sprzęt przyjazdu przed pierwszą oficjalną sesją; opis toru z wcześniejszych lat; przypisane oczekiwania prasowe sprzed sesji; fala upałów przed piątkiem"
   forbidden:
-    - "[ALL INFORMATION FROM THE FIRST OFFICIAL SESSION ONWARD]"
+    - "Wszelkie oficjalne sesje piątkowe i późniejsze, czasy treningów/kwalifikacji, pole startowe, przebieg i wyniki Grand Prix Kanady 1982 oraz późniejszych rund"
+    - "Wypadki, ofiary, red flag, restart i klasyfikacja weekendu montrealskiego"
+    - "Pogoda sesji/wyścigu jako przeżyte wydarzenia (deszcz piątku, upał soboty, chłód niedzieli); strajk metro w dniu wyścigu"
+    - "Debiut Tambaya w Ferrari / Holandia; retrospectives sezonu"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-09"

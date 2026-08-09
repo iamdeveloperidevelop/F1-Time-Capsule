@@ -1,16 +1,17 @@
 season: "1982"
 document_type: "pre-start-weekend-brief"
 event: "Canadian Grand Prix"
-event_time: "[OFFICIAL PRE-RACE SESSIONS AND PRE-START MOMENT]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
+event_time: "Oficjalne sesje weekendu Grand Prix Labatt du Canada 1982 (piątek–niedziela) do chwili bezpośrednio przed planowanym startem wyścigu w niedzielę 13 czerwca 1982 na Circuit Gilles Villeneuve"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje przed startem: Motor Sport July 1982 (pasaże o sesjach, polu, rozgrzewce i warunkach przed startem — izolowane od wyniku wyścigu; publication_date dnia unknown; content-based availability); Autosport/Roebuck contemporary report reprint (Entry and Practice + warm-up przed paradą); Wikipedia tabela Q1/Q2 jako krzyżowy check; klasyfikacja archiwum po Detroit (6 VI)"
+knowledge_cutoff: "Immediately before the scheduled race start of the 1982 Canadian Grand Prix, Circuit Gilles Villeneuve (Île Notre-Dame / Montreal), Sunday 13 June 1982, local time (EDT assumed). Best available pre-start clock anchors from contemporary press: F1 warm-up approximately 1.15 p.m. local; race due approximately 4.15 p.m. local for television schedule (Motor Sport July 1982; Autosport/Roebuck). Exact official programme clock and named zone label not independently verified. Includes completed Friday/Saturday practice and qualifying, confirmed grid/DNQ, warm-up, and publicly known pre-start car/reliability issues; excludes green lights, formation/parade developments after this boundary, race events, results, and all later knowledge."
 spoiler_scope:
   allowed:
-    - "[COMPLETED PRE-RACE SESSIONS AND CONFIRMED PRE-START INFORMATION]"
+    - "Ukończone sesje treningowe i kwalifikacyjne, pole startowe, DNQ/DNA, rozgrzewka, warunki toru/pogody i logistyka (strajk metro) znane przed startem, cytaty i obserwacje paddocku sprzed startu, klasyfikacja po Detroit"
   forbidden:
-    - "[THE RACE START, RACE EVENTS, RESULTS, AND ALL LATER KNOWLEDGE]"
+    - "Zielone światła, okrążenie paradne/formacyjne po cutoff, przebieg i wynik Grand Prix Kanady 1982, red flag / restart, ofiary i wypadki startu, punkty i klasyfikacja po wyścigu"
+    - "Późniejsze apelacje, debiut Tambaya w Ferrari / Holandia, retrospectives sezonu, foreshadowing znaczenia weekendu lub wyniku"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-09"
