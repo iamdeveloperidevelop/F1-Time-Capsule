@@ -1,16 +1,18 @@
 season: "1982"
 document_type: "race-prelude"
 event: "German Grand Prix"
-event_time: "[PRE-WEEKEND CONTEXT INTERVAL]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+event_time: "Okres przedweekendowy XLIV Großer Preis von Deutschland na Hockenheimring, wokół niedzieli 8 sierpnia 1982; przed pierwszą oficjalną sesją weekendu"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje przed sesjami: wynik i konsekwencje Paul Ricard 25 July 1982 (archiwum); Motor Sport September 1982 German GP (pasaże przyjazdu / inventarz paddocku przed pierwszym porannym treningiem — izolowane; publication_date dnia unknown; content-based availability); prostfan entry compilation; MS database / Wiki date/venue/length (izolowane); klasyfikacja archiwum po Paul Ricard"
+knowledge_cutoff: "Immediately before the first official practice session of the 1982 German Grand Prix weekend at the Hockenheimring, Friday morning, 6 August 1982 (CEST). Exact official programme clock not independently verified beyond contemporary Motor Sport narrative that practice began Friday morning. Race day Sunday 8 August 1982. After the French Grand Prix immediate official process (25 July 1982); before any Friday practice times, incidents, qualifying, grid, warm-up, or race information from Hockenheim."
 spoiler_scope:
   allowed:
-    - "[PREVIOUS STANDINGS AND DEVELOPMENTS PUBLIC BEFORE THE WEEKEND]"
+    - "Klasyfikacja po Paul Ricard; echo team orders / Mass–Baldi / protest fartuchów / Brabham postój jako stan po Francji; obsada i sprzęt przyjazdu Hockenheim przed pierwszą oficjalną sesją; opis toru i nowych szykan; klimat przyjazdu; przypisane oczekiwania prasowe sprzed sesji"
   forbidden:
-    - "[ALL INFORMATION FROM THE FIRST OFFICIAL SESSION ONWARD]"
+    - "Wszelkie oficjalne sesje piątkowe i późniejsze Hockenheim, czasy treningów/kwalifikacji, wypadki sesji (w tym sobotni wypadek Pironiego), DNQ jako wynik, pole startowe, przebieg i wyniki Grand Prix Niemiec 1982 oraz późniejszych rund"
+    - "Wycofanie Massa / Laudy po sesjach; foreshadowing kariery Pironiego; «ostatni wyścig»; retrospectives sezonu"
+    - "Pogoda sesji/wyścigu jako przeżyte wydarzenia (poza klimatem przyjazdu sprzed pierwszej sesji)"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-10"

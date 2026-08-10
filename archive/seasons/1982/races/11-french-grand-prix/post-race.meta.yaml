@@ -1,16 +1,19 @@
 season: "1982"
 document_type: "post-race-report"
 event: "French Grand Prix"
-event_time: "[RACE AND INCLUDED IMMEDIATE OFFICIAL PROCESS]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[END OF THE IMMEDIATE OFFICIAL PROCESS DEFINED IN metadata.yaml]"
+event_time: "Wyścig LXVIII Grand Prix de France na Circuit Paul Ricard (Le Castellet, Var), niedziela 25 lipca 1982, oraz natychmiastowa procedura oficjalna: 54 okrążenia do flagi w szachownicę; początkowa klasyfikacja; podium"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje: Motor Sport September 1982 French GP (pasaż Race + RESULTS — izolowany; publication_date dnia unknown; content-based availability); Autosport/Roebuck Grand Prix Gold reprint (pasaż Race — izolowany; publication_date oryginału unknown; content-based availability); Wikipedia/formula1.com tabele wyniku jako krzyżowy check; same-day knowability przebiegu i wyniku 25 VII 1982"
+knowledge_cutoff: "End of the immediate official post-race process of the 1982 French Grand Prix at Circuit Paul Ricard (Le Castellet) on Sunday 25 July 1982 (CEST): chequered flag after the scheduled 54-lap race; initial race classification as published that day; podium ceremony; same-day paddock and press reactions; championship points awarded on the provisional 9–6–4–3–2–1 scale for places 1–6. Exact clock time of classification publication not independently verified. Does not include German GP weekend or later rounds, later appeals or championship bulletins, later driver replacements or career moves, Pironi/Mass career foreshadowing, or season retrospectives."
 spoiler_scope:
   allowed:
-    - "[RACE AND IMMEDIATE CONSEQUENCES PUBLIC BY THE CUTOFF]"
+    - "Przebieg i wynik Grand Prix Francji 1982, start bez abortu, Brabham lead i awarie, wypadek Mass–Baldi przy Signes (stan tego dnia), klasyfikacja, podium, FL Patrese, kontrowersja team orders Arnoux/Prost, natychmiastowe reakcje paddocku, punkty z Paul Ricard"
+    - "Punkty i mistrzostwa według tej klasyfikacji na bazie prowizorycznej po Brands Hatch"
+    - "Współczesne przyczyny wycofań; plan postoju Brabhama jako anulowany tego dnia; wzmianka o proteście fartuchów bez rozstrzygnięcia"
   forbidden:
-    - "[NEXT-WEEKEND INFORMATION, LATER RULINGS, AND SEASON HINDSIGHT]"
+    - "Weekend Grand Prix Niemiec / Hockenheim (poza datą kalendarza) i późniejsze rundy; foreshadowing kariery Pironiego / Massa / Arnouxa; retrospectives sezonu"
+    - "Późniejsze apelacje, biuletyny mistrzostw, późniejsze orzeczenia protestu fartuchów poza tym, co publiczne tego dnia"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-10"

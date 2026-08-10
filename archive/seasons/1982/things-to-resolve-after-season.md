@@ -247,6 +247,30 @@ etapu bezpiecznego względem granicy wiedzy.
 | 1982-R11-PW-F9-01 | `races/11-french-grand-prix/pre-weekend.md`, `sources.md` | Potwierdzenie publiczne przed pierwszą sesją, że Fittipaldi startuje F9 jako first string (vs listing F8D). | Telex / notes on the cars ≤ cutoff. | open |
 | 1982-R11-PW-REN-ID-01 | `races/11-french-grand-prix/pre-weekend.md`, `sources.md` | Oznaczenie zapasowego podwozia Arnouxa po Brands: MS «RE38B» vs RSC/Wiki RE30B. | Współczesny entry / notes on the cars ≤ cutoff. | open |
 | 1982-R11-PW-WIRE-01 | `races/11-french-grand-prix/pre-weekend.md`, `sources.md` | Datowane depesze 19–22 VII 1982 o Lees / innych zmianach obsady między Brands a Ricard. | AP/UPI/AFP ≤ cutoff. | open |
+| 1982-R11-PR-START-01 | `races/11-french-grand-prix/pre-race.md`, `metadata.yaml`, `sources.md` | Konflikt godziny startu: Autosport ~13:30 (zielone) vs prostfan 14:00; brak niezależnego programu. | Oficjalny program / timing lokalny 25 VII 1982. | open |
+| 1982-R11-PR-PROST-Q-01 | `races/11-french-grand-prix/pre-race.md`, `sources.md` | Reprint Autosport Gold OCR «Prost 1m 38.88s» vs konsensus 1:34.688 (Wiki/RSC/prostfan). | Oryginał Autosport / oficjalny timing. | open |
+| 1982-R11-PR-WU-01 | `races/11-french-grand-prix/pre-race.md`, `sources.md` | Numeryczne czasy rozgrzewki niedziela 25 VII (obecnie tylko kolejność z AS/MS). | Oficjalny timing / pełny Autosport. | open |
+| 1982-R11-PR-PEN-01 | `races/11-french-grand-prix/pre-race.md`, `sources.md` | Oficjalny biuletyn kar / wycofań przed startem (obecnie brak w AS/MS). | Biuletyn stewardów ≤ cutoff. | open |
+| 1982-R11-PR-GRID-01 | `races/11-french-grand-prix/pre-race.md`, `sources.md` | Oficjalny biuletyn kwalifikacji FIA vs Wiki/RSC/prostfan. | Oficjalny timing. | open |
+| 1982-R11-PR-ARN-CH-01 | `races/11-french-grand-prix/pre-race.md`, `sources.md` | Podwozie Arnouxa w weekend: MS RE38B (Monte Carlo) vs AS «another new one». | Notes on the cars / entry. | open |
+| 1982-R11-PO-RES-01 | `races/11-french-grand-prix/post-race.md`, `standings-after.md`, `sources.md` | Klasyfikacja R11 oparta na MS/AS/Wiki/F1.com; brak oficjalnego wyniku lub biuletynu FIA. | Oficjalny wynik / biuletyn FIA/FISA. | open |
+| 1982-R11-PO-PIR-PTS-01 | `races/11-french-grand-prix/standings-after.md`, `post-race.md`, `sources.md` | Konflikt sumy Pironiego po Paul Ricard: 38 (archiwum) vs 39 (Wiki); Ferrari 51 vs 52. | Oficjalny biuletyn mistrzostw. | open |
+| 1982-R11-PO-GAP-01 | `races/11-french-grand-prix/post-race.md`, `sources.md` | Straty: MS absolutne vs F1.com rounding (+17.308 vs +17.310 itd.). | Oficjalny timing. | open |
+| 1982-R11-PO-LAPN-01 | `races/11-french-grand-prix/post-race.md`, `sources.md` | Okrążenia DNF: MS «on lap N» vs Wiki/F1.com completed. | Oficjalny timing / biuletyn. | open |
+| 1982-R11-PO-FABI-01 | `races/11-french-grand-prix/post-race.md`, `sources.md` | Przyczyna Fabiego: MS oil pressure vs AS/Wiki/F1 electrical. | Współczesny biuletyn / zgodna tabela. | open |
+| 1982-R11-PO-PIQ-01 | `races/11-french-grand-prix/post-race.md`, `sources.md` | Narracja MS Piquet «lap 14» vs RESULTS/AS/Wiki ~24. | Oficjalny timing. | open |
+| 1982-R11-PO-PROTEST-01 | `races/11-french-grand-prix/post-race.md`, `sources.md` | Same-day wynik protestu fartuchów Renault (Tyrrell/Williams). | Biuletyn stewardów 25 VII 1982. | open |
+| 1982-R11-PO-MASS-01 | `races/11-french-grand-prix/post-race.md`, `sources.md` | Oficjalny biuletyn medyczny Signes (widzowie; detal urazu Massa). | Komunikat medyczny / depesza. | open |
+| 1982-R11-PO-CUT-01 | `races/11-french-grand-prix/post-race.md`, `metadata.yaml` | Dokładny zegar flagi / publikacji klasyfikacji 25 VII 1982 CEST. | Program / timing oficjalny. | open |
+| 1982-R12-PW-CUT-01 | `races/12-german-grand-prix/pre-weekend.md`, `metadata.yaml`, `sources.md` | Dokładna lokalna godzina (i oficjalny program) pierwszej oficjalnej sesji piątek 6 VIII 1982 na Hockenheim (obecnie tylko „piątek rano” z „Motor Sport”). | Program / lokalna prasa ≤ cutoff. | open |
+| 1982-R12-PW-ENT-01 | `races/12-german-grand-prix/pre-weekend.md`, `sources.md` | Oficjalna lista zgłoszeń FOCA/FISA ≤ pierwszej sesji Hockenheim (obecnie MS + prostfan). | Telex / entry list / program. | open |
+| 1982-R12-PW-WX-01 | `races/12-german-grand-prix/pre-weekend.md` | Datowana prognoza pogody Hockenheim / Badenia-Wirtembergia ≤ piątkowy poranek 6 VIII. | Niemiecka prasa / meteo ≤ cutoff. | open |
+| 1982-R12-PW-LEN-01 | `races/12-german-grand-prix/pre-weekend.md`, `sources.md` | Oficjalna długość okrążenia w programie 1982: MS 6.797 vs Wiki 6.802 km. | Program / mapa toru 1982. | open |
+| 1982-R12-PW-LAPS-01 | `races/12-german-grand-prix/pre-weekend.md`, `sources.md` | Oficjalna liczba okrążeń / dystans w programie 1982 (wtórne: 45). | Program / biuletyn ≤ cutoff. | open |
+| 1982-R12-PW-PIR-PTS-01 | `races/12-german-grand-prix/pre-weekend.md`, `sources.md` | Konflikt sumy Pironiego po Paul Ricard: 38 (archiwum) vs 39 (Wiki); Ferrari 51 vs 52. | Oficjalny biuletyn mistrzostw. | open |
+| 1982-R12-PW-POL-01 | `races/12-german-grand-prix/pre-weekend.md`, `sources.md` | Czy między 25 VII a 6 VIII 1982 ukazał się nowy biuletyn FOCA/FISA lub rozstrzygnięcie protestu fartuchów po Ricard? | Depesza / biuletyn ≤ cutoff. | open |
+| 1982-R12-PW-MASS-01 | `races/12-german-grand-prix/pre-weekend.md`, `sources.md` | Publiczny status formy Massa / ogłoszenie Keegana jako standby przed pierwszą sesją (bez wiedzy sesyjnej). | Depesza / komunikat March ≤ cutoff. | open |
+| 1982-R12-PW-AS-01 | `races/12-german-grand-prix/sources.md` | Oryginalny numer Autosport preview/report German GP 1982 (dzień dystrybucji; pełny tekst vs reprint Gold) — izolacja pasażów przedsesyjnych. | Offline Autosport ~Aug 1982. | open |
 
 ## Zasady późniejszego rozstrzygania
 

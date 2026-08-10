@@ -1,16 +1,17 @@
 season: "1982"
 document_type: "pre-start-weekend-brief"
 event: "French Grand Prix"
-event_time: "[OFFICIAL PRE-RACE SESSIONS AND PRE-START MOMENT]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
+event_time: "Oficjalne sesje weekendu LXVIII Grand Prix de France 1982 (piątek–niedziela) do chwili bezpośrednio przed planowanym startem wyścigu w niedzielę 25 lipca 1982 na Circuit Paul Ricard (Le Castellet, Var)"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje przed startem: Autosport/Roebuck Grand Prix Gold (Entry & Practice + niedzielny poranek / warm-up / przed zielonym — izolowane od wyniku wyścigu; publication_date oryginału unknown; content-based availability); Motor Sport September 1982 French GP (Qualifying + Race morning do procedury startu — izolowane); Wikipedia/RSC/prostfan tabele kwalifikacji jako krzyżowy check; klasyfikacja archiwum po Brands Hatch z pre-weekend"
+knowledge_cutoff: "Immediately before the scheduled race start of the 1982 French Grand Prix, Circuit Paul Ricard (Le Castellet), Sunday 25 July 1982, local time (CEST). Best contemporary clock anchor: Autosport/Roebuck reports the green light at approximately 13:30 local; secondary compilations (e.g. prostfan) list 14:00 — exact official programme clock not independently verified. Includes completed Friday/Saturday practice and qualifying, Sunday warm-up (~30 min), confirmed grid/DNQ, publicly known pre-start setup/reliability/tyre/strategy notes, weather/track before lights, abort-start procedure and 52→54 lap amendment, and contemporary quotes. Excludes green lights and all formation-lap/race events after that boundary (including Mass–Baldi Signes accident, Arnoux/Prost team-orders outcome, race classification, later protests/appeals, Hockenheim foreshadowing)."
 spoiler_scope:
   allowed:
-    - "[COMPLETED PRE-RACE SESSIONS AND CONFIRMED PRE-START INFORMATION]"
+    - "Ukończone sesje treningowe i kwalifikacyjne, pole startowe, DNQ, rozgrzewka, warunki toru/pogody znane przed startem, cytaty i obserwacje paddocku sprzed startu, plan postoju Brabhama jako intencja, procedura abortu i poprawka dystansu 54 okr., klasyfikacja po Brands Hatch"
   forbidden:
-    - "[THE RACE START, RACE EVENTS, RESULTS, AND ALL LATER KNOWLEDGE]"
+    - "Zielone światła, przebieg i wynik Grand Prix Francji 1982, kontrowersja team orders Arnoux/Prost, wypadek Mass–Baldi na Signes, punkty i klasyfikacja po wyścigu"
+    - "Późniejsze protesty fartuchów, apelacje, retrospectives sezonu, foreshadowing Hockenheim / kariery Pironiego / Mass retirement"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "claim-mapped"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-10"
