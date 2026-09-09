@@ -1,16 +1,16 @@
 season: "1982"
-document_type: "pre-start-weekend-brief"
+document_type: "race-start-brief"
 event: "Las Vegas Grand Prix"
-event_time: "[OFFICIAL PRE-RACE SESSIONS AND PRE-START MOMENT]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
+event_time: "Okres weekendu II Caesars Palace Grand Prix do chwili bezpośrednio przed planowanym startem sobota 25 września 1982 ≈13:00 PDT"
+public_knowledge_time: "Najpóźniejsze wykorzystane: kwalifikacje czwartek–piątek; rozgrzewka sobotnia; wycofania Tambay/Guerrero; pogoda przedstartowa; Autosport/Roebuck Entry–practice–warm-up (izolowane); F1.com grid; Motor Sport Nov 1982 passaże przed wyścigiem"
+knowledge_cutoff: "Immediately before the scheduled start of the 1982 Caesars Palace Grand Prix, Saturday 25 September 1982, approximately 13:00 Pacific Daylight Time (local). Includes completed practice, qualifying, starting grid, Saturday warm-up, and confirmed pre-start withdrawals (Tambay, Guerrero). Excludes formation-lap incidents after the cutoff, race start, race events, results, and post-race procedures."
 spoiler_scope:
   allowed:
-    - "[COMPLETED PRE-RACE SESSIONS AND CONFIRMED PRE-START INFORMATION]"
+    - "Czasy i narracja kwalifikacji; pole Prost; grid; DNQ Fabi/Salazar/Serra; Jarier crash i wycofanie; Byrne na polu; warm-up Watson 2.; Tambay DNS; Guerrero DNS; title maths przed startem; attributed tyre/setup talk"
   forbidden:
-    - "[THE RACE START, RACE EVENTS, RESULTS, AND ALL LATER KNOWLEDGE]"
+    - "Start wyścigu, przebieg, klasyfikacja, DNF, podium, clinch tytułu Rosberga/Ferrari jako wynik, FL Alboreto, retrospektywy sezonu"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-09-09"

@@ -1,16 +1,18 @@
 season: "1982"
 document_type: "race-prelude"
 event: "Las Vegas Grand Prix"
-event_time: "[PRE-WEEKEND CONTEXT INTERVAL]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+event_time: "Okres przedweekendowy II Caesars Palace Grand Prix w Las Vegas, wokół soboty 25 września 1982; przed pierwszą oficjalną sesją weekendu"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje przed sesjami: wynik i konsekwencje Monza 12 September 1982 (archiwum); przesunięcie daty Vegas na 25 IX; Autosport/Roebuck Entry passaże przed practice times (izolowane); Motor Sport November 1982 Las Vegas GP (pasaże organizacyjne/przedsesyjne — izolowane; publication_date dnia unknown; content-based availability); CAL-01 jako stan styczniowy 16 X nadpisany; klasyfikacja archiwum po Monzy"
+knowledge_cutoff: "Immediately before the first official practice session of the 1982 Caesars Palace / Las Vegas Grand Prix weekend, Thursday morning, 23 September 1982 (PDT). Exact official programme clock not independently verified beyond contemporary Autosport / Motor Sport narrative of Thursday–Friday testing/qualifying before Saturday race. Race day Saturday 25 September 1982. After the Italian Grand Prix immediate official process (12 September 1982); before any Thursday practice times, incidents, qualifying, grid, warm-up, or race information from Las Vegas."
 spoiler_scope:
   allowed:
-    - "[PREVIOUS STANDINGS AND DEVELOPMENTS PUBLIC BEFORE THE WEEKEND]"
+    - "Klasyfikacja po Monzy; Pironi poza obsadą; Andretti/Tambay Ferrari; Arnoux last Renault drive announced; Murray absent Brabham; przesunięcie daty 25 IX vs CAL-01 16 X; opis toru Caesars Palace; title maths Watson must win; attributed paddock expectations before sessions; weak ticket sales; FISA CART ban"
   forbidden:
-    - "[ALL INFORMATION FROM THE FIRST OFFICIAL SESSION ONWARD]"
+    - "Wszelkie oficjalne sesje czwartkowe i późniejsze Vegas, czasy treningów/kwalifikacji, DNQ jako wynik, pole startowe, przebieg i wyniki Grand Prix Las Vegas 1982"
+    - "Pole Prosta; Alboreto win; Rosberg clinch; Tambay DNS; Jarier crash jako wynik sesji; Byrne start via Jarier withdrawal; retrospectives «ostatnie» kariery Andrettiego / Daly sacked"
+    - "Pogoda sesji/wyścigu jako przeżyte wydarzenia"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-09-09"

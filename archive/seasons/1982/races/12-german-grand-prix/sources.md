@@ -2,9 +2,8 @@
 
 To kanoniczny rejestr źródeł folderu rundy. Dokumenty treści cytują
 `source_id` i `claim_id`; nie prowadzą konkurencyjnych list źródeł. Cutoff
-rejestru przy pre-weekend obejmuje wyłącznie `pre-weekend.md` (granica:
-natychmiast przed pierwszą oficjalną sesją Hockenheim, piątek 6 VIII 1982
-CEST).
+rejestru przy pre-race obejmuje `pre-weekend.md` i `pre-race.md` (granica:
+natychmiast przed planowanym startem Hockenheim, niedziela 8 VIII 1982 CEST).
 
 ## Source entry
 
@@ -77,15 +76,83 @@ supports:
   - claim_id: "R12-PW-CIR-01"
     scope: "Opis Hockenheim (stadion betonowy, proste, dawna Ostkurve); nowa szykana przed Ostkurve; mglista atrybucja Scheckter."
   - claim_id: "R12-PW-ARR-01"
-    scope: "Klimat przyjazdu: deszcz / sceptycyzm co do suchego weekendu; peleton w porządku po Brands+Francja; Mansell wraca do Lotusa; Byrne za Lammersa w Theodore; Keegan w Marchu czekający na Massa (Mass nadal cierpi po Ricard)."
+    scope: "Klimat przyjazdu: deszcz / sceptycyzm; Mansell wraca; Byrne za Lammersa; Keegan w Marchu czekający na Massa."
   - claim_id: "R12-PW-ENT-CAR"
-    scope: "Inventarz przyjazdu: Williams FW08/6 Daly; Renault RE30B/10 Prost; Ferrari experimental longitudinal T-car; Lotus pull-rod/rocker T-cars; Brabham lightweight carbon-brake T-car."
+    scope: "Inventarz przyjazdu: Williams FW08/6; Renault RE30B/10; Ferrari longitudinal T-car; Lotus/Brabham T-cars."
   - claim_id: "R12-PW-CUT-DAY"
-    scope: "Pierwsza aktywność practice w piątek rano (dzień; nie używać suchego piątku jako przeżytej pogody sesji w race-prelude)."
+    scope: "Pierwsza aktywność practice w piątek rano."
   - claim_id: "R12-PW-LEN-01"
-    scope: "RESULTS box: 6.797 km × 45 laps = 305.865 km (scheduled figures; conflict with Wiki 6.802)."
-disagreement_notes: "Keegan→March (MS) vs grandprix.com Arrows (UNC-R12-PW-KEEGAN). Mass fitness: arrival uncertainty vs later session withdrawal (UNC-R12-PW-MASS-FIT)."
-notes: "publication_date dnia unknown; content-based availability. STRICT hard stop: po akapicie inventarza paddocku; PRZED «Prost started the morning session…». Kwarantanna: cała praktyka/kwalifikacje, wypadek Pironiego, grid, wyścig, RESULTS poza izolowaną długością."
+    scope: "RESULTS box length 6.797 km × 45 (scheduled; trivial Wiki 6.802 variance — ledger only)."
+  - claim_id: "R12-PR-FRI"
+    scope: "Piątek: suchy Q; Pironi pole 1:47.947; Prost ~1:48.890; Byrne wypadek; Mass→Keegan; Lauda catch-fence; Daly 3 koła; Fabi oil fire."
+  - claim_id: "R12-PR-SAT"
+    scope: "Sobota: deszcz; wypadek Pironiego (Prost/Daly); Heidelberg; Lauda wycofany; brak poprawy czasów."
+  - claim_id: "R12-PR-GRID"
+    scope: "Grid z pustym pole; Surer in; Byrne/Keegan/Fabi DNQ; czasy Q (bez race brackets)."
+  - claim_id: "R12-PR-WU"
+    scope: "Warm-up / przedstart: opóźnienie; Piquet pit plan; Prost T-car; Rosberg T-car; Watson bez zegarów; start ~15:00 TV; pogoda overcast/dry."
+disagreement_notes: "Keegan→March (MS) vs grandprix.com Arrows. Start 15:00 MS vs 14:00 secondary. Pironi withdrawal timing MS vs AS."
+notes: "publication_date dnia unknown; content-based availability. PW hard stop: przed «Prost started the morning session…». PR hard stop: przed «It was a good start…» / narracją wyścigu. Kwarantanna RESULTS race finish i race best-laps w nawiasach grida."
+```
+
+```yaml
+source_id: "AS-ROEBUCK-DE1982"
+title: "Grand Prix Gold: 1982 German GP (practice / accident / pre-race)"
+author_or_organisation: "Autosport / Nigel Roebuck (reprint)"
+publication_date: "unknown"
+event_date: "1982-08-06/1982-08-08"
+source_type: "PRESS"
+contemporary: true
+spoiler_risk: "contains-later-material"
+locator: "https://www.autosport.com/f1/news/grand-prix-gold-1982-german-gp-5098980/5098980/ — Entry and Practice + pre-green only"
+access_date: "2026-08-10"
+supports:
+  - claim_id: "R12-PR-FRI"
+    scope: "Pironi Q sequence/quote; turbo vs Cosworth gap; Rosberg on chicanes; Mass/Keegan; Lauda arm."
+  - claim_id: "R12-PR-SAT"
+    scope: "Sobotni wypadek: Prost/Daly reconstruction; Heidelberg; Piquet aid; Tambay pressure."
+  - claim_id: "R12-PR-WU"
+    scope: "Brabham pit kit visible; Piquet half-tanks plan; Patrese non-stop preference; weather overcast/dry; grid notes."
+disagreement_notes: "Pironi official withdrawal Sunday morning vs MS left-in framing (UNC-R12-PR-PIRONI-WD)."
+notes: "Reprint; publication_date oryginału unknown; content-based availability. STRICT hard stop przed «The race» / «At the green»."
+```
+
+```yaml
+source_id: "AS-ROEBUCK-DE1982-R"
+title: "Grand Prix Gold: 1982 German GP (race section)"
+author_or_organisation: "Autosport / Nigel Roebuck (reprint)"
+publication_date: "unknown"
+event_date: "1982-08-08"
+source_type: "PRESS"
+contemporary: true
+spoiler_risk: "contains-later-material"
+locator: "https://www.autosport.com/f1/news/grand-prix-gold-1982-german-gp-5098980/5098980/ — The race"
+access_date: "2026-08-10"
+supports:
+  - claim_id: "R12-PO-CLS-01"
+    scope: "Przebieg: lead Piqueta, Tambay, Piquet–Salazar, Watson DNF, podium Tambay–Arnoux–Rosberg; same-day Pironi hospital speculation."
+  - claim_id: "R12-PO-PTS-01"
+    scope: "Punkty 9–6–4–3–2–1 za 1–6."
+disagreement_notes: "Atrybucja winy Piquet–Salazar vs MS; caption «career-ending» — kwarantanna jako fakt."
+notes: "Isolować narrację wyścigu; nie importować Austria nav / season retrospectives."
+```
+
+```yaml
+source_id: "F1COM-1982-DE-RES"
+title: "Formula1.com — 1982 German Grand Prix race result"
+author_or_organisation: "Formula One Management / formula1.com"
+publication_date: "unknown"
+event_date: "1982-08-08"
+source_type: "DATABASE"
+contemporary: false
+spoiler_risk: "contains-later-material"
+locator: "https://www.formula1.com/en/results/1982/races/448/germany/race-result"
+access_date: "2026-08-10"
+supports:
+  - claim_id: "R12-PO-CLS-01"
+    scope: "Krzyżowy check kolejności i okrążeń (konwencja completed laps vs MS retired-on-lap)."
+disagreement_notes: "UNC-R12-PO-LAPN; Arnoux gap +16.380 vs MS +16.379."
+notes: "Tylko tabela wyniku; kwarantanna reszty strony."
 ```
 
 ```yaml
@@ -172,3 +239,10 @@ notes: "Używać tylko po cross-checku z MS; kwarantanna wyników i sesji."
 | UNC-R12-PW-MASS-FIT | R12-PW-ARR-01 | MS-1982-09-DE-R | open-at-arrival | Mass still suffering / Keegan waiting; do not settle session withdrawal in race-prelude |
 | UNC-R12-PW-CUT-CLOCK | R12-PW-CUT-DAY | MS-1982-09-DE-R | open | Friday morning known; exact clock unverified |
 | UNC-R12-PW-WX-FORECAST | R12-PW-ARR-01 | MS-1982-09-DE-R | open | Arrival gloom only; no dated meteo forecast |
+| UNC-R12-PR-START | R12-PR-WU | MS-1982-09-DE-R, PROSTFAN-1982-DE-ENT | open | MS ~15:00 vs secondary 14:00 |
+| UNC-R12-PR-PIRONI-WD | R12-PR-GRID | MS-1982-09-DE-R, AS-ROEBUCK-DE1982 | open | Entry left in (MS) vs Sun AM withdraw refused (AS); empty pole either way |
+| UNC-R12-PR-LAUDA-SIDE | R12-PR-FRI | MS-1982-09-DE-R, AS-ROEBUCK-DE1982 | open | MS right vs left wrist; prefer arm/wrist wording |
+| UNC-R12-PO-PIR-PTS | R12-PO-PTS-01 | ARCHIVE-R11-STAND, WP-1982-DE | open | Pironi 38 vs Wiki 39; Ferrari 60 vs 61 after DE |
+| UNC-R12-PO-LAPN | R12-PO-CLS-01 | MS-1982-09-DE-R, F1COM-1982-DE-RES | open | MS retired-on-lap vs F1.com completed |
+| UNC-R12-PO-SAL | R12-PO-CLS-01 | MS-1982-09-DE-R, AS-ROEBUCK-DE1982-R | open | Blame attribution Piquet vs Salazar |
+| UNC-R12-PO-PROST | R12-PO-CLS-01 | MS-1982-09-DE-R, AS-ROEBUCK-DE1982-R | open | Injection vs electrical |

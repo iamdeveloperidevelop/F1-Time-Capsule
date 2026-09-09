@@ -18,13 +18,20 @@ Follow `docs/methodology.md`.
   się…”) and natural status language; omit future facts silently.
 - Preserve names and diacritics; explain technical concepts for non-engineers.
 - Be precise and engaging without artificial drama. Main text must read cleanly;
-  put uncertainty, source limits, claim/source IDs, and ledger links in
-  `## Przypisy` / `## Uwagi źródłowe`, marked with short footnote markers.
+  put uncertainty, source limits, claim/source IDs, and ledger links in foldable
+  `Przypisy` / `Uwagi źródłowe` (`<details>` / `<summary>`, collapsed by
+  default), marked from the text with short footnote markers.
   Do not open with a knowledge-boundary section, close with a spoiler-audit
   section, or put “Granica wiedzy” / cutoff restatements in source notes;
   those live in the sibling `.meta.yaml` (`knowledge_cutoff`, `spoiler_scope`,
   `spoiler_audit_status`).
 - Do not narrate research process or absence of evidence in every paragraph.
+- Do not put pedantic near-identical measurement conflicts in reader prose
+  (e.g. circuit length differing by tens of metres); pick the best
+  contemporary figure and leave trivia in the ledger.
+- Do not write the full field as one comma-clause-per-driver sentence; use
+  short paragraphs or one-team-per-line bullets, with season links for the
+  unchanged rest.
 - Do not add facts while editing.
 - Give each detailed fact one primary home. Elsewhere, use a concise contextual
   summary and link.

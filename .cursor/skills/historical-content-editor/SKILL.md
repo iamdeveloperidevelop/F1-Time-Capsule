@@ -29,10 +29,13 @@ than replaces, factual and spoiler review.
    uważały…,” “Inżynierowie obawiali się…,” “Plotki głosiły…,” “Wielu
    obserwatorów sądziło….” Omit later facts silently.
 4. Move uncertainty, source limits, claim/source IDs, and ledger links out of
-   running paragraphs into `## Przypisy` (short numbered notes) and
-   `## Uwagi źródłowe` (citation apparatus). Mark needed caveats with `*¹`,
-   `*²`, and so on. Footnotes should sound like careful reporting, not like
-   temporal-scope policy.
+   running paragraphs into foldable `<details>` / `<summary>` blocks for
+   `Przypisy` (short numbered notes) and `Uwagi źródłowe` (citation apparatus),
+   collapsed by default. Mark needed caveats with `*¹`, `*²`, and so on.
+   Footnotes should sound like careful reporting, not like temporal-scope
+   policy. Strip pedantic metre-level length wars from prose; fix
+   comma-clause-per-driver field dumps into short paragraphs or one-team-per-line
+   bullets.
 5. Preserve factual meaning, attribution, confidence, names, and diacritics;
    do not resolve uncertainty by wording alone.
 6. Explain technical terms at first meaningful use for a non-engineer.

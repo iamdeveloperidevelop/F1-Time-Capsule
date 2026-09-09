@@ -12,11 +12,17 @@
 
 ## Confirmed entries and personnel
 
-[CONFIRMED CHANGES; LINK SEASON REFERENCES]
+[CHANGES FIRST IN SHORT PROSE OR ONE-TEAM-PER-LINE BULLETS.
+Then “reszta bez zmian” + link to season/teams.md and drivers.md.
+Do NOT dump the whole field as one comma-separated sentence with a
+clause per driver.]
 
 ## Circuit briefing
 
-[VENUE AND CIRCUIT CONTEXT]
+[VENUE AND CIRCUIT CONTEXT. State one best-supported length/distance.
+Do not narrate trivial source-to-source metre disagreements in the article;
+log those only in sources.md / the season ledger if needed. Layout changes
+that matter to the paddock stay in prose.]
 
 ## Technical questions
 
@@ -38,12 +44,18 @@ expectation / not the outcome”.]
 
 [CONCISE ORIENTATION; NO CLAIM/SOURCE IDS]
 
-## Przypisy
+<details>
+<summary><strong>Przypisy</strong></summary>
 
 [NUMBERED CAVEATS MARKED FROM THE TEXT WITH *¹, *², … — journalistic notes,
-not anti-spoiler meta]
+not anti-spoiler meta. Keep this block foldable/collapsed by default.]
 
-## Uwagi źródłowe
+</details>
+
+<details>
+<summary><strong>Uwagi źródłowe</strong></summary>
 
 [BRIEF POINTER TO sources.md; CLAIM/SOURCE MAP BELONGS HERE OR IN THE LEDGER.
 Do not restate knowledge_cutoff or “Granica wiedzy” here.]
+
+</details>

@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "post-race-report"
 event: "Swiss Grand Prix"
-event_time: "[RACE AND INCLUDED IMMEDIATE OFFICIAL PROCESS]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[END OF THE IMMEDIATE OFFICIAL PROCESS DEFINED IN metadata.yaml]"
+event_time: "Niedziela 29 sierpnia 1982, Dijon-Prenois, przez natychmiastową procedurę po wyścigu"
+public_knowledge_time: "Najpóźniejsze: flaga w szachownicę / klasyfikacja / podium / same-day reakcje paddocku i prasy; Autosport Roebuck Race; Motor Sport October 1982 Swiss GP; F1.com race result; ARCHIVE-R13-STAND + punkty CH"
+knowledge_cutoff: "End of the immediate official post-race process of the 1982 Swiss Grand Prix at Dijon-Prenois on Sunday 29 August 1982 (CEST): chequered flag after the scheduled 80-lap race (flag shown on lap 81 after organiser error); initial classification; podium; same-day paddock/press reactions; provisional 9–6–4–3–2–1 points for places 1–6. Does not include Italian GP weekend or later rounds, later appeals or championship bulletins, or closed season-title / Pironi-career foreshadowing beyond attributed same-day status."
 spoiler_scope:
   allowed:
-    - "[RACE AND IMMEDIATE CONSEQUENCES PUBLIC BY THE CUTOFF]"
+    - "Wynik Dijon; klasyfikacja; FL Prost; punkty 1–6; same-day cytaty Rosberga/Prost/de Cesaris blocking; prowizoryczne mistrzostwa po CH; data Monzy z kalendarza"
   forbidden:
-    - "[NEXT-WEEKEND INFORMATION, LATER RULINGS, AND SEASON HINDSIGHT]"
+    - "Weekend Grand Prix Włoch (poza samą datą z kalendarza) i późniejsze rundy; retrospectives sezonu jako domknięty tytuł; Andretti w Ferrari; foreshadowing kariery Pironiego jako domknięty koniec"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-09-09"

@@ -1,16 +1,17 @@
 season: "1982"
 document_type: "pre-start-weekend-brief"
 event: "Austrian Grand Prix"
-event_time: "[OFFICIAL PRE-RACE SESSIONS AND PRE-START MOMENT]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
+event_time: "Weekend Österreichring 13–15 VIII 1982 przez formację / natychmiast przed planowanym startem niedziela 15 VIII 1982 CEST"
+public_knowledge_time: "Najpóźniejsze: niedzielny przedstart (grid, warm-up, plan postoju Brabhama, Surer pit-lane, pogoda hot/dry, problemy Renault w WU); Autosport/Roebuck (pasaże Entry/practice/warm-up przed narracją wyścigu — izolowane); F1.com starting grid; Motor Sport Reflections (Lotus–Renault note — izolowany)"
+knowledge_cutoff: "Immediately before the scheduled race start of the 1982 Austrian Grand Prix at the Österreichring, Sunday 15 August 1982 (CEST). Exact official programme start clock not independently verified. Includes Friday/Saturday sessions, qualifying times, 26-car grid, DNQs, warm-up, Brabham planned pit-stop strategy, Surer’s warm-up failure and attributed pit-lane start permission, and pre-green conditions. Excludes lights-out/race narrative (including start-line Alfa/Daly collision), race result, and later rounds."
 spoiler_scope:
   allowed:
-    - "[COMPLETED PRE-RACE SESSIONS AND CONFIRMED PRE-START INFORMATION]"
+    - "Treningi i kwalifikacje Österreichring; grid Piquet–Patrese; sole Ferrari Tambay; DNQ; warm-up; plan postoju Brabhama; Lotus–Renault 1983 confirmation; warunki przed startem; Surer pit-lane jako decyzja przed zielonym"
   forbidden:
-    - "[THE RACE START, RACE EVENTS, RESULTS, AND ALL LATER KNOWLEDGE]"
+    - "Zielone światło / przebieg wyścigu / wynik / FL / punkty po Austrii"
+    - "Kolizja de Cesaris–Giacomelli–Daly na starcie; postój Patrese jako dokonany; zwycięstwo de Angelisa; retrospectively «koniec kariery» Pironiego; śmierć Chapmana; «ostatnie zwycięstwo DFV»"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-09-09"

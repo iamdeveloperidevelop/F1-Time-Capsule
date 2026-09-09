@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "post-race-report"
 event: "German Grand Prix"
-event_time: "[RACE AND INCLUDED IMMEDIATE OFFICIAL PROCESS]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[END OF THE IMMEDIATE OFFICIAL PROCESS DEFINED IN metadata.yaml]"
+event_time: "Wyścig XLIV Großer Preis von Deutschland na Hockenheimring, niedziela 8 sierpnia 1982, oraz natychmiastowa procedura oficjalna: 45 okrążeń do flagi; początkowa klasyfikacja; podium"
+public_knowledge_time: "Najpóźniejsze: Motor Sport September 1982 German GP (Race + RESULTS — izolowane); Autosport/Roebuck race section (izolowane); F1.com tabela wyniku; same-day knowability 8 VIII 1982"
+knowledge_cutoff: "End of the immediate official post-race process of the 1982 German Grand Prix at the Hockenheimring on Sunday 8 August 1982 (CEST): chequered flag after the scheduled 45-lap race; initial classification; podium; same-day paddock/press reactions; provisional 9–6–4–3–2–1 points for places 1–6. Does not include Austrian GP weekend or later rounds, later appeals or championship bulletins, or closed career foreshadowing beyond attributed same-day speculation."
 spoiler_scope:
   allowed:
-    - "[RACE AND IMMEDIATE CONSEQUENCES PUBLIC BY THE CUTOFF]"
+    - "Przebieg i wynik Grand Prix Niemiec 1982, puste pole, lead Piqueta, kolizja Piquet–Salazar, zwycięstwo Tambaya, klasyfikacja, FL, punkty, natychmiastowe reakcje, stan Pironiego znany tego dnia"
   forbidden:
-    - "[NEXT-WEEKEND INFORMATION, LATER RULINGS, AND SEASON HINDSIGHT]"
+    - "Weekend Grand Prix Austrii i późniejsze rundy; retrospectives sezonu; «koniec kariery» Pironiego jako domknięty fakt"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-10"

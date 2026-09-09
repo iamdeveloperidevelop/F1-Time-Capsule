@@ -1,16 +1,18 @@
 season: "1982"
 document_type: "race-prelude"
 event: "Swiss Grand Prix"
-event_time: "[PRE-WEEKEND CONTEXT INTERVAL]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+event_time: "Okres przedweekendowy 1er Grand Prix de Suisse na Dijon-Prenois, wokół niedzieli 29 sierpnia 1982; przed pierwszą oficjalną sesją weekendu"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje przed sesjami: wynik i konsekwencje Österreichring 15 August 1982 (archiwum); Autosport/Roebuck Entry passaże przed practice times (izolowane); Motor Sport October 1982 Swiss GP (pasaże organizacyjne/przedsesyjne — izolowane; publication_date dnia unknown; content-based availability); CAL-01; klasyfikacja archiwum po Austrii"
+knowledge_cutoff: "Immediately before the first official practice session of the 1982 Swiss Grand Prix weekend at Dijon-Prenois, Friday morning, 27 August 1982 (CEST). Exact official programme clock not independently verified beyond contemporary Motor Sport / Autosport narrative of Friday–Saturday testing/qualifying before Sunday race. Race day Sunday 29 August 1982. After the Austrian Grand Prix immediate official process (15 August 1982); before any Friday practice times, incidents, qualifying, grid, warm-up, or race information from Dijon."
 spoiler_scope:
   allowed:
-    - "[PREVIOUS STANDINGS AND DEVELOPMENTS PUBLIC BEFORE THE WEEKEND]"
+    - "Klasyfikacja po Austrii; Pironi poza obsadą; Tambay sole Ferrari z bólem barku znanym od środy po AT; Arrows A5 / Tyrrell 011 przyjazd; Swiss GP we Francji / ACS; opis Dijon; przypisane oczekiwania prasowe sprzed sesji"
   forbidden:
-    - "[ALL INFORMATION FROM THE FIRST OFFICIAL SESSION ONWARD]"
+    - "Wszelkie oficjalne sesje piątkowe i późniejsze Dijon, czasy treningów/kwalifikacji, DNQ jako wynik, pole startowe, przebieg i wyniki Grand Prix Szwajcarii 1982 oraz późniejszych rund"
+    - "Wypadek Arnouxa sobota; Tambay DNS jako wynik weekendu; zwycięstwo Rosberga; Arnoux→Ferrari jako fakt sesyjny jeśli nie potwierdzony przed piątkiem w izolowanym passażu Entry"
+    - "Pogoda sesji/wyścigu jako przeżyte wydarzenia"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-09-09"

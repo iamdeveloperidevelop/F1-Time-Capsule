@@ -1,16 +1,18 @@
 season: "1982"
 document_type: "race-prelude"
 event: "Italian Grand Prix"
-event_time: "[PRE-WEEKEND CONTEXT INTERVAL]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+event_time: "Okres przedweekendowy LIII Gran Premio d'Italia na Monza, wokół niedzieli 12 września 1982; przed pierwszą oficjalną sesją weekendu"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje przed sesjami: wynik i konsekwencje Dijon 29 August 1982 (archiwum); Autosport/Roebuck Entry passaże przed practice times (izolowane); Motor Sport October 1982 Italian GP (pasaże organizacyjne/przedsesyjne — izolowane; publication_date dnia unknown; content-based availability); CAL-01; klasyfikacja archiwum po Dijon; Arnoux→Ferrari 1983 day-before-practice"
+knowledge_cutoff: "Immediately before the first official practice session of the 1982 Italian Grand Prix weekend at Monza, Friday morning, 10 September 1982 (CEST). Exact official programme clock not independently verified beyond contemporary Motor Sport / Autosport narrative of Friday–Saturday testing/qualifying before Sunday race. Race day Sunday 12 September 1982. After the Swiss Grand Prix immediate official process (29 August 1982); before any Friday practice times, incidents, qualifying, grid, warm-up, or race information from Monza."
 spoiler_scope:
   allowed:
-    - "[PREVIOUS STANDINGS AND DEVELOPMENTS PUBLIC BEFORE THE WEEKEND]"
+    - "Klasyfikacja po Dijon; Pironi poza obsadą; Andretti wraca do Ferrari; Tambay ~80% fitness / testy Monza; Arnoux→Ferrari 1983 day before practice; Baldi A5 / Surer A4; Tyrrell Denim; Toleman TG183; March Michelin; Alfa turbo show zapowiedź; opis Monzy; przypisane oczekiwania prasowe sprzed sesji"
   forbidden:
-    - "[ALL INFORMATION FROM THE FIRST OFFICIAL SESSION ONWARD]"
+    - "Wszelkie oficjalne sesje piątkowe i późniejsze Monza, czasy treningów/kwalifikacji, DNQ jako wynik, pole startowe, przebieg i wyniki Grand Prix Włoch 1982 oraz późniejszych rund"
+    - "Pole Andrettiego; Cheever→Renault 1983 ogłoszone during practice; Laffite underweight; wynik Arnouxa; «finał» kariery Andrettiego; clinch konstruktorów jako fakt sesyjny"
+    - "Pogoda sesji/wyścigu jako przeżyte wydarzenia"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-09-09"

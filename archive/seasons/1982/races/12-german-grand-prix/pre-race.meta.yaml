@@ -1,16 +1,17 @@
 season: "1982"
 document_type: "pre-start-weekend-brief"
 event: "German Grand Prix"
-event_time: "[OFFICIAL PRE-RACE SESSIONS AND PRE-START MOMENT]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
+event_time: "Weekend Hockenheim 6–8 VIII 1982 przez formację / natychmiast przed planowanym startem niedziela 8 VIII 1982 ~15:00 CEST (MS)"
+public_knowledge_time: "Najpóźniejsze: niedzielny przedstart (grid, T-car Rosberga, elektryka Watsona, pogoda overcast/dry, aparat Brabhama, warm-up); MS Sep 1982 i Autosport/Roebuck (pasaże przed narracją wyścigu — izolowane)"
+knowledge_cutoff: "Immediately before the scheduled race start of the 1982 German Grand Prix at the Hockenheimring, Sunday 8 August 1982 (CEST). Prefer contemporary Motor Sport start due ~15:00; secondary sources list 14:00 — unresolved. Includes Friday/Saturday sessions, Pironi Saturday accident as then known, grid with empty pole, Lauda withdrawal, warm-up, and pre-green grid issues. Excludes lights-out/race narrative, race result, and later rounds."
 spoiler_scope:
   allowed:
-    - "[COMPLETED PRE-RACE SESSIONS AND CONFIRMED PRE-START INFORMATION]"
+    - "Treningi i kwalifikacje Hockenheim; sobotni wypadek Pironiego i stan szpitalny znany przed startem; grid z pustym pole; wycofanie Laudy; Mass/Keegan; DNQ; warm-up; strategia Brabhama jako plan; warunki przed startem"
   forbidden:
-    - "[THE RACE START, RACE EVENTS, RESULTS, AND ALL LATER KNOWLEDGE]"
+    - "Zielone światło / przebieg wyścigu / wynik / FL / punkty po Niemczech"
+    - "Incydent Piquet–Salazar; zwycięstwo Tambaya; retrospectively «koniec kariery» Pironiego jako domknięty fakt"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-08-10"

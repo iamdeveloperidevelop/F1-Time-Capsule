@@ -4,15 +4,30 @@ round: "16"
 event: "Las Vegas Grand Prix"
 event_slug: "las-vegas-grand-prix"
 race_directory: "archive/seasons/1982/races/16-las-vegas-grand-prix"
+official_name: "2nd Caesars Palace Grand Prix"
+circuit: "Caesars Palace, Las Vegas"
+race_date: "1982-09-25"
+notes: >
+  Preseason CAL-01 listed 16 October 1982; event ran Saturday 25 September 1982
+  after FISA date move (document in race sources). Final announced World
+  Championship round of 1982. Do not mark season package complete or generate
+  season retrospective from this race folder alone.
 cutoffs:
-  pre_weekend: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
-  pre_race: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
-  post_race: "[END OF THE INCLUDED IMMEDIATE OFFICIAL POST-RACE PROCESS]"
-immediate_official_post_race_process: "[PRECISE INCLUDED PROCEDURES AND END BOUNDARY]"
+  pre_weekend: "Immediately before the first official practice session, Thursday morning 23 September 1982 (PDT); exact programme clock unverified"
+  pre_race: "Immediately before scheduled race start, Saturday 25 September 1982 ≈13:00 PDT"
+  post_race: "End of immediate official post-race process, Saturday 25 September 1982 (PDT): chequered flag, initial classification, podium, same-day reactions, provisional points 1–6"
+immediate_official_post_race_process: "Race completion (75 laps); initial classification as published that day; podium ceremony; same-day attributed paddock/press reactions; provisional championship points for places 1–6. Excludes later appeals or championship bulletins, season retrospective, 1983 weekends, and closed career foreshadowing beyond attributed same-day announced moves."
 document_order:
   - "pre-weekend.md"
   - "pre-race.md"
   - "post-race.md"
   - "standings-after.md"
 source_ledger: "sources.md"
-notes: "scheduled at preseason cutoff"
+document_status:
+  pre_weekend: "drafted"
+  pre_race: "drafted"
+  post_race: "drafted"
+  standings_after: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+next_command_blocked: "season-end — no further 1982 World Championship round; do not run /pre-weekend 1983 from this transition"

@@ -73,11 +73,16 @@ research log.
 
 Keep uncertainty, source limits, claim identifiers, and ledger links out of the
 running text. When a caveat is needed, mark the sentence with a short footnote
-marker (`*¹`, `*²`, …) and explain it once under a closing `## Przypisy`
-section—as a source or status note a careful journalist might give, not as a
+marker (`*¹`, `*²`, …) and explain it once under a closing foldable apparatus
+block—as a source or status note a careful journalist might give, not as a
 lecture on temporal scope. Put claim/source maps, status lines, and detailed
-citation records in `## Uwagi źródłowe`, `sources.md`, or the season open-items
-ledger — not inside paragraphs the reader is meant to follow.
+citation records in the foldable `Uwagi źródłowe` block, `sources.md`, or the
+season open-items ledger — not inside paragraphs the reader is meant to follow.
+
+**Foldable apparatus:** wrap `Przypisy` and `Uwagi źródłowe` in HTML
+`<details>` / `<summary>` so the reader can expand them on demand and the
+main article stays short to scroll. Default to collapsed. Keep short footnote
+markers (`*¹`) in the prose; only the apparatus bodies fold.
 
 State the best-supported account cleanly. Prefer one brief footnote over
 repeated hedging such as “nie potwierdza”, “luka dowodowa”,
@@ -88,8 +93,24 @@ natural sporting language. An unknown exact publication day for clearly
 pre-cutoff contemporary material belongs in at most one short source note, not
 as a reason to strip the field or expectations section down to a single team.
 If nothing usable can be said without inventing certainty, omit the point from
-the main text rather than narrating the absence of evidence. Preserve conflicts
-and open gaps in footnotes and ledgers; never resolve them silently.
+the main text rather than narrating the absence of evidence.
+
+**Material vs pedantic conflicts:** preserve real disagreements that change
+the story (classification, points, who drove, whether a protest was upheld,
+a layout change, a different race distance in laps). Do **not** put
+near-identical measurement noise in reader prose (e.g. circuit length
+5.03 vs 5.07 km, or 6.797 vs 6.802 km). Pick the best contemporary primary
+source, state one figure, and if needed log the trivial variance only in
+`sources.md` / the season ledger—never as “źródło A mówi X, źródło B mówi Y”
+in the article. Do not invent a fake average when one source is clearly
+stronger; “wysrodkuj” only when peers are equal and the difference is
+cosmetic.
+
+**Field and entry readability:** do not dump the whole grid as one
+comma-separated sentence with a clause per driver. Prefer short prose
+paragraphs (changes first, then “reszta bez zmian” with a link to season
+references) or a compact bullet list **one team per line**. Save dense
+name-lists for tables that truly need them (grid, results, standings).
 
 Avoid clickbait, exaggerated narration, fake quotations, empty phrases,
 repetitive summaries, literary foreshadowing, certainty unsupported by evidence,

@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "post-race-report"
 event: "Italian Grand Prix"
-event_time: "[RACE AND INCLUDED IMMEDIATE OFFICIAL PROCESS]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[END OF THE IMMEDIATE OFFICIAL PROCESS DEFINED IN metadata.yaml]"
+event_time: "Niedziela 12 września 1982, Monza, przez natychmiastową procedurę po wyścigu"
+public_knowledge_time: "Najpóźniejsze: flaga w szachownicę / klasyfikacja / podium / same-day reakcje paddocku i prasy; Autosport Roebuck Race; Motor Sport October 1982 Italian GP; F1.com race result; ARCHIVE-R14-STAND + punkty IT"
+knowledge_cutoff: "End of the immediate official post-race process of the 1982 Italian Grand Prix at Monza on Sunday 12 September 1982 (CEST): chequered flag after the scheduled 52-lap race; initial classification; podium; same-day paddock/press reactions; provisional 9–6–4–3–2–1 points for places 1–6. Does not include Las Vegas GP weekend or later rounds beyond the announced calendar date, later appeals or championship bulletins, or closed season-title / Andretti-career foreshadowing beyond attributed same-day status."
 spoiler_scope:
   allowed:
-    - "[RACE AND IMMEDIATE CONSEQUENCES PUBLIC BY THE CUTOFF]"
+    - "Wynik Monza; klasyfikacja; FL Arnoux; punkty 1–6; same-day cytaty Arnoux/Andretti/Rosberg/Watson maths; prowizoryczne mistrzostwa po IT; data Las Vegas z kalendarza; atrybuowane «virtually» konstruktorzy"
   forbidden:
-    - "[NEXT-WEEKEND INFORMATION, LATER RULINGS, AND SEASON HINDSIGHT]"
+    - "Weekend Grand Prix Las Vegas (poza samą datą z kalendarza) i wynik Vegas; retrospectives sezonu jako domknięty tytuł kierowców/konstruktorów; «ostatnie» pole/podium/punkty Andrettiego; foreshadowing kariery Pironiego jako domknięty koniec"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-09-09"

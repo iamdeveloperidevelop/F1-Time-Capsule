@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "post-race-report"
 event: "Austrian Grand Prix"
-event_time: "[RACE AND INCLUDED IMMEDIATE OFFICIAL PROCESS]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[END OF THE IMMEDIATE OFFICIAL PROCESS DEFINED IN metadata.yaml]"
+event_time: "Wyścig XX Holiday Großer Preis von Österreich na Österreichring, niedziela 15 sierpnia 1982, oraz natychmiastowa procedura oficjalna: 53 okrążenia do flagi; początkowa klasyfikacja; podium"
+public_knowledge_time: "Najpóźniejsze: Autosport/Roebuck race section (izolowane); Motor Sport September 1982 Reflections + Matters of Moment (izolowane); F1.com tabela wyniku; same-day knowability 15 VIII 1982"
+knowledge_cutoff: "End of the immediate official post-race process of the 1982 Austrian Grand Prix at the Österreichring on Sunday 15 August 1982 (CEST): chequered flag after the scheduled 53-lap race; initial classification; podium; same-day paddock/press reactions; provisional 9–6–4–3–2–1 points for places 1–6. Does not include Swiss GP weekend or later rounds, later appeals or championship bulletins, Chapman death foreshadowing, DFV 'last win' retrospectives, or closed Pironi career foreshadowing beyond attributed same-day status."
 spoiler_scope:
   allowed:
-    - "[RACE AND IMMEDIATE CONSEQUENCES PUBLIC BY THE CUTOFF]"
+    - "Przebieg i wynik Grand Prix Austrii 1982, postój Patrese'a, awarie turbo, finisz de Angelis–Rosberg 0,050 s, klasyfikacja, FL, punkty, natychmiastowe reakcje"
   forbidden:
-    - "[NEXT-WEEKEND INFORMATION, LATER RULINGS, AND SEASON HINDSIGHT]"
+    - "Weekend Grand Prix Szwajcarii (poza samą datą z kalendarza) i późniejsze rundy; retrospectives sezonu; śmierć Chapmana; «ostatnie zwycięstwo DFV/Chapmana»; «koniec kariery» Pironiego jako domknięty fakt; Andretti w Ferrari"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-09-09"

@@ -1,16 +1,17 @@
 season: "1982"
 document_type: "pre-start-weekend-brief"
 event: "Italian Grand Prix"
-event_time: "[OFFICIAL PRE-RACE SESSIONS AND PRE-START MOMENT]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE SCHEDULED RACE START]"
+event_time: "Weekend Monza 10–12 IX 1982 przez formację / natychmiast przed planowanym startem niedziela 12 IX 1982 CEST"
+public_knowledge_time: "Najpóźniejsze: niedzielny przedstart (grid, warm-up ≈12:30, Piquet T-car, Tambay engine repair, Brabham pit plan, opony, ≈15:30 start); Autosport/Roebuck (pasaże Entry/practice/warm-up przed narracją wyścigu — izolowane); F1.com starting grid; Motor Sport October Italian GP Qualifying (izolowany)"
+knowledge_cutoff: "Immediately before the scheduled race start of the 1982 Italian Grand Prix at Monza, Sunday 12 September 1982 (CEST), approximately 15:30 local per Motor Sport / Autosport (exact official programme clock not independently verified). Includes Friday/Saturday sessions, qualifying times, 26-car grid, DNQs, Laffite Saturday-time annulment for underweight, warm-up notes (Piquet spare, Tambay engine repair), Brabham planned pit stops, and pre-green tyre/setup conditions. Excludes lights-out/race narrative, race result, and later rounds."
 spoiler_scope:
   allowed:
-    - "[COMPLETED PRE-RACE SESSIONS AND CONFIRMED PRE-START INFORMATION]"
+    - "Treningi i kwalifikacje Monza; pole Andretti; grid turb; DNQ; warm-up; plan postoju Brabhama; Arnoux→Ferrari / Cheever→Renault 1983; Laffite masa; warunki przed startem"
   forbidden:
-    - "[THE RACE START, RACE EVENTS, RESULTS, AND ALL LATER KNOWLEDGE]"
+    - "Zielone światło / przebieg wyścigu / wynik / FL / punkty po Monzy"
+    - "Zwycięstwo Arnouxa; sprzęgła Brabham; sticky throttle Andretti; Rosberg skrzydło; matematyczne domknięcie tytułu / Vegas jako destiny; «ostatnie» podium Andrettiego"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-09-09"

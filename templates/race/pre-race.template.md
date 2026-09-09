@@ -44,12 +44,18 @@
 
 [NO MORE THAN 12 CONCISE POINTS; NO CLAIM/SOURCE IDS]
 
-## Przypisy
+<details>
+<summary><strong>Przypisy</strong></summary>
 
 [NUMBERED CAVEATS MARKED FROM THE TEXT WITH *¹, *², … — journalistic notes,
-not anti-spoiler meta]
+not anti-spoiler meta. Keep this block foldable/collapsed by default.]
 
-## Uwagi źródłowe
+</details>
+
+<details>
+<summary><strong>Uwagi źródłowe</strong></summary>
 
 [BRIEF POINTER TO sources.md; CLAIM/SOURCE MAP BELONGS HERE OR IN THE LEDGER.
 Do not restate knowledge_cutoff or “Granica wiedzy” here.]
+
+</details>

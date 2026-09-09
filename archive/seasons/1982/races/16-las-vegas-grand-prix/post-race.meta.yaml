@@ -1,16 +1,16 @@
 season: "1982"
 document_type: "post-race-report"
 event: "Las Vegas Grand Prix"
-event_time: "[RACE AND INCLUDED IMMEDIATE OFFICIAL PROCESS]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[END OF THE IMMEDIATE OFFICIAL PROCESS DEFINED IN metadata.yaml]"
+event_time: "II Caesars Palace Grand Prix, sobota 25 września 1982, Las Vegas; wyścig 75 okrążeń i natychmiastowa procedura po mecie"
+public_knowledge_time: "Same-day classification, podium, attributed paddock/press reactions; Autosport/Roebuck race section; Motor Sport November 1982 race report (publication_date day unknown; content-based availability for race-day facts); F1.com result cross-check"
+knowledge_cutoff: "End of the immediate official post-race process of the 1982 Caesars Palace Grand Prix at Las Vegas on Saturday 25 September 1982 (PDT): chequered flag after the scheduled 75-lap race; initial classification; podium; same-day paddock/press reactions; provisional 9–6–4–3–2–1 points for places 1–6. Does not include later appeals or championship bulletins beyond same-day arithmetic, season retrospective essays, 1983 race weekends, or closed career foreshadowing beyond attributed same-day announced driver moves."
 spoiler_scope:
   allowed:
-    - "[RACE AND IMMEDIATE CONSEQUENCES PUBLIC BY THE CUTOFF]"
+    - "Wynik Vegas; klasyfikacja; FL Alboreto; punkty 1–6; Rosberg mistrz kierowców; Ferrari konstruktorzy; same-day cytaty Rosberg/Watson/Alboreto; prowizoryczne mistrzostwa po LV; atrybuowane ogłoszone ruchy 1983; season-end calendar condition (brak kolejnej rundy WC 1982)"
   forbidden:
-    - "[NEXT-WEEKEND INFORMATION, LATER RULINGS, AND SEASON HINDSIGHT]"
+    - "Retrospektywa sezonu jako osobny dokument; /pre-weekend 1983; foreshadowing «ostatnie GP Andrettiego» / śmierć Chapmana / zamknięcie Caesars Palace jako fakt przyszły; later appeals changing classification"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-09-09"

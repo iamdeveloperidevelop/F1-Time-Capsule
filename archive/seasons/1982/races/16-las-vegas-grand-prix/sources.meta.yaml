@@ -1,16 +1,16 @@
 season: "1982"
-document_type: "race-source-ledger"
+document_type: "source-ledger"
 event: "Las Vegas Grand Prix"
-event_time: "[EVENT INTERVAL COVERED BY THIS LEDGER]"
-public_knowledge_time: "[WHEN THE LATEST RETAINED SOURCE INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[LATEST DOCUMENT CUTOFF THIS LEDGER CURRENTLY SUPPORTS]"
+event_time: "Race weekend 23–25 September 1982; ledger cutoff at end of immediate post-race process 25 September 1982"
+public_knowledge_time: "Supports PW through PO documents; latest isolatable contemporary race-day material"
+knowledge_cutoff: "End of immediate official post-race process, Saturday 25 September 1982 (PDT) — same as post-race.md. Later 1983 material and season retrospectives quarantined."
 spoiler_scope:
   allowed:
-    - "[SOURCE METADATA AND CLAIM SUPPORT WITHIN THE SUPPORTED CUTOFF]"
+    - "Sources supporting PW/PR/PO/standings through Vegas immediate post-race"
   forbidden:
-    - "[LATER SOURCE CONTENT EXCEPT QUARANTINED RISK METADATA]"
-content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+    - "Las Vegas GP preview / wynik / późniejsze rundy w claimach narracyjnych poza izolacją cutoff; foreshadowing tytułu sezonu w PW/PR; «final» Andretti poza atrybucją same-day; season retrospective as content type"
+content_language: "en"
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-09-09"

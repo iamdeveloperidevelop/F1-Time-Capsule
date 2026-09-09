@@ -1,16 +1,18 @@
 season: "1982"
 document_type: "race-prelude"
 event: "Austrian Grand Prix"
-event_time: "[PRE-WEEKEND CONTEXT INTERVAL]"
-public_knowledge_time: "[WHEN THE LATEST USED INFORMATION BECAME PUBLIC]"
-knowledge_cutoff: "[IMMEDIATELY BEFORE THE FIRST OFFICIAL SESSION]"
+event_time: "Okres przedweekendowy XX Holiday Großer Preis von Österreich na Österreichring, wokół niedzieli 15 sierpnia 1982; przed pierwszą oficjalną sesją weekendu"
+public_knowledge_time: "Najpóźniejsze wykorzystane informacje przed sesjami: wynik i konsekwencje Hockenheim 8 August 1982 (archiwum); Motor Sport September 1982 Reflections (pasaże Pironi/Österreichring/kalendarz — izolowane; publication_date dnia unknown; content-based availability); Autosport/Roebuck Entry passaże przed practice times (izolowane); MS database / Wiki date/venue/length (izolowane); klasyfikacja archiwum po Hockenheim"
+knowledge_cutoff: "Immediately before the first official practice session of the 1982 Austrian Grand Prix weekend at the Österreichring, Friday morning, 13 August 1982 (CEST). Exact official programme clock not independently verified beyond contemporary Motor Sport narrative of Friday–Saturday testing/qualifying before Sunday race. Race day Sunday 15 August 1982. After the German Grand Prix immediate official process (8 August 1982); before any Friday practice times, incidents, qualifying, grid, warm-up, or race information from Österreichring."
 spoiler_scope:
   allowed:
-    - "[PREVIOUS STANDINGS AND DEVELOPMENTS PUBLIC BEFORE THE WEEKEND]"
+    - "Klasyfikacja po Hockenheim; wypadek Pironiego i stan znany po DE; Tambay zwycięstwo DE; Lauda withdrawal DE z myślą o Austrii; obsada przyjazdu AT przed pierwszą oficjalną sesją (Ferrari jednoosobowe, Lauda return, Keegan, Byrne); opis Österreichring; przypisane oczekiwania prasowe sprzed sesji"
   forbidden:
-    - "[ALL INFORMATION FROM THE FIRST OFFICIAL SESSION ONWARD]"
+    - "Wszelkie oficjalne sesje piątkowe i późniejsze Österreichring, czasy treningów/kwalifikacji, DNQ jako wynik, pole startowe, przebieg i wyniki Grand Prix Austrii 1982 oraz późniejszych rund"
+    - "Postój Brabhama jako dokonany fakt; wynik de Angelis/Rosberg; foreshadowing kariery Pironiego jako domknięty koniec; Lotus–Renault deal jako fakt sesyjny jeśli nie potwierdzony przed piątkiem"
+    - "Pogoda sesji/wyścigu jako przeżyte wydarzenia"
 content_language: "pl"
-research_status: "planned"
-source_status: "unstarted"
-spoiler_audit_status: "not-run"
-last_verified: null
+research_status: "drafted"
+source_status: "partial"
+spoiler_audit_status: "passed"
+last_verified: "2026-09-09"
